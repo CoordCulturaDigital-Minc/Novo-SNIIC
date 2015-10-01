@@ -1,0 +1,59 @@
+/*--------------------------------------------------------------
+3.0 Elements
+--------------------------------------------------------------*/
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+body {
+	background: #fff; /* Fallback for when there is no custom background color defined. */
+}
+blockquote, q {
+	quotes: "" "";
+}
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.7778em;
+}
+ul, ol {
+	margin: 0 0 1.7778em 1em;
+	list-style-position: outside;
+}
+ul {
+	list-style-type: disc;
+}
+ol {
+	list-style-type: decimal;
+}
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1.7778em;
+}
+dt {
+	font-weight: bold;
+}
+dd {
+	margin: 0 1.5em 1.5em;
+}
+img {
+	height: auto; /* Make sure images are scaled correctly. */
+	max-width: 100%; /* Adhere to container width. */
+}
+table {
+	width: 100%;
+	margin: 0 0 1.7778em;
+}
+td {
+	padding: 3px 5px;
+	border-bottom: 1px solid #222;
+}
+th {
+	font-weight: bold;
+	padding: 10px 5px 5px;
+	border-bottom: 4px solid #222;
+}

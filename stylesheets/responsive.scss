@@ -1,0 +1,303 @@
+/*--------------------------------------------------------------
+13 Media Queries
+--------------------------------------------------------------*/
+@media screen and (max-width: 600px) {
+	.menu-toggle,
+	.main-navigation.toggled .nav-menu {
+		display: block;
+	}
+	.main-navigation ul {
+		display: none;
+	}
+}
+@media screen and (max-width: 767px) {
+	.comments-area,
+	.site-main .post-navigation,
+	.blog .hentry,
+	.home .page-content,
+	.search .hentry,
+	.single-post .hentry,
+	.single-jetpack-portfolio .entry-content,
+	.page:not(.home) .hentry,
+	.archive:not(.post-type-archive) .hentry,
+	.site-main .error-404,
+	.site-info {
+		margin-right: 2em;
+		margin-left: 2em;
+	}
+	.single-jetpack-portfolio .entry-footer {
+		margin-right: 3em;
+		margin-left: 3em;
+	}
+	.single:not(.single-jetpack-portfolio) .entry-meta {
+		text-align: center;
+	}
+	.cat-links, .tags-links {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.home .site-branding {
+		padding: 7.75em 0;
+	}
+	.single-jetpack-portfolio .entry-header,
+	.page-header,
+	.single-jetpack-portfolio .entry-content,
+	.page-content,
+	.page .entry-meta,
+	.single-jetpack-portfolio .entry-meta,
+	.comments-area,
+	.post-navigation,
+	.posts-navigation {
+		margin-right: auto;
+		margin-left: auto;
+		width: 660px;
+	}
+	.blog .hentry,
+	.archive:not(.post-type-archive) .hentry,
+	.search .hentry,
+	.single-post .hentry,
+	.single-post .comments-area,
+	.single-post .post-navigation {
+		width: 660px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.single-post {
+		.entry-content {
+			float: left;
+			width: 490px;
+		}
+	}
+
+	/* Menu */
+	.menu-toggle {
+		display: none;
+	}
+  .nav-menu > li {
+  	& > a:after {
+  		color: #fff;
+  		content: " \2022";
+  		margin-left: 1em;
+  		opacity: 0.3;
+  	}
+  	&:last-child > a:after {
+  		display: none;
+  	}
+  }
+  .main-navigation {
+    padding: 0;
+    a {
+  		padding: 0.8889em 0;
+  	}
+    ul {
+  		display: block;
+  		list-style: none;
+  		margin: 0;
+  		padding-left: 0;
+  		text-align: center;
+      li {
+       border-bottom: none;
+       display: inline-block;
+       padding: 0.75em 1em 0.75em 0;
+       position: relative;
+      }
+      ul {
+    		background: #222;
+    		float: left;
+    		margin: 0;
+    		position: absolute;
+    		top: 4.3em;
+    		left: -999em;
+    		text-align: left;
+    		z-index: 99999;
+        li {
+      		border-bottom: 1px solid rgba(255, 2555, 255, 0.1);
+      	}
+        a {
+      		padding: 1em 2em;
+      		width: 220px;
+      	}
+    	}
+  	}
+  	div>ul>li>ul::before {
+  		border-color: transparent transparent #222;
+  		border-style: solid;
+  		border-width: 6px 6px 8px;
+  		content: "";
+  		position: absolute;
+  		top: -13px;
+  		left: 20px;
+  	}
+  }
+
+	/* Single Posts & Pages */
+	.entry-header {
+		margin-top: -9px;
+	}
+  .single {
+  	.entry-meta .posted-on,
+  	.entry-meta .byline,
+  	&:not(.single-jetpack-portfolio) .cat-links,
+  	&:not(.single-jetpack-portfolio) .tags-links,
+  	.post-edit-link {
+  		display: block;
+  		margin-top: 1.3335em;
+  	}
+		&:not(.single-jetpack-portfolio) .entry-meta {
+			float: left;
+			margin-top: 0;
+			margin-right: 20px;
+			width: 150px;
+		}
+  }
+	.comment-list .children {
+		margin-left: 3.5556em;
+	}
+
+	/* Posts, comments navigation */
+	.comment-navigation, .posts-navigation, .post-navigation { .nav-previous {
+		float: left;
+		margin-bottom: 0;
+		text-align: left;
+		width: 50%;
+	} }
+	.comment-navigation, .posts-navigation, .post-navigation { .nav-next {
+		float: right;
+		text-align: right;
+		width: 50%;
+	} }
+
+	/* Footer Widget Areas */
+  .footer-widget-area .widget-area {
+    margin: 0;
+    float: left;
+
+  	&:nth-child(1):nth-last-child(1) {
+  		width: 100%;
+  	}
+  	&:nth-child(1):nth-last-child(2),
+  	&:nth-child(2):nth-last-child(1) {
+  		margin-right: 6%;
+  		width: 47%;
+  	}
+  	&:nth-child(1):nth-last-child(2):last-of-type,
+  	&:nth-child(2):nth-last-child(1):last-of-type {
+  		margin-right: 0;
+  	}
+  	&:nth-child(1):nth-last-child(3),
+  	&:nth-child(2):nth-last-child(2),
+  	&:nth-child(3):nth-last-child(1) {
+  		margin-right: 5%;
+  		width: 30%;
+  	}
+  	&:nth-child(1):nth-last-child(3):last-of-type,
+  	&:nth-child(2):nth-last-child(2):last-of-type,
+  	&:nth-child(3):nth-last-child(1):last-of-type {
+  		margin-right: 0;
+  	}
+  }
+
+    /* Pull content into margins */
+	blockquote.aligncenter {
+		margin-left: -120px;
+		width: 900px;
+	}
+	.single-post blockquote.aligncenter {
+		margin-left: 0;
+		width: 100%;
+	}
+	img.size-big,
+	.wp-caption.caption-big {
+		display: inline-block;
+		float: none;
+		margin-left: -60px;
+		margin-bottom: 1.7778em;
+		max-width: 780px;
+	}
+	.single-post img.size-big,
+	.single-post .wp-caption.caption-big {
+		margin-left: 0;
+		max-width: 100%;
+	}
+	.wp-caption.caption-big .wp-caption-text {
+		width: 780px;
+	}
+}
+
+@media screen and (min-width: 1060px) {
+	.site-title {
+		max-width: 960px;
+	}
+  .single-post {
+    .wp-caption, img, blockquote {
+      &.alignleft {
+        margin-left: 0;
+      }
+  	}
+  }
+  blockquote {
+    &.alignleft,
+  	&.alignright {
+  		width: 360px;
+  	}
+  }
+	.wp-caption, img, blockquote {
+    &.alignleft { margin-left: -175px; }
+    &.alignright { margin-right: -175px; }
+	}
+  .single-post {
+    .wp-caption, img, blockquote {
+      &.alignright { margin-right: 0; }
+  	}
+  }
+  .footer-widget-area {
+  	.widget-wrapper {
+  		width: 1000px;
+  		margin: 0 auto;
+  	}
+  	.widget:nth-of-type(3n+1) {
+    		clear: left;
+    }
+  }
+  .page blockquote.aligncenter {
+		width: 760px;
+		margin-left: -50px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+	#portfolio-wrapper,
+	body[class*="jetpack-portfolio"] .posts-navigation {
+		max-width: 655px;
+	}
+	#portfolio-wrapper {
+    .jetpack-portfolio {
+  		float: left;
+  		width: 310px;
+  		margin-right: 5.3%;
+  		margin-bottom: 5.3%;
+      &:nth-child(2n+2) {
+    		margin-right: 0;
+    	}
+    }
+	}
+}
+@media screen and (min-width: 1080px) {
+	#portfolio-wrapper {
+		max-width: 1000px;
+		clear: both;
+    .jetpack-portfolio {
+  		float: left;
+  		width: 310px;
+  		margin-right: 3.5%;
+  		margin-bottom: 3.5%;
+      &:nth-of-type(3n) {
+    		margin-right: 0;
+    	}
+  	}
+	}
+	body[class*="jetpack-portfolio"] .posts-navigation {
+		width: 1000px;
+	}
+}

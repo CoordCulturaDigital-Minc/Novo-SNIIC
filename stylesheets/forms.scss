@@ -1,0 +1,58 @@
+/*--------------------------------------------------------------
+4.0 Forms
+--------------------------------------------------------------*/
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+#infinite-handle span {
+	background: none;
+	border: 2px solid #999;
+	color: rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	font-size: 1.4rem;
+	height: 2.9em;
+	letter-spacing: .03em;
+	padding: 0 24px;
+	text-transform: uppercase;
+	&:hover {
+		border-color: #000;
+		color: rgba(0, 0, 0, 0.8);
+	}
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {  &:hover, &:active {
+	border-color: #000;
+	outline: none;
+} }
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+	font-size: 16px;
+	font-size: 1.6rem;
+	border: 2px solid #999;
+	&:focus {
+		border-color: #000;
+		color: #111;
+		outline: none;
+	}
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"] {
+	height: 2.5em;
+	padding: 0 7px;
+}
+textarea {
+	padding-left: 7px;
+	width: 100%;
+}

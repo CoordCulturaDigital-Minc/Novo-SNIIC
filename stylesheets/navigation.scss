@@ -1,0 +1,151 @@
+/*--------------------------------------------------------------
+5.0 Navigation
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+5.1 Links
+--------------------------------------------------------------*/
+a {
+	color: #999;
+	text-decoration: none;
+}
+a:hover,
+a:focus,
+a:active {
+	color: #222;
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover,
+a:active {
+	outline: 0;
+}
+.entry-content, .page-content {
+a {
+	border-bottom: 2px solid transparent;
+  &:hover {
+  	border-bottom: 2px solid #222;
+  }
+}
+}
+.entry-content .read-more:hover {
+	border-bottom-color: transparent;
+}
+a img {
+	border: 0;
+}
+
+/*--------------------------------------------------------------
+5.2 Menus
+--------------------------------------------------------------*/
+.main-navigation {
+	background: #000;
+	clear: both;
+	display: block;
+	padding: 0.8889em 0;
+	width: 100%;
+  ul {
+  	margin: 0;
+    display: none;
+    li {
+    	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    	padding: 0;
+      &:last-child {
+      	border-bottom: none;
+      	padding-right: 0;
+      }
+    }
+    ul {
+    	display: block;
+    	list-style-position: inside;
+    	list-style-type: disc;
+    	margin-left: 1.5556em;
+      li {
+      	border-bottom: none;
+      	padding: 0;
+        &:hover, &.focus { & > ul {
+        	left: 100%;
+        } }
+      }
+      a {
+      	color: rgba(255, 255, 255, 0.6);
+      	font-size: 12px;
+      	font-size: 1.2rem;
+      }
+      ul {
+      	left: -999em;
+      	top: 0;
+      }
+    }
+    ul :hover > a,
+    ul > .focus > a {
+    	color: rgba(255, 255, 255, 1);
+    }
+    li:hover,
+    li.focus { ul {
+    	left: auto;
+    } }
+
+  }
+  a {
+  	color: #fff;
+  	display: block;
+  	font-size: 15px;
+  	font-size: 1.5rem;
+  	line-height: 2;
+  	letter-spacing: .03em;
+  	padding: 0.3889em 0 0.3889em 1.5556em;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  }
+  &.toggled .nav-menu {
+  	display: block;
+  	width: 100%;
+  }
+}
+
+/* Small menu. */
+.menu-toggle {
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+  &:before {
+  	border: none;
+  	content: '\f419';
+  	display: inline-block;
+  	padding-right: 8px;
+  	font-family: "Genericons";
+  	font-weight: normal;
+  	font-style: normal;
+  	vertical-align: top;
+  }
+  &:hover {
+  	border-color: #fff;
+  	color: #fff;
+  	opacity: 0.7;
+  }
+}
+/* Posts, comments navigation */
+.site-main {
+  .comment-navigation, .posts-navigation, .post-navigation {
+  	color: #999;
+  	font-size: 16px;
+  	font-size: 1.6rem;
+  	margin: 4.5714em auto;
+  	text-align: center;
+  	overflow: hidden;
+  }
+}
+.comment-navigation, .posts-navigation, .post-navigation { .nav-previous {
+	margin-bottom: 1.7778em;
+} }
+.post-navigation {
+	.nav-previous:before {
+		content: "\00ab";
+		margin-right: 5px;
+	}
+	.nav-next:after {
+		content: "\00bb";
+		margin-left: 5px;
+	}
+}

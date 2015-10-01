@@ -1,0 +1,82 @@
+/*--------------------------------------------------------------
+9.0 Widgets
+--------------------------------------------------------------*/
+.footer-widget-area {
+	background: rgba(0, 0, 0, 0.86);
+	padding-top: 4em;
+	padding-right: 2em;
+	padding-left: 2em;
+}
+.widget-area {
+	&, a {
+    color: #fff;
+  	font-size: 16px;
+  	font-size: 1.6rem;
+  }
+}
+.widget {
+	margin: 0 0 1.7778em;
+	overflow: hidden;
+}
+.widget-title {
+	font-family: "Cabin", Helvetica, sans-serif;
+	font-size: 20px;
+	font-size: 2rem;
+	letter-spacing: .03em;
+	margin-bottom: 1.7778em;
+	text-align: center;
+	text-transform: uppercase;
+}
+.widget {
+  ul, ol {
+  	list-style: none;
+  	margin: 0;
+    & > li {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    	padding: 0.785em 0 0.857em;
+    }
+  }
+  li > ul, li > ol {
+  	margin-left: 24px;
+  }
+  ul ul {
+  	margin-top: 0.785em;
+    & > li:last-child {
+    	padding-bottom: 0;
+    }
+  }
+  button, input[type="button"], input[type="submit"] {
+  	border: 2px solid #ccc;
+  	color: #ccc;
+    &:hover {
+      border: 2px solid #fff;
+    	color: #fff;
+    }
+  }
+  /* Make sure select elements fit in widgets. */
+  select {
+  	max-width: 100%;
+  }
+}
+/* Search widget. */
+.widget_search {
+  .search-field {
+  	width: 100%;
+  }
+  .search-submit {
+  	display: none;
+  }
+}
+
+/* Calendar widget */
+.widget_calendar {
+  caption, th, td  {
+  	text-align: center;
+  }
+  th, td {
+  	border-color: rgba(255, 255, 255, 0.1);
+  }
+  td a {
+  	font-weight: bold;
+  }
+}

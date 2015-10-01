@@ -1,0 +1,17 @@
+/*--------------------------------------------------------------
+8.0 Clearings
+--------------------------------------------------------------*/
+.clear,
+.site-branding,
+#portfolio-wrapper,
+.hentry,
+.entry-body,
+.entry-footer,
+.comment-content,
+.site-header,
+.site-content,
+.widget-wrapper,
+.site-footer {
+  &:before, &:after { content: ""; display: table; }
+  &:after { clear: both; }
+}
