@@ -43,9 +43,9 @@
 .site-main {
 	margin: 3.5556em 0;
 }
-.site-footer {
-	background: #000;
-	color: #fff;
+body > #page > footer {
+	background: black;
+	color: $color-nil;
 	font-size: 14px;
 	font-size: 1.4rem;
 	padding: 1.7778em 0;

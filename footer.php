@@ -8,16 +8,12 @@
  */
 ?>
 
-	</div><!-- #content -->
+</div>
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'argent' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'argent' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'argent' ), 'Argent', '<a href="https://wordpress.com/themes/" rel="designer">Automattic</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+<footer class="clearfix" role="contentinfo"><div class="wrapper center-block row">
+	<p>Ministério da Cultura <span class="sep"> | </span> Alguns direitos reservados.</p>
+</div></footer>
+
 
 <?php wp_footer(); ?>
 

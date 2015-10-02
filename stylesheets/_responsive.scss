@@ -1,6 +1,12 @@
 /*--------------------------------------------------------------
 13 Media Queries
 --------------------------------------------------------------*/
+
+.wrapper {
+	width: 100%;
+	max-width: 1000px;
+}
+
 @media screen and (max-width: 600px) {
 	.menu-toggle,
 	.main-navigation.toggled .nav-menu {

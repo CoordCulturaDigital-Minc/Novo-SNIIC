@@ -10,8 +10,7 @@
 .comment-content,
 .site-header,
 .site-content,
-.widget-wrapper,
-.site-footer {
+.widget-wrapper {
   &:before, &:after { content: ""; display: table; }
   &:after { clear: both; }
 }
