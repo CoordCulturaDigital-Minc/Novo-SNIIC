@@ -1,0 +1,65 @@
+/*--------------------------------------------------------------
+5.0 Navigation
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+5.1 Links
+--------------------------------------------------------------*/
+a {
+	color: #999;
+	text-decoration: none;
+}
+a:hover,
+a:focus,
+a:active {
+	color: #222;
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover,
+a:active {
+	outline: 0;
+}
+.entry-content, .page-content {
+a {
+	border-bottom: 2px solid transparent;
+  &:hover {
+  	border-bottom: 2px solid #222;
+  }
+}
+}
+.entry-content .read-more:hover {
+	border-bottom-color: transparent;
+}
+a img {
+	border: 0;
+}
+
+/*--------------------------------------------------------------
+5.2 Menus
+--------------------------------------------------------------*/
+
+/* Posts, comments navigation */
+.site-main {
+  .comment-navigation, .posts-navigation, .post-navigation {
+  	color: #999;
+  	font-size: 16px;
+  	font-size: 1.6rem;
+  	margin: 4.5714em auto;
+  	text-align: center;
+  	overflow: hidden;
+  }
+}
+.comment-navigation, .posts-navigation, .post-navigation { .nav-previous {
+	margin-bottom: 1.7778em;
+} }
+.post-navigation {
+	.nav-previous:before {
+		content: "\00ab";
+		margin-right: 5px;
+	}
+	.nav-next:after {
+		content: "\00bb";
+		margin-left: 5px;
+	}
+}

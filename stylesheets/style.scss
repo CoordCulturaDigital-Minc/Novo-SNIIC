@@ -1,11 +1,20 @@
 @import "info";
 @import "colors";
 
+body {
+  & > * {
+    border-bottom: 1px solid white;
+  }
+
+  @import 'navigation';
+  @import 'header';
+}
+
 @import "reset";
 @import "typography";
 @import "elements";
 @import "forms";
-@import "navigation";
+@import "navigation_old";
 @import "accessibility";
 @import "alignments";
 @import "clearings";

@@ -1,10 +1,6 @@
 <?php
 /**
- * The header for our theme.
- *
- * Displays all of the <head> section and everything up till <div id="content">
- *
- * @package argent
+ * @package argent-neue
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -20,21 +16,31 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'argent' ); ?></a>
+
+<nav><div class="wrapper center-block clearfix">
+	<i></i>
+	<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+	<small><?php bloginfo( 'description' ); ?></small></h1>
+
+	<button type="button"
+					data-toggle="collapse"
+					data-target="#collapseMenu"
+					aria-expanded="false"
+					aria-controls="collapseMenu">
+	  <?php _e( 'Menu', 'argent' ); ?>
+	</button>
+	<div class="collapse" id="collapseMenu">
+		<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu')); ?>
+	</div>
+<div></nav>
+
+<header class="row"><div class="wrapper center-block">
+	<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+	<small><?php bloginfo( 'description' ); ?></small></h1>
+<div></header>
+
 <div id="page" class="hfeed site">
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'argent' ); ?></a>
 
-	<header id="masthead" class="site-header" role="banner">
-
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php _e( 'Menu', 'argent' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-		</nav>
-
-		<div class="site-branding">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-		</div>
-
-	</header>
-
-	<div id="content" class="site-content">
+<div id="content" class="site-content">

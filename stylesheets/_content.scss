@@ -4,42 +4,6 @@
 /*--------------------------------------------------------------
 10.1 Layout
 --------------------------------------------------------------*/
-.site-branding {
-	background-color: #f7f7f7;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	margin: 0 auto;
-	padding: 4.25em 0;
-	position: relative;
-	text-align: center;
-}
-.home .site-branding {
-	padding: 2.5em 0;
-}
-.site-title {
-	border: 10px solid #222;
-	display: table;
-	font-family: "Cabin",Helvetica,sans-serif;
-	line-height: 1.25;
-	letter-spacing: .03em;
-	margin: 0 auto;
-	max-width: 90%;
-	padding: 0 .25em;
-	text-align: center;
-	text-transform: uppercase;
-	z-index: 0;
-  a {
-      color: #222;
-  }
-}
-.site-description {
-	display: none;
-	font-family: "Cabin", Helvetica, sans-serif;
-	font-size: 16px;
-	font-size: 1.6rem;
-	margin-top: 0.8889em;
-}
 .site-main {
 	margin: 3.5556em 0;
 }

@@ -1,59 +1,97 @@
-/*--------------------------------------------------------------
-5.0 Navigation
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-5.1 Links
---------------------------------------------------------------*/
-a {
-	color: #999;
-	text-decoration: none;
-}
-a:hover,
-a:focus,
-a:active {
-	color: #222;
-}
-a:focus {
-	outline: thin dotted;
-}
-a:hover,
-a:active {
-	outline: 0;
-}
-.entry-content, .page-content {
-a {
-	border-bottom: 2px solid transparent;
-  &:hover {
-  	border-bottom: 2px solid #222;
+& > nav {
+  background: $color-nil;
+& > .wrapper {
+  min-height: 4.2em;
+  @media screen and (min-width: 601px) {
+    min-height: 5.8em;
   }
-}
-}
-.entry-content .read-more:hover {
-	border-bottom-color: transparent;
-}
-a img {
-	border: 0;
-}
+  i {
+    position: absolute;
+    margin: 24px;
+    margin-right: 12px;
+    width: 64px;
+    height: 64px;
+    background-color: black;
+    @media screen and (max-width: 600px) {
+      margin: 0.5em;
+      margin-left: 1em;
+    }
+  }
+  h1 { display: none; }
 
-/*--------------------------------------------------------------
-5.2 Menus
---------------------------------------------------------------*/
-.main-navigation {
-	background: #000;
-	clear: both;
-	display: block;
-	padding: 0.8889em 0;
-	width: 100%;
+  & > div {
+    @media screen and (max-width: 600px) {
+      & .menu { margin-top: 4em !important; }
+    }
+    @media screen and (min-width: 601px) {
+      margin: 0 2em;
+    }
+    & > div {
+      & > ul {
+        font-size: 13px;
+        text-transform: uppercase;
+        a {
+          text-decoration: none;
+        }
+        color: black;
+        & > li {
+          @media screen and (min-width: 601px) {
+            border-bottom: none;
+            display: inline-block;
+            margin: 3em 0 0;
+            padding: 0 1em;
+            position: relative;
+          }
+          &:hover {
+            background-color: white;
+            @media screen and (min-width: 601px) {
+              border-bottom: 3px solid $color-teal;
+            }
+          }
+          ul {
+            background-color: white;
+            & > li {
+              border-bottom: 1px solid $color-nil;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  position: relative;
+
+  & > button {
+    position: absolute;
+    display: none;
+    color: black;
+    margin: 1.5em 0.8889em 0 0;
+    right: 0;
+    &:hover {
+      border-color: black;
+      color: black;
+    }
+    @media screen and (max-width: 600px) { display: block; }
+  }
+
+  div.collapse {
+    @media screen and (min-width: 601px) { display: block; height: auto !important; }
+  }
+
+  @media screen and (min-width: 601px) {
+    & > div > div > ul {
+      -webkit-margin-start: 0px !important;
+      -webkit-margin-end: 0px !important;
+      -webkit-padding-start: 40px !important;
+    }
+  }
+
   ul {
   	margin: 0;
-    display: none;
+    list-style: none !important;
     li {
     	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     	padding: 0;
-      &:last-child {
-      	border-bottom: none;
-      	padding-right: 0;
-      }
     }
     ul {
     	display: block;
@@ -67,11 +105,6 @@ a img {
         	left: 100%;
         } }
       }
-      a {
-      	color: rgba(255, 255, 255, 0.6);
-      	font-size: 12px;
-      	font-size: 1.2rem;
-      }
       ul {
       	left: -999em;
       	top: 0;
@@ -79,73 +112,51 @@ a img {
     }
     ul :hover > a,
     ul > .focus > a {
-    	color: rgba(255, 255, 255, 1);
     }
     li:hover,
-    li.focus { ul {
-    	left: auto;
+    li.focus { & > ul {
+    	left: 0;
     } }
-
   }
   a {
-  	color: #fff;
-  	display: block;
-  	font-size: 15px;
-  	font-size: 1.5rem;
-  	line-height: 2;
-  	letter-spacing: .03em;
   	padding: 0.3889em 0 0.3889em 1.5556em;
-  	text-decoration: none;
-  	text-transform: uppercase;
   }
-  &.toggled .nav-menu {
-  	display: block;
-  	width: 100%;
-  }
-}
 
-/* Small menu. */
-.menu-toggle {
-	color: #fff;
-	display: block;
-	margin: 0 auto;
-  &:before {
-  	border: none;
-  	content: '\f419';
-  	display: inline-block;
-  	padding-right: 8px;
-  	font-family: "Genericons";
-  	font-weight: normal;
-  	font-style: normal;
-  	vertical-align: top;
-  }
-  &:hover {
-  	border-color: #fff;
-  	color: #fff;
-  	opacity: 0.7;
+  @media screen and (min-width: 601px) {
+    padding: 0;
+    a {
+  		padding: 0.8889em 0;
+  	}
+    ul {
+  		display: block;
+  		list-style: none;
+  		margin: 0;
+  		padding-left: 0;
+  		text-align: center;
+      ul {
+    		float: left;
+    		margin: 0;
+    		position: absolute;
+    		top: 2em;
+    		left: -999em;
+    		text-align: left;
+    		z-index: 99999;
+        li {
+      		border-bottom: 1px solid rgba(255, 2555, 255, 0.1);
+          padding: 0.5em;
+          min-width: 100px;
+      	}
+    	}
+    	div>ul>li>ul::before {
+    		border-color: transparent transparent #222;
+    		border-style: solid;
+    		border-width: 6px 6px 8px;
+    		content: "";
+    		position: absolute;
+    		top: -13px;
+    		left: 20px;
+    	}
+    }
   }
 }
-/* Posts, comments navigation */
-.site-main {
-  .comment-navigation, .posts-navigation, .post-navigation {
-  	color: #999;
-  	font-size: 16px;
-  	font-size: 1.6rem;
-  	margin: 4.5714em auto;
-  	text-align: center;
-  	overflow: hidden;
-  }
-}
-.comment-navigation, .posts-navigation, .post-navigation { .nav-previous {
-	margin-bottom: 1.7778em;
-} }
-.post-navigation {
-	.nav-previous:before {
-		content: "\00ab";
-		margin-right: 5px;
-	}
-	.nav-next:after {
-		content: "\00bb";
-		margin-left: 5px;
-	}
 }
