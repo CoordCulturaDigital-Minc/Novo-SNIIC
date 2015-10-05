@@ -8,6 +8,7 @@ body {
 
   @import 'navigation';
   @import 'header';
+  @import 'aside';
 }
 
 @import "reset";
@@ -18,7 +19,6 @@ body {
 @import "accessibility";
 @import "alignments";
 @import "clearings";
-@import "widgets";
 @import "content";
 @import "scroll";
 @import "media";

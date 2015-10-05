@@ -164,6 +164,70 @@ body > header {
         font-size: 16px;
         font-size: 1.6rem;
         margin-top: 0.8889em; }
+body > div > aside {
+  background: rgba(0, 0, 0, 0.86);
+  padding-top: 60px;
+  padding-bottom: 60px; }
+  body > div > aside p, body > div > aside h4 {
+    font-family: sans-serif !important;
+    margin-bottom: 0.5em; }
+  body > div > aside, body > div > aside a {
+    color: #ECF3F4; }
+  body > div > aside > .wrapper > div > aside ul {
+    list-style: none;
+    margin-left: 0px; }
+  body > div > aside > .wrapper > div > aside input[type="text"].form-control {
+    background-color: #7E7E7E;
+    border: none;
+    border-radius: 0; }
+    body > div > aside > .wrapper > div > aside input[type="text"].form-control:focus {
+      box-shadow: none;
+      border: none;
+      background-color: #ECF3F4;
+      color: #242424; }
+  body > div > aside > .wrapper > div > aside .input-group-btn button.btn.btn-default {
+    border-radius: 0 !important;
+    text-shadow: none;
+    border: none !important;
+    background-color: #7E7E7E; }
+  body > div > aside > .wrapper > div > aside.redes-sociais ul {
+    list-style: none;
+    margin-left: 0px; }
+    body > div > aside > .wrapper > div > aside.redes-sociais ul i {
+      font-size: 20px;
+      margin-right: 5px; }
+  body > div > aside > .wrapper > div > aside.plataformas ul li {
+    margin-bottom: 1em; }
+    body > div > aside > .wrapper > div > aside.plataformas ul li i {
+      width: 30px;
+      height: 30px;
+      margin-bottom: -7px;
+      margin-right: 10px;
+      display: inline-block;
+      background-color: #ECF3F4; }
+    body > div > aside > .wrapper > div > aside.plataformas ul li a {
+      font-size: 20px;
+      color: #7E7E7E; }
+      body > div > aside > .wrapper > div > aside.plataformas ul li a span, body > div > aside > .wrapper > div > aside.plataformas ul li a:hover {
+        color: #ECF3F4 !important;
+        text-decoration: none; }
+  body > div > aside > .wrapper > div > aside.velho-sniic {
+    background-color: #ECF3F4;
+    color: #242424;
+    margin: -15px;
+    margin-bottom: 0px;
+    padding: 15px;
+    box-shadow: 5px 5px 0px black; }
+    body > div > aside > .wrapper > div > aside.velho-sniic img {
+      width: 190px;
+      height: 110px;
+      background-color: #476f9f;
+      margin-top: 40px;
+      margin-bottom: 40px; }
+    body > div > aside > .wrapper > div > aside.velho-sniic p {
+      font-size: 16px;
+      font-variant: medium;
+      line-height: normal; }
 
 /*--------------------------------------------------------------
 1.0 Reset
@@ -603,68 +667,6 @@ a img {
 .site-content:after,
 .widget-wrapper:after {
   clear: both; }
-
-/*--------------------------------------------------------------
-9.0 Widgets
---------------------------------------------------------------*/
-body > div > aside {
-  background: rgba(0, 0, 0, 0.86);
-  padding-top: 4em;
-  padding-right: 2em;
-  padding-left: 2em;
-  font-family: sans-serif; }
-  body > div > aside, body > div > aside a {
-    color: #ECF3F4; }
-
-.widget-area, .widget-area a {
-  font-size: 16px;
-  font-size: 1.6rem; }
-
-.widget {
-  margin: 0 0 1.7778em;
-  overflow: hidden; }
-
-.widget-title {
-  font-family: "Cabin", Helvetica, sans-serif;
-  font-size: 20px;
-  font-size: 2rem;
-  letter-spacing: .03em;
-  margin-bottom: 1.7778em;
-  text-align: center;
-  text-transform: uppercase; }
-
-.widget ul, .widget ol {
-  list-style: none;
-  margin: 0; }
-  .widget ul > li, .widget ol > li {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 0.785em 0 0.857em; }
-.widget li > ul, .widget li > ol {
-  margin-left: 24px; }
-.widget ul ul {
-  margin-top: 0.785em; }
-  .widget ul ul > li:last-child {
-    padding-bottom: 0; }
-.widget button, .widget input[type="button"], .widget input[type="submit"] {
-  border: 2px solid #ccc;
-  color: #ccc; }
-  .widget button:hover, .widget input[type="button"]:hover, .widget input[type="submit"]:hover {
-    border: 2px solid #fff;
-    color: #fff; }
-.widget select {
-  max-width: 100%; }
-
-.widget_search .search-field {
-  width: 100%; }
-.widget_search .search-submit {
-  display: none; }
-
-.widget_calendar caption, .widget_calendar th, .widget_calendar td {
-  text-align: center; }
-.widget_calendar th, .widget_calendar td {
-  border-color: rgba(255, 255, 255, 0.1); }
-.widget_calendar td a {
-  font-weight: bold; }
 
 /*--------------------------------------------------------------
 10.0 Content

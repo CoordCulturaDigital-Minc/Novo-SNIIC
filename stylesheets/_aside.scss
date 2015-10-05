@@ -1,0 +1,93 @@
+& > div > aside {
+	background: rgba(0, 0, 0, 0.86);
+	padding-top: 60px;
+	padding-bottom: 60px;
+	p, h4 {
+		font-family: sans-serif !important;
+		margin-bottom: 0.5em;
+	}
+	&, a {
+		color: $color-nil;
+	}
+	& > .wrapper > div > aside {
+		ul {
+			list-style: none;
+			margin-left: 0px;
+		}
+		input[type="text"].form-control {
+			background-color: $color-gray;
+			border: none;
+			border-radius: 0;
+			&:focus {
+				box-shadow: none;
+				border: none;
+				background-color: $color-nil;
+				color: $color-coal;
+			}
+		}
+		.input-group-btn {
+			button.btn.btn-default {
+				border-radius: 0 !important;
+				text-shadow: none;
+				border: none !important;
+				background-color: $color-gray;
+			}
+		}
+		&.redes-sociais {
+			ul {
+				list-style: none;
+				margin-left: 0px;
+				i {
+					font-size: 20px;
+					margin-right: 5px;
+				}
+			}
+		}
+		&.plataformas {
+			ul {
+				li {
+					margin-bottom: 1em;
+					i {
+						width: 30px;
+						height: 30px;
+						margin-bottom: -7px;
+						margin-right: 10px;
+						display: inline-block;
+						background-color: $color-nil;
+					}
+					a {
+						font-size: 20px;
+						color: $color-gray;
+						span, &:hover {
+							color: $color-nil !important;
+							text-decoration: none;
+						}
+					}
+				}
+			}
+		}
+		&.velho-sniic {
+			background-color: $color-nil;
+			color: $color-coal;
+			margin: -15px;
+			margin-bottom: 0px;
+			padding: 15px;
+			box-shadow: 5px 5px 0px black;
+			img {
+				width: 190px;
+				height: 110px;
+				background-color: #476f9f;
+				margin-top: 40px;
+				margin-bottom: 40px;
+			}
+			h3 {
+
+			}
+			p {
+				font-size: 16px;
+				font-variant: medium;
+				line-height: normal;
+			}
+		}
+	}
+}
