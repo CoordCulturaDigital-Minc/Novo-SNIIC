@@ -30,6 +30,9 @@
 				color: $color-coal;
 			}
 		}
+		input::-webkit-input-placeholder {
+		   font-style: italic;
+		}
 		.input-group-btn {
 			button.btn.btn-default {
 				background-image: none;

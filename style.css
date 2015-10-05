@@ -189,6 +189,8 @@ body > aside {
         border: none;
         background-color: #ECF3F4;
         color: #242424; }
+    body > aside > .wrapper > div > aside input::-webkit-input-placeholder {
+      font-style: italic; }
     body > aside > .wrapper > div > aside .input-group-btn button.btn.btn-default {
       background-image: none;
       border-radius: 0 !important;
