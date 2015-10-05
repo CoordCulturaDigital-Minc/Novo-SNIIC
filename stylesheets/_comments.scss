@@ -1,0 +1,80 @@
+/*--------------------------------------------------------------
+10.4 Comments
+--------------------------------------------------------------*/
+#comments {
+	font-size: 16px;
+	font-size: 1.6rem;
+}
+.comment-list { &, .children {
+	margin: 0;
+} }
+.comment-list { &, ol {
+	list-style: none;
+} }
+.comment,
+.pingback {
+	margin-top: 1.75em;
+}
+.bypostauthor {
+	display: block;
+}
+.comment-list {
+	list-style-type: none;
+	margin-left: 0;
+}
+.comments-title,
+.comment-reply-title {
+	font-size: 40px;
+	font-size: 4rem;
+	font-style: italic;
+	line-height: 1.6;
+	margin: 1.6em auto;
+	text-align: center;
+}
+.comment-author {
+	float: left;
+	margin-right: 1.14285em;
+}
+.comment-metadata {
+	color: #999;
+	font-size: 14px;
+	font-size: 1.4rem;
+	letter-spacing: .03em;
+	text-transform: uppercase;
+}
+.comment-meta {
+	cite {
+		font-style: normal;
+	}
+	a {
+		color: #999;
+	}
+}
+.comment-meta .fn,
+.says {
+	font-weight: 600;
+}
+.comment-content {
+	clear: both;
+	margin-top: 1.75em;
+	a {
+		word-wrap: break-word;
+	}
+}
+.comment-reply-link {
+	float: right;
+	font-weight: 700;
+}
+.comment-edit-link {
+	color: #999;
+	display: block;
+	font-size: 14px;
+	font-size: 1.4rem;
+	letter-spacing: .03em;
+	text-transform: uppercase;
+}
+.no-comments {
+	font-style: italic;
+	margin-top: 1.75em;
+	text-align: center;
+}

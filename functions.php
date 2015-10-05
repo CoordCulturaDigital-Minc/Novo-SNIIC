@@ -182,17 +182,24 @@ function argent_fonts_url() {
 	return $fonts_url;
 }
 
- function argent_neue_fontawesome () {
+function argent_neue_fontawesome () {
  	wp_enqueue_style( 'fontawesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' );
- }
- add_action( 'wp_enqueue_scripts', 'argent_neue_fontawesome' );
+}
+add_action( 'wp_enqueue_scripts', 'argent_neue_fontawesome' );
 
- function argent_neue_twitter_bootstrap () {
+function argent_neue_normalize () {
+ 	wp_enqueue_style( 'normalize', 'https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css' );
+}
+add_action( 'wp_enqueue_scripts', 'argent_neue_normalize' );
+
+function argent_neue_twitter_bootstrap () {
  	wp_enqueue_style( 'twitter_bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' );
  	wp_enqueue_style( 'twitter_bootstrap_theme', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css' );
  	wp_enqueue_script( 'twitter_bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js', array( 'jquery' ), false, true );
- }
- add_action( 'wp_enqueue_scripts', 'argent_neue_twitter_bootstrap' );
+}
+add_action( 'wp_enqueue_scripts', 'argent_neue_twitter_bootstrap' );
+
+
 
 function argent_neue_scripts() {
 	wp_enqueue_style( 'argent-style', get_stylesheet_uri() );

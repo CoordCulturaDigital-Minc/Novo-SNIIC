@@ -21,7 +21,6 @@ body {
   }
 }
 
-@import "reset";
 @import "typography";
 @import "elements";
 @import "forms";
@@ -30,6 +29,7 @@ body {
 @import "alignments";
 @import "clearings";
 @import "content";
+@import "comments";
 @import "scroll";
 @import "media";
 @import "responsive";
