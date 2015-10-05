@@ -147,7 +147,6 @@ body > header {
     text-align: center; }
     body > header > div > h1 {
       display: table;
-      font-family: "Cabin",Helvetica,sans-serif;
       margin: 0 auto;
       max-width: 90%;
       text-align: center;
@@ -241,15 +240,16 @@ body > footer {
   text-align: center;
   border: none; }
 
+* {
+  font-family: "Lato", Helvetica, sans-serif; }
+
 body, button, input, select, textarea {
   color: #404040;
-  font-family: "Cabin", Helvetica, sans-serif;
   font-size: 20px;
   font-size: 2rem;
   line-height: 1.7778; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Alegreya", Georgia, serif;
   font-weight: 700; }
 
 h1 {
@@ -316,7 +316,7 @@ blockquote {
     z-index: -1; }
   blockquote cite {
     display: block;
-    font-family: "Cabin", Helvetica, sans-serif;
+    font-family: "Lato", Helvetica, sans-serif;
     font-size: 16px;
     font-size: 1.6rem;
     font-style: normal;
@@ -658,7 +658,6 @@ a img {
   margin-bottom: 1.7778em; }
 
 .entry-title {
-  font-family: "Cabin", Helvetica, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   line-height: 1.7778;
@@ -667,7 +666,6 @@ a img {
     color: #000; }
 
 .single .entry-title, .page-title, .page-title {
-  font-family: "Alegreya", Georgia, serif;
   font-size: 40px;
   font-size: 4rem;
   font-style: italic;
@@ -815,7 +813,6 @@ a img {
 
 .project-title {
   color: #fff;
-  font-family: "Cabin", Helvetica, sans-serif;
   font-size: 26px;
   font-size: 2.6rem;
   font-weight: 700;

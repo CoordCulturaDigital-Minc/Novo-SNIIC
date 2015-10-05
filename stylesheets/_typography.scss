@@ -1,12 +1,13 @@
+* {
+	font-family: "Lato", Helvetica, sans-serif;
+}
 body, button, input, select, textarea {
 	color: #404040;
-	font-family: "Cabin", Helvetica, sans-serif;
 	font-size: 20px;
 	font-size: 2rem;
 	line-height: 1.7778;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Alegreya", Georgia, serif;
 	font-weight: 700;
 }
 h1 {
@@ -75,7 +76,7 @@ blockquote {
   }
   cite {
   	display: block;
-  	font-family: "Cabin", Helvetica, sans-serif;
+  	font-family: "Lato", Helvetica, sans-serif;
   	font-size: 16px;
   	font-size: 1.6rem;
   	font-style: normal;

@@ -14,6 +14,10 @@
 <!-- http://getbootstrap.com -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+<!-- Adobe Typekit -->
+<script src="https://use.typekit.net/aip1edd.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
 <?php wp_head(); ?>
 </head>
 
