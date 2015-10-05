@@ -9,6 +9,16 @@ body {
   @import 'navigation';
   @import 'header';
   @import 'aside';
+
+  & > footer {
+  	background: black;
+  	color: $color-nil;
+  	font-size: 14px;
+  	font-size: 1.4rem;
+  	padding: 1.7778em 0;
+  	text-align: center;
+  	border: none;
+  }
 }
 
 @import "reset";

@@ -6,8 +6,6 @@
  */
 ?>
 
-</div>
-
 <aside><div class="wrapper center-block clearfix">
 	<div class="col-1 col-md-4 col-sm-6 col-xs-12">
 		<aside class="busca">

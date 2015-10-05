@@ -14,8 +14,6 @@
 <!-- http://getbootstrap.com -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-<?php require 'dependencies/index.php' ?>
-
 <?php wp_head(); ?>
 </head>
 
@@ -43,8 +41,4 @@
 <header class="row"><div class="wrapper center-block">
 	<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 	<small><?php bloginfo( 'description' ); ?></small></h1>
-<div></header>
-
-<div id="page" class="hfeed site">
-
-<div id="content" class="site-content">
+</div></header>

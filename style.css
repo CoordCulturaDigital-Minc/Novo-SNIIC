@@ -164,74 +164,80 @@ body > header {
         font-size: 16px;
         font-size: 1.6rem;
         margin-top: 0.8889em; }
-body > div > aside {
+body > aside {
   background: rgba(0, 0, 0, 0.86);
   padding-top: 60px;
-  padding-bottom: 60px; }
-  body > div > aside p, body > div > aside h4 {
+  padding-bottom: 60px;
+  border: none; }
+  body > aside p, body > aside h4 {
     font-family: sans-serif !important;
     margin-bottom: 0.5em; }
-  body > div > aside, body > div > aside a {
+  body > aside, body > aside a {
     color: #ECF3F4; }
-  body > div > aside > .wrapper > div > aside ul {
+  body > aside > .wrapper > div > aside ul {
     list-style: none;
     margin-left: 0px; }
-  body > div > aside > .wrapper > div > aside input[type="text"].form-control {
+  body > aside > .wrapper > div > aside input[type="text"].form-control {
     background-color: #7E7E7E;
     border: none;
     border-radius: 0; }
-    body > div > aside > .wrapper > div > aside input[type="text"].form-control:focus {
+    body > aside > .wrapper > div > aside input[type="text"].form-control:focus {
       box-shadow: none;
       border: none;
       background-color: #ECF3F4;
       color: #242424; }
-  body > div > aside > .wrapper > div > aside .input-group-btn button.btn.btn-default {
+  body > aside > .wrapper > div > aside .input-group-btn button.btn.btn-default {
     border-radius: 0 !important;
     text-shadow: none;
     border: none !important;
     background-color: #7E7E7E; }
-  body > div > aside > .wrapper > div > aside.redes-sociais ul {
+  body > aside > .wrapper > div > aside.redes-sociais ul {
     list-style: none;
     margin-left: 0px; }
-    body > div > aside > .wrapper > div > aside.redes-sociais ul i {
+    body > aside > .wrapper > div > aside.redes-sociais ul i {
       font-size: 20px;
       margin-right: 5px; }
-  body > div > aside > .wrapper > div > aside.plataformas ul li {
+  body > aside > .wrapper > div > aside.plataformas ul li {
     margin-bottom: 1em; }
-    body > div > aside > .wrapper > div > aside.plataformas ul li i {
+    body > aside > .wrapper > div > aside.plataformas ul li i {
       width: 30px;
       height: 30px;
       margin-bottom: -7px;
       margin-right: 10px;
       display: inline-block;
       background-color: #ECF3F4; }
-    body > div > aside > .wrapper > div > aside.plataformas ul li a {
+    body > aside > .wrapper > div > aside.plataformas ul li a {
       font-size: 20px;
       color: #7E7E7E; }
-      body > div > aside > .wrapper > div > aside.plataformas ul li a span, body > div > aside > .wrapper > div > aside.plataformas ul li a:hover {
+      body > aside > .wrapper > div > aside.plataformas ul li a span, body > aside > .wrapper > div > aside.plataformas ul li a:hover {
         color: #ECF3F4 !important;
         text-decoration: none; }
-  body > div > aside > .wrapper > div > aside.velho-sniic {
+  body > aside > .wrapper > div > aside.velho-sniic {
     background-color: #ECF3F4;
     color: #242424;
     margin: -15px;
     margin-bottom: 0px;
     padding: 15px;
     box-shadow: 5px 5px 0px black; }
-    body > div > aside > .wrapper > div > aside.velho-sniic img {
+    body > aside > .wrapper > div > aside.velho-sniic img {
       width: 190px;
       height: 110px;
       background-color: #476f9f;
       margin-top: 40px;
       margin-bottom: 40px; }
-    body > div > aside > .wrapper > div > aside.velho-sniic p {
+    body > aside > .wrapper > div > aside.velho-sniic p {
       font-size: 16px;
       font-variant: medium;
       line-height: normal; }
+body > footer {
+  background: black;
+  color: #ECF3F4;
+  font-size: 14px;
+  font-size: 1.4rem;
+  padding: 1.7778em 0;
+  text-align: center;
+  border: none; }
 
-/*--------------------------------------------------------------
-1.0 Reset
---------------------------------------------------------------*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -281,9 +287,6 @@ blockquote, q {
   blockquote:before, blockquote:after, q:before, q:after {
     content: ""; }
 
-/*--------------------------------------------------------------
-2.0 Typography
---------------------------------------------------------------*/
 body, button, input, select, textarea {
   color: #404040;
   font-family: "Cabin", Helvetica, sans-serif;
@@ -398,9 +401,6 @@ mark, ins {
 big {
   font-size: 125%; }
 
-/*--------------------------------------------------------------
-3.0 Elements
---------------------------------------------------------------*/
 html {
   box-sizing: border-box; }
 
@@ -461,9 +461,6 @@ th {
   padding: 10px 5px 5px;
   border-bottom: 4px solid #222; }
 
-/*--------------------------------------------------------------
-4.0 Forms
---------------------------------------------------------------*/
 button,
 input[type="button"],
 input[type="reset"],
@@ -530,9 +527,6 @@ textarea {
   width: 100%; }
 
 /*--------------------------------------------------------------
-5.0 Navigation
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
 5.1 Links
 --------------------------------------------------------------*/
 a {
@@ -584,9 +578,6 @@ a img {
   content: "\00bb";
   margin-left: 5px; }
 
-/*--------------------------------------------------------------
-6.0 Accessibility
---------------------------------------------------------------*/
 /* Text meant only for screen readers. */
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
@@ -614,9 +605,6 @@ a img {
     z-index: 100000;
     /* Above WP toolbar. */ }
 
-/*--------------------------------------------------------------
-7.0 Alignments
---------------------------------------------------------------*/
 .alignleft {
   display: inline;
   float: left;
@@ -632,9 +620,6 @@ a img {
   margin-left: auto;
   margin-right: auto; }
 
-/*--------------------------------------------------------------
-8.0 Clearings
---------------------------------------------------------------*/
 .clear:before, .clear:after,
 .site-branding:before,
 .site-branding:after,
@@ -669,21 +654,10 @@ a img {
   clear: both; }
 
 /*--------------------------------------------------------------
-10.0 Content
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
 10.1 Layout
 --------------------------------------------------------------*/
 .site-main {
   margin: 3.5556em 0; }
-
-body > #page > footer {
-  background: black;
-  color: #ECF3F4;
-  font-size: 14px;
-  font-size: 1.4rem;
-  padding: 1.7778em 0;
-  text-align: center; }
 
 .site-info,
 .site-info a {
@@ -986,9 +960,6 @@ body > #page > footer {
   margin-top: 1.75em;
   text-align: center; }
 
-/*--------------------------------------------------------------
-11.0 Infinite scroll
---------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
 .infinite-scroll .posts-navigation,
 .infinite-scroll.neverending > #page > footer {
@@ -998,6 +969,10 @@ body > #page > footer {
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
 .infinity-end.neverending > #page > footer {
   display: block; }
+
+#infinite-handle,
+.infinite-loader {
+  padding: 1.7778em 0; }
 
 .infinite-loader {
   clear: both;
@@ -1011,13 +986,6 @@ body > #page > footer {
     margin: 0 auto;
     text-align: center; }
 
-#infinite-handle,
-.infinite-loader {
-  padding: 1.7778em 0; }
-
-/*--------------------------------------------------------------
-12.0 Media
---------------------------------------------------------------*/
 .page-content .wp-smiley, .entry-content .wp-smiley, .comment-content .wp-smiley {
   border: none;
   margin-bottom: 0;
@@ -1036,9 +1004,6 @@ embed, iframe, object {
   .jetpack-video-wrapper > embed, .jetpack-video-wrapper > iframe, .jetpack-video-wrapper > object, .jetpack-video-wrapper > .wp-video {
     margin-bottom: 0; }
 
-/*--------------------------------------------------------------
-12.1 Captions
---------------------------------------------------------------*/
 figure {
   margin: 0; }
 
@@ -1058,9 +1023,6 @@ figure {
   line-height: 2.2857;
   text-align: center; }
 
-/*--------------------------------------------------------------
-12.2 Galleries
---------------------------------------------------------------*/
 .gallery {
   margin-bottom: 1.5em; }
 
@@ -1097,9 +1059,6 @@ figure {
 .gallery-caption {
   display: block; }
 
-/*--------------------------------------------------------------
-13 Media Queries
---------------------------------------------------------------*/
 .wrapper {
   width: 100%;
   max-width: 1000px; }
