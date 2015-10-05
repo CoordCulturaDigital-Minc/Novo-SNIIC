@@ -1,162 +1,178 @@
 & > nav {
   background: $color-nil;
-& > .wrapper {
-  min-height: 4.2em;
-  @media screen and (min-width: 601px) {
-    min-height: 5.8em;
-  }
-  i {
-    position: absolute;
-    margin: 24px;
-    margin-right: 12px;
-    width: 64px;
-    height: 64px;
-    background-color: black;
-    @media screen and (max-width: 600px) {
-      margin: 0.5em;
-      margin-left: 1em;
+  & > .wrapper {
+    min-height: 4.2em;
+    position: relative;
+    i {
+      position: absolute;
+      margin: 24px;
+      margin-right: 12px;
+      width: 64px;
+      height: 64px;
+      background-color: black;
     }
-  }
-  h1 { display: none; }
-
-  & > div {
-    @media screen and (max-width: 600px) {
-      & .menu { margin-top: 4em !important; }
-    }
-    @media screen and (min-width: 601px) {
-      margin: 0 2em;
-    }
-    & > div {
-      & > ul {
-        font-size: 13px;
-        text-transform: uppercase;
-        a {
-          text-decoration: none;
-        }
+    & > button {
+      position: absolute;
+      display: none;
+      color: black;
+      margin: 1.5em 0.8889em 0 0;
+      right: 0;
+      &:hover {
+        border-color: black;
         color: black;
-        & > li {
-          @media screen and (min-width: 601px) {
-            border-bottom: none;
-            display: inline-block;
-            margin: 3em 0 0;
-            padding: 0 1em;
-            position: relative;
-          }
-          &:hover {
-            background-color: white;
-            @media screen and (min-width: 601px) {
-              border-bottom: 3px solid $color-teal;
-            }
+      }
+    }
+    a {
+    	padding: 0.3889em 0 0.3889em 1.5556em;
+    }
+    h1 {
+      display: none;
+    }
+
+    & > div {
+      & > div {
+        ul {
+          margin: 0;
+          list-style: none !important;
+          li {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 0;
           }
           ul {
-            background-color: white;
-            & > li {
-              border-bottom: 1px solid $color-nil;
+            display: block;
+            list-style-position: inside;
+            list-style-type: disc;
+            border-left: 1px solid rgba(255, 255, 255, 0.3);
+            li {
+              border-bottom: none;
+              padding: 0;
+              padding-left: 1em;
+              &:hover, &.focus { & > ul {
+                left: 100%;
+              } }
+            }
+            ul {
+              left: -999em;
+              top: 0;
+            }
+          }
+          ul :hover > a,
+          ul > .focus > a {
+          }
+          li:hover,
+          li.focus { & > ul {
+            left: 0;
+          } }
+        }
+        & > ul {
+          font-size: 13px;
+          text-transform: uppercase;
+          li a {
+            color: black;
+          }
+          &:hover {
+            li {
+              a {
+                color: $color-gray;
+              }
+              &:hover {
+                & > a {
+                    color: black;
+                }
+              }
+            }
+          }
+          & > li {
+            a {
+              text-decoration: none;
+              font-weight: bold;
+            }
+            ul {
+              background-color: white;
+              & > li {
+                border-bottom: 1px solid $color-nil;
+              }
             }
           }
         }
       }
-    }
-  }
-
-  position: relative;
-
-  & > button {
-    position: absolute;
-    display: none;
-    color: black;
-    margin: 1.5em 0.8889em 0 0;
-    right: 0;
-    &:hover {
-      border-color: black;
-      color: black;
-    }
-    @media screen and (max-width: 600px) { display: block; }
-  }
-
-  div.collapse {
-    @media screen and (min-width: 601px) { display: block; height: auto !important; }
-  }
-
-  @media screen and (min-width: 601px) {
-    & > div > div > ul {
-      -webkit-margin-start: 0px !important;
-      -webkit-margin-end: 0px !important;
-      -webkit-padding-start: 40px !important;
-    }
-  }
-
-  ul {
-  	margin: 0;
-    list-style: none !important;
-    li {
-    	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    	padding: 0;
-    }
-    ul {
-    	display: block;
-    	list-style-position: inside;
-    	list-style-type: disc;
-    	margin-left: 1.5556em;
-      li {
-      	border-bottom: none;
-      	padding: 0;
-        &:hover, &.focus { & > ul {
-        	left: 100%;
-        } }
-      }
-      ul {
-      	left: -999em;
-      	top: 0;
-      }
-    }
-    ul :hover > a,
-    ul > .focus > a {
-    }
-    li:hover,
-    li.focus { & > ul {
-    	left: 0;
-    } }
-  }
-  a {
-  	padding: 0.3889em 0 0.3889em 1.5556em;
-  }
-
-  @media screen and (min-width: 601px) {
-    padding: 0;
-    a {
-  		padding: 0.8889em 0;
-  	}
-    ul {
-  		display: block;
-  		list-style: none;
-  		margin: 0;
-  		padding-left: 0;
-  		text-align: center;
-      ul {
-    		float: left;
-    		margin: 0;
-    		position: absolute;
-    		top: 2em;
-    		left: -999em;
-    		text-align: left;
-    		z-index: 99999;
-        li {
-      		border-bottom: 1px solid rgba(255, 2555, 255, 0.1);
-          padding: 0.5em;
-          min-width: 100px;
-      	}
-    	}
-    	div>ul>li>ul::before {
-    		border-color: transparent transparent #222;
-    		border-style: solid;
-    		border-width: 6px 6px 8px;
-    		content: "";
-    		position: absolute;
-    		top: -13px;
-    		left: 20px;
-    	}
     }
   }
 }
+
+@media screen and (min-width: 601px) {
+  & > nav {
+    & > .wrapper {
+      min-height: 5.8em;
+      & > div {
+        margin: 0 2em;
+        & > div {
+          & > ul {
+            & > li {
+              border-bottom: none;
+              display: inline-block;
+              margin: 3.4em 0 0;
+              padding: 0 1em;
+              position: relative;
+              border: 3px solid $color-nil;
+              &:hover {
+                border-color: $color-teal;
+              }
+            }
+          }
+        }
+      }
+      div.collapse {
+        display: block;
+        height: auto !important;
+      }
+      & > div > div > ul {
+        -webkit-margin-start: 0px !important;
+        -webkit-margin-end: 0px !important;
+        -webkit-padding-start: 40px !important;
+      }
+      padding: 0;
+      a { padding: 0.8889em 0; }
+      ul {
+    		display: block;
+    		list-style: none;
+    		margin: 0;
+    		padding-left: 0;
+    		text-align: center;
+        ul {
+      		float: left;
+      		margin: 0;
+      		position: absolute;
+      		top: 2em;
+      		left: -999em;
+      		text-align: left;
+      		z-index: 99999;
+          li {
+        		border-bottom: 1px solid rgba(255, 2555, 255, 0.1);
+            padding: 0.5em;
+            min-width: 100px;
+        	}
+      	}
+      	div>ul>li>ul::before {
+      		border-color: transparent transparent #222;
+      		border-style: solid;
+      		border-width: 6px 6px 8px;
+      		content: "";
+      		position: absolute;
+      		top: -13px;
+      		left: 20px;
+      	}
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  & > nav > .wrapper {
+    i {
+      margin: 0.5em;
+      margin-left: 1em;
+    }
+    button { display: block; }
+    & > div .menu { margin-top: 4em !important; }
+  }
 }

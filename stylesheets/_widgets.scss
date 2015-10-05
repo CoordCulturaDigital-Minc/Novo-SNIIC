@@ -1,15 +1,20 @@
 /*--------------------------------------------------------------
 9.0 Widgets
 --------------------------------------------------------------*/
-.footer-widget-area {
+body > div > aside {
 	background: rgba(0, 0, 0, 0.86);
 	padding-top: 4em;
 	padding-right: 2em;
 	padding-left: 2em;
+	font-family: sans-serif;
+
+	&, a {
+		color: $color-nil;
+	}
 }
 .widget-area {
 	&, a {
-    color: #fff;
+
   	font-size: 16px;
   	font-size: 1.6rem;
   }
@@ -53,12 +58,10 @@
     	color: #fff;
     }
   }
-  /* Make sure select elements fit in widgets. */
   select {
   	max-width: 100%;
   }
 }
-/* Search widget. */
 .widget_search {
   .search-field {
   	width: 100%;
@@ -67,8 +70,6 @@
   	display: none;
   }
 }
-
-/* Calendar widget */
 .widget_calendar {
   caption, th, td  {
   	text-align: center;
