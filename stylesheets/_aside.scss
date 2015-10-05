@@ -1,7 +1,7 @@
 & > aside {
 	background: rgba(0, 0, 0, 0.86);
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: $spancing-unit * 4;
+	padding-bottom: $spancing-unit * 4;
 	border: none;
 	p, h4 {
 		font-family: sans-serif !important;
@@ -11,6 +11,8 @@
 		color: $color-nil;
 	}
 	& > .wrapper > div > aside {
+		margin-bottom: $spancing-unit * 2;
+
 		ul {
 			list-style: none;
 			margin-left: 0px;

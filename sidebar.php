@@ -19,21 +19,6 @@
 				</span>
 			</div>
 		</aside/>
-		<aside class="redes-sociais">
-			<h4>Redes Sociais</h4>
-			<ul>
-				<li><a href="https://github.com/"><i class="fa fa-github-alt"></i>/sniic</a></li>
-				<li><a href="https://youtube.com/"><i class="fa fa-youtube-play"></i>/canaldoSNIIC</a></li>
-				<li><a href="https://facebook.com/"><i class="fa fa-facebook-official"></i>/SNIIC</a></li>
-				<li><a href="https://instagram.com/"><i class="fa fa-instagram"></i>/sniic_br</a></li>
-				<li><a href="https://twitter.com/"><i class="fa fa-twitter"></i>/sniic_br</a></li>
-				<li><a href="https://twitter.com/"><i class="fa fa-envelope"></i>mail@cultura.gov.br</a></li>
-			</ul>
-		</aside>
-
-	</div>
-
-	<div class="col-2 col-md-4 col-sm-6 col-xs-12">
 		<aside class="newsletter">
 			<h4><em>Newsletter</em></h4>
 			<div class="input-group">
@@ -51,6 +36,20 @@
 				<li><a href="https://github.com/"><i></i><span>Indicadores</span>.cultura.gov.br</a></li>
 				<li><a href="https://youtube.com/"><i></i><span>Mapas</span>.cultura.gov.br</a></li>
 				<li><a href="https://facebook.com/"><i></i><span>Biblioteca</span>.cultura.gov.br</a></li>
+			</ul>
+		</aside>
+	</div>
+
+	<div class="col-2 col-md-4 col-sm-6 col-xs-12">
+		<aside class="redes-sociais">
+			<h4>Redes Sociais</h4>
+			<ul>
+				<li><a href="https://github.com/"><i class="fa fa-github-alt"></i>/sniic</a></li>
+				<li><a href="https://youtube.com/"><i class="fa fa-youtube-play"></i>/canaldoSNIIC</a></li>
+				<li><a href="https://facebook.com/"><i class="fa fa-facebook-official"></i>/SNIIC</a></li>
+				<li><a href="https://instagram.com/"><i class="fa fa-instagram"></i>/sniic_br</a></li>
+				<li><a href="https://twitter.com/"><i class="fa fa-twitter"></i>/sniic_br</a></li>
+				<li><a href="https://twitter.com/"><i class="fa fa-envelope"></i>mail@cultura.gov.br</a></li>
 			</ul>
 		</aside>
 	</div>

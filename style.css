@@ -174,62 +174,64 @@ body > aside {
     margin-bottom: 0.5em; }
   body > aside, body > aside a {
     color: #ECF3F4; }
-  body > aside > .wrapper > div > aside ul {
-    list-style: none;
-    margin-left: 0px;
-    padding-left: 0px; }
-  body > aside > .wrapper > div > aside input[type="text"].form-control {
-    background-color: #7E7E7E;
-    border: none;
-    border-radius: 0; }
-    body > aside > .wrapper > div > aside input[type="text"].form-control:focus {
-      box-shadow: none;
+  body > aside > .wrapper > div > aside {
+    margin-bottom: 30px; }
+    body > aside > .wrapper > div > aside ul {
+      list-style: none;
+      margin-left: 0px;
+      padding-left: 0px; }
+    body > aside > .wrapper > div > aside input[type="text"].form-control {
+      background-color: #7E7E7E;
       border: none;
+      border-radius: 0; }
+      body > aside > .wrapper > div > aside input[type="text"].form-control:focus {
+        box-shadow: none;
+        border: none;
+        background-color: #ECF3F4;
+        color: #242424; }
+    body > aside > .wrapper > div > aside .input-group-btn button.btn.btn-default {
+      border-radius: 0 !important;
+      text-shadow: none;
+      border: none !important;
+      background-color: #7E7E7E; }
+    body > aside > .wrapper > div > aside.redes-sociais ul {
+      list-style: none;
+      margin-left: 0px; }
+      body > aside > .wrapper > div > aside.redes-sociais ul i {
+        font-size: 20px;
+        margin-right: 5px; }
+    body > aside > .wrapper > div > aside.plataformas ul li {
+      margin-bottom: 1em; }
+      body > aside > .wrapper > div > aside.plataformas ul li i {
+        width: 30px;
+        height: 30px;
+        margin-bottom: -7px;
+        margin-right: 10px;
+        display: inline-block;
+        background-color: #ECF3F4; }
+      body > aside > .wrapper > div > aside.plataformas ul li a {
+        font-size: 20px;
+        color: #7E7E7E; }
+        body > aside > .wrapper > div > aside.plataformas ul li a span, body > aside > .wrapper > div > aside.plataformas ul li a:hover {
+          color: #ECF3F4 !important;
+          text-decoration: none; }
+    body > aside > .wrapper > div > aside.velho-sniic {
       background-color: #ECF3F4;
-      color: #242424; }
-  body > aside > .wrapper > div > aside .input-group-btn button.btn.btn-default {
-    border-radius: 0 !important;
-    text-shadow: none;
-    border: none !important;
-    background-color: #7E7E7E; }
-  body > aside > .wrapper > div > aside.redes-sociais ul {
-    list-style: none;
-    margin-left: 0px; }
-    body > aside > .wrapper > div > aside.redes-sociais ul i {
-      font-size: 20px;
-      margin-right: 5px; }
-  body > aside > .wrapper > div > aside.plataformas ul li {
-    margin-bottom: 1em; }
-    body > aside > .wrapper > div > aside.plataformas ul li i {
-      width: 30px;
-      height: 30px;
-      margin-bottom: -7px;
-      margin-right: 10px;
-      display: inline-block;
-      background-color: #ECF3F4; }
-    body > aside > .wrapper > div > aside.plataformas ul li a {
-      font-size: 20px;
-      color: #7E7E7E; }
-      body > aside > .wrapper > div > aside.plataformas ul li a span, body > aside > .wrapper > div > aside.plataformas ul li a:hover {
-        color: #ECF3F4 !important;
-        text-decoration: none; }
-  body > aside > .wrapper > div > aside.velho-sniic {
-    background-color: #ECF3F4;
-    color: #242424;
-    margin: -15px;
-    margin-bottom: 0px;
-    padding: 15px;
-    box-shadow: 5px 5px 0px black; }
-    body > aside > .wrapper > div > aside.velho-sniic img {
-      width: 190px;
-      height: 110px;
-      background-color: #476f9f;
-      margin-top: 40px;
-      margin-bottom: 40px; }
-    body > aside > .wrapper > div > aside.velho-sniic p {
-      font-size: 16px;
-      font-variant: medium;
-      line-height: normal; }
+      color: #242424;
+      margin: -15px;
+      margin-bottom: 0px;
+      padding: 15px;
+      box-shadow: 5px 5px 0px black; }
+      body > aside > .wrapper > div > aside.velho-sniic img {
+        width: 190px;
+        height: 110px;
+        background-color: #476f9f;
+        margin-top: 40px;
+        margin-bottom: 40px; }
+      body > aside > .wrapper > div > aside.velho-sniic p {
+        font-size: 16px;
+        font-variant: medium;
+        line-height: normal; }
 body > footer {
   background: black;
   color: #ECF3F4;
@@ -761,12 +763,6 @@ a img {
   margin-bottom: 1.7778em; }
   .error404 .search-form input[type="search"], .search-no-results .search-form input[type="search"] {
     width: 79%; }
-
-/*--------------------------------------------------------------
-10.2 Asides
---------------------------------------------------------------*/
-.blog .format-aside .entry-title, .archive .format-aside .entry-title {
-  display: none; }
 
 /*--------------------------------------------------------------
 10.3 Portfolio

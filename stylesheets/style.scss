@@ -1,6 +1,8 @@
 @import "info";
 @import "colors";
 
+$spancing-unit: 15px;
+
 body {
   & > * {
     border-bottom: 1px solid white;
