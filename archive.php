@@ -9,58 +9,56 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+<main id="main" class="site-main" role="main"><div class="wrapper center-block">
 
-		<?php if ( have_posts() ) : ?>
+<?php if ( have_posts() ) : ?>
 
-			<header class="page-header">
-				<?php
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
-					the_archive_description( '<div class="taxonomy-description">', '</div>' );
-				?>
-			</header><!-- .page-header -->
+	<header class="page-header">
+		<?php
+			the_archive_title( '<h1 class="page-title">', '</h1>' );
+			the_archive_description( '<div class="taxonomy-description">', '</div>' );
+		?>
+	</header><!-- .page-header -->
 
-			<?php if ( is_post_type_archive( 'jetpack-portfolio' ) || is_tax( 'jetpack-portfolio-type' ) || is_tax( 'jetpack-portfolio-tag' ) ) : ?>
+	<?php if ( is_post_type_archive( 'jetpack-portfolio' ) || is_tax( 'jetpack-portfolio-type' ) || is_tax( 'jetpack-portfolio-tag' ) ) : ?>
 
-				<div id="portfolio-wrapper">
+		<div id="portfolio-wrapper">
 
-					<?php /* Start the Loop */ ?>
-					<?php while ( have_posts() ) : the_post(); ?>
+			<?php /* Start the Loop */ ?>
+			<?php while ( have_posts() ) : the_post(); ?>
 
-						<?php get_template_part( 'content/content', 'portfolio' ); ?>
+				<?php get_template_part( 'content/content', 'portfolio' ); ?>
 
-					<?php endwhile; ?>
+			<?php endwhile; ?>
 
-				</div><!-- .portfolio-wrapper -->
+		</div><!-- .portfolio-wrapper -->
 
-			<?php else : ?>
+	<?php else : ?>
 
-				<?php /* Start the Loop */ ?>
-				<?php while ( have_posts() ) : the_post(); ?>
+		<?php /* Start the Loop */ ?>
+		<?php while ( have_posts() ) : the_post(); ?>
 
-					<?php
-						/* Include the Post-Format-specific template for the content.
-						 * If you want to override this in a child theme, then include a file
-						 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-						 */
-						get_template_part( 'content/content', get_post_format() );
-					?>
+			<?php
+				/* Include the Post-Format-specific template for the content.
+				 * If you want to override this in a child theme, then include a file
+				 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
+				 */
+				get_template_part( 'content/content', get_post_format() );
+			?>
 
-				<?php endwhile; ?>
+		<?php endwhile; ?>
 
-			<?php endif; ?>
+	<?php endif; ?>
 
-				<?php the_posts_navigation(); ?>
+		<?php the_posts_navigation(); ?>
 
-			<?php else : ?>
+	<?php else : ?>
 
-			<?php get_template_part( 'content/content', 'none' ); ?>
+	<?php get_template_part( 'content/content', 'none' ); ?>
 
-		<?php endif; ?>
+<?php endif; ?>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+</div></main>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
