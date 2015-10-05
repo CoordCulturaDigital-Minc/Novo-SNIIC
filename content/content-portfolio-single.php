@@ -11,7 +11,7 @@
 
 	<?php
 		if ( get_post_gallery() ) {
-			get_template_part( 'content', 'portfolio-gallery' );
+			get_template_part( 'content/content', 'portfolio-gallery' );
 		}
 	?>
 

@@ -49,7 +49,7 @@ function argent_infinite_scroll_render() {
 		while ( have_posts() ) {
 			the_post();
 
-			get_template_part( 'content', 'portfolio' );
+			get_template_part( 'content/content', 'portfolio' );
 		}
 	}
 }

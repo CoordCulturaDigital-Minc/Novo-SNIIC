@@ -42,7 +42,7 @@ $project_query = new WP_Query ( $args );
 
 		<?php
 			while ( $project_query->have_posts() ) : $project_query->the_post();
-				get_template_part( 'content', 'portfolio' );
+				get_template_part( 'content/content', 'portfolio' );
 			endwhile;
 
 			wp_reset_postdata();

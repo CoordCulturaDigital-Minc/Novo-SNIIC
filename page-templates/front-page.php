@@ -22,7 +22,7 @@ get_header(); ?>
 
 		<?php
 			if ( 1 == $front_portfolio ) :
-				get_template_part( 'content', 'front-portfolio' );
+				get_template_part( 'content/content', 'front-portfolio' );
 			endif;
 		?>
 
