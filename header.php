@@ -26,7 +26,7 @@
 <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'argent' ); ?></a>
 
 <nav><div class="wrapper center-block clearfix">
-	<i></i>
+	<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><i></i></a>
 	<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 	<small><?php bloginfo( 'description' ); ?></small></h1>
 
