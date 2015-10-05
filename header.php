@@ -10,6 +10,10 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
+<!-- Mobile first non-scalable, no-pinch -->
+<!-- http://getbootstrap.com -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
 <?php require 'dependencies/index.php' ?>
 
 <?php wp_head(); ?>
