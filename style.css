@@ -180,19 +180,24 @@ body > aside {
       margin-left: 0px;
       padding-left: 0px; }
     body > aside > .wrapper > div > aside input[type="text"].form-control {
-      background-color: #7E7E7E;
+      background-color: #4b4b4b;
       border: none;
-      border-radius: 0; }
+      border-radius: 0;
+      padding-left: 10px; }
       body > aside > .wrapper > div > aside input[type="text"].form-control:focus {
         box-shadow: none;
         border: none;
         background-color: #ECF3F4;
         color: #242424; }
     body > aside > .wrapper > div > aside .input-group-btn button.btn.btn-default {
+      background-image: none;
       border-radius: 0 !important;
       text-shadow: none;
       border: none !important;
-      background-color: #7E7E7E; }
+      background-color: #7E7E7E;
+      margin-left: 0 !important;
+      box-shadow: none;
+      color: #ECF3F4; }
     body > aside > .wrapper > div > aside.redes-sociais ul {
       list-style: none;
       margin-left: 0px; }

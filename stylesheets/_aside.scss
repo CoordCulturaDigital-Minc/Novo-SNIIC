@@ -19,9 +19,10 @@
 			padding-left: 0px;
 		}
 		input[type="text"].form-control {
-			background-color: $color-gray;
+			background-color: darken($color-gray, 20%);
 			border: none;
 			border-radius: 0;
+			padding-left: 10px;
 			&:focus {
 				box-shadow: none;
 				border: none;
@@ -31,10 +32,14 @@
 		}
 		.input-group-btn {
 			button.btn.btn-default {
+				background-image: none;
 				border-radius: 0 !important;
 				text-shadow: none;
 				border: none !important;
 				background-color: $color-gray;
+				margin-left: 0 !important;
+				box-shadow: none;
+				color: $color-nil;
 			}
 		}
 		&.redes-sociais {
