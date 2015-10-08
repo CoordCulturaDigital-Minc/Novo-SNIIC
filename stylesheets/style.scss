@@ -17,6 +17,39 @@ body {
   @import 'header';
   @import 'aside';
 
+  .plataformas ul {
+    list-style: none;
+    margin: 0;
+    -webkit-padding-start: 0;
+    li {
+      padding: $spacing-unit/4;
+      padding-top: $spacing-unit/2;
+      border-bottom: 4px solid $color-nil;
+      img {
+        width: $spacing-unit;
+        height: $spacing-unit;
+        margin-bottom: $spacing-unit/6;
+        margin-right: $spacing-unit/6;
+        display: inline-block;
+      }
+      a {
+        font-size: 20px;
+        color: $color-gray;
+        font-weight: 400;
+        span {
+          font-weight: 700;
+        }
+      }
+      &:hover {
+        border-color: $color-teal;
+        background-color: white;
+        a {
+          color: $color-coal;
+        }
+      }
+    }
+  }
+
   & > footer {
   	background: black;
   	color: $color-nil;

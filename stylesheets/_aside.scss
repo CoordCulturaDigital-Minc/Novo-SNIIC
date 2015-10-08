@@ -63,24 +63,20 @@
 				}
 			}
 		}
-		&.plataformas {
-			ul {
-				li {
-					margin-bottom: 1em;
-					i {
-						width: 30px;
-						height: 30px;
-						margin-bottom: -7px;
-						margin-right: 10px;
-						display: inline-block;
-						background-color: $color-nil;
-					}
+		&.plataformas ul {
+			li {
+				border-color: $color-coal;
+				i {
+					background-color: $color-nil;
+				}
+				a {
+					color: $color-gray;
+				}
+				&:hover {
+					border-color: $color-teal;
+					background-color: black;
 					a {
-						font-size: 20px;
-						color: $color-gray;
-						span, &:hover {
-							color: $color-nil;
-						}
+						color: $color-nil;
 					}
 				}
 			}

@@ -57,15 +57,25 @@
 	<h3 class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2 text-center quotes">
 		Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In euismod ultrices.
 	</h3>
-	<div class="col-xs-12">
-		<p class="col-xs-12 col-sm-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. </p>
-		<p class="col-xs-12 col-sm-4">Vivamus fermentum semper porta. Nunc diam velit, adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, id fringilla sem nunc vel mi. Nam dictum, odio nec pretium volutpat, arcu ante placerat erat, non tristique elit urna et turpis. Quisque mi metus, ornare sit amet fermentum et, tincidunt et orci. Fusce eget orci a orci congue vestibulum.</p>
-		<ul class="col-xs-12 col-sm-4 plataformas">
-			<li><a href="https://github.com/"><i></i><span>Indicadores</span>.cultura.gov.br</a></li>
-			<li><a href="https://youtube.com/"><i></i><span>Mapas</span>.cultura.gov.br</a></li>
-			<li><a href="https://facebook.com/"><i></i><span>Biblioteca</span>.cultura.gov.br</a></li>
+
+	<p class="col-xs-12 col-sm-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. </p>
+	<p class="col-xs-12 col-sm-4">Vivamus fermentum semper porta. Nunc diam velit, adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, id fringilla sem nunc vel mi. Nam dictum, odio nec pretium volutpat, arcu ante placerat erat, non tristique elit urna et turpis. Quisque mi metus, ornare sit amet fermentum et, tincidunt et orci. Fusce eget orci a orci congue vestibulum.</p>
+	<aside class="col-xs-12 col-sm-4 plataformas">
+		<ul>
+			<li><a href="/">
+				<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.indicadores.svg" class="img-responsive"/>
+				<span>Indicadores</span>.cultura.gov.br</a></li>
+			<li><a href="/">
+				<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.mapas.svg" class="img-responsive"/>
+				<span>Mapas</span>.cultura.gov.br</a></li>
+			<li><a href="/">
+				<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.publicacoes.svg" class="img-responsive"/>
+				<span>Publicações</span>.cultura.gov.br</a></li>
+			<li><a href="/">
+				<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.vocabulario.svg" class="img-responsive"/>
+				<span>Vocabulário</span>.cultura.gov.br</a></li>
 		</ul>
-	</div>
-	<h1 class="hidden"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-	<small><?php bloginfo( 'description' ); ?></small></h1>
+	</aside>
+	<!-- <h1 class="hidden"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+	<small><?php bloginfo( 'description' ); ?></small></h1> -->
 </div></header>

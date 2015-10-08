@@ -33,9 +33,18 @@
 		<aside class="plataformas">
 			<h4>Plataformas</h4>
 			<ul>
-				<li><a href="https://github.com/"><i></i><span>Indicadores</span>.cultura.gov.br</a></li>
-				<li><a href="https://youtube.com/"><i></i><span>Mapas</span>.cultura.gov.br</a></li>
-				<li><a href="https://facebook.com/"><i></i><span>Biblioteca</span>.cultura.gov.br</a></li>
+				<li><a href="/">
+					<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.indicadores.svg" class="img-responsive"/>
+					<span>Indicadores</span>.cultura.gov.br</a></li>
+				<li><a href="/">
+					<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.mapas.svg" class="img-responsive"/>
+					<span>Mapas</span>.cultura.gov.br</a></li>
+				<li><a href="/">
+					<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.publicacoes.svg" class="img-responsive"/>
+					<span>Publicações</span>.cultura.gov.br</a></li>
+				<li><a href="/">
+					<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.vocabulario.svg" class="img-responsive"/>
+					<span>Vocabulário</span>.cultura.gov.br</a></li>
 			</ul>
 		</aside>
 	</div>

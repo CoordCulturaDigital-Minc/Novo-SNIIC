@@ -236,18 +236,15 @@ body > aside {
         font-size: 20px;
         margin-right: 5px; }
     body > aside > .wrapper > div > aside.plataformas ul li {
-      margin-bottom: 1em; }
+      border-color: #242424; }
       body > aside > .wrapper > div > aside.plataformas ul li i {
-        width: 30px;
-        height: 30px;
-        margin-bottom: -7px;
-        margin-right: 10px;
-        display: inline-block;
         background-color: #ECF3F4; }
       body > aside > .wrapper > div > aside.plataformas ul li a {
-        font-size: 20px;
         color: #7E7E7E; }
-        body > aside > .wrapper > div > aside.plataformas ul li a span, body > aside > .wrapper > div > aside.plataformas ul li a:hover {
+      body > aside > .wrapper > div > aside.plataformas ul li:hover {
+        border-color: #69A0A8;
+        background-color: black; }
+        body > aside > .wrapper > div > aside.plataformas ul li:hover a {
           color: #ECF3F4; }
     body > aside > .wrapper > div > aside.velho-sniic {
       background-color: #ECF3F4;
@@ -266,6 +263,31 @@ body > aside {
         font-size: 16px;
         font-variant: medium;
         line-height: normal; }
+body .plataformas ul {
+  list-style: none;
+  margin: 0;
+  -webkit-padding-start: 0; }
+  body .plataformas ul li {
+    padding: 7.5px;
+    padding-top: 15px;
+    border-bottom: 4px solid #ECF3F4; }
+    body .plataformas ul li img {
+      width: 30px;
+      height: 30px;
+      margin-bottom: 5px;
+      margin-right: 5px;
+      display: inline-block; }
+    body .plataformas ul li a {
+      font-size: 20px;
+      color: #7E7E7E;
+      font-weight: 400; }
+      body .plataformas ul li a span {
+        font-weight: 700; }
+    body .plataformas ul li:hover {
+      border-color: #69A0A8;
+      background-color: white; }
+      body .plataformas ul li:hover a {
+        color: #242424; }
 body > footer {
   background: black;
   color: #ECF3F4;
