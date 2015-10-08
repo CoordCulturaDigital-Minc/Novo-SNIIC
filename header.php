@@ -25,7 +25,7 @@
 
 <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'argent' ); ?></a>
 
-<nav class="row"><div class="wrapper center-block clearfix"><div class="col-xs-12">
+<nav class="container-fluid"><div class="wrapper center-block clearfix row">
 	<a id="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>">
 		<img src="<?php echo get_template_directory_uri() ?>/assets/forma.svg" class="img-responsive"/>
 	</a>
@@ -33,7 +33,8 @@
 	<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 	<small><?php bloginfo( 'description' ); ?></small></h1>
 
-	<button type="button"
+	<button class="visible-xs"
+					type="button"
 					data-toggle="collapse"
 					data-target="#collapseMenu"
 					aria-expanded="false"
@@ -43,9 +44,9 @@
 	<div class="collapse" id="collapseMenu">
 		<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu')); ?>
 	</div>
-</div></div></nav>
+</div></nav>
 
-<header class="row"><div class="wrapper center-block clearfix">
+<header class="container-fluid"><div class="wrapper center-block clearfix row">
 	<div id="branding_simple" class="visible-xs center-block">
 		<img src="<?php echo get_template_directory_uri() ?>/assets/main.acro.simple.svg" class="img-responsive"/>
 	</div>
@@ -57,20 +58,13 @@
 		Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In euismod ultrices.
 	</h3>
 	<div class="col-xs-12">
-		<div class="col-xs-12 col-md-4">
-		<p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. </p>
-		</div>
-		<div class="col-xs-12 col-md-4">
-		<p>Vivamus fermentum semper porta. Nunc diam velit, adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, id fringilla sem nunc vel mi. Nam dictum, odio nec pretium volutpat, arcu ante placerat erat, non tristique elit urna et turpis. Quisque mi metus, ornare sit amet fermentum et, tincidunt et orci. Fusce eget orci a orci congue vestibulum.</p>
-		</div>
-		<aside class="hidden-xs hidden-sm col-md-4">
-		<h3>Plataformas</h3>
-		<ul>
+		<p class="col-xs-12 col-sm-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. </p>
+		<p class="col-xs-12 col-sm-4">Vivamus fermentum semper porta. Nunc diam velit, adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, id fringilla sem nunc vel mi. Nam dictum, odio nec pretium volutpat, arcu ante placerat erat, non tristique elit urna et turpis. Quisque mi metus, ornare sit amet fermentum et, tincidunt et orci. Fusce eget orci a orci congue vestibulum.</p>
+		<ul class="col-xs-12 col-sm-4 plataformas">
 			<li><a href="https://github.com/"><i></i><span>Indicadores</span>.cultura.gov.br</a></li>
 			<li><a href="https://youtube.com/"><i></i><span>Mapas</span>.cultura.gov.br</a></li>
 			<li><a href="https://facebook.com/"><i></i><span>Biblioteca</span>.cultura.gov.br</a></li>
 		</ul>
-		</aside>
 	</div>
 	<h1 class="hidden"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 	<small><?php bloginfo( 'description' ); ?></small></h1>

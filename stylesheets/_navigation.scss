@@ -1,6 +1,6 @@
 & > nav {
   background: $color-nil;
-  & > .wrapper > div {
+  & > .wrapper {
     min-height: 4.2em;
     #logo {
       float: left;
@@ -10,24 +10,20 @@
       width: $spacing-unit * 2;
       height: $spacing-unit * 2;
     }
-    & > button {
-      position: absolute;
-      display: none;
-      color: black;
-      margin: 1.5em 0.8889em 0 0;
-      right: 0;
-      &:hover {
-        border-color: black;
-        color: black;
-      }
-    }
     a {
     	padding: 0.3889em 0 0.3889em 1.5556em;
     }
     h1 {
       display: none;
     }
-
+    & > button {
+      position: absolute;
+      right: 0;
+      border: none;
+      font-size: $spacing-unit;
+      height: $spacing-unit*2;
+      font-weight: 600;
+    }
     & > div {
       & > div {
         ul {
@@ -99,15 +95,19 @@
   }
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 769px) {
   & > nav {
-    & > .wrapper > div {
+    & > .wrapper {
       & > div {
         margin: 0 2em;
         & > div {
           & > ul {
+            & > button, & > li {
+              border: 3px solid $color-teal;
+              padding: 0 1em;
+              margin: $spacing-unit/2 0 0;
+            }
             & > li {
-              border-bottom: none;
               display: inline-block;
               margin: $spacing-unit/2 0 0;
               padding: 0 1em;
@@ -164,13 +164,12 @@
     }
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   & > nav {
     padding-top: $spacing-unit/2;
     padding-bottom: $spacing-unit/2;
-    & > .wrapper > div {
+    & > .wrapper {
       position: relative;
-      min-height: $spacing-unit * 3;
       #logo {
         height: $spacing-unit * 2;
         width: $spacing-unit * 2;
@@ -181,7 +180,6 @@
       a {
         padding: 0;
       }
-      button { display: block; }
       & > div .menu {
         margin-top: $spacing-unit * 4;
         margin-bottom: $spacing-unit/2;
