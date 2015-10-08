@@ -12,102 +12,104 @@ Text Domain: argent
 Tags: black, gray, white, one-column, custom-background, custom-header, custom-menu, rtl-language-support, translation-ready, dark, featured-images, responsive-layout, threaded-comments
 */
 body > * {
-  border-bottom: 1px solid white; }
+  border-bottom: 1px solid white;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+body a:hover {
+  text-decoration: none; }
 body > nav {
   background: #ECF3F4; }
-  body > nav > .wrapper {
-    min-height: 4.2em;
-    position: relative; }
-    body > nav > .wrapper i {
-      position: absolute;
-      margin: 24px;
-      margin-right: 12px;
-      width: 64px;
-      height: 64px;
-      background-color: black; }
-    body > nav > .wrapper > button {
+  body > nav > .wrapper > div {
+    min-height: 4.2em; }
+    body > nav > .wrapper > div #logo {
+      float: left;
+      margin-left: 30px;
+      margin-right: 30px;
+      padding: 0;
+      width: 60px;
+      height: 60px; }
+    body > nav > .wrapper > div > button {
       position: absolute;
       display: none;
       color: black;
       margin: 1.5em 0.8889em 0 0;
       right: 0; }
-      body > nav > .wrapper > button:hover {
+      body > nav > .wrapper > div > button:hover {
         border-color: black;
         color: black; }
-    body > nav > .wrapper a {
+    body > nav > .wrapper > div a {
       padding: 0.3889em 0 0.3889em 1.5556em; }
-    body > nav > .wrapper h1 {
+    body > nav > .wrapper > div h1 {
       display: none; }
-    body > nav > .wrapper > div > div ul {
+    body > nav > .wrapper > div > div > div ul {
       margin: 0;
       list-style: none !important; }
-      body > nav > .wrapper > div > div ul li {
+      body > nav > .wrapper > div > div > div ul li {
         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
         padding: 0; }
-      body > nav > .wrapper > div > div ul ul {
+      body > nav > .wrapper > div > div > div ul ul {
         display: block;
         list-style-position: inside;
         list-style-type: disc;
         border-left: 1px solid rgba(255, 255, 255, 0.3); }
-        body > nav > .wrapper > div > div ul ul li {
+        body > nav > .wrapper > div > div > div ul ul li {
           border-bottom: none;
           padding: 0;
           padding-left: 1em; }
-          body > nav > .wrapper > div > div ul ul li:hover > ul, body > nav > .wrapper > div > div ul ul li.focus > ul {
+          body > nav > .wrapper > div > div > div ul ul li:hover > ul, body > nav > .wrapper > div > div > div ul ul li.focus > ul {
             left: 100%; }
-        body > nav > .wrapper > div > div ul ul ul {
+        body > nav > .wrapper > div > div > div ul ul ul {
           left: -999em;
           top: 0; }
-      body > nav > .wrapper > div > div ul li:hover > ul,
-      body > nav > .wrapper > div > div ul li.focus > ul {
+      body > nav > .wrapper > div > div > div ul li:hover > ul,
+      body > nav > .wrapper > div > div > div ul li.focus > ul {
         left: 0; }
-    body > nav > .wrapper > div > div > ul {
+    body > nav > .wrapper > div > div > div > ul {
       font-size: 13px;
       text-transform: uppercase; }
-      body > nav > .wrapper > div > div > ul li a {
+      body > nav > .wrapper > div > div > div > ul li a {
         color: black; }
-      body > nav > .wrapper > div > div > ul:hover li a {
+      body > nav > .wrapper > div > div > div > ul:hover li a {
         color: #7E7E7E; }
-      body > nav > .wrapper > div > div > ul:hover li:hover > a {
+      body > nav > .wrapper > div > div > div > ul:hover li:hover > a {
         color: black; }
-      body > nav > .wrapper > div > div > ul > li a {
+      body > nav > .wrapper > div > div > div > ul > li a {
         text-decoration: none;
         font-weight: bold; }
-      body > nav > .wrapper > div > div > ul > li ul {
+      body > nav > .wrapper > div > div > div > ul > li ul {
         background-color: white; }
-        body > nav > .wrapper > div > div > ul > li ul > li {
+        body > nav > .wrapper > div > div > div > ul > li ul > li {
           border-bottom: 1px solid #ECF3F4; }
 @media screen and (min-width: 601px) {
-  body > nav > .wrapper {
-    min-height: 5.8em;
+  body > nav > .wrapper > div {
     padding: 0; }
-    body > nav > .wrapper > div {
+    body > nav > .wrapper > div > div {
       margin: 0 2em; }
-      body > nav > .wrapper > div > div > ul > li {
+      body > nav > .wrapper > div > div > div > ul > li {
         border-bottom: none;
         display: inline-block;
-        margin: 3.4em 0 0;
+        margin: 15px 0 0;
         padding: 0 1em;
         position: relative;
         border: 3px solid #ECF3F4; }
-        body > nav > .wrapper > div > div > ul > li:hover {
+        body > nav > .wrapper > div > div > div > ul > li:hover {
           border-color: #69A0A8; }
-    body > nav > .wrapper div.collapse {
+    body > nav > .wrapper > div div.collapse {
       display: block;
       height: auto !important; }
-    body > nav > .wrapper > div > div > ul {
+    body > nav > .wrapper > div > div > div > ul {
       -webkit-margin-start: 0px !important;
       -webkit-margin-end: 0px !important;
       -webkit-padding-start: 40px !important; }
-    body > nav > .wrapper a {
+    body > nav > .wrapper > div a {
       padding: 0.8889em 0; }
-    body > nav > .wrapper ul {
+    body > nav > .wrapper > div ul {
       display: block;
       list-style: none;
       margin: 0;
       padding-left: 0;
       text-align: center; }
-      body > nav > .wrapper ul ul {
+      body > nav > .wrapper > div ul ul {
         float: left;
         margin: 0;
         position: absolute;
@@ -115,11 +117,11 @@ body > nav {
         left: -999em;
         text-align: left;
         z-index: 99999; }
-        body > nav > .wrapper ul ul li {
+        body > nav > .wrapper > div ul ul li {
           border-bottom: 1px solid rgba(255, 255, 255, 0.1);
           padding: 0.5em;
           min-width: 100px; }
-      body > nav > .wrapper ul div > ul > li > ul::before {
+      body > nav > .wrapper > div ul div > ul > li > ul::before {
         border-color: transparent transparent #222;
         border-style: solid;
         border-width: 6px 6px 8px;
@@ -128,13 +130,30 @@ body > nav {
         top: -13px;
         left: 20px; } }
 @media screen and (max-width: 600px) {
-  body > nav > .wrapper i {
-    margin: 0.5em;
-    margin-left: 1em; }
-  body > nav > .wrapper button {
-    display: block; }
-  body > nav > .wrapper > div .menu {
-    margin-top: 4em !important; } }
+  body > nav {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    body > nav > .wrapper > div {
+      position: relative;
+      min-height: 90px; }
+      body > nav > .wrapper > div #logo {
+        height: 60px;
+        width: 60px;
+        margin: 0 15px;
+        position: absolute; }
+      body > nav > .wrapper > div ul ul {
+        padding-left: 30px; }
+      body > nav > .wrapper > div a {
+        padding: 0; }
+      body > nav > .wrapper > div button {
+        display: block; }
+      body > nav > .wrapper > div > div .menu {
+        margin-top: 120px;
+        margin-bottom: 15px; }
+        body > nav > .wrapper > div > div .menu > ul {
+          font-size: 20px;
+          padding-left: 0px;
+          -webkit-padding-start: 0px; } }
 body > header {
   background-color: #ECF3F4; }
   body > header > div {
@@ -142,9 +161,15 @@ body > header {
     background-position: center;
     background-size: cover;
     margin: 0 auto;
-    padding: 4.25em 0;
-    position: relative;
-    text-align: center; }
+    position: relative; }
+    body > header > div #branding {
+      max-width: 600px;
+      width: 100%; }
+    body > header > div #branding_simple {
+      max-width: 425px;
+      width: 100%; }
+    body > header > div .quotes {
+      font-weight: 300; }
     body > header > div > h1 {
       display: table;
       margin: 0 auto;
@@ -168,6 +193,8 @@ body > aside {
   padding-top: 60px;
   padding-bottom: 60px;
   border: none; }
+  body > aside *, body > aside a:hover {
+    color: #ECF3F4; }
   body > aside p, body > aside h4 {
     font-family: sans-serif !important;
     margin-bottom: 0.5em; }
@@ -175,6 +202,10 @@ body > aside {
     color: #ECF3F4; }
   body > aside > .wrapper > div > aside {
     margin-bottom: 30px; }
+    body > aside > .wrapper > div > aside:hover a {
+      color: #7E7E7E; }
+      body > aside > .wrapper > div > aside:hover a:hover {
+        color: #ECF3F4; }
     body > aside > .wrapper > div > aside ul {
       list-style: none;
       margin-left: 0px;
@@ -219,8 +250,7 @@ body > aside {
         font-size: 20px;
         color: #7E7E7E; }
         body > aside > .wrapper > div > aside.plataformas ul li a span, body > aside > .wrapper > div > aside.plataformas ul li a:hover {
-          color: #ECF3F4 !important;
-          text-decoration: none; }
+          color: #ECF3F4; }
     body > aside > .wrapper > div > aside.velho-sniic {
       background-color: #ECF3F4;
       color: #242424;
@@ -248,13 +278,8 @@ body > footer {
   border: none; }
 
 * {
-  font-family: "Lato", Helvetica, sans-serif; }
-
-body, button, input, select, textarea {
-  color: #404040;
-  font-size: 20px;
-  font-size: 2rem;
-  line-height: 1.7778; }
+  font-family: "Lato", Helvetica, sans-serif;
+  color: #242424; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700; }

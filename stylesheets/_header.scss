@@ -5,9 +5,17 @@
     background-position: center;
     background-size: cover;
     margin: 0 auto;
-    padding: 4.25em 0;
     position: relative;
-    text-align: center;
+
+    #branding {
+      max-width: 600px;
+      width: 100%;
+    }
+    #branding_simple {
+      max-width: 425px;
+      width: 100%;
+    }
+    .quotes { font-weight: 300; }
     & > h1 {
       display: table;
       margin: 0 auto;

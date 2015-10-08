@@ -1,8 +1,9 @@
 & > aside {
 	background: rgba(0, 0, 0, 0.86);
-	padding-top: $spancing-unit * 4;
-	padding-bottom: $spancing-unit * 4;
+	padding-top: $spacing-unit * 2;
+	padding-bottom: $spacing-unit * 2;
 	border: none;
+	*, a:hover { color: $color-nil; }
 	p, h4 {
 		font-family: sans-serif !important;
 		margin-bottom: 0.5em;
@@ -11,8 +12,15 @@
 		color: $color-nil;
 	}
 	& > .wrapper > div > aside {
-		margin-bottom: $spancing-unit * 2;
-
+		margin-bottom: $spacing-unit;
+		&:hover {
+			a {
+				color: $color-gray;
+				&:hover {
+					color: $color-nil;
+				}
+			}
+		}
 		ul {
 			list-style: none;
 			margin-left: 0px;
@@ -71,8 +79,7 @@
 						font-size: 20px;
 						color: $color-gray;
 						span, &:hover {
-							color: $color-nil !important;
-							text-decoration: none;
+							color: $color-nil;
 						}
 					}
 				}

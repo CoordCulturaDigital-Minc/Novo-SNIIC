@@ -1,15 +1,14 @@
 & > nav {
   background: $color-nil;
-  & > .wrapper {
+  & > .wrapper > div {
     min-height: 4.2em;
-    position: relative;
-    i {
-      position: absolute;
-      margin: 24px;
-      margin-right: 12px;
-      width: 64px;
-      height: 64px;
-      background-color: black;
+    #logo {
+      float: left;
+      margin-left: $spacing-unit;
+      margin-right: $spacing-unit;
+      padding: 0;
+      width: $spacing-unit * 2;
+      height: $spacing-unit * 2;
     }
     & > button {
       position: absolute;
@@ -102,8 +101,7 @@
 
 @media screen and (min-width: 601px) {
   & > nav {
-    & > .wrapper {
-      min-height: 5.8em;
+    & > .wrapper > div {
       & > div {
         margin: 0 2em;
         & > div {
@@ -111,7 +109,7 @@
             & > li {
               border-bottom: none;
               display: inline-block;
-              margin: 3.4em 0 0;
+              margin: $spacing-unit/2 0 0;
               padding: 0 1em;
               position: relative;
               border: 3px solid $color-nil;
@@ -167,12 +165,32 @@
   }
 }
 @media screen and (max-width: 600px) {
-  & > nav > .wrapper {
-    i {
-      margin: 0.5em;
-      margin-left: 1em;
+  & > nav {
+    padding-top: $spacing-unit/2;
+    padding-bottom: $spacing-unit/2;
+    & > .wrapper > div {
+      position: relative;
+      min-height: $spacing-unit * 3;
+      #logo {
+        height: $spacing-unit * 2;
+        width: $spacing-unit * 2;
+        margin: 0 $spacing-unit/2;
+        position: absolute;
+      }
+      ul ul { padding-left: $spacing-unit; }
+      a {
+        padding: 0;
+      }
+      button { display: block; }
+      & > div .menu {
+        margin-top: $spacing-unit * 4;
+        margin-bottom: $spacing-unit/2;
+        & > ul {
+          font-size: 20px;
+          padding-left: 0px;
+          -webkit-padding-start: 0px;
+        }
+      }
     }
-    button { display: block; }
-    & > div .menu { margin-top: 4em !important; }
   }
 }

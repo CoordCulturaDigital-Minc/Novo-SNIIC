@@ -1,11 +1,16 @@
 @import "info";
 @import "colors";
 
-$spancing-unit: 15px;
+$spacing-unit: 30px;
 
 body {
   & > * {
     border-bottom: 1px solid white;
+    padding-top: $spacing-unit;
+    padding-bottom: $spacing-unit;
+  }
+  a:hover {
+    text-decoration: none;
   }
 
   @import 'navigation';
