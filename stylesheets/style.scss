@@ -1,5 +1,6 @@
 @import "info";
 @import "colors";
+@import "mixins";
 
 $spacing-unit: 30px;
 
@@ -29,18 +30,13 @@ body {
   @import 'header';
   @import 'aside';
 
-  aside.velho-sniic {
-  	background-size: 170%;
-  	background-position: center right;
-  }
-  section.velho-sniic {
-  	background-position: center center;
-  	background-size: 50%;
+  aside.velho-sniic, section.velho-sniic {
+    background-color: $color-velho-sniic-second-shade-blue;
+    @include linear-vertical-gradient($color-velho-sniic-dark-blue, $color-velho-sniic-second-shade-blue);
   }
   .velho-sniic {
-    background-color: $color-velho-sniic-nil;
     p {
-      color: black;
+      color: $color-velho-sniic-nil;
     }
   }
 

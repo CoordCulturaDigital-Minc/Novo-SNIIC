@@ -20,12 +20,6 @@
 
 <?php wp_head(); ?>
 
-<style>
-.velho-sniic {
-	background: url(<?php echo get_template_directory_uri() ?>/assets/mapa.svg) no-repeat center;
-}
-</style>
-
 </head>
 
 <body <?php body_class(); ?>>

@@ -11,6 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: argent
 Tags: black, gray, white, one-column, custom-background, custom-header, custom-menu, rtl-language-support, translation-ready, dark, featured-images, responsive-layout, threaded-comments
 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f6f3a+0,0c451a+100 */
 body > * {
   background-color: #ECF3F4;
   border-bottom: 1px solid white;
@@ -249,16 +250,23 @@ body > aside {
         margin-bottom: 30px; }
       body > aside > .wrapper > div > aside.velho-sniic button {
         margin-top: 30px; }
-body aside.velho-sniic {
-  background-size: 170%;
-  background-position: center right; }
-body section.velho-sniic {
-  background-position: center center;
-  background-size: 50%; }
-body .velho-sniic {
-  background-color: #FAF6F0; }
-  body .velho-sniic p {
-    color: black; }
+body aside.velho-sniic, body section.velho-sniic {
+  background-color: #005781;
+  background: -moz-linear-gradient(top, #002C40 0%, #005781 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #002C40), color-stop(100%, #005781));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #002C40 0%, #005781 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #002C40 0%, #005781 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #002C40 0%, #005781 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #002C40 0%, #005781 100%);
+  /* W3C */
+  background-repeat: repeat-x; }
+body .velho-sniic p {
+  color: #F9F5EF; }
 body .plataformas ul {
   list-style: none;
   margin: 0;
