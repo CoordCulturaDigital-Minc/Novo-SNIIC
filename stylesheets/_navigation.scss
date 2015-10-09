@@ -1,5 +1,12 @@
 & > nav {
   background: $color-nil;
+
+  position: relative;
+  & > .beta-marker {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
   & > .wrapper {
     min-height: 4.2em;
     #logo {
@@ -168,6 +175,11 @@
   & > nav {
     padding-top: $spacing-unit/2;
     padding-bottom: $spacing-unit/2;
+    & > .beta-marker {
+      width: $spacing-unit*2;
+      height: $spacing-unit*2;
+      z-index: 999;
+    }
     & > .wrapper {
       position: relative;
       #logo {

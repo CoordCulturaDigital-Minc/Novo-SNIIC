@@ -25,7 +25,14 @@
 
 <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'argent' ); ?></a>
 
-<nav class="container-fluid"><div class="wrapper center-block clearfix row">
+<nav class="container-fluid">
+	<div class="beta-marker">
+		<img class="hidden-xs" src="<?php echo get_template_directory_uri() ?>/assets/beta.svg">
+		<img class="visible-xs" src="<?php echo get_template_directory_uri() ?>/assets/beta_sign.svg">
+	</div>
+	<div class="wrapper center-block clearfix row">
+
+
 	<a id="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>">
 		<img src="<?php echo get_template_directory_uri() ?>/assets/forma.svg" class="img-responsive"/>
 	</a>
