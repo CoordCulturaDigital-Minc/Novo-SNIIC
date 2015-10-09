@@ -11,19 +11,14 @@ get_header(); ?>
 </div></section>
 
 <section class="container-fluid busca"><div class="wrapper center-block clearfix row">
-
-	<aside class="busca">
-		<h4>Busca</h4>
-		<div class="input-group">
-			<input type="text" class="form-control" placeholder="Search for...">
-			<span class="input-group-btn">
-				<button class="btn btn-default" type="button">
-						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-				</button>
-			</span>
-		</div>
-	</aside/>
-
+	<div class="input-group col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+		<input type="text" class="form-control" placeholder="Maecenas convallis ullamcorper ultricies?">
+		<span class="input-group-btn">
+			<button class="btn btn-default" type="button">
+					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+			</button>
+		</span>
+	</div>
 </div></section>
 
 <section class="container-fluid mapas"><div class="wrapper center-block clearfix row">
