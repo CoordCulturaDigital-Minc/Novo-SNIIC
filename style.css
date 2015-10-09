@@ -12,6 +12,7 @@ Text Domain: argent
 Tags: black, gray, white, one-column, custom-background, custom-header, custom-menu, rtl-language-support, translation-ready, dark, featured-images, responsive-layout, threaded-comments
 */
 body > * {
+  background-color: #ECF3F4;
   border-bottom: 1px solid white;
   padding-top: 30px;
   padding-bottom: 30px; }
@@ -24,7 +25,6 @@ body a.brand-heading, body li.brand-heading, body h1.brand-heading, body h2.bran
     color: #242424;
     font-weight: 700; }
 body > nav {
-  background: #ECF3F4;
   position: relative; }
   body > nav > .beta-marker {
     position: absolute;
@@ -167,40 +167,38 @@ body > nav {
           font-size: 20px;
           padding-left: 0px;
           -webkit-padding-start: 0px; } }
-body > header {
-  background-color: #ECF3F4; }
-  body > header > div {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+body > header > div {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  position: relative; }
+  body > header > div #branding {
+    max-width: 600px;
+    width: 100%; }
+  body > header > div #branding_simple {
+    max-width: 425px;
+    width: 100%; }
+  body > header > div .quotes {
+    font-weight: 300; }
+  body > header > div > h1 {
+    display: table;
     margin: 0 auto;
-    position: relative; }
-    body > header > div #branding {
-      max-width: 600px;
-      width: 100%; }
-    body > header > div #branding_simple {
-      max-width: 425px;
-      width: 100%; }
-    body > header > div .quotes {
-      font-weight: 300; }
-    body > header > div > h1 {
-      display: table;
-      margin: 0 auto;
-      max-width: 90%;
-      text-align: center;
-      z-index: 0; }
-      body > header > div > h1 a {
-        line-height: 1.25;
-        padding: 0 .25em;
-        letter-spacing: .03em;
-        text-transform: uppercase;
-        border: 10px solid #222;
-        color: #222; }
-      body > header > div > h1 small {
-        display: block;
-        font-size: 16px;
-        font-size: 1.6rem;
-        margin-top: 0.8889em; }
+    max-width: 90%;
+    text-align: center;
+    z-index: 0; }
+    body > header > div > h1 a {
+      line-height: 1.25;
+      padding: 0 .25em;
+      letter-spacing: .03em;
+      text-transform: uppercase;
+      border: 10px solid #222;
+      color: #222; }
+    body > header > div > h1 small {
+      display: block;
+      font-size: 16px;
+      font-size: 1.6rem;
+      margin-top: 0.8889em; }
 body > aside {
   background: rgba(0, 0, 0, 0.86);
   padding-top: 60px;
@@ -313,6 +311,15 @@ body > section h1 img {
   margin-bottom: 10px;
   margin-right: 10px;
   display: inline-block; }
+body > section.numero-sniic {
+  background-color: #FAF6F0; }
+  body > section.numero-sniic img {
+    height: 90px;
+    width: auto; }
+  body > section.numero-sniic p {
+    margin-top: 30px; }
+  body > section.numero-sniic button {
+    margin-top: 30px; }
 body > section.busca {
   background: #242424; }
   body > section.busca .input-group {
@@ -712,9 +719,6 @@ a img {
 /*--------------------------------------------------------------
 10.1 Layout
 --------------------------------------------------------------*/
-.site-main {
-  margin: 3.5556em 0; }
-
 .site-info,
 .site-info a {
   color: rgba(255, 255, 255, 0.5); }

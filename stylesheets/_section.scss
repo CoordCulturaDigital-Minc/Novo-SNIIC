@@ -9,6 +9,20 @@
     }
   }
 
+  &.numero-sniic {
+    background-color: #FAF6F0;
+    img {
+      height: $spacing-unit*3;
+      width: auto;
+    }
+    p {
+      margin-top: $spacing-unit;
+    }
+    button {
+      margin-top: $spacing-unit;
+    }
+  }
+
   &.busca {
     background: $color-coal;
 
@@ -52,4 +66,5 @@
 		   font-style: italic;
 		}
   }
+
 }

@@ -5,6 +5,7 @@ $spacing-unit: 30px;
 
 body {
   & > * {
+    background-color: $color-nil;
     border-bottom: 1px solid white;
     padding-top: $spacing-unit;
     padding-bottom: $spacing-unit;

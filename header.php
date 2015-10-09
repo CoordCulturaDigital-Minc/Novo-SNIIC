@@ -64,29 +64,6 @@
 	<h3 class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2 text-center quotes">
 		Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In euismod ultrices.
 	</h3>
-	<div class="col-xs-12 col-sm-4 col-sm-offset-1">
-		<h4>Nossas plataformas</h4>
-		<p>Vivamus fermentum semper porta. Nunc diam velit, adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, id fringilla sem nunc vel mi. Nam dictum, odio nec pretium volutpat, arcu ante placerat erat, non tristique elit urna et turpis. Quisque mi metus, ornare sit amet fermentum et, tincidunt et orci. Fusce eget orci a orci congue vestibulum.</p>
-	</div>
-	<aside class="col-xs-12 col-sm-5 col-sm-offset-1 plataformas">
-		<ul>
-			<li><a class="brand-heading" href="/">
-				<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.indicadores.svg" class="img-responsive"/>
-				<span>Indicadores</span>.cultura.gov.br</a></li>
-			<li><a class="brand-heading" href="/">
-				<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.dados.svg" class="img-responsive"/>
-				<span>Dados</span>.cultura.gov.br</a></li>
-			<li><a class="brand-heading" href="/">
-				<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.mapas.svg" class="img-responsive"/>
-				<span>Mapas</span>.cultura.gov.br</a></li>
-			<li><a class="brand-heading" href="/">
-				<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.publicacoes.svg" class="img-responsive"/>
-				<span>Publicações</span>.cultura.gov.br</a></li>
-			<li><a class="brand-heading" href="/">
-				<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.vocabulario.svg" class="img-responsive"/>
-				<span>Vocabulário</span>.cultura.gov.br</a></li>
-		</ul>
-	</aside>
 	<h1 class="hidden"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 	<small><?php bloginfo( 'description' ); ?></small></h1>
 </div></header>
