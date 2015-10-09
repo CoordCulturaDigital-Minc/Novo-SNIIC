@@ -241,7 +241,7 @@ body > aside {
       margin-bottom: 0px;
       padding: 15px;
       box-shadow: 5px 5px 0px black;
-      margin-top: 30px; }
+      margin-top: 0; }
       body > aside > .wrapper > div > aside.velho-sniic img {
         width: 190px;
         height: 110px;
@@ -557,7 +557,8 @@ form.search-form {
     box-shadow: none;
     position: absolute;
     right: 0;
-    top: 0; }
+    top: 0;
+    padding-right: 10px; }
     form.search-form button span {
       color: #7E7E7E; }
   form.search-form input[type="search"] {
@@ -574,7 +575,8 @@ form.search-form {
       border-bottom: 2px solid #ECF3F4; }
   form.search-form input::-webkit-input-placeholder {
     font-style: italic;
-    font-weight: 500; }
+    font-weight: 300;
+    color: #7E7E7E; }
 
 /*--------------------------------------------------------------
 5.1 Links

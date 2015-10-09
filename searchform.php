@@ -5,7 +5,7 @@
 			echo get_search_query();
 		?>" name="s" title="Search for:">
 	</label>
-	<button type="submit" class="btn btn-default search-submit" value="Search">
+	<button type="submit" class="search-submit" value="Search">
 			<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
 	</button>
 </form>

@@ -71,6 +71,7 @@ form.search-form {
 		position: absolute;
 		right: 0;
 		top: 0;
+		padding-right: $spacing-unit/3;
 		span {
 			color: $color-gray;
 		}
@@ -91,6 +92,7 @@ form.search-form {
 	}
 	input::-webkit-input-placeholder {
 		 font-style: italic;
-		 font-weight: 500;
+		 font-weight: 300;
+		 color: $color-gray;
 	}
 }
