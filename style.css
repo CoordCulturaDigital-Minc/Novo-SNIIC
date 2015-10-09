@@ -17,8 +17,19 @@ body > * {
   padding-bottom: 30px; }
 body a:hover {
   text-decoration: none; }
+body a.brand-heading, body li.brand-heading, body h1.brand-heading, body h2.brand-heading, body h3.brand-heading, body h4.brand-heading, body h5.brand-heading, body h6.brand-heading {
+  color: #7E7E7E;
+  font-weight: 400; }
+  body a.brand-heading span, body li.brand-heading span, body h1.brand-heading span, body h2.brand-heading span, body h3.brand-heading span, body h4.brand-heading span, body h5.brand-heading span, body h6.brand-heading span {
+    color: #242424;
+    font-weight: 700; }
 body > nav {
-  background: #ECF3F4; }
+  background: #ECF3F4;
+  position: relative; }
+  body > nav > .beta-marker {
+    position: absolute;
+    top: 0;
+    left: 0; }
   body > nav > .wrapper {
     min-height: 4.2em; }
     body > nav > .wrapper #logo {
@@ -134,6 +145,10 @@ body > nav {
   body > nav {
     padding-top: 15px;
     padding-bottom: 15px; }
+    body > nav > .beta-marker {
+      width: 60px;
+      height: 60px;
+      z-index: 999; }
     body > nav > .wrapper {
       position: relative; }
       body > nav > .wrapper #logo {
@@ -278,11 +293,7 @@ body .plataformas ul {
       margin-right: 5px;
       display: inline-block; }
     body .plataformas ul li a {
-      font-size: 20px;
-      color: #7E7E7E;
-      font-weight: 400; }
-      body .plataformas ul li a span {
-        font-weight: 700; }
+      font-size: 20px; }
     body .plataformas ul li:hover {
       border-color: #69A0A8;
       background-color: white; }
@@ -296,6 +307,12 @@ body > footer {
   padding: 1.7778em 0;
   text-align: center;
   border: none; }
+body > section h1 img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: inline-block; }
 
 * {
   font-family: "Lato", Helvetica, sans-serif;

@@ -1,0 +1,11 @@
+& > section {
+  h1 {
+    img {
+      width: $spacing-unit * 2;
+      height: $spacing-unit * 2;
+      margin-bottom: $spacing-unit/3;
+      margin-right: $spacing-unit/3;
+      display: inline-block;
+    }
+  }
+}

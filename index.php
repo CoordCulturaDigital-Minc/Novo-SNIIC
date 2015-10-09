@@ -4,6 +4,34 @@
  */
 get_header(); ?>
 
+<section class="container-fluid numero-sniic"><div class="wrapper center-block clearfix row">
+	<img class="col-sm-2 col-md-2 center-block" style="width:180px;height:180px;">
+	<h4 class="col-xs-12 col-sm-4 col-md-3">Procurando o número Sniic?</h4>
+	<button class="col-xs-12 col-sm-4 btn btn-default" type="button">Cadastro SNIIC</button>
+</div></section>
+
+<section class="container-fluid busca"><div class="wrapper center-block clearfix row">
+
+	<aside class="busca">
+		<h4>Busca</h4>
+		<div class="input-group">
+			<input type="text" class="form-control" placeholder="Search for...">
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button">
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+				</button>
+			</span>
+		</div>
+	</aside/>
+
+</div></section>
+
+<section class="container-fluid mapas"><div class="wrapper center-block clearfix row">
+	<h1 class="brand-heading">
+		<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.mapas.svg"/>
+		<span>Mapas</span>.cultura.gov.br</h1>
+</div></section>
+
 <main id="main" class="site-main" role="main"><div class="wrapper center-block">
 
 <?php if ( have_posts() ) : ?>

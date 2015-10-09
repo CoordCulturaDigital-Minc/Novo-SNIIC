@@ -13,6 +13,17 @@ body {
     text-decoration: none;
   }
 
+  a, li, h1, h2, h3, h4, h5, h6 {
+    &.brand-heading {
+      color: $color-gray;
+      font-weight: 400;
+      span {
+        color: $color-coal;
+        font-weight: 700;
+      }
+    }
+  }
+
   @import 'navigation';
   @import 'header';
   @import 'aside';
@@ -34,11 +45,6 @@ body {
       }
       a {
         font-size: 20px;
-        color: $color-gray;
-        font-weight: 400;
-        span {
-          font-weight: 700;
-        }
       }
       &:hover {
         border-color: $color-teal;
@@ -59,6 +65,8 @@ body {
   	text-align: center;
   	border: none;
   }
+
+  @import "section";
 }
 
 @import "typography";
