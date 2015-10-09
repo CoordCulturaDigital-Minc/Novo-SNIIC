@@ -30,11 +30,10 @@ get_header(); ?>
 	</figure>
 </div></section>
 
-<section class="container-fluid em-breve"><div class="wrapper center-block clearfix row">
-<h1 class="col-xs-12">Em contrução</h1>
-
-<div class="col-xs-12 col-sm-4 col-sm-offset-1">
-	<p>Vivamus fermentum semper porta. Nunc diam velit, adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, id fringilla sem nunc vel mi. Nam dictum, odio nec pretium volutpat, arcu ante placerat erat, non tristique elit urna et turpis. Quisque mi metus, ornare sit amet fermentum et, tincidunt et orci. Fusce eget orci a orci congue vestibulum.</p>
+<section class="container-fluid breve"><div class="wrapper center-block clearfix row">
+<div class="col-xs-12 col-sm-5">
+	<h1>Em contrução</h1>
+	<p class="col-sm-offset-1">Vivamus fermentum semper porta. Nunc diam velit, adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, id fringilla sem nunc vel mi. Nam dictum, odio nec pretium volutpat, arcu ante placerat erat, non tristique elit urna et turpis. Quisque mi metus, ornare sit amet fermentum et, tincidunt et orci. Fusce eget orci a orci congue vestibulum.</p>
 </div>
 <aside class="col-xs-12 col-sm-5 col-sm-offset-1 plataformas">
 	<ul>

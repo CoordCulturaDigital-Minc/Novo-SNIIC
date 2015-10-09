@@ -29,5 +29,10 @@
       border: none;
     }
   }
+  &.breve {
+    aside.plataformas {
+      margin-top: $spacing-unit;
+    }
+  }
 
 }

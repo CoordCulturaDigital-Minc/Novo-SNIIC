@@ -304,6 +304,8 @@ body > section.busca {
     font-size: 24px; }
   body > section.busca input[type="search"] {
     border: none; }
+body > section.breve aside.plataformas {
+  margin-top: 30px; }
 
 * {
   font-family: "Lato", Helvetica, sans-serif;
