@@ -2,10 +2,6 @@
 	background: rgba(0, 0, 0, 0.86);
 	border: none;
 	*, a:hover { color: $color-nil; }
-	p, h4 {
-		font-family: sans-serif !important;
-		margin-bottom: 0.5em;
-	}
 	&, a {
 		color: $color-nil;
 	}
@@ -28,9 +24,13 @@
 			ul {
 				list-style: none;
 				margin-left: 0px;
+				li {
+					font-size: 16px;
+					margin-bottom: $spacing-unit/2;
+				}
 				i {
 					font-size: 20px;
-					margin-right: 5px;
+					margin-right: $spacing-unit/3;
 				}
 			}
 		}

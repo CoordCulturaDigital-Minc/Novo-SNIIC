@@ -204,9 +204,6 @@ body > aside {
   border: none; }
   body > aside *, body > aside a:hover {
     color: #ECF3F4; }
-  body > aside p, body > aside h4 {
-    font-family: sans-serif !important;
-    margin-bottom: 0.5em; }
   body > aside, body > aside a {
     color: #ECF3F4; }
   body > aside > .wrapper > div > aside {
@@ -222,9 +219,12 @@ body > aside {
     body > aside > .wrapper > div > aside.redes-sociais ul {
       list-style: none;
       margin-left: 0px; }
+      body > aside > .wrapper > div > aside.redes-sociais ul li {
+        font-size: 16px;
+        margin-bottom: 15px; }
       body > aside > .wrapper > div > aside.redes-sociais ul i {
         font-size: 20px;
-        margin-right: 5px; }
+        margin-right: 10px; }
     body > aside > .wrapper > div > aside.plataformas ul li {
       border-color: #242424; }
       body > aside > .wrapper > div > aside.plataformas ul li i {
@@ -423,10 +423,6 @@ html {
 *, *:before, *:after {
   /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
   box-sizing: inherit; }
-
-body {
-  background: #fff;
-  /* Fallback for when there is no custom background color defined. */ }
 
 blockquote, q {
   quotes: "" ""; }

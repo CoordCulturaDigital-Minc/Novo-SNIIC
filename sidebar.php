@@ -9,11 +9,13 @@
 <aside class="container-fluid"><div class="wrapper center-block clearfix">
 	<div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1">
 
+		<!-- TODO: Convert into custom Wordpress widget for backend editing -->
 		<aside class="busca">
 			<h4>Busca</h4>
 			<?php echo get_search_form(); ?>
 		</aside/>
 
+		<!-- TODO: Convert into custom Wordpress widget for backend editing, use Tinyletter -->
 		<aside class="newsletter hidden">
 			<h4><em>Newsletter</em></h4>
 			<div class="input-group col-xs-12">
@@ -25,15 +27,18 @@
 				</span>
 			</div>
 		</aside>
+
+		<!-- TODO: Add more social addresses and mangled email -->
+		<!-- TODO: Convert into custom Wordpress widget for backend editing -->
 		<aside class="redes-sociais">
 			<h4>Redes Sociais</h4>
 			<ul>
-				<li><a href="https://github.com/"><i class="fa fa-github-alt"></i>/sniic</a></li>
+				<li class="hidden"><a href="https://github.com/"><i class="fa fa-github-alt"></i>/sniic</a></li>
 				<li><a href="https://youtube.com/"><i class="fa fa-youtube-play"></i>/canaldoSNIIC</a></li>
-				<li><a href="https://facebook.com/"><i class="fa fa-facebook-official"></i>/SNIIC</a></li>
-				<li><a href="https://instagram.com/"><i class="fa fa-instagram"></i>/sniic_br</a></li>
-				<li><a href="https://twitter.com/"><i class="fa fa-twitter"></i>/sniic_br</a></li>
-				<li><a href="https://twitter.com/"><i class="fa fa-envelope"></i>mail@cultura.gov.br</a></li>
+				<li><a href="https://facebook.com/sniic"><i class="fa fa-facebook-official"></i>/SNIIC</a></li>
+				<li class="hidden"><a href="https://instagram.com/"><i class="fa fa-instagram"></i>/sniic_br</a></li>
+				<li><a href="https://twitter.com/sniic_br"><i class="fa fa-twitter"></i>/sniic_br</a></li>
+				<li class="hidden"><a href="https://twitter.com/"><i class="fa fa-envelope"></i>mail@cultura.gov.br</a></li>
 			</ul>
 		</aside>
 	</div>
