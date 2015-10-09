@@ -300,11 +300,10 @@ body > section.velho-sniic button {
   margin-top: 30px; }
 body > section.busca {
   background: #242424; }
-  body > section.busca .input-group .input-group-btn button.btn.btn-default {
+  body > section.busca button, body > section.busca input[type="search"] {
     font-size: 24px; }
-  body > section.busca .input-group input[type="text"].form-control {
-    border: none;
-    font-size: 24px; }
+  body > section.busca input[type="search"] {
+    border: none; }
 
 * {
   font-family: "Lato", Helvetica, sans-serif;
@@ -541,9 +540,11 @@ textarea {
   padding-left: 7px;
   width: 100%; }
 
-body .input-group, body section.busca .input-group {
+form.search-form {
   position: relative; }
-  body .input-group .input-group-btn button.btn.btn-default, body section.busca .input-group .input-group-btn button.btn.btn-default {
+  form.search-form label {
+    width: 100%; }
+  form.search-form button {
     background-image: none;
     background-color: transparent;
     border-radius: 0 !important;
@@ -555,21 +556,23 @@ body .input-group, body section.busca .input-group {
     position: absolute;
     right: 0;
     top: 0; }
-    body .input-group .input-group-btn button.btn.btn-default span, body section.busca .input-group .input-group-btn button.btn.btn-default span {
+    form.search-form button span {
       color: #7E7E7E; }
-  body .input-group input[type="text"].form-control, body section.busca .input-group input[type="text"].form-control {
+  form.search-form input[type="search"] {
+    padding-right: 30px;
     border: none;
-    border-bottom: 2px solid #7E7E7E;
     background: none;
+    border-bottom: 2px solid #7E7E7E !important;
     border-radius: 0;
-    padding-left: 10px; }
-    body .input-group input[type="text"].form-control:focus, body section.busca .input-group input[type="text"].form-control:focus {
+    padding-left: 10px;
+    color: #ECF3F4; }
+    form.search-form input[type="search"]:focus {
       box-shadow: none;
       border: none;
-      border-bottom: 2px solid #ECF3F4;
-      color: #ECF3F4; }
-  body .input-group input::-webkit-input-placeholder, body section.busca .input-group input::-webkit-input-placeholder {
-    font-style: italic; }
+      border-bottom: 2px solid #ECF3F4; }
+  form.search-form input::-webkit-input-placeholder {
+    font-style: italic;
+    font-weight: 500; }
 
 /*--------------------------------------------------------------
 5.1 Links

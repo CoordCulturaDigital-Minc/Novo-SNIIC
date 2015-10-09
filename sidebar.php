@@ -6,20 +6,15 @@
  */
 ?>
 
-<aside><div class="wrapper center-block clearfix">
+<aside class="container-fluid"><div class="wrapper center-block clearfix">
 	<div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1">
+
 		<aside class="busca">
 			<h4>Busca</h4>
-			<div class="input-group col-xs-12">
-				<input type="text" class="form-control" placeholder="Search for...">
-				<span class="input-group-btn">
-					<button class="btn btn-default" type="button">
-							<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-					</button>
-				</span>
-			</div>
+			<?php echo get_search_form(); ?>
 		</aside/>
-		<aside class="newsletter">
+
+		<aside class="newsletter hidden">
 			<h4><em>Newsletter</em></h4>
 			<div class="input-group col-xs-12">
 				<input type="text" class="form-control" placeholder="Search for...">

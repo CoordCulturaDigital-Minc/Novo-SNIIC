@@ -7,13 +7,19 @@
 
 get_header(); ?>
 
+<section class="container-fluid busca"><div class="wrapper center-block clearfix row">
+	<div class="input-group col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+    <?php echo get_search_form(); ?>
+	</div>
+</div></section>
+
 <main id="main" class="site-main" role="main"><div class="wrapper center-block">
 
 <?php if ( have_posts() ) : ?>
 
-	<header class="page-header">
+	<header class="page-header hidden">
 		<h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'argent' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
-	</header><!-- .page-header -->
+	</header>
 
 	<?php /* Start the Loop */ ?>
 	<?php while ( have_posts() ) : the_post(); ?>

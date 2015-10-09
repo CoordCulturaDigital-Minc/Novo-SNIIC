@@ -22,16 +22,12 @@
   }
   &.busca {
     background: $color-coal;
-    .input-group {
-      .input-group-btn  button.btn.btn-default {
-        font-size: 24px;
-      }
-      input[type="text"].form-control {
-        border: none;
-        font-size: 24px;
-      }
+    button, input[type="search"] {
+      font-size: 24px;
     }
-
+    input[type="search"] {
+      border: none;
+    }
   }
 
 }

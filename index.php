@@ -14,12 +14,7 @@ get_header(); ?>
 
 <section class="container-fluid busca"><div class="wrapper center-block clearfix row">
 	<div class="input-group col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-		<input type="text" class="form-control" placeholder="Maecenas convallis ullamcorper ultricies?">
-		<span class="input-group-btn">
-			<button class="btn btn-default" type="button">
-					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-			</button>
-		</span>
+    <?php echo get_search_form(); ?>
 	</div>
 </div></section>
 
