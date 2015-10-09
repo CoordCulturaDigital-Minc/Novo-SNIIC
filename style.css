@@ -201,8 +201,6 @@ body > header > div {
       margin-top: 0.8889em; }
 body > aside {
   background: rgba(0, 0, 0, 0.86);
-  padding-top: 60px;
-  padding-bottom: 60px;
   border: none; }
   body > aside *, body > aside a:hover {
     color: #ECF3F4; }
@@ -221,27 +219,6 @@ body > aside {
       list-style: none;
       margin-left: 0px;
       padding-left: 0px; }
-    body > aside > .wrapper > div > aside input[type="text"].form-control {
-      background-color: #4b4b4b;
-      border: none;
-      border-radius: 0;
-      padding-left: 10px; }
-      body > aside > .wrapper > div > aside input[type="text"].form-control:focus {
-        box-shadow: none;
-        border: none;
-        background-color: #ECF3F4;
-        color: #242424; }
-    body > aside > .wrapper > div > aside input::-webkit-input-placeholder {
-      font-style: italic; }
-    body > aside > .wrapper > div > aside .input-group-btn button.btn.btn-default {
-      background-image: none;
-      border-radius: 0 !important;
-      text-shadow: none;
-      border: none !important;
-      background-color: #7E7E7E;
-      margin-left: 0 !important;
-      box-shadow: none;
-      color: #ECF3F4; }
     body > aside > .wrapper > div > aside.redes-sociais ul {
       list-style: none;
       margin-left: 0px; }
@@ -260,22 +237,28 @@ body > aside {
         body > aside > .wrapper > div > aside.plataformas ul li:hover a {
           color: #ECF3F4; }
     body > aside > .wrapper > div > aside.velho-sniic {
-      background-color: #ECF3F4;
-      color: #242424;
       margin: -15px;
       margin-bottom: 0px;
       padding: 15px;
-      box-shadow: 5px 5px 0px black; }
+      box-shadow: 5px 5px 0px black;
+      margin-top: 30px; }
       body > aside > .wrapper > div > aside.velho-sniic img {
         width: 190px;
         height: 110px;
-        background-color: #476f9f;
-        margin-top: 40px;
-        margin-bottom: 40px; }
-      body > aside > .wrapper > div > aside.velho-sniic p {
-        font-size: 16px;
-        font-variant: medium;
-        line-height: normal; }
+        margin-top: 30px;
+        margin-bottom: 30px; }
+      body > aside > .wrapper > div > aside.velho-sniic button {
+        margin-top: 30px; }
+body aside.velho-sniic {
+  background-size: 170%;
+  background-position: center right; }
+body section.velho-sniic {
+  background-position: center center;
+  background-size: 50%; }
+body .velho-sniic {
+  background-color: #FAF6F0; }
+  body .velho-sniic p {
+    color: black; }
 body .plataformas ul {
   list-style: none;
   margin: 0;
@@ -299,60 +282,29 @@ body .plataformas ul {
         color: #242424; }
 body > footer {
   background: black;
-  color: #ECF3F4;
-  font-size: 14px;
-  font-size: 1.4rem;
-  padding: 1.7778em 0;
-  text-align: center;
   border: none; }
+  body > footer p {
+    color: #7E7E7E; }
 body > section h1 img {
   width: 60px;
   height: 60px;
   margin-bottom: 10px;
   margin-right: 10px;
   display: inline-block; }
-body > section.numero-sniic {
-  background-color: #FAF6F0; }
-  body > section.numero-sniic img {
-    height: 90px;
-    width: auto; }
-  body > section.numero-sniic p {
-    margin-top: 30px; }
-  body > section.numero-sniic button {
-    margin-top: 30px; }
+body > section.velho-sniic img {
+  height: 90px;
+  width: auto; }
+body > section.velho-sniic p {
+  margin-top: 30px; }
+body > section.velho-sniic button {
+  margin-top: 30px; }
 body > section.busca {
   background: #242424; }
-  body > section.busca .input-group {
-    position: relative; }
-    body > section.busca .input-group .input-group-btn button.btn.btn-default {
-      background-image: none;
-      background-color: transparent;
-      border-radius: 0 !important;
-      text-shadow: none;
-      border: none !important;
-      margin-left: 0 !important;
-      margin-top: -5px;
-      box-shadow: none;
-      position: absolute;
-      right: 0;
-      top: 0;
-      font-size: 24px; }
-      body > section.busca .input-group .input-group-btn button.btn.btn-default span {
-        color: #7E7E7E; }
-  body > section.busca input[type="text"].form-control {
+  body > section.busca .input-group .input-group-btn button.btn.btn-default {
+    font-size: 24px; }
+  body > section.busca .input-group input[type="text"].form-control {
     border: none;
-    font-size: 24px;
-    border-bottom: 2px solid #7E7E7E;
-    background: none;
-    border-radius: 0;
-    padding-left: 10px; }
-    body > section.busca input[type="text"].form-control:focus {
-      box-shadow: none;
-      border: none;
-      border-bottom: 2px solid #ECF3F4;
-      color: #ECF3F4; }
-  body > section.busca input::-webkit-input-placeholder {
-    font-style: italic; }
+    font-size: 24px; }
 
 * {
   font-family: "Lato", Helvetica, sans-serif;
@@ -589,6 +541,36 @@ textarea {
   padding-left: 7px;
   width: 100%; }
 
+body .input-group, body section.busca .input-group {
+  position: relative; }
+  body .input-group .input-group-btn button.btn.btn-default, body section.busca .input-group .input-group-btn button.btn.btn-default {
+    background-image: none;
+    background-color: transparent;
+    border-radius: 0 !important;
+    text-shadow: none;
+    border: none !important;
+    margin-left: 0 !important;
+    margin-top: -5px;
+    box-shadow: none;
+    position: absolute;
+    right: 0;
+    top: 0; }
+    body .input-group .input-group-btn button.btn.btn-default span, body section.busca .input-group .input-group-btn button.btn.btn-default span {
+      color: #7E7E7E; }
+  body .input-group input[type="text"].form-control, body section.busca .input-group input[type="text"].form-control {
+    border: none;
+    border-bottom: 2px solid #7E7E7E;
+    background: none;
+    border-radius: 0;
+    padding-left: 10px; }
+    body .input-group input[type="text"].form-control:focus, body section.busca .input-group input[type="text"].form-control:focus {
+      box-shadow: none;
+      border: none;
+      border-bottom: 2px solid #ECF3F4;
+      color: #ECF3F4; }
+  body .input-group input::-webkit-input-placeholder, body section.busca .input-group input::-webkit-input-placeholder {
+    font-style: italic; }
+
 /*--------------------------------------------------------------
 5.1 Links
 --------------------------------------------------------------*/
@@ -627,7 +609,6 @@ a img {
   color: #999;
   font-size: 16px;
   font-size: 1.6rem;
-  margin: 4.5714em auto;
   text-align: center;
   overflow: hidden; }
 
@@ -1113,20 +1094,6 @@ figure {
   max-width: 1000px; }
 
 @media screen and (max-width: 767px) {
-  .comments-area,
-  .site-main .post-navigation,
-  .blog .hentry,
-  .home .page-content,
-  .search .hentry,
-  .single-post .hentry,
-  .single-jetpack-portfolio .entry-content,
-  .page:not(.home) .hentry,
-  .archive:not(.post-type-archive) .hentry,
-  .site-main .error-404,
-  .site-info {
-    margin-right: 2em;
-    margin-left: 2em; }
-
   .single-jetpack-portfolio .entry-footer {
     margin-right: 3em;
     margin-left: 3em; }
@@ -1139,29 +1106,6 @@ figure {
 @media screen and (min-width: 768px) {
   .home .site-branding {
     padding: 7.75em 0; }
-
-  .single-jetpack-portfolio .entry-header,
-  .page-header,
-  .single-jetpack-portfolio .entry-content,
-  .page-content,
-  .page .entry-meta,
-  .single-jetpack-portfolio .entry-meta,
-  .comments-area,
-  .post-navigation,
-  .posts-navigation {
-    margin-right: auto;
-    margin-left: auto;
-    width: 660px; }
-
-  .blog .hentry,
-  .archive:not(.post-type-archive) .hentry,
-  .search .hentry,
-  .single-post .hentry,
-  .single-post .comments-area,
-  .single-post .post-navigation {
-    width: 660px;
-    margin-right: auto;
-    margin-left: auto; }
 
   .single-post .entry-content {
     float: left;

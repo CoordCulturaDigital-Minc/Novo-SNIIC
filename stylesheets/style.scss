@@ -29,6 +29,21 @@ body {
   @import 'header';
   @import 'aside';
 
+  aside.velho-sniic {
+  	background-size: 170%;
+  	background-position: center right;
+  }
+  section.velho-sniic {
+  	background-position: center center;
+  	background-size: 50%;
+  }
+  .velho-sniic {
+    background-color: $color-velho-sniic-nil;
+    p {
+      color: black;
+    }
+  }
+
   .plataformas ul {
     list-style: none;
     margin: 0;
@@ -59,12 +74,10 @@ body {
 
   & > footer {
   	background: black;
-  	color: $color-nil;
-  	font-size: 14px;
-  	font-size: 1.4rem;
-  	padding: 1.7778em 0;
-  	text-align: center;
   	border: none;
+    p {
+      color: $color-gray;
+    }
   }
 
   @import "section";

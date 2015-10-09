@@ -1,7 +1,5 @@
 & > aside {
 	background: rgba(0, 0, 0, 0.86);
-	padding-top: $spacing-unit * 2;
-	padding-bottom: $spacing-unit * 2;
 	border: none;
 	*, a:hover { color: $color-nil; }
 	p, h4 {
@@ -25,33 +23,6 @@
 			list-style: none;
 			margin-left: 0px;
 			padding-left: 0px;
-		}
-		input[type="text"].form-control {
-			background-color: darken($color-gray, 20%);
-			border: none;
-			border-radius: 0;
-			padding-left: 10px;
-			&:focus {
-				box-shadow: none;
-				border: none;
-				background-color: $color-nil;
-				color: $color-coal;
-			}
-		}
-		input::-webkit-input-placeholder {
-		   font-style: italic;
-		}
-		.input-group-btn {
-			button.btn.btn-default {
-				background-image: none;
-				border-radius: 0 !important;
-				text-shadow: none;
-				border: none !important;
-				background-color: $color-gray;
-				margin-left: 0 !important;
-				box-shadow: none;
-				color: $color-nil;
-			}
 		}
 		&.redes-sociais {
 			ul {
@@ -82,26 +53,19 @@
 			}
 		}
 		&.velho-sniic {
-			background-color: $color-nil;
-			color: $color-coal;
 			margin: -15px;
 			margin-bottom: 0px;
 			padding: 15px;
 			box-shadow: 5px 5px 0px black;
+			margin-top: $spacing-unit;
 			img {
 				width: 190px;
 				height: 110px;
-				background-color: #476f9f;
-				margin-top: 40px;
-				margin-bottom: 40px;
+				margin-top: $spacing-unit;
+				margin-bottom: $spacing-unit;
 			}
-			h3 {
-
-			}
-			p {
-				font-size: 16px;
-				font-variant: medium;
-				line-height: normal;
+			button {
+				margin-top: $spacing-unit;
 			}
 		}
 	}

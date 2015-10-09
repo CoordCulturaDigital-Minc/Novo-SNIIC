@@ -53,3 +53,42 @@ textarea {
 	padding-left: 7px;
 	width: 100%;
 }
+body, body section.busca {
+.input-group {
+	position: relative;
+	.input-group-btn {
+		button.btn.btn-default {
+			background-image: none;
+			background-color: transparent;
+			border-radius: 0 !important;
+			text-shadow: none;
+			border: none !important;
+			margin-left: 0 !important;
+			margin-top: -5px;
+			box-shadow: none;
+			position: absolute;
+			right: 0;
+			top: 0;
+			span {
+				color: $color-gray;
+			}
+		}
+	}
+	input[type="text"].form-control {
+		border: none;
+		border-bottom: 2px solid $color-gray;
+		background: none;
+		border-radius: 0;
+		padding-left: 10px;
+		&:focus {
+			box-shadow: none;
+			border: none;
+			border-bottom: 2px solid $color-nil;
+			color: $color-nil;
+		}
+	}
+	input::-webkit-input-placeholder {
+		 font-style: italic;
+	}
+}
+}
