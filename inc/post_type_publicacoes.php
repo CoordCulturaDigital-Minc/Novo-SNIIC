@@ -21,6 +21,8 @@ class Publicacoes
 
         add_action( 'init', array(__CLASS__, 'register_taxonomies') ,10);
         
+        //add_action( 'pre_get_posts', array(__CLASS__, 'add_to_search') ,10);
+        
         add_action( 'admin_init', array(__CLASS__, 'add_metabox') ,10);
         
         
@@ -28,6 +30,15 @@ class Publicacoes
         //add_filter('menu_order', array(self::$post_type, 'change_menu_label'));
         //add_filter('custom_menu_order', array(self::$post_type, 'custom_menu_order'));
         add_action('save_post',array(__CLASS__, 'on_save'));
+    }
+    
+    static function add_to_search($query) {
+    
+        if ($query->is_search()) {
+            
+            $query->post_type = array('post', 'publicacoes');
+        }
+    
     }
     
     static function add_metabox() {
