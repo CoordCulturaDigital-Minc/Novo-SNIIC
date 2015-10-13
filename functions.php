@@ -264,3 +264,10 @@ require get_template_directory() . '/inc/jetpack.php';
 
 //SNIIC
 require get_template_directory() . '/inc/post_type_publicacoes.php';
+
+// remove admin bar
+remove_action('wp_footer','wp_admin_bar_render',1000);
+function remove_admin_bar(){
+   return false;
+}
+add_filter( 'show_admin_bar' , 'remove_admin_bar');
