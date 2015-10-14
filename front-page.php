@@ -52,16 +52,16 @@ get_header(); ?>
 </div>
 <aside class="col-xs-12 col-sm-5 col-sm-offset-1 plataformas">
 	<ul>
-		<li><a class="brand-heading" href="/">
-			<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.indicadores.svg" class="img-responsive"/>
-			<span>Indicadores</span>.cultura.gov.br</a></li>
-		<li><a class="brand-heading" href="/">
-			<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.dados.svg" class="img-responsive"/>
-			<span>Dados</span>.cultura.gov.br</a></li>
-		<li><a class="brand-heading" href="/">
+		<li><a class="brand-heading" href="<?php echo site_url('publicacoes'); ?>">
 			<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.publicacoes.svg" class="img-responsive"/>
 			<span>Publicações</span>.cultura.gov.br</a></li>
-		<li><a class="brand-heading" href="/">
+		<li><a class="brand-heading" href="<?php echo site_url('indicadores'); ?>">
+			<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.indicadores.svg" class="img-responsive"/>
+			<span>Indicadores</span>.cultura.gov.br</a></li>
+		<li><a class="brand-heading" href="<?php echo site_url('dados'); ?>">
+			<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.dados.svg" class="img-responsive"/>
+			<span>Dados</span>.cultura.gov.br</a></li>
+		<li><a class="brand-heading" href="<?php echo site_url('vocabulario'); ?>">
 			<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.vocabulario.svg" class="img-responsive"/>
 			<span>Vocabulário</span>.cultura.gov.br</a></li>
 	</ul>
