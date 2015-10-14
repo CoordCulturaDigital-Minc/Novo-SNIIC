@@ -37,8 +37,8 @@ get_header(); ?>
 	<h1 class="brand-heading col-xs-12">
 		<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.mapas.svg"/>
 		<span>Mapas</span>.cultura.gov.br</h1>
-	<p class="col-xs-12 col-sm-6 col-md-4">Substituirá o antigo cadastro do SNIIC, porém com maior facilidade de uso, mais possibilidades de filtros de busca e integrado a outras bases de dados do MinC, como a Rede Cultura Viva, o Sistema Nacional de Bibliotecas Públicas e o Cadastro Nacional de Museus (este último em breve).. </p>
-	<p class="col-xs-12 col-sm-6 col-md-4">Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+	<p class="col-xs-12 col-sm-6 col-md-4">O Mapas Culturais substituirá o antigo cadastro do Sistema Nacional de Informações e Indicadores Culturais (SNIIC), porém com maior facilidade de uso, mais possibilidades de filtros de busca e integrado a outras bases de dados do MinC, como a Rede Cultura Viva, o Sistema Nacional de Bibliotecas Públicas e o Cadastro Nacional de Museus (este último em breve). </p>
+	<p class="col-xs-12 col-sm-6 col-md-4">O SNIIC, Sistema Nacional de Informações e Indicadores Culturais, de criação obrigatória por lei, será um banco de dados de bens, serviços, infraestrutura, investimentos, produção, acesso, consumo, agentes, programas, instituições e gestão cultural, e transparência entre outros, e estará disponível para toda a sociedade.</p>
 	<figure class="col-xs-12 col-sm-12 col-md-4">
 		<img src="http://lorempixel.com/400/200/sports/Dummy-Text" class="img-responsive">
 		<figcaption>Navegue pelo Mapa da Cultura</figcaption>
