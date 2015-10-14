@@ -1,1 +1,1 @@
-Arquivo de publicações
+<?php include('search.php'); ?>
