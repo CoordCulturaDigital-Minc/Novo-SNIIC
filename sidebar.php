@@ -17,7 +17,7 @@
 
 		<!-- TODO: Convert into custom Wordpress widget for backend editing, use Tinyletter -->
 		<aside class="newsletter hidden">
-			<h4><em>Newsletter</em></h4>
+			<h4><em>Notícias por e-mail</em></h4>
 			<div class="input-group col-xs-12">
 				<input type="text" class="form-control" placeholder="Search for...">
 				<span class="input-group-btn">
@@ -33,12 +33,11 @@
 		<aside class="redes-sociais">
 			<h4>Redes Sociais</h4>
 			<ul>
-				<li class="hidden"><a href="https://github.com/"><i class="fa fa-github-alt"></i>/sniic</a></li>
-				<li><a href="https://youtube.com/"><i class="fa fa-youtube-play"></i>/canaldoSNIIC</a></li>
-				<li><a href="https://facebook.com/sniic"><i class="fa fa-facebook-official"></i>/SNIIC</a></li>
-				<li class="hidden"><a href="https://instagram.com/"><i class="fa fa-instagram"></i>/sniic_br</a></li>
-				<li><a href="https://twitter.com/sniic_br"><i class="fa fa-twitter"></i>/sniic_br</a></li>
-				<li class="hidden"><a href="https://twitter.com/"><i class="fa fa-envelope"></i>mail@cultura.gov.br</a></li>
+				<li class="hidden"><a href="https://github.com/CoordCulturaDigital-Minc/"><i class="fa fa-github-alt"></i>/sniic</a></li>
+				<li><a href="https://www.youtube.com/user/ministeriodacultura/"><i class="fa fa-youtube-play"></i>/ministeriodacultura</a></li>
+				<li><a href="https://www.facebook.com/MinisterioDaCultura"><i class="fa fa-facebook-official"></i>/MinisterioDaCultura</a></li>
+				<li class="hidden"><a href="https://instagram.com/culturagovbr/"><i class="fa fa-instagram"></i>/culturagovbr</a></li>
+				<li><a href="https://twitter.com/culturagovbr/"><i class="fa fa-twitter"></i>/culturagovbr</a></li>
 			</ul>
 		</aside>
 	</div>
