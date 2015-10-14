@@ -54,17 +54,4 @@
 	</div>
 </div></nav>
 
-<header class="container-fluid"><div class="wrapper center-block clearfix row">
-	<div id="branding_simple" class="visible-xs center-block">
-		<img src="<?php echo get_template_directory_uri() ?>/assets/main.acro.simple.svg" class="img-responsive"/>
-	</div>
-	<div id="branding" class="hidden-xs center-block">
-		<img src="<?php echo get_template_directory_uri() ?>/assets/main.acro.svg" class="img-responsive"/>
-	</div>
 
-	<h3 class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2 text-center quotes">
-		Conheça e explore a nova plataforma do Sistema Nacional de Indicadores e Informações Culturais
-	</h3>
-	<h1 class="hidden"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-	<small><?php bloginfo( 'description' ); ?></small></h1>
-</div></header>
