@@ -46,7 +46,7 @@
 		<aside class="velho-sniic clearfix">
 			<img class="center-block" src="<?php echo get_template_directory_uri() ?>/assets/old-logo.svg"/>
 			<p class="center-block text-center">Está procurando seu cadastro no SNIIC ou precisando do número SNIIC? Ele mudou, saiba mais aqui.</p>
-			<button class="btn btn-default col-xs-12" type="button">Cadastro SNIIC</button>
+			<button class="btn btn-default col-xs-12" type="button">Meu número SNIIC</button>
 		</aside>
 	</div>
 </div></aside>
