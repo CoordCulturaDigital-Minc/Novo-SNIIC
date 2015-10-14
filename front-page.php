@@ -47,7 +47,7 @@ get_header(); ?>
 
 <section class="container-fluid breve"><div class="wrapper center-block clearfix row">
 <div class="col-xs-12 col-sm-5">
-	<h1>Em contrução</h1>
+	<h1>Em construção</h1>
 	<p class="col-sm-offset-1">O novo Sistema Nacional de Informações e Indicadores Culturais irá em breve agregar outras plataformas em breve. As publicações estarão reunidas em um repositório de pesquisas, artigos, estudos, produtos de consultorias e outras informações relevantes. O conteúdo será trabalhado por meio do vocabulário, espaço para publicação de taxonomias e ontologias da cultura. Os dados estarão todos abertos e de forma transparente o que permitirá a construção de painéis de visualização de indicadores. Aguarde!</p>
 </div>
 <aside class="col-xs-12 col-sm-5 col-sm-offset-1 plataformas">
