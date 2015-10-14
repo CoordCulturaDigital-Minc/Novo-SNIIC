@@ -36,7 +36,7 @@
 				<li class="hidden"><a href="https://github.com/CoordCulturaDigital-Minc/"><i class="fa fa-github-alt"></i>/sniic</a></li>
 				<li><a href="https://www.youtube.com/user/ministeriodacultura/"><i class="fa fa-youtube-play"></i>/ministeriodacultura</a></li>
 				<li><a href="https://www.facebook.com/MinisterioDaCultura"><i class="fa fa-facebook-official"></i>/MinisterioDaCultura</a></li>
-				<li class="hidden"><a href="https://instagram.com/culturagovbr/"><i class="fa fa-instagram"></i>/culturagovbr</a></li>
+				<li><a href="https://instagram.com/culturagovbr/"><i class="fa fa-instagram"></i>/culturagovbr</a></li>
 				<li><a href="https://twitter.com/culturagovbr/"><i class="fa fa-twitter"></i>/culturagovbr</a></li>
 			</ul>
 		</aside>
