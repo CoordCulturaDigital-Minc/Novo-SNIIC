@@ -7,7 +7,7 @@ get_header(); ?>
 <section class="container-fluid velho-sniic"><div class="wrapper center-block clearfix row">
 <aside class="clearfix">
 	<img class="center-block col-xs-offset-1 col-sm-1 col-sm-offset-0" src="<?php echo get_template_directory_uri() ?>/assets/old-logo.svg"/>
-	<p class="center-block col-sm-5 text-center">Conheça e explore a nova plataforma do Sistema Nacional de Indicadores e Informações Culturais .</p>
+	<p class="center-block col-sm-5 text-center">Está procurando seu cadastro no SNIIC ou precisando do número SNIIC? Ele mudou, saiba mais aqui .</p>
 	<button class="btn btn-default col-xs-12 col-sm-3 col-sm-offset-1" type="button">Cadastro SNIIC</button>
 </aside>
 </div></section>

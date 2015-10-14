@@ -63,7 +63,7 @@
 	</div>
 
 	<h3 class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2 text-center quotes">
-		Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In euismod ultrices.
+		Conheça e explore a nova plataforma do Sistema Nacional de Indicadores e Informações Culturais
 	</h3>
 	<h1 class="hidden"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 	<small><?php bloginfo( 'description' ); ?></small></h1>
