@@ -135,9 +135,6 @@ body > nav {
         border: 3px solid #ECF3F4; }
         body > nav > .wrapper > div > div > ul > li:hover {
           border-color: #69A0A8; }
-    body > nav > .wrapper div.collapse {
-      display: block;
-      height: auto !important; }
     body > nav > .wrapper > div > div > ul {
       -webkit-margin-start: 0px !important;
       -webkit-margin-end: 0px !important;
