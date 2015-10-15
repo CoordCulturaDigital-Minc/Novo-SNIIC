@@ -17,7 +17,7 @@
 
 		<!-- TODO: Convert into custom Wordpress widget for backend editing, use Tinyletter -->
 		<aside class="newsletter hidden">
-			<h4><em>Notícias por e-mail</em></h4>
+			<h4>Notícias por e-mail</h4>
 			<div class="input-group col-xs-12">
 				<input type="text" class="form-control" placeholder="Search for...">
 				<span class="input-group-btn">
