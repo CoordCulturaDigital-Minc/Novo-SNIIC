@@ -50,11 +50,11 @@ get_header(); ?>
 </div></section>
 
 <section class="container-fluid breve"><div class="wrapper center-block clearfix row">
-<div class="col-xs-12 col-sm-5">
-	<h1>Em construção</h1>
-	<p class="col-sm-offset-1">O novo Sistema Nacional de Informações e Indicadores Culturais irá em breve agregar outras plataformas em breve. As publicações estarão reunidas em um repositório de pesquisas, artigos, estudos, produtos de consultorias e outras informações relevantes. O conteúdo será trabalhado por meio do vocabulário, espaço para publicação de taxonomias e ontologias da cultura. Os dados estarão todos abertos e de forma transparente o que permitirá a construção de painéis de visualização de indicadores. Aguarde!</p>
-</div>
-<aside class="col-xs-12 col-sm-5 col-sm-offset-1 plataformas">
+<h1 class="col-xs-12">Em construção</h1>
+<p class="col-xs-12 col-sm-4">
+	O novo Sistema Nacional de Informações e Indicadores Culturais irá em breve agregar outras plataformas em breve. As publicações estarão reunidas em um repositório de pesquisas, artigos, estudos, produtos de consultorias e outras informações relevantes. O conteúdo será trabalhado por meio do vocabulário, espaço para publicação de taxonomias e ontologias da cultura. Os dados estarão todos abertos e de forma transparente o que permitirá a construção de painéis de visualização de indicadores. Aguarde!
+</p>
+<aside class="col-xs-12 col-sm-6 col-sm-offset-2 plataformas">
 	<ul>
 		<li><a class="brand-heading" href="<?php echo site_url('publicacoes'); ?>">
 			<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.publicacoes.svg" class="img-responsive"/>
