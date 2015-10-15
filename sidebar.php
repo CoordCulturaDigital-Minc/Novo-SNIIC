@@ -7,8 +7,7 @@
 ?>
 
 <aside class="container-fluid"><div class="wrapper center-block clearfix">
-	<div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1">
-
+	<div class="col-xs-12 col-sm-4 col-md-3">
 		<!-- TODO: Convert into custom Wordpress widget for backend editing -->
 		<aside class="busca">
 			<h4>Busca</h4>
@@ -27,7 +26,9 @@
 				</span>
 			</div>
 		</aside>
+	</div>
 
+	<div class="col-xs-12 col-sm-4 col-md-3 col-md-offset-1">
 		<!-- TODO: Add more social addresses and mangled email -->
 		<!-- TODO: Convert into custom Wordpress widget for backend editing -->
 		<aside class="redes-sociais">
@@ -42,11 +43,16 @@
 		</aside>
 	</div>
 
-	<div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-2">
+	<div class="col-xs-12 col-sm-4 col-md-4 col-md-offset-1">
+		<img class="center-block" src="<?php echo get_template_directory_uri() ?>/assets/secretaria-politicas-culturais_dark.png" class="img-responsive"/>
+	</div>
+
+	<div class="col-xs-12 col-sm-6 col-md-4 hidden">
 		<aside class="velho-sniic clearfix">
 			<img class="center-block" src="<?php echo get_template_directory_uri() ?>/assets/old-logo.svg"/>
 			<p class="center-block text-center">Está procurando seu cadastro no SNIIC ou precisando do número SNIIC? Ele mudou, saiba mais aqui.</p>
 			<button class="btn btn-default col-xs-12" type="button">Meu número SNIIC</button>
 		</aside>
 	</div>
+
 </div></aside>
