@@ -23,13 +23,13 @@ get_header(); ?>
 	<aside class="col-xs-12 col-sm-4 col-md-4 ">
 
 		<aside>
-			<button class="visible-xs"
+			<button class="visible-xs center-block"
 							type="button"
 							data-toggle="collapse"
 							data-target="#collapseSearchInfo"
 							aria-expanded="false"
 							aria-controls="collapseSearchInfo">
-				<?php _e( 'Menu', 'argent' ); ?>
+				<a>mais sobre…</a>
 			</button>
 			<div class="collapse collapse-xs" id="collapseSearchInfo"><p>
 				Estamos trabalhando para que você consiga achar tudo o que procura através de uma única busca. Para melhorar nosso entendimento do que as pessoas esperam do SNIIC, estamos coletando e analisando os termos mais buscados.
@@ -37,6 +37,15 @@ get_header(); ?>
 		</aside>
 
 		<aside>
+			<button class="visible-xs center-block"
+							type="button"
+							data-toggle="collapse"
+							data-target="#collapsePopularTerms"
+							aria-expanded="false"
+							aria-controls="collapsePopularTerms">
+				<a>mais sobre…</a>
+			</button>
+			<div class="collapse collapse-xs" id="collapsePopularTerms"><p>
 			<h4>Termos populares</h4>
 			<ul>
 				<li><a>Lorem ipsum</a></li>
@@ -47,6 +56,7 @@ get_header(); ?>
 				<li><a>Nam sagittis nisi dui</a></li>
 				<li><a>Curabitur lobortis nisl a enim congue…</a></li><!-- TODO: Do not forget *ellipsis* -->
 			</ul>
+			</p></div>
 		</aside>
 
 		<aside class="filter">
@@ -111,31 +121,31 @@ get_header(); ?>
 
 		<?php if (get_search_query()): ?>
 			<aside>
-				<h4>Outras plataformas</h4>
+				<h4>Buscar nas plataformas</h4>
 				<ul>
 					<li>
-						<h4 class="brand-heading">
+						<h5 class="brand-heading">
 							<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.mapas.svg"/>
-							<span>Mapas</span>.cultura.gov.br</h4>
+							<span>Mapas</span>.cultura.gov.br</h5>
 						<ul>
 							<li><a href="http://mapas.cultura.gov.br/busca/##(global:(enabled:(agent:!t),filterEntity:agent),agent:(keyword:'<?php echo get_search_query(); ?>'))" target="blank">
-								Buscar por <?php echo get_search_query(); ?> nos agentes
+								<em><?php echo get_search_query(); ?></em> nos agentes
 							</a></li>
 							<li><a href="http://mapas.cultura.gov.br/busca/##(global:(enabled:(space:!t),filterEntity:space),space:(keyword:'<?php echo get_search_query(); ?>'))" target="blank">
-								Buscar por <?php echo get_search_query(); ?> nos espaços
+								<em><?php echo get_search_query(); ?></em> nos espaços
 							</a></li>
 							<li><a href="http://mapas.cultura.gov.br/busca/##(global:(enabled:(event:!t),filterEntity:event),space:(keyword:'<?php echo get_search_query(); ?>'))" target="blank">
-								Buscar por <?php echo get_search_query(); ?> nos eventos
+								<em><?php echo get_search_query(); ?></em> nos eventos
 							</a></li>
 						</ul>
 					</li>
 					<li>
-						<h4 class="brand-heading">
+						<h5 class="brand-heading">
 							<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.dados.svg"/>
-							<span>Dados</span>.cultura.gov.br</h4>
+							<span>Dados</span>.cultura.gov.br</h5>
 							<ul>
 								<li><a href="http://dados.cultura.gov.br/dataset?q=<?php echo get_search_query(); ?>" target="blank">
-									Buscar por <?php echo get_search_query(); ?> nos dados abertos
+									<em><?php echo get_search_query(); ?></em> nos dados abertos
 								</a></li>
 							</ul>
 					</li>

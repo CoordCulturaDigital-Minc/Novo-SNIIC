@@ -2,7 +2,6 @@
 	font-family: "Lato", Helvetica, sans-serif;
 	color: $color-coal;
 }
-body, button, input, select, textarea {}
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 }
@@ -10,35 +9,30 @@ h1 {
 	font-size: 40px;
 	font-size: 4rem;
 	line-height: 1.6;
-	margin-bottom: 0.8em;
 }
 h2 {
 	font-size: 36px;
 	font-size: 3.6rem;
 	line-height: 1;
-	margin-bottom: 1em;
 }
 h3 {
 	font-size: 32px;
 	font-size: 3.2rem;
 	line-height: 1;
-	margin-bottom: 1em;
 }
 h4 {
 	font-size: 24px;
 	font-size: 2.4rem;
 	line-height: 1.3333;
-	margin-bottom: 1.3333em;
 }
 h5, h6 {
 	font-size: 18px;
 	font-size: 1.8rem;
 	line-height: 1.7778;
-	margin-bottom: 1.7778em;
 	text-transform: uppercase;
 }
 p {
-	margin-bottom: 1.7778em;
+	margin-bottom: $spacing-unit/2;
   &:last-child {
   	margin-bottom: 0;
   }

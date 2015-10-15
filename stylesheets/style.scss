@@ -52,6 +52,15 @@ body {
       display: inline-block;
     }
   }
+  h5.brand-heading {
+    img {
+      width: 3*$spacing-unit/4;
+      height: 3*$spacing-unit/4;
+      margin-bottom: $spacing-unit/6;
+      margin-right: $spacing-unit/6;
+      display: inline-block;
+    }
+  }
 
   @media screen and (min-width: 769px) {
     .collapse-xs {
