@@ -26,7 +26,7 @@
 
 <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'argent' ); ?></a>
 
-<?php require 'barra-brasil.php' ?>
+<?php get_template_part( 'brasil/brasil', 'barra' ); ?>
 
 <nav class="container-fluid">
 	<div class="beta-marker">

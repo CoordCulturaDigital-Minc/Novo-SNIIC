@@ -3,4 +3,3 @@
 	#wrapper-barra-brasil .brasil-flag { box-sizing: content-box; }
 </style>
 <div id="barra-brasil"></div>
-<script src="http://barra.brasil.gov.br/barra.js?cor=verde" type="text/javascript"></script>
