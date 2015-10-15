@@ -25,6 +25,24 @@ body a.brand-heading, body li.brand-heading, body h1.brand-heading, body h2.bran
   body a.brand-heading span, body li.brand-heading span, body h1.brand-heading span, body h2.brand-heading span, body h3.brand-heading span, body h4.brand-heading span, body h5.brand-heading span, body h6.brand-heading span {
     color: #242424;
     font-weight: 700; }
+body a.brand-heading img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  display: inline-block; }
+body h1.brand-heading img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: inline-block; }
+body h4.brand-heading img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  display: inline-block; }
 @media screen and (min-width: 769px) {
   body .collapse-xs {
     display: block !important;
@@ -204,19 +222,33 @@ body > header > div {
       font-size: 16px;
       font-size: 1.6rem;
       margin-top: 0.8889em; }
+body aside aside {
+  margin-bottom: 30px; }
+  body aside aside:last-child {
+    margin-bottom: 0 !important; }
+body aside.filter label {
+  display: block; }
+body aside.filter select {
+  display: block;
+  width: 100%;
+  font-size: 30px; }
+body aside ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none; }
+  body aside ul h4 {
+    margin-bottom: 10px; }
+  body aside ul ul {
+    margin-left: 10px;
+    margin-bottom: 30px; }
+    body aside ul ul:last-child {
+      margin-bottom: 0; }
 body > aside {
-  background: rgba(0, 0, 0, 0.86);
   border: none; }
-  body > aside *, body > aside a:hover {
-    color: #ECF3F4; }
-  body > aside, body > aside a {
-    color: #ECF3F4; }
   body > aside > .wrapper > div > aside {
     margin-bottom: 30px; }
-    body > aside > .wrapper > div > aside:hover a {
-      color: #7E7E7E; }
-      body > aside > .wrapper > div > aside:hover a:hover {
-        color: #ECF3F4; }
+    body > aside > .wrapper > div > aside:last-child {
+      margin-bottom: 0; }
     body > aside > .wrapper > div > aside ul {
       list-style: none;
       margin-left: 0px;
@@ -279,12 +311,6 @@ body .plataformas ul {
     padding: 7.5px;
     padding-top: 15px;
     border-bottom: 4px solid #ECF3F4; }
-    body .plataformas ul li img {
-      width: 30px;
-      height: 30px;
-      margin-bottom: 5px;
-      margin-right: 5px;
-      display: inline-block; }
     body .plataformas ul li a {
       font-size: 20px; }
     body .plataformas ul li:hover {
@@ -297,12 +323,6 @@ body > footer {
   border: none; }
   body > footer p {
     color: #7E7E7E; }
-body > section h1 img {
-  width: 60px;
-  height: 60px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  display: inline-block; }
 body > section.velho-sniic img {
   min-width: 150px;
   max-width: 300px; }
@@ -312,12 +332,24 @@ body > section.velho-sniic p {
   font-size: 18px; }
 body > section.velho-sniic button {
   margin-top: 30px; }
-body > section.busca {
+body > section.busca button, body > section.busca input[type="search"] {
+  font-size: 24px; }
+body > section.busca input[type="search"] {
+  border: none; }
+body ul:hover a, body ul:hover li {
+  color: #7E7E7E; }
+  body ul:hover a:hover, body ul:hover li:hover {
+    color: black; }
+body > .dark {
   background: #242424; }
-  body > section.busca button, body > section.busca input[type="search"] {
-    font-size: 24px; }
-  body > section.busca input[type="search"] {
-    border: none; }
+  body > .dark ul:hover a, body > .dark ul:hover li {
+    color: #7E7E7E; }
+    body > .dark ul:hover a:hover, body > .dark ul:hover li:hover {
+      color: #ECF3F4; }
+  body > .dark *, body > .dark a:hover {
+    color: #ECF3F4; }
+  body > .dark, body > .dark a {
+    color: #ECF3F4; }
 
 * {
   font-family: "Lato", Helvetica, sans-serif;
@@ -590,7 +622,6 @@ form.search-form {
 5.1 Links
 --------------------------------------------------------------*/
 a {
-  color: #999;
   text-decoration: none; }
 
 a:hover,

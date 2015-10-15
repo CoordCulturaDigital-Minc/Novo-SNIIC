@@ -6,7 +6,7 @@
  */
 ?>
 
-<aside class="container-fluid"><div class="wrapper center-block clearfix">
+<aside class="container-fluid dark"><div class="wrapper center-block clearfix">
 	<div class="col-xs-12 col-sm-4 col-md-3">
 		<!-- TODO: Convert into custom Wordpress widget for backend editing -->
 		<aside class="busca">

@@ -6,19 +6,10 @@ get_header(); ?>
 
 <?php if (is_search()): ?>
 
-<section class="container-fluid busca"><div class="wrapper center-block clearfix row">
+<section class="container-fluid busca dark"><div class="wrapper center-block clearfix row">
 	<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
     <?php echo get_search_form(); ?>
 	</div>
-</div></section>
-
-<section class="container-fluid busca"><div class="wrapper center-block clearfix row">
-	<p class="col-md-offset-2 md-visible col-md-4 ">
-		Estamos trabalhando para que você consiga achar tudo o que procura através de uma única busca.
-	</p>
-	<p class="md-visible col-md-4 ">
-		Para melhorar nosso entendimento do que as pessoas esperam do SNIIC, estamos coletando e analisando os termos mais buscados. Caso tenha curiosidade, os três termos mais buscados até agora 	foram:
-	</p>
 </div></section>
 
 <?php endif; ?>
@@ -29,49 +20,74 @@ get_header(); ?>
 		<h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'argent' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 	</header>
 
-	<div class="col-xs-12 col-sm-4 col-md-4 ">
+	<aside class="col-xs-12 col-sm-4 col-md-4 ">
 
-		<h3 class="md-visible">Enquanto isso</h3>
+		<aside>
+			<button class="visible-xs"
+							type="button"
+							data-toggle="collapse"
+							data-target="#collapseSearchInfo"
+							aria-expanded="false"
+							aria-controls="collapseSearchInfo">
+				<?php _e( 'Menu', 'argent' ); ?>
+			</button>
+			<div class="collapse collapse-xs" id="collapseSearchInfo"><p>
+				Estamos trabalhando para que você consiga achar tudo o que procura através de uma única busca. Para melhorar nosso entendimento do que as pessoas esperam do SNIIC, estamos coletando e analisando os termos mais buscados.
+			</p></div>
+		</aside>
 
-		<div class="wrapper center-block clearfix row">
-			<?php echo get_search_form(); ?>
-		</div>
+		<aside>
+			<h4>Termos populares</h4>
+			<ul>
+				<li><a>Lorem ipsum</a></li>
+				<li><a>Donec ut libero sed arcu vehicula</a></li>
+				<li><a>Donec sed odio eros</a></li>
+				<li><a>Curabitur ornare</a></li>
+				<li><a>Fusce vel volutpat</a></li>
+				<li><a>Nam sagittis nisi dui</a></li>
+				<li><a>Curabitur lobortis nisl a enim congue…</a></li><!-- TODO: Do not forget *ellipsis* -->
+			</ul>
+		</aside>
 
-		<h3>Buscar Publicações</h3>
+		<aside class="filter">
+      <label class="title" for="select-area">Área do conhecimento</label>
+			<?php wp_dropdown_categories(array(
 
-		<?php wp_dropdown_categories(array(
+					'orderby'            => 'NAME',
+					'show_option_none'	 => 'Selecione uma área',
+					'order'              => 'ASC',
+					'hide_empty'         => false,
+					'selected'           => 0, //TODO preencher
+					'name'               => 'area',
+					'id'                 => 'select-area',
+					'class'              => 'postform',
+					'depth'              => 0,
+					'tab_index'          => 0,
+					'taxonomy'           => 'area',
+					'hide_if_empty'      => false,
+					'value_field'	     => 'slug',
+				)); ?>
+		</aside>
 
-				'orderby'            => 'NAME',
-				'show_option_none'	 => 'Selecione uma área',
-				'order'              => 'ASC',
-				'hide_empty'         => false,
-				'selected'           => 0, //TODO preencher
-				'name'               => 'area',
-				'id'                 => 'select-area',
-				'class'              => 'postform',
-				'depth'              => 0,
-				'tab_index'          => 0,
-				'taxonomy'           => 'area',
-				'hide_if_empty'      => false,
-				'value_field'	     => 'slug',
-			)); ?>
+		<aside class="filter">
+      <label class="title" for="select-tipo">Tipo de publicação</label>
+			<?php wp_dropdown_categories(array(
 
-		<?php wp_dropdown_categories(array(
-
-				'orderby'            => 'NAME',
-				'show_option_none'	 => 'Selecione um tipo',
-				'order'              => 'ASC',
-				'hide_empty'         => false,
-				'selected'           => 0, //TODO preencher
-				'name'               => 'tipo',
-				'id'                 => 'select-tipo',
-				'class'              => 'postform',
-				'depth'              => 0,
-				'tab_index'          => 0,
-				'taxonomy'           => 'tipo',
-				'hide_if_empty'      => false,
-				'value_field'	     => 'slug',
-			)); ?>
+					'orderby'            => 'NAME',
+					'show_option_none'	 => 'Selecione um tipo',
+					'order'              => 'ASC',
+					'hide_empty'         => false,
+					'selected'           => 0, //TODO preencher
+					'name'               => 'tipo',
+					'id'                 => 'select-tipo',
+					'class'              => 'postform',
+					'depth'              => 0,
+					'tab_index'          => 0,
+					'taxonomy'           => 'tipo',
+					'hide_if_empty'      => false,
+					'value_field'	     => 'slug',
+				)); ?>
+		</aside>
 
 		<script type="text/javascript">
 			<!--
@@ -94,47 +110,51 @@ get_header(); ?>
 		</script>
 
 		<?php if (get_search_query()): ?>
+			<aside>
+				<h4>Outras plataformas</h4>
+				<ul>
+					<li>
+						<h4 class="brand-heading">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.mapas.svg"/>
+							<span>Mapas</span>.cultura.gov.br</h4>
+						<ul>
+							<li><a href="http://mapas.cultura.gov.br/busca/##(global:(enabled:(agent:!t),filterEntity:agent),agent:(keyword:'<?php echo get_search_query(); ?>'))" target="blank">
+								Buscar por <?php echo get_search_query(); ?> nos agentes
+							</a></li>
+							<li><a href="http://mapas.cultura.gov.br/busca/##(global:(enabled:(space:!t),filterEntity:space),space:(keyword:'<?php echo get_search_query(); ?>'))" target="blank">
+								Buscar por <?php echo get_search_query(); ?> nos espaços
+							</a></li>
+							<li><a href="http://mapas.cultura.gov.br/busca/##(global:(enabled:(event:!t),filterEntity:event),space:(keyword:'<?php echo get_search_query(); ?>'))" target="blank">
+								Buscar por <?php echo get_search_query(); ?> nos eventos
+							</a></li>
+						</ul>
+					</li>
+					<li>
+						<h4 class="brand-heading">
+							<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.dados.svg"/>
+							<span>Dados</span>.cultura.gov.br</h4>
+							<ul>
+								<li><a href="http://dados.cultura.gov.br/dataset?q=<?php echo get_search_query(); ?>" target="blank">
+									Buscar por <?php echo get_search_query(); ?> nos dados abertos
+								</a></li>
+							</ul>
+					</li>
+				</ul>
+			</aside>
 
 			<p>
-				<a href="http://mapas.cultura.gov.br/busca/##(global:(enabled:(agent:!t),filterEntity:agent),agent:(keyword:'<?php echo get_search_query(); ?>'))" target="blank">
-					Buscar por <?php echo get_search_query(); ?> nos Agentes em Mapas.cultura
-				</a>
-			</p>
-			<p>
-				<a href="http://mapas.cultura.gov.br/busca/##(global:(enabled:(space:!t),filterEntity:space),space:(keyword:'<?php echo get_search_query(); ?>'))" target="blank">
-					Buscar por <?php echo get_search_query(); ?> nos Espaços em Mapas.cultura
-				</a>
-			</p>
-			<p>
-				<a href="http://mapas.cultura.gov.br/busca/##(global:(enabled:(event:!t),filterEntity:event),space:(keyword:'<?php echo get_search_query(); ?>'))" target="blank">
-					Buscar por <?php echo get_search_query(); ?> nos Eventos em Mapas.cultura
-				</a>
-			</p>
-			<p>
-				<a href="http://dados.cultura.gov.br/dataset?q=<?php echo get_search_query(); ?>" target="blank">
-					Buscar por <?php echo get_search_query(); ?> nos dados abertos em Dados.cultura
-				</a>
-			</p>
 
+			</p>
 		<?php endif; ?>
 
-	</div>
+	</aside>
 
-	<div class="col-xs-12 col-sm-8 col-md-8">
+	<section class="col-xs-12 col-sm-8 col-md-8">
 
 	<?php if ( have_posts() ) : ?>
-
-	<?php /* Start the Loop */ ?>
 	<?php while ( have_posts() ) : the_post(); ?>
 
-		<?php
-		/**
-		 * Run the loop for the search to output the results.
-		 * If you want to overload this in a child theme then include a file
-		 * called content-search.php and that will be used instead.
-		 */
-		get_template_part( 'content/content', get_post_format() );
-		?>
+	<?php get_template_part( 'content/content', get_post_format() ); ?>
 
 	<?php endwhile; ?>
 
@@ -142,15 +162,11 @@ get_header(); ?>
 
 	<?php else : ?>
 
-		Nenhum conteúdo encontrado
+		<h1>Nenhum conteúdo encontrado</h1>
 
 	<?php endif; ?>
-
-	</div>
-
-
-
-</div></main>
+	</section>
+</main>
 
 
 <?php get_sidebar(); ?>

@@ -1,13 +1,4 @@
 & > section {
-  h1 {
-    img {
-      width: $spacing-unit * 2;
-      height: $spacing-unit * 2;
-      margin-bottom: $spacing-unit/3;
-      margin-right: $spacing-unit/3;
-      display: inline-block;
-    }
-  }
   &.velho-sniic {
     img {
       min-width: $spacing-unit*5;
@@ -23,7 +14,6 @@
     }
   }
   &.busca {
-    background: $color-coal;
     button, input[type="search"] {
       font-size: 24px;
     }
@@ -31,4 +21,19 @@
       border: none;
     }
   }
+}
+& {
+  ul:hover { a, li {
+      color: $color-gray;
+      &:hover { color: black; }
+  } }
+}
+& > .dark {
+  ul:hover { a, li {
+      color: $color-gray;
+      &:hover { color: $color-nil; }
+  } }
+  background: $color-coal;
+  *, a:hover { color: $color-nil; }
+  &, a { color: $color-nil; }
 }

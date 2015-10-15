@@ -25,6 +25,33 @@ body {
       }
     }
   }
+  a.brand-heading {
+    img {
+      width: $spacing-unit;
+      height: $spacing-unit;
+      margin-bottom: $spacing-unit/6;
+      margin-right: $spacing-unit/6;
+      display: inline-block;
+    }
+  }
+  h1.brand-heading {
+    img {
+      width: $spacing-unit * 2;
+      height: $spacing-unit * 2;
+      margin-bottom: $spacing-unit/3;
+      margin-right: $spacing-unit/3;
+      display: inline-block;
+    }
+  }
+  h4.brand-heading {
+    img {
+      width: $spacing-unit;
+      height: $spacing-unit;
+      margin-bottom: $spacing-unit/6;
+      margin-right: $spacing-unit/6;
+      display: inline-block;
+    }
+  }
 
   @media screen and (min-width: 769px) {
     .collapse-xs {
@@ -55,13 +82,6 @@ body {
       padding: $spacing-unit/4;
       padding-top: $spacing-unit/2;
       border-bottom: 4px solid $color-nil;
-      img {
-        width: $spacing-unit;
-        height: $spacing-unit;
-        margin-bottom: $spacing-unit/6;
-        margin-right: $spacing-unit/6;
-        display: inline-block;
-      }
       a {
         font-size: 20px;
       }

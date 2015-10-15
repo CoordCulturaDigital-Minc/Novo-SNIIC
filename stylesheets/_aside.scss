@@ -1,19 +1,42 @@
-& > aside {
-	background: rgba(0, 0, 0, 0.86);
-	border: none;
-	*, a:hover { color: $color-nil; }
-	&, a {
-		color: $color-nil;
+aside {
+	aside {
+		margin-bottom: $spacing-unit;
+		&:last-child {
+			margin-bottom: 0 !important;
+		}
 	}
+	&.filter {
+		label {
+			display: block;
+		}
+		select {
+			display: block;
+			width: 100%;
+			font-size: $spacing-unit;
+		}
+	}
+	ul {
+		margin-left: 0;
+		padding-left: 0;
+		list-style: none;
+		h4 {
+			margin-bottom: $spacing-unit/3;
+		}
+		ul {
+			margin-left: $spacing-unit/3;
+			margin-bottom: $spacing-unit;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+& > aside {
+	border: none;
 	& > .wrapper > div > aside {
 		margin-bottom: $spacing-unit;
-		&:hover {
-			a {
-				color: $color-gray;
-				&:hover {
-					color: $color-nil;
-				}
-			}
+		&:last-child {
+			margin-bottom: 0;
 		}
 		ul {
 			list-style: none;

@@ -37,7 +37,7 @@ get_header(); ?>
 </aside>
 </div></section>
 
-<section class="container-fluid busca"><div class="wrapper center-block clearfix row">
+<section class="container-fluid busca dark"><div class="wrapper center-block clearfix row">
 	<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
     <?php echo get_search_form(); ?>
 	</div>
