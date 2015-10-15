@@ -27,33 +27,17 @@ get_header(); ?>
 			</p>
 		</div>
 
-		<button class="visible-xs col-xs-4 btn btn-link"
+		<button class="visible-xs col-xs-12 btn btn-link"
 						type="button"
 						data-toggle="collapse"
-						data-target="#collapsePopularTerms"
+						data-target="#collapseSearchOptions"
 						aria-expanded="false"
-						aria-controls="collapsePopularTerms">
-			<a>Termos</a>
-		</button>
-		<button class="visible-xs col-xs-4 btn btn-link"
-						type="button"
-						data-toggle="collapse"
-						data-target="#collapseFilters"
-						aria-expanded="false"
-						aria-controls="collapseFilters">
-			<a>Filtros</a>
-		</button>
-		<button class="visible-xs col-xs-4 btn btn-link"
-						type="button"
-						data-toggle="collapse"
-						data-target="#collapsePlataforms"
-						aria-expanded="false"
-						aria-controls="collapsePlataforms">
-			<a>Plataformas</a>
+						aria-controls="collapseSearchOptions">
+			<a>Mais opções</a>
 		</button>
 
-		<div class="collapse collapse-xs" id="collapsePopularTerms"><aside>
-			<h4 class="hidden-xs">Termos populares</h4>
+		<div class="collapse collapse-xs" id="collapseSearchOptions"><aside>
+			<h4>Termos populares</h4>
 			<ul>
 				<li><a>Lorem ipsum</a></li>
 				<li><a>Donec ut libero sed arcu vehicula</a></li>
@@ -63,11 +47,10 @@ get_header(); ?>
 				<li><a>Nam sagittis nisi dui</a></li>
 				<li><a>Curabitur lobortis nisl a enim congue…</a></li><!-- TODO: Do not forget *ellipsis* -->
 			</ul>
-		</aside></div>
+		</aside>
 
-		<div class="collapse collapse-xs" id="collapseFilters">
 		<aside class="filter">
-			<h4 class="hidden-xs">Filtros</h4>
+			<h4>Filtros</h4>
 			<div class="form-group">
       <label class="title" for="select-area">Área do conhecimento</label>
 			<?php wp_dropdown_categories(array(
@@ -107,7 +90,6 @@ get_header(); ?>
 				)); ?>
 				</div>
 		</aside>
-		</div>
 
 		<script type="text/javascript">
 			<!--
@@ -130,8 +112,8 @@ get_header(); ?>
 		</script>
 
 		<?php if (get_search_query()): ?>
-			<div class="collapse collapse-xs" id="collapsePlataforms"><aside>
-				<h4 class="hidden-xs">Buscar nas plataformas</h4>
+			<aside>
+				<h4>Buscar nas plataformas</h4>
 				<ul>
 					<li>
 						<h5 class="brand-heading">
@@ -160,14 +142,9 @@ get_header(); ?>
 							</ul>
 					</li>
 				</ul>
-			</aside></div>
-
-			<p>
-
-			</p>
+			</aside>
 		<?php endif; ?>
-
-	</aside>
+	</div></aside>
 
 	<section class="col-xs-12 col-sm-8 col-md-8">
 
