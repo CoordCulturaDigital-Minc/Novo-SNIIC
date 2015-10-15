@@ -49,7 +49,7 @@
 					aria-controls="collapseMenu">
 	  <?php _e( 'Menu', 'argent' ); ?>
 	</button>
-	<div class="collapse" id="collapseMenu">
+	<div class="collapse collapse-xs" id="collapseMenu">
 		<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu')); ?>
 	</div>
 </div></nav>

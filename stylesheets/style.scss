@@ -26,6 +26,13 @@ body {
     }
   }
 
+  @media screen and (min-width: 769px) {
+    .collapse-xs {
+      display: block !important;
+      height: auto !important;
+    }
+  }
+
   @import 'navigation';
   @import 'header';
   @import 'aside';
