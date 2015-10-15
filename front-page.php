@@ -15,6 +15,10 @@ get_header(); ?>
 	<h3 class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2 text-center quotes">
 		Conheça e explore a nova plataforma
 	</h3>
+	<div class="col-xs-12">
+		<a href=""><button class="btn btn-default center-block">Cadastre-se já!</button></a>
+	</div>
+
 	<h1 class="hidden"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 	<small><?php bloginfo( 'description' ); ?></small></h1>
 </div></header>
