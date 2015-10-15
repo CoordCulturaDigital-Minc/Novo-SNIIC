@@ -31,8 +31,8 @@
 		<img class="hidden-xs" src="<?php echo get_template_directory_uri() ?>/assets/beta.svg">
 		<img class="visible-xs" src="<?php echo get_template_directory_uri() ?>/assets/beta_sign.svg">
 	</div>
-	<div class="wrapper center-block clearfix row">
 
+	<div class="wrapper center-block clearfix row">
 
 	<a id="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>">
 		<img src="<?php echo get_template_directory_uri() ?>/assets/forma.svg" class="img-responsive"/>
@@ -53,5 +53,3 @@
 		<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu')); ?>
 	</div>
 </div></nav>
-
-

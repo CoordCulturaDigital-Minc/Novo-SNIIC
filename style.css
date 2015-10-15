@@ -855,11 +855,6 @@ a img {
 .error404 .widget-container .widget:last-child {
   padding-right: 0; }
 
-.error404 .search-form, .search-no-results .search-form {
-  margin-bottom: 1.7778em; }
-  .error404 .search-form input[type="search"], .search-no-results .search-form input[type="search"] {
-    width: 79%; }
-
 /*--------------------------------------------------------------
 10.3 Portfolio
 --------------------------------------------------------------*/
