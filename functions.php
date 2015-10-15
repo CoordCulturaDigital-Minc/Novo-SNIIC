@@ -182,6 +182,8 @@ function argent_fonts_url() {
 	return $fonts_url;
 }
 
+// TODO: Dependencies management system for WordPress themes
+
 function argent_neue_fontawesome () {
  	wp_enqueue_style( 'fontawesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' );
 }
