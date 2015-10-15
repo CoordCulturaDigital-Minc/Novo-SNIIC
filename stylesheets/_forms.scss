@@ -56,6 +56,9 @@ textarea {
 
 form.search-form {
 	position: relative;
+	label, input {
+		width: 100%;
+	}
 	button {
 		background-image: none;
 		background-color: transparent;
