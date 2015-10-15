@@ -407,7 +407,8 @@ blockquote {
   font-weight: 800;
   line-height: 1.3em;
   margin-bottom: 0.8em;
-  position: relative; }
+  position: relative;
+  border-color: #7E7E7E; }
   blockquote:before {
     display: block;
     color: #f7f7f7;

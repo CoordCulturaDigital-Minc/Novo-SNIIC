@@ -52,6 +52,7 @@ blockquote {
 	line-height: 1.3em;
 	margin-bottom: 0.8em;
 	position: relative;
+	border-color: $color-gray;
   &:before {
   	display: block;
   	color: #f7f7f7;
