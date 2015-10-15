@@ -10,11 +10,13 @@
   }
   &.velho-sniic {
     img {
-      height: $spacing-unit*3;
-      width: auto;
+      min-width: $spacing-unit*5;
+      max-width: $spacing-unit*10;
     }
     p {
-      margin-top: $spacing-unit;
+      margin-top: $spacing-unit/4;
+      margin-bottom: 0;
+      font-size: 18px;
     }
     button {
       margin-top: $spacing-unit;
@@ -29,10 +31,4 @@
       border: none;
     }
   }
-  &.breve {
-    aside.plataformas {
-      margin-top: $spacing-unit;
-    }
-  }
-
 }

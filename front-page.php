@@ -25,9 +25,15 @@ get_header(); ?>
 
 <section class="container-fluid velho-sniic"><div class="wrapper center-block clearfix row">
 <aside class="clearfix">
-	<img class="center-block col-xs-offset-1 col-sm-1 col-sm-offset-0" src="<?php echo get_template_directory_uri() ?>/assets/old-logo.svg"/>
-	<p class="center-block col-sm-5 text-center">Está procurando seu cadastro no SNIIC ou precisando do número SNIIC? Ele mudou, saiba mais aqui .</p>
-	<button class="btn btn-default col-xs-12 col-sm-3 col-sm-offset-1" type="button">Meu número SNIIC</button>
+	<div class="col-xs-12 col-sm-2 col-sm-offset-0">
+		<img class="center-block" src="<?php echo get_template_directory_uri() ?>/assets/old-logo.svg"/>
+	</div>
+	<p class="col-xs-12 col-sm-5 col-sm-offset-1 text-center">
+		Está procurando seu cadastro no SNIIC ou precisando do número SNIIC? Ele mudou, saiba mais aqui .
+	</p>
+	<div class="col-xs-12 col-sm-3 col-sm-offset-1">
+		<a href=""><button class="btn btn-default center-block">Meu número SNIIC</button></a>
+	</div>
 </aside>
 </div></section>
 
