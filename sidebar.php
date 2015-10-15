@@ -43,8 +43,8 @@
 		</aside>
 	</div>
 
-	<div class="col-xs-12 col-sm-4 col-md-4 col-md-offset-1">
-		<img class="center-block" src="<?php echo get_template_directory_uri() ?>/assets/secretaria-politicas-culturais_dark.png" class="img-responsive"/>
+	<div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-1">
+		<img class="center-block" style="max-width: 340px; width: 100%;" src="<?php echo get_template_directory_uri() ?>/assets/secretaria-politicas-culturais_dark.png" class="img-responsive"/>
 	</div>
 
 	<div class="col-xs-12 col-sm-6 col-md-4 hidden">
