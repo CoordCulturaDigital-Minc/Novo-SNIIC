@@ -26,6 +26,8 @@
 
 <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'argent' ); ?></a>
 
+<?php require 'barra-brasil.php' ?>
+
 <nav class="container-fluid">
 	<div class="beta-marker">
 		<img class="hidden-xs" src="<?php echo get_template_directory_uri() ?>/assets/beta.svg">
