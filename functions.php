@@ -266,6 +266,7 @@ require get_template_directory() . '/inc/jetpack.php';
 
 //SNIIC
 require get_template_directory() . '/inc/post_type_publicacoes.php';
+require get_template_directory() . '/inc/sniic_save_search.php';
 
 // remove admin bar
 remove_action('wp_footer','wp_admin_bar_render',1000);
