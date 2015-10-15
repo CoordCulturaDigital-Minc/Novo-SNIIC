@@ -232,12 +232,6 @@ body aside aside {
   margin-bottom: 30px; }
   body aside aside:last-child {
     margin-bottom: 0 !important; }
-body aside.filter label {
-  display: block; }
-body aside.filter select {
-  display: block;
-  width: 100%;
-  font-size: 30px; }
 body aside ul {
   margin-left: 0;
   padding-left: 0;
@@ -584,8 +578,6 @@ textarea {
 
 form.search-form {
   position: relative; }
-  form.search-form label {
-    width: 100%; }
   form.search-form button {
     background-image: none;
     background-color: transparent;

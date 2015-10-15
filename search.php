@@ -21,32 +21,39 @@ get_header(); ?>
 	</header>
 
 	<aside class="col-xs-12 col-sm-4 col-md-4 ">
+		<div class="alert alert-info" role="alert">
+			<p>
+				<strong></strong>Estamos trabalhando para que você consiga achar tudo o que procura através de uma única busca. Para melhorar nosso entendimento do que as pessoas esperam do SNIIC, estamos coletando e analisando os termos mais buscados.
+			</p>
+		</div>
 
-		<aside>
-			<button class="visible-xs center-block"
-							type="button"
-							data-toggle="collapse"
-							data-target="#collapseSearchInfo"
-							aria-expanded="false"
-							aria-controls="collapseSearchInfo">
-				<a>mais sobre…</a>
-			</button>
-			<div class="collapse collapse-xs" id="collapseSearchInfo"><p>
-				Estamos trabalhando para que você consiga achar tudo o que procura através de uma única busca. Para melhorar nosso entendimento do que as pessoas esperam do SNIIC, estamos coletando e analisando os termos mais buscados.
-			</p></div>
-		</aside>
+		<button class="visible-xs col-xs-4 btn btn-link"
+						type="button"
+						data-toggle="collapse"
+						data-target="#collapsePopularTerms"
+						aria-expanded="false"
+						aria-controls="collapsePopularTerms">
+			<a>Termos</a>
+		</button>
+		<button class="visible-xs col-xs-4 btn btn-link"
+						type="button"
+						data-toggle="collapse"
+						data-target="#collapseFilters"
+						aria-expanded="false"
+						aria-controls="collapseFilters">
+			<a>Filtros</a>
+		</button>
+		<button class="visible-xs col-xs-4 btn btn-link"
+						type="button"
+						data-toggle="collapse"
+						data-target="#collapsePlataforms"
+						aria-expanded="false"
+						aria-controls="collapsePlataforms">
+			<a>Plataformas</a>
+		</button>
 
-		<aside>
-			<button class="visible-xs center-block"
-							type="button"
-							data-toggle="collapse"
-							data-target="#collapsePopularTerms"
-							aria-expanded="false"
-							aria-controls="collapsePopularTerms">
-				<a>mais sobre…</a>
-			</button>
-			<div class="collapse collapse-xs" id="collapsePopularTerms"><p>
-			<h4>Termos populares</h4>
+		<div class="collapse collapse-xs" id="collapsePopularTerms"><aside>
+			<h4 class="hidden-xs">Termos populares</h4>
 			<ul>
 				<li><a>Lorem ipsum</a></li>
 				<li><a>Donec ut libero sed arcu vehicula</a></li>
@@ -56,10 +63,12 @@ get_header(); ?>
 				<li><a>Nam sagittis nisi dui</a></li>
 				<li><a>Curabitur lobortis nisl a enim congue…</a></li><!-- TODO: Do not forget *ellipsis* -->
 			</ul>
-			</p></div>
-		</aside>
+		</aside></div>
 
+		<div class="collapse collapse-xs" id="collapseFilters">
 		<aside class="filter">
+			<h4 class="hidden-xs">Filtros</h4>
+			<div class="form-group">
       <label class="title" for="select-area">Área do conhecimento</label>
 			<?php wp_dropdown_categories(array(
 
@@ -70,16 +79,15 @@ get_header(); ?>
 					'selected'           => 0, //TODO preencher
 					'name'               => 'area',
 					'id'                 => 'select-area',
-					'class'              => 'postform',
+					'class'              => 'postform form-control',
 					'depth'              => 0,
 					'tab_index'          => 0,
 					'taxonomy'           => 'area',
 					'hide_if_empty'      => false,
 					'value_field'	     => 'slug',
 				)); ?>
-		</aside>
-
-		<aside class="filter">
+			</div>
+			<div class="form-group">
       <label class="title" for="select-tipo">Tipo de publicação</label>
 			<?php wp_dropdown_categories(array(
 
@@ -90,14 +98,16 @@ get_header(); ?>
 					'selected'           => 0, //TODO preencher
 					'name'               => 'tipo',
 					'id'                 => 'select-tipo',
-					'class'              => 'postform',
+					'class'              => 'postform form-control',
 					'depth'              => 0,
 					'tab_index'          => 0,
 					'taxonomy'           => 'tipo',
 					'hide_if_empty'      => false,
 					'value_field'	     => 'slug',
 				)); ?>
+				</div>
 		</aside>
+		</div>
 
 		<script type="text/javascript">
 			<!--
@@ -120,8 +130,8 @@ get_header(); ?>
 		</script>
 
 		<?php if (get_search_query()): ?>
-			<aside>
-				<h4>Buscar nas plataformas</h4>
+			<div class="collapse collapse-xs" id="collapsePlataforms"><aside>
+				<h4 class="hidden-xs">Buscar nas plataformas</h4>
 				<ul>
 					<li>
 						<h5 class="brand-heading">
@@ -150,7 +160,7 @@ get_header(); ?>
 							</ul>
 					</li>
 				</ul>
-			</aside>
+			</aside></div>
 
 			<p>
 
