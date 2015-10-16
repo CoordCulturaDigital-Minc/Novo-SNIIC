@@ -27,13 +27,22 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php 
-			$args = array(
-			    'before' => '<p class="entry-meta">',
-			    'after' => '</p>',
-			    'template' => '%1$s: %2$l'
-			); 
-		?>
-		<?php the_taxonomies($args); ?>
+
+		<?php if( get_post_type() == 'publicacoes' ) : ?>
+			<?php 
+				$args = array(
+				    'before' => '<p class="entry-meta">',
+				    'after' => '</p>',
+				    'template' => '%1$s: %2$l'
+				); 
+			?>
+			<?php the_taxonomies($args); ?>
+
+			<?php echo get_pdf_link(); ?>
+			<?php echo "-"; ?>
+			<?php echo get_fonte_link(); ?>
+			
+		<?php endif; ?>
+
 	</footer>
 </article><!-- #post-## -->

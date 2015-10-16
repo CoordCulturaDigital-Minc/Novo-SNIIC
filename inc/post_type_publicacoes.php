@@ -212,10 +212,51 @@ class Publicacoes
 }
 Publicacoes::init();
 
-
 function the_pdf_link(){
         global $post;
         echo get_post_meta($post->ID, 'pdf-link', true);
         
         //TODO, se não tiver nenhum, pega o primeiro
 }
+
+function get_pdf_link(){
+    global $post;
+
+    if( get_post_type() !== 'publicacoes' )
+        return false;
+    
+    $pdf_link = get_post_meta($post->ID, 'pdf-link', true);
+
+    if( !empty($pdf_link) )
+        return "<a href='" . $pdf_link . "' target='_blank' title='Baixar PDF'>Baixar PDF</a>";
+
+    return false;
+}
+
+function get_fonte_link(){
+    global $post;
+
+    if( get_post_type() !== 'publicacoes' )
+        return false;
+    
+    $fonte_link = get_post_meta($post->ID, 'fonte-link', true);
+
+    if( !empty( $fonte_link ) )
+        return "Fonte: <a href='" . $fonte_link . "' target='_blank'>". get_post_meta($post->ID, 'fonte-nome', true) ."</a>";
+
+    return false;
+}
+
+function sniic_publicacoes_content_filter( $content ) {
+
+    if( get_post_type() !== 'publicacoes' )
+        return $content;
+    
+    $content = $content . get_pdf_link();
+
+    if( !empty( get_fonte_link() ) )
+     $content = $content . " - " . get_fonte_link();
+   
+    return $content;
+}
+add_filter( 'the_content', 'sniic_publicacoes_content_filter' );
