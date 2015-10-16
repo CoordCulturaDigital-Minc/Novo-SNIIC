@@ -82,6 +82,17 @@
   	color: #444;
   }
 }
+
+.entry-footer {
+	.entry-meta {
+		font-size: 11px;
+		a {
+			font-weight: bold;
+			text-decoration: underline;
+		}
+	}
+}
+
 .single-jetpack-portfolio .entry-content {
 	padding-left: 0;
 }

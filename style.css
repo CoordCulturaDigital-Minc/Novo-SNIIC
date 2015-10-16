@@ -815,6 +815,12 @@ a img {
   .entry-meta a:hover {
     color: #444; }
 
+.entry-footer .entry-meta {
+  font-size: 11px; }
+  .entry-footer .entry-meta a {
+    font-weight: bold;
+    text-decoration: underline; }
+
 .single-jetpack-portfolio .entry-content {
   padding-left: 0; }
 
@@ -1225,9 +1231,9 @@ figure {
     width: 360px; }
 
   .wp-caption.alignleft, img.alignleft, blockquote.alignleft {
-    margin-left: -175px; }
+    /*margin-left: -175px;*/ }
   .wp-caption.alignright, img.alignright, blockquote.alignright {
-    margin-right: -175px; }
+    /*margin-right: -175px;*/ }
 
   .single-post .wp-caption.alignright, .single-post img.alignright, .single-post blockquote.alignright {
     margin-right: 0; }
