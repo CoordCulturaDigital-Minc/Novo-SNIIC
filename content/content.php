@@ -25,4 +25,15 @@
 		<?php the_excerpt(); ?>
 
 	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<?php 
+			$args = array(
+			    'before' => '<p class="entry-meta">',
+			    'after' => '</p>',
+			    'template' => '%1$s: %2$l'
+			); 
+		?>
+		<?php the_taxonomies($args); ?>
+	</footer>
 </article><!-- #post-## -->

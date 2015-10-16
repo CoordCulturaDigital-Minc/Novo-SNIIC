@@ -58,7 +58,10 @@ get_header(); ?>
 		
 		<aside class="filter">
 			
-			<h4>Publicações</h4>
+			<h5 class="brand-heading">
+				<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.publicacoes.svg"/>
+				<span>Publicações</span>
+			</h5>
 			<div class="form-group">
 				<label class="title" for="select-area">Tema</label>
 				
@@ -164,7 +167,7 @@ get_header(); ?>
 	<?php while ( have_posts() ) : the_post(); ?>
 
 	<?php get_template_part( 'content/content', get_post_format() ); ?>
-
+	
 	<?php endwhile; ?>
 
 	<?php the_posts_navigation(); ?>
