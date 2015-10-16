@@ -47,7 +47,7 @@ class SaveSearch
 				self::updateIndex($single, true);
 			}
 		}
-		$wpdb->insert('save_search_log', array('term' => strtolower($search)) );
+		$wpdb->insert('save_search_log', array('term' => trim(strtolower($search))) );
 		self::updateIndex($search);
 		
 	}
@@ -55,7 +55,7 @@ class SaveSearch
 	static function updateIndex($term, $single = false) {
 	
 		global $wpdb;
-		$term = strtolower($term);
+		$term = trim(strtolower($term));
 		$cur = $wpdb->get_var( $wpdb->prepare("SELECT count FROM save_search_index WHERE single = %d AND term = %s", $single ? 1 : 0, $term) );
 		if ($cur)
 			$wpdb->update('save_search_index', array('count' => $cur+1, 'single' => $single), array('term' => $term) );
@@ -64,6 +64,17 @@ class SaveSearch
 	
 	}
     
+    // retorna o número de vezes que o termo mais buscado foi buscado
+    static function getTopCount() {
+		global $wpdb;
+		return $wpdb->get_var("SELECT count FROM save_search_index ORDER BY count DESC LIMIT 1");
+	}
+	
+	// retorna array com termos mais buscados, padrão 5
+	static function getTopTerms($count = 5) {
+		global $wpdb;
+		return $wpdb->get_col("SELECT term FROM save_search_index ORDER BY count DESC LIMIT $count");
+	}
 
 }
 SaveSearch::init();

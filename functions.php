@@ -1,4 +1,7 @@
 <?php
+
+define('MAPAS_URL', 'http://dev.mapas.cultura.gov.br');
+
 /**
  * argent functions and definitions
  *

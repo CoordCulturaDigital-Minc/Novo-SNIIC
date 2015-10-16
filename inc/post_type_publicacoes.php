@@ -108,19 +108,19 @@ class Publicacoes
         );
         
         $labels = array(
-            'name' => _x('Áreas', 'taxonomy general name', 'SLUG'),
-            'singular_name' => _x('Área', 'taxonomy singular name', 'SLUG'),
-            'search_items' => __('Buscar Áreas', 'SLUG'),
-            'all_items' => __('Todos os Áreas', 'SLUG'),
-            'parent_item' => __('Área pai', 'SLUG'),
-            'parent_item_colon' => __('Área pai:', 'SLUG'),
-            'edit_item' => __('Editar Área', 'SLUG'),
-            'update_item' => __('Atualizar Área', 'SLUG'),
-            'add_new_item' => __('Adicionar Área', 'SLUG'),
-            'new_item_name' => __('Novo nome de Área', 'SLUG'),
+            'name' => _x('Temas', 'taxonomy general name', 'SLUG'),
+            'singular_name' => _x('Tema', 'taxonomy singular name', 'SLUG'),
+            'search_items' => __('Buscar Temas', 'SLUG'),
+            'all_items' => __('Todos os Temas', 'SLUG'),
+            'parent_item' => __('Tema pai', 'SLUG'),
+            'parent_item_colon' => __('Tema pai:', 'SLUG'),
+            'edit_item' => __('Editar Tema', 'SLUG'),
+            'update_item' => __('Atualizar Tema', 'SLUG'),
+            'add_new_item' => __('Adicionar Tema', 'SLUG'),
+            'new_item_name' => __('Novo nome de Tema', 'SLUG'),
         );
 
-        register_taxonomy('area', self::$post_type, array(
+        register_taxonomy('tema', self::$post_type, array(
             'hierarchical' => true,
             'labels' => $labels,
             'show_ui' => true,

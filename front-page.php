@@ -17,7 +17,7 @@ get_header(); ?>
 	</h3>
 	<br>
 	<div class="col-xs-12">
-		<a href=""><button class="btn btn-default center-block">Cadastre-se já!</button></a>
+		<a href="<?php echo MAPAS_URL; ?>/painel"><button class="btn btn-default center-block">Cadastre-se já!</button></a>
 	</div>
 
 	<h1 class="hidden"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
@@ -33,7 +33,7 @@ get_header(); ?>
 		Está procurando seu cadastro no SNIIC ou precisando do número SNIIC? Ele mudou, saiba mais aqui.
 	</p>
 	<div class="col-xs-12 col-sm-3 col-sm-offset-1">
-		<a href=""><button class="btn btn-default center-block">Meu número SNIIC</button></a>
+		<a href="<?php echo site_url('novo-cadastro-sniic'); ?>"><button class="btn btn-default center-block">Meu número SNIIC</button></a>
 	</div>
 </aside>
 </div></section>
