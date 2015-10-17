@@ -63,7 +63,7 @@ get_header(); ?>
 	</p>
 	<figure class="col-xs-12 col-sm-12 col-md-4">
 		<a href="<?php echo MAPAS_URL; ?>">
-			<img src="http://lorempixel.com/400/200/sports/Dummy-Text" class="img-responsive">
+			<img src="<?php echo get_template_directory_uri() ?>/assets/thumbMapas.png" class="img-responsive">
 		</a>
 		<figcaption>Navegue pelo Mapa da Cultura</figcaption>
 	</figure>
