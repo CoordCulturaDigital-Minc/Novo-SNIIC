@@ -16,8 +16,9 @@ get_header(); ?>
 		Conheça e explore a nova plataforma
 	</h3>
 	<br>
+	<br>
 	<div class="col-xs-12">
-		<a href="<?php echo MAPAS_URL; ?>/painel"><button class="btn btn-default center-block">Cadastre-se já!</button></a>
+		<a href="<?php echo MAPAS_URL; ?>/painel"><button class="btn btn-primary center-block">Cadastre-se já!</button></a>
 	</div>
 
 	<h1 class="hidden"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
