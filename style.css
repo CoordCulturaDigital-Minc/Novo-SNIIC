@@ -1276,7 +1276,11 @@ figure {
 
 /*# sourceMappingURL=style.css.map */
 
-
+/* estilos feito a mão */
 .homeCount{
 	font-size: 1.7em;
 }
+#btn-cadastre-se {
+	margin-top: 25px;
+	background-image: linear-gradient(to bottom, #002C40  0px, #005781 100%);
+	border-color: #005781;

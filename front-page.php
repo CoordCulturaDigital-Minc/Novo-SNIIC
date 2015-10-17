@@ -18,7 +18,7 @@ get_header(); ?>
 	<br>
 	<br>
 	<div class="col-xs-12">
-		<a href="<?php echo MAPAS_URL; ?>/painel"><button class="btn btn-primary center-block">Cadastre-se já!</button></a>
+		<a href="<?php echo MAPAS_URL; ?>/painel"><button id="btn-cadastre-se" class="btn btn-primary center-block">Cadastre-se</button></a>
 	</div>
 
 	<h1 class="hidden"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
