@@ -34,7 +34,7 @@
 		<aside class="redes-sociais">
 			<h4>Redes Sociais</h4>
 			<ul>
-				<li class="hidden"><a href="https://github.com/CoordCulturaDigital-Minc/"><i class="fa fa-github-alt"></i>/sniic</a></li>
+				<li><a href="https://github.com/CoordCulturaDigital-Minc/"><i class="fa fa-github-alt"></i>/Github</a></li>
 				<li><a href="https://www.youtube.com/user/ministeriodacultura/"><i class="fa fa-youtube-play"></i>/ministeriodacultura</a></li>
 				<li><a href="https://www.facebook.com/MinisterioDaCultura"><i class="fa fa-facebook-official"></i>/MinisterioDaCultura</a></li>
 				<li><a href="https://instagram.com/culturagovbr/"><i class="fa fa-instagram"></i>/culturagovbr</a></li>
