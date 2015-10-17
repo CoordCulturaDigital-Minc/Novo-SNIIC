@@ -49,9 +49,22 @@ get_header(); ?>
 		<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.mapas.svg"/>
 		<span>Mapas</span>.cultura.gov.br</h1>
 	<p class="col-xs-12 col-sm-6 col-md-4">O Mapas Culturais substituirá o antigo cadastro do Sistema Nacional de Informações e Indicadores Culturais (SNIIC), porém com maior facilidade de uso, mais possibilidades de filtros de busca e integrado a outras bases de dados do MinC, como a Rede Cultura Viva, o Sistema Nacional de Bibliotecas Públicas e o Cadastro Nacional de Museus (este último em breve). </p>
-	<p class="col-xs-12 col-sm-6 col-md-4">O SNIIC, Sistema Nacional de Informações e Indicadores Culturais, de criação obrigatória por lei, será um banco de dados de bens, serviços, infraestrutura, investimentos, produção, acesso, consumo, agentes, programas, instituições e gestão cultural, e transparência entre outros, e estará disponível para toda a sociedade.</p>
+	<p class="col-xs-12 col-sm-6 col-md-4">
+		<b>Explore</b><br/>
+		<a href="<?php echo MAPAS_URL; ?>/busca/##(global:(enabled:(agent:!t),filterEntity:agent))">
+			<span class="homeCount" id="agentCount"></span> Agentes Culturais<br/>
+		</a>
+		<a href="<?php echo MAPAS_URL; ?>/busca/##(global:(enabled:(space:!t),filterEntity:space))">
+			<span class="homeCount" id="spaceCount"></span> Espaços Culturais<br/>
+		</a>
+		<a href="<?php echo MAPAS_URL; ?>/busca/##(global:(enabled:(project:!t),filterEntity:project))">
+			<span class="homeCount" id="projectCount"></span> Projetos Culturais<br/>
+		</a>
+	</p>
 	<figure class="col-xs-12 col-sm-12 col-md-4">
-		<img src="http://lorempixel.com/400/200/sports/Dummy-Text" class="img-responsive">
+		<a href="<?php echo MAPAS_URL; ?>">
+			<img src="http://lorempixel.com/400/200/sports/Dummy-Text" class="img-responsive">
+		</a>
 		<figcaption>Navegue pelo Mapa da Cultura</figcaption>
 	</figure>
 </div></section>
@@ -108,4 +121,36 @@ get_header(); ?>
 </div></main>
 
 <?php get_sidebar(); ?>
+
+<script>
+
+
+jQuery(document).ready(function() {
+	var agentCount;
+	var projectCount;
+	var SpaceCount;
+	jQuery.getJSON('<?php echo MAPAS_URL; ?>/api/agent/find?@select=id&@count=1', function(x) {
+			if (typeof(x) == 'number')
+				jQuery('#agentCount').html(x);
+	});
+	jQuery.getJSON('<?php echo MAPAS_URL; ?>/api/space/find?@select=id&@count=1', function(x) {
+			if (typeof(x) == 'number')
+				jQuery('#spaceCount').html(x);
+	});
+	jQuery.getJSON('<?php echo MAPAS_URL; ?>/api/project/find?@select=id&@count=1', function(x) {
+			if (typeof(x) == 'number')
+				jQuery('#projectCount').html(x);
+	});
+	
+	
+	
+	
+	
+	
+
+});
+
+
+</script>
+
 <?php get_footer(); ?>
