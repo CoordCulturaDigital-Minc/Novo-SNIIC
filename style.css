@@ -79,15 +79,15 @@ body > nav {
     font-size: 35px;
     font-weight: 600;
     line-height: 30px; }
-  body > nav > .wrapper .menu {
+  body > nav > .wrapper div.menu > div {
     text-transform: uppercase; }
-    body > nav > .wrapper .menu > ul {
+    body > nav > .wrapper div.menu > div > ul {
       margin: 0; }
-      body > nav > .wrapper .menu > ul, body > nav > .wrapper .menu > ul ul {
+      body > nav > .wrapper div.menu > div > ul, body > nav > .wrapper div.menu > div > ul ul {
         list-style: none !important; }
-      body > nav > .wrapper .menu > ul > li {
+      body > nav > .wrapper div.menu > div > ul > li {
         border-bottom: 1px solid #242424; }
-        body > nav > .wrapper .menu > ul > li:hover {
+        body > nav > .wrapper div.menu > div > ul > li:hover {
           border-color: #69A0A8; }
   body > nav > .wrapper > div > div ul ul {
     display: block;
@@ -128,13 +128,13 @@ body > nav {
       body > nav > .wrapper #branding div {
         width: 300px;
         overflow: visible; }
-    body > nav > .wrapper .menu {
+    body > nav > .wrapper div.menu > div {
       float: right; }
-      body > nav > .wrapper .menu > ul {
+      body > nav > .wrapper div.menu > div > ul {
         margin: 0;
         display: block;
         padding-top: 10px; }
-        body > nav > .wrapper .menu > ul > li {
+        body > nav > .wrapper div.menu > div > ul > li {
           font-size: 14px;
           text-transform: uppercase;
           display: inline-block;
@@ -142,15 +142,15 @@ body > nav {
           padding: 0;
           padding-bottom: 10px;
           position: relative; }
-          body > nav > .wrapper .menu > ul > li:first-child {
+          body > nav > .wrapper div.menu > div > ul > li:first-child {
             padding-left: 0; }
-          body > nav > .wrapper .menu > ul > li:last-child {
+          body > nav > .wrapper div.menu > div > ul > li:last-child {
             padding-right: 0; }
-          body > nav > .wrapper .menu > ul > li > ul, body > nav > .wrapper .menu > ul > li > ul > li > ul {
+          body > nav > .wrapper div.menu > div > ul > li > ul, body > nav > .wrapper div.menu > div > ul > li > ul > li > ul {
             background-color: #7E7E7E; }
-            body > nav > .wrapper .menu > ul > li > ul > li a, body > nav > .wrapper .menu > ul > li > ul > li > ul > li a {
+            body > nav > .wrapper div.menu > div > ul > li > ul > li a, body > nav > .wrapper div.menu > div > ul > li > ul > li > ul > li a {
               color: white; }
-            body > nav > .wrapper .menu > ul > li > ul > li:hover, body > nav > .wrapper .menu > ul > li > ul > li > ul > li:hover {
+            body > nav > .wrapper div.menu > div > ul > li > ul > li:hover, body > nav > .wrapper div.menu > div > ul > li > ul > li > ul > li:hover {
               background-color: #242424; }
     body > nav > .wrapper ul {
       margin: 0;
@@ -199,26 +199,26 @@ body > nav {
         font-weight: 600; }
       body > nav > .wrapper ul ul {
         padding-left: 30px; }
-      body > nav > .wrapper .menu {
+      body > nav > .wrapper div.menu > div {
         text-align: center;
         margin-bottom: 15px; }
-        body > nav > .wrapper .menu ul, body > nav > .wrapper .menu ul li, body > nav > .wrapper .menu ul ul, body > nav > .wrapper .menu ul ul li {
+        body > nav > .wrapper div.menu > div ul, body > nav > .wrapper div.menu > div ul li, body > nav > .wrapper div.menu > div ul ul, body > nav > .wrapper div.menu > div ul ul li {
           margin: 0;
           padding: 0;
           border: none; }
-        body > nav > .wrapper .menu > ul > li {
+        body > nav > .wrapper div.menu > div > ul > li {
           margin-top: 10px;
           background-color: #3e3e3e;
           padding: 10px 0; }
-          body > nav > .wrapper .menu > ul > li > a {
+          body > nav > .wrapper div.menu > div > ul > li > a {
             font-size: 20px; }
-          body > nav > .wrapper .menu > ul > li > ul > li {
+          body > nav > .wrapper div.menu > div > ul > li > ul > li {
             margin-top: 5px; }
-            body > nav > .wrapper .menu > ul > li > ul > li > a {
+            body > nav > .wrapper div.menu > div > ul > li > ul > li > a {
               font-size: 14px; }
-            body > nav > .wrapper .menu > ul > li > ul > li > ul > li {
+            body > nav > .wrapper div.menu > div > ul > li > ul > li > ul > li {
               margin-top: 5px; }
-              body > nav > .wrapper .menu > ul > li > ul > li > ul > li > a {
+              body > nav > .wrapper div.menu > div > ul > li > ul > li > ul > li > a {
                 font-size: 14px;
                 text-transform: none; } }
 body > header > div {

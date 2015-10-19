@@ -27,7 +27,7 @@
       }
     }
 
-    .menu {
+    div.menu > div {
       text-transform: uppercase;
 
       & > ul {
@@ -115,7 +115,7 @@
         }
       }
 
-      .menu {
+      div.menu > div {
         float: right;
         & > ul {
           margin: 0;
@@ -196,7 +196,7 @@
         font-weight: 600;
       }
       ul ul { padding-left: $spacing-unit; }
-      .menu {
+      div.menu > div {
         text-align: center;
         margin-bottom: $spacing-unit/2;
         ul, ul ul {
