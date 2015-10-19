@@ -65,91 +65,94 @@ body > nav {
     position: absolute;
     top: 0;
     left: 0; }
-  body > nav > .wrapper {
-    min-height: 4.2em; }
-    body > nav > .wrapper #logo {
-      float: left;
-      margin-left: 30px;
-      margin-right: 30px;
+  body > nav > .wrapper #branding svg, body > nav > .wrapper #branding h1 {
+    float: left; }
+  body > nav > .wrapper #branding svg {
+    width: 45px;
+    height: 45px; }
+    body > nav > .wrapper #branding svg path, body > nav > .wrapper #branding svg g {
+      fill: #ECF3F4; }
+  body > nav > .wrapper #branding h1 {
+    margin: 0;
+    margin-top: 6px;
+    margin-left: 15px;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 30px; }
+  body > nav > .wrapper .menu {
+    text-transform: uppercase; }
+    body > nav > .wrapper .menu > ul {
+      margin: 0; }
+      body > nav > .wrapper .menu > ul, body > nav > .wrapper .menu > ul ul {
+        list-style: none !important; }
+      body > nav > .wrapper .menu > ul > li {
+        border-bottom: 1px solid #242424; }
+        body > nav > .wrapper .menu > ul > li:hover {
+          border-color: #69A0A8; }
+  body > nav > .wrapper > div > div ul ul {
+    display: block;
+    list-style-position: inside;
+    list-style-type: disc;
+    border-left: 1px solid rgba(255, 255, 255, 0.3); }
+    body > nav > .wrapper > div > div ul ul li {
+      border-bottom: none;
       padding: 0;
-      width: 60px;
-      height: 60px; }
-    body > nav > .wrapper a {
-      padding: 0.3889em 0 0.3889em 1.5556em; }
-    body > nav > .wrapper h1 {
-      display: none; }
-    body > nav > .wrapper > button {
-      position: absolute;
-      right: 0;
-      border: none;
-      font-size: 30px;
-      height: 60px;
-      font-weight: 600; }
-    body > nav > .wrapper > div > div ul {
-      margin: 0;
-      list-style: none !important; }
-      body > nav > .wrapper > div > div ul li {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-        padding: 0; }
-      body > nav > .wrapper > div > div ul ul {
-        display: block;
-        list-style-position: inside;
-        list-style-type: disc;
-        border-left: 1px solid rgba(255, 255, 255, 0.3); }
-        body > nav > .wrapper > div > div ul ul li {
-          border-bottom: none;
-          padding: 0;
-          padding-left: 1em; }
-          body > nav > .wrapper > div > div ul ul li:hover > ul, body > nav > .wrapper > div > div ul ul li.focus > ul {
-            left: 100%; }
-        body > nav > .wrapper > div > div ul ul ul {
-          left: -999em;
-          top: 0; }
-      body > nav > .wrapper > div > div ul li:hover > ul,
-      body > nav > .wrapper > div > div ul li.focus > ul {
-        left: 0; }
-    body > nav > .wrapper > div > div > ul {
-      font-size: 13px;
-      text-transform: uppercase; }
-      body > nav > .wrapper > div > div > ul li a {
-        color: black; }
-      body > nav > .wrapper > div > div > ul:hover li a {
-        color: #7E7E7E; }
-      body > nav > .wrapper > div > div > ul:hover li:hover > a {
-        color: black; }
-      body > nav > .wrapper > div > div > ul > li a {
-        text-decoration: none;
-        font-weight: bold; }
-      body > nav > .wrapper > div > div > ul > li ul {
-        background-color: white; }
-        body > nav > .wrapper > div > div > ul > li ul > li {
-          border-bottom: 1px solid #ECF3F4; }
+      padding-left: 1em; }
+      body > nav > .wrapper > div > div ul ul li:hover > ul, body > nav > .wrapper > div > div ul ul li.focus > ul {
+        left: 100%; }
+    body > nav > .wrapper > div > div ul ul ul {
+      left: -999em;
+      top: 0; }
+  body > nav > .wrapper > div > div ul li:hover > ul,
+  body > nav > .wrapper > div > div ul li.focus > ul {
+    left: 0; }
+  body > nav > .wrapper > div > div > ul > li > a {
+    color: #ECF3F4; }
+  body > nav > .wrapper > div > div > ul:hover > li > a {
+    color: #7E7E7E;
+    border-color: #242424; }
+  body > nav > .wrapper > div > div > ul:hover > li:hover > a {
+    color: #ECF3F4; }
+  body > nav > .wrapper > div > div > ul > li ul > li {
+    border-bottom: 1px solid #ECF3F4; }
 @media screen and (min-width: 769px) {
   body > nav > .wrapper {
-    padding: 0; }
-    body > nav > .wrapper > div {
-      margin: 0 2em; }
-      body > nav > .wrapper > div > div > ul > button, body > nav > .wrapper > div > div > ul > li {
-        border: 3px solid #69A0A8;
-        padding: 0 1em;
-        margin: 15px 0 0; }
-      body > nav > .wrapper > div > div > ul > li {
-        display: inline-block;
-        margin: 15px 0 0;
-        padding: 0 1em;
-        position: relative;
-        border: 3px solid #ECF3F4; }
-        body > nav > .wrapper > div > div > ul > li:hover {
-          border-color: #69A0A8; }
-    body > nav > .wrapper > div > div > ul {
-      -webkit-margin-start: 0px !important;
-      -webkit-margin-end: 0px !important;
-      -webkit-padding-start: 40px !important; }
-    body > nav > .wrapper a {
-      padding: 0.8889em 0; }
+    padding-left: 30px;
+    padding-right: 30px; }
+    body > nav > .wrapper #branding {
+      overflow-x: visible;
+      width: 0 !important;
+      float: left;
+      padding: 0;
+      margin: 0; }
+      body > nav > .wrapper #branding div {
+        width: 300px;
+        overflow: visible; }
+    body > nav > .wrapper .menu {
+      float: right; }
+      body > nav > .wrapper .menu > ul {
+        margin: 0;
+        display: block;
+        padding-top: 10px; }
+        body > nav > .wrapper .menu > ul > li {
+          font-size: 14px;
+          text-transform: uppercase;
+          display: inline-block;
+          margin: 0 10px;
+          padding: 0;
+          padding-bottom: 10px;
+          position: relative; }
+          body > nav > .wrapper .menu > ul > li:first-child {
+            padding-left: 0; }
+          body > nav > .wrapper .menu > ul > li:last-child {
+            padding-right: 0; }
+          body > nav > .wrapper .menu > ul > li > ul, body > nav > .wrapper .menu > ul > li > ul > li > ul {
+            background-color: #7E7E7E; }
+            body > nav > .wrapper .menu > ul > li > ul > li a, body > nav > .wrapper .menu > ul > li > ul > li > ul > li a {
+              color: white; }
+            body > nav > .wrapper .menu > ul > li > ul > li:hover, body > nav > .wrapper .menu > ul > li > ul > li > ul > li:hover {
+              background-color: #242424; }
     body > nav > .wrapper ul {
-      display: block;
-      list-style: none;
       margin: 0;
       padding-left: 0;
       text-align: center; }
@@ -162,9 +165,11 @@ body > nav {
         text-align: left;
         z-index: 99999; }
         body > nav > .wrapper ul ul li {
+          padding-top: 0.5em !important;
+          padding-bottom: 0.5em !important;
           border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-          padding: 0.5em;
-          min-width: 100px; }
+          padding: 1em;
+          min-width: 200px; }
       body > nav > .wrapper ul div > ul > li > ul::before {
         border-color: transparent transparent #222;
         border-style: solid;
@@ -183,22 +188,39 @@ body > nav {
       z-index: 999; }
     body > nav > .wrapper {
       position: relative; }
-      body > nav > .wrapper #logo {
-        height: 60px;
-        width: 60px;
-        margin: 0 15px;
-        position: absolute; }
+      body > nav > .wrapper > button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0;
+        border: none;
+        font-size: 30px;
+        height: 30px;
+        font-weight: 600; }
       body > nav > .wrapper ul ul {
         padding-left: 30px; }
-      body > nav > .wrapper a {
-        padding: 0; }
-      body > nav > .wrapper > div .menu {
-        margin-top: 120px;
+      body > nav > .wrapper .menu {
+        text-align: center;
         margin-bottom: 15px; }
-        body > nav > .wrapper > div .menu > ul {
-          font-size: 20px;
-          padding-left: 0px;
-          -webkit-padding-start: 0px; } }
+        body > nav > .wrapper .menu ul, body > nav > .wrapper .menu ul li, body > nav > .wrapper .menu ul ul, body > nav > .wrapper .menu ul ul li {
+          margin: 0;
+          padding: 0;
+          border: none; }
+        body > nav > .wrapper .menu > ul > li {
+          margin-top: 10px;
+          background-color: #3e3e3e;
+          padding: 10px 0; }
+          body > nav > .wrapper .menu > ul > li > a {
+            font-size: 20px; }
+          body > nav > .wrapper .menu > ul > li > ul > li {
+            margin-top: 5px; }
+            body > nav > .wrapper .menu > ul > li > ul > li > a {
+              font-size: 14px; }
+            body > nav > .wrapper .menu > ul > li > ul > li > ul > li {
+              margin-top: 5px; }
+              body > nav > .wrapper .menu > ul > li > ul > li > ul > li > a {
+                font-size: 14px;
+                text-transform: none; } }
 body > header > div {
   background-repeat: no-repeat;
   background-position: center;

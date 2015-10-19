@@ -6,38 +6,47 @@
     left: 0;
   }
   & > .wrapper {
-    min-height: 4.2em;
-    #logo {
-      float: left;
-      margin-left: $spacing-unit;
-      margin-right: $spacing-unit;
-      padding: 0;
-      width: $spacing-unit * 2;
-      height: $spacing-unit * 2;
+    #branding {
+      svg, h1 {
+        float: left;
+      }
+      svg {
+        width: $spacing-unit * 1.5;
+        height: $spacing-unit * 1.5;
+        path, g {
+          fill: $color-nil;
+        }
+      }
+      h1 {
+        margin: 0;
+        margin-top: $spacing-unit/5;
+        margin-left: $spacing-unit/2;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: $spacing-unit;
+      }
     }
-    a {
-    	padding: 0.3889em 0 0.3889em 1.5556em;
-    }
-    h1 {
-      display: none;
-    }
-    & > button {
-      position: absolute;
-      right: 0;
-      border: none;
-      font-size: $spacing-unit;
-      height: $spacing-unit*2;
-      font-weight: 600;
+
+    .menu {
+      text-transform: uppercase;
+
+      & > ul {
+        margin: 0;
+
+        &, ul {
+          list-style: none !important;
+        }
+        & > li {
+          border-bottom: 1px solid $color-coal;
+          &:hover {
+            border-color: $color-teal;
+          }
+        }
+      }
     }
     & > div {
       & > div {
         ul {
-          margin: 0;
-          list-style: none !important;
-          li {
-            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-            padding: 0;
-          }
           ul {
             display: block;
             list-style-position: inside;
@@ -65,76 +74,74 @@
           } }
         }
         & > ul {
-          font-size: 13px;
-          text-transform: uppercase;
-          li a {
-            color: black;
+          // TODO: Block hover mixin
+          & > li > a {
+            color: $color-nil;
           }
-          &:hover {
-            li {
-              a {
-                color: $color-gray;
-              }
-              &:hover {
-                & > a {
-                    color: black;
-                }
-              }
+          &:hover > li {
+            & > a {
+              color: $color-gray;
+              border-color: $color-coal;
+            }
+            &:hover > a {
+              color: $color-nil;
             }
           }
-          & > li {
-            a {
-              text-decoration: none;
-              font-weight: bold;
-            }
-            ul {
-              background-color: white;
-              & > li {
-                border-bottom: 1px solid $color-nil;
-              }
-            }
+          & > li ul > li {
+            border-bottom: 1px solid $color-nil;
           }
         }
       }
     }
+
   }
 }
 
 @media screen and (min-width: 769px) {
   & > nav {
     & > .wrapper {
-      & > div {
-        margin: 0 2em;
-        & > div {
-          & > ul {
-            & > button, & > li {
-              border: 3px solid $color-teal;
-              padding: 0 1em;
-              margin: $spacing-unit/2 0 0;
-            }
-            & > li {
-              display: inline-block;
-              margin: $spacing-unit/2 0 0;
-              padding: 0 1em;
-              position: relative;
-              border: 3px solid $color-nil;
-              &:hover {
-                border-color: $color-teal;
+      padding-left: $spacing-unit;
+      padding-right: $spacing-unit;
+
+      #branding {
+        overflow-x: visible;
+        width: 0 !important;
+        float: left;
+        padding: 0;
+        margin: 0;
+        div {
+          width: 300px;
+          overflow: visible;
+        }
+      }
+
+      .menu {
+        float: right;
+        & > ul {
+          margin: 0;
+          display: block;
+          padding-top: $spacing-unit/3;
+          & > li {
+            font-size: 14px;
+            text-transform: uppercase;
+            display: inline-block;
+            margin: 0 $spacing-unit/3;
+            padding: 0;
+            padding-bottom: $spacing-unit/3;
+            position: relative;
+            &:first-child { padding-left: 0; }
+            &:last-child { padding-right: 0; }
+            & > ul, & > ul > li > ul {
+              background-color: $color-gray;
+              & > li {
+                a { color: white; }
+                &:hover { background-color: $color-coal; }
               }
             }
           }
         }
       }
-      & > div > div > ul {
-        -webkit-margin-start: 0px !important;
-        -webkit-margin-end: 0px !important;
-        -webkit-padding-start: 40px !important;
-      }
-      padding: 0;
-      a { padding: 0.8889em 0; }
       ul {
-    		display: block;
-    		list-style: none;
     		margin: 0;
     		padding-left: 0;
     		text-align: center;
@@ -142,14 +149,16 @@
       		float: left;
       		margin: 0;
       		position: absolute;
-      		top: 2em;
+          top: 2em;
       		left: -999em;
       		text-align: left;
       		z-index: 99999;
           li {
+            padding-top: 0.5em !important;
+            padding-bottom: 0.5em !important;
         		border-bottom: 1px solid rgba(255, 2555, 255, 0.1);
-            padding: 0.5em;
-            min-width: 100px;
+            padding: 1em;
+            min-width: 200px;
         	}
       	}
       	div>ul>li>ul::before {
@@ -176,25 +185,57 @@
     }
     & > .wrapper {
       position: relative;
-      #logo {
-        height: $spacing-unit * 2;
-        width: $spacing-unit * 2;
-        margin: 0 $spacing-unit/2;
+      & > button {
         position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0;
+        border: none;
+        font-size: $spacing-unit;
+        height: $spacing-unit;
+        font-weight: 600;
       }
       ul ul { padding-left: $spacing-unit; }
-      a {
-        padding: 0;
-      }
-      & > div .menu {
-        margin-top: $spacing-unit * 4;
+      .menu {
+        text-align: center;
         margin-bottom: $spacing-unit/2;
+        ul, ul ul {
+          &, li {
+            margin: 0;
+            padding: 0;
+            border: none;
+          }
+        }
         & > ul {
-          font-size: 20px;
-          padding-left: 0px;
-          -webkit-padding-start: 0px;
+          & > li {
+            margin-top: $spacing-unit/3;
+            background-color: lighten($color-coal, 10%);
+            padding: $spacing-unit/3 0;
+            & > a {
+              font-size: 20px;
+            }
+            & > ul {
+              & > li {
+                margin-top: $spacing-unit/6;
+                & > a {
+                  font-size: 14px;
+                }
+                & > ul {
+                  & > li {
+                    margin-top: $spacing-unit/6;
+                    & > a {
+                      font-size: 14px;
+                      text-transform: none;
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       }
+
+
     }
   }
 }

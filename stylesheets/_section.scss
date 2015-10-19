@@ -28,12 +28,3 @@
       &:hover { color: black; }
   } }
 }
-& > .dark {
-  ul:hover { a, li {
-      color: $color-gray;
-      &:hover { color: $color-nil; }
-  } }
-  background: $color-coal;
-  *, a:hover { color: $color-nil; }
-  &, a { color: $color-nil; }
-}

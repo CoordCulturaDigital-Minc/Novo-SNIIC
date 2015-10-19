@@ -29,7 +29,7 @@
 
 <?php get_template_part( 'brasil/brasil', 'barra' ); ?>
 
-<nav class="container-fluid">
+<nav class="container-fluid dark">
 	<div class="beta-marker">
 		<img class="hidden-xs" src="<?php echo get_template_directory_uri() ?>/assets/beta.svg">
 		<img class="visible-xs" src="<?php echo get_template_directory_uri() ?>/assets/beta_sign.svg">
@@ -37,12 +37,11 @@
 
 	<div class="wrapper center-block clearfix row">
 
-	<a id="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-		<img src="<?php echo get_template_directory_uri() ?>/assets/forma.svg" class="img-responsive"/>
-	</a>
-
-	<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-	<small><?php bloginfo( 'description' ); ?></small></h1>
+	<a id="branding" class="clearfix" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><div>
+		<?php include get_template_directory() . '/assets/forma.svg';?>
+		<h1 class="hidden-sm"><?php bloginfo( 'name' ); ?><!-- class="visible-xs" -->
+		<small class="hidden"><?php bloginfo( 'description' ); ?></small></h1>
+	</div></a>
 
 	<button class="visible-xs"
 					type="button"
@@ -50,7 +49,8 @@
 					data-target="#collapseMenu"
 					aria-expanded="false"
 					aria-controls="collapseMenu">
-	  <?php _e( 'Menu', 'argent' ); ?>
+	  <span class="sr-only"><?php _e( 'Menu', 'argent' ); ?></span>
+		<i class="fa fa-chevron-down"></i>
 	</button>
 	<div class="collapse collapse-xs" id="collapseMenu">
 		<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu')); ?>
