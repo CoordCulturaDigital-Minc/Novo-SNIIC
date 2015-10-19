@@ -16,7 +16,7 @@
 
 		<!-- TODO: Melhorar forma de expor isso... está meio cru, acho. -->
 		<aside class="contato">
-			<a href=""><h4>Entre em contato</h4></a>
+			<a href="http://sniic.cultura.gov.br/contato/"><h4>Contato</h4></a>
 		</aside>
 
 		<!-- TODO: Convert into custom Wordpress widget for backend editing, use Tinyletter -->
@@ -37,7 +37,7 @@
 		<!-- TODO: Add more social addresses and mangled email -->
 		<!-- TODO: Convert into custom Wordpress widget for backend editing -->
 		<aside class="redes-sociais">
-			<h4>Redes Sociais</h4>
+			<h4>Redes</h4>
 			<ul>
 				<li><a href="https://github.com/CoordCulturaDigital-MinC/"><i class="fa fa-github-alt"></i>/CoordCulturaDigital-MinC</a></li>
 				<li><a href="https://www.youtube.com/user/ministeriodacultura/"><i class="fa fa-youtube-play"></i>/ministeriodacultura</a></li>
