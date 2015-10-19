@@ -39,7 +39,7 @@
 
 	<a id="branding" class="clearfix" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><div>
 		<?php include get_template_directory() . '/assets/forma.svg';?>
-		<h1 class="hidden-sm"><?php bloginfo( 'name' ); ?><!-- class="visible-xs" -->
+		<h1 class="hidden">SNIIC<!--<?php bloginfo( 'name' ); ?>-->
 		<small class="hidden"><?php bloginfo( 'description' ); ?></small></h1>
 	</div></a>
 
@@ -53,6 +53,6 @@
 		<i class="fa fa-chevron-down"></i>
 	</button>
 	<div class="collapse collapse-xs" id="collapseMenu">
-		<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu')); ?>
+		<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu', 'menu_class' => 'menu')); ?>
 	</div>
 </div></nav>
