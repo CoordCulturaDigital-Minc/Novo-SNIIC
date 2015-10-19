@@ -49,6 +49,12 @@ body h5.brand-heading img {
   margin-bottom: 5px;
   margin-right: 5px;
   display: inline-block; }
+body button.btn-cadastre-se {
+  margin-top: 25px;
+  background-image: linear-gradient(to bottom, #002C40 0px, #005781 100%);
+  border-color: #005781; }
+body .homeCount {
+  font-size: 1.7em; }
 @media screen and (min-width: 769px) {
   body .collapse-xs {
     display: block !important;
@@ -1275,12 +1281,3 @@ figure {
     width: 1000px; } }
 
 /*# sourceMappingURL=style.css.map */
-
-/* estilos feito a mão */
-.homeCount{
-	font-size: 1.7em;
-}
-#btn-cadastre-se {
-	margin-top: 25px;
-	background-image: linear-gradient(to bottom, #002C40  0px, #005781 100%);
-	border-color: #005781;

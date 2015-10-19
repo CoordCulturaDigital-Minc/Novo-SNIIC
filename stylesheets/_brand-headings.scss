@@ -1,0 +1,46 @@
+a, li, h1, h2, h3, h4, h5, h6 {
+  &.brand-heading {
+    color: $color-gray;
+    font-weight: 400;
+    span {
+      color: $color-coal;
+      font-weight: 700;
+    }
+  }
+}
+a.brand-heading {
+  img {
+    width: $spacing-unit;
+    height: $spacing-unit;
+    margin-bottom: $spacing-unit/6;
+    margin-right: $spacing-unit/6;
+    display: inline-block;
+  }
+}
+h1.brand-heading {
+  img {
+    width: $spacing-unit * 2;
+    height: $spacing-unit * 2;
+    margin-bottom: $spacing-unit/3;
+    margin-right: $spacing-unit/3;
+    display: inline-block;
+  }
+}
+h4.brand-heading {
+  img {
+    width: $spacing-unit;
+    height: $spacing-unit;
+    margin-bottom: $spacing-unit/6;
+    margin-right: $spacing-unit/6;
+    display: inline-block;
+  }
+}
+h5.brand-heading {
+  img {
+    width: 3*$spacing-unit/4;
+    height: 3*$spacing-unit/4;
+    margin-bottom: $spacing-unit/6;
+    margin-right: $spacing-unit/6;
+    display: inline-block;
+  }
+}
