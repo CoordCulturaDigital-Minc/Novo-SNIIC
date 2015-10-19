@@ -7,12 +7,17 @@
 ?>
 
 <aside class="container-fluid dark"><div class="wrapper center-block clearfix">
-	<div class="col-xs-12 col-sm-4 col-md-3">
+	<div class="col-xs-12 col-sm-4 col-md-4">
 		<!-- TODO: Convert into custom Wordpress widget for backend editing -->
 		<aside class="busca">
 			<h4>Busca</h4>
 			<?php echo get_search_form(); ?>
 		</aside/>
+
+		<!-- TODO: Melhorar forma de expor isso... está meio cru, acho. -->
+		<aside class="contato">
+			<a href=""><h4>Entre em contato</h4></a>
+		</aside>
 
 		<!-- TODO: Convert into custom Wordpress widget for backend editing, use Tinyletter -->
 		<aside class="newsletter hidden">
@@ -28,7 +33,7 @@
 		</aside>
 	</div>
 
-	<div class="col-xs-12 col-sm-4 col-md-3 col-md-offset-1">
+	<div class="col-xs-12 col-sm-4 col-md-4">
 		<!-- TODO: Add more social addresses and mangled email -->
 		<!-- TODO: Convert into custom Wordpress widget for backend editing -->
 		<aside class="redes-sociais">
@@ -43,7 +48,7 @@
 		</aside>
 	</div>
 
-	<div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-1">
+	<div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-4">
 		<img class="center-block" style="max-width: 340px; width: 100%;" src="<?php echo get_template_directory_uri() ?>/assets/secretaria-politicas-culturais_dark.png" class="img-responsive"/>
 	</div>
 
