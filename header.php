@@ -39,7 +39,7 @@
 
 	<a id="branding" class="clearfix" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><div>
 		<?php include get_template_directory() . '/assets/forma.svg';?>
-		<h1><?php bloginfo( 'name' ); ?>
+		<h1 class="hidden-sm"><?php bloginfo( 'name' ); ?>
 		<small class="hidden"><?php bloginfo( 'description' ); ?></small></h1>
 	</div></a>
 
