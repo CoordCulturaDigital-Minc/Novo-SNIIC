@@ -67,25 +67,25 @@ get_header(); ?>
 	<div class="counters">
 		<h2 class="hidden">Explore</h2>
 		<ul class="center-block text-center">
-			<div class="col-xs-6 col-sm-3 col-md-offset-2">
+			<div class="col-xs-6 col-sm-2 col-sm-offset-2">
 			<a class="center-block" href="<?php echo MAPAS_URL; ?>/busca/##(global:(enabled:(agent:!t),filterEntity:agent))">
 			<li><i class="fa fa-user center-block"></i>
 			<h3 id="counter-agent"><span class="buscando">…</span><small>Agentes</small></h3></li></a>
 			</div>
 
-			<div class="col-xs-6 col-sm-3">
+			<div class="col-xs-6 col-sm-2">
 			<a class="center-block" href="<?php echo MAPAS_URL; ?>/busca/##(global:(enabled:(space:!t),filterEntity:space))">
 			<li><i class="fa fa-building-o center-block"></i>
 			<h3 id="counter-space"><span class="buscando">…</span><small>Espaços</small></h3></li></a>
 			</div>
 
-			<div class="col-xs-6 col-sm-3">
+			<div class="col-xs-6 col-sm-2">
 			<a class="center-block" href="<?php echo MAPAS_URL; ?>/busca/##(global:(enabled:(project:!t),filterEntity:project))">
 			<li><i class="fa fa-file-o center-block"></i>
 			<h3 id="counter-project"><span class="buscando">…</span><small>Projetos</small></h3></li></a>
 			</div>
 
-			<div class="col-xs-6 col-sm-3">
+			<div class="col-xs-6 col-sm-2">
 			<a class="center-block" href="<?php echo MAPAS_URL; ?>/busca/##(global:(enabled:(project:!t),filterEntity:project))">
 			<li><i class="fa fa-calendar center-block"></i>
 			<h3 id="counter-event"><span class="buscando">…</span><small>Eventos</small></h3></li></a>
