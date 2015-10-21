@@ -79,11 +79,15 @@ body {
   }
 
   @import "section";
-
+  & {
+    ul:hover { a, li, span, i, h1, h2, h3, h4, h5, h6, small {
+        color: $color-gray;
+        &:hover { a, li, span, i, h1, h2, h3, h4, h5, h6, small { color: black; } }
+    } }
+  }
   & > .dark {
     ul:hover { a, li {
-        color: $color-gray;
-        &:hover { color: $color-nil; }
+        &:hover { a, li, span, i, h1, h2, h3, h4, h5, h6, small { color: $color-nil; } }
     } }
     background: $color-coal;
     *, a:hover { color: $color-nil; }

@@ -67,9 +67,3 @@
     }
   }
 }
-& {
-  ul:hover { a, li, span, i, h1, h2, h3, h4, h5, h6, small {
-      color: $color-gray;
-      li:hover { a, li, span, i, h1, h2, h3, h4, h5, h6, small { color: black; } }
-  } }
-}
