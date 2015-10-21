@@ -64,10 +64,10 @@ get_header(); ?>
 	</figure></a>
 	</div>
 
-	<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 counters">
+	<div class="counters">
 		<h2 class="hidden">Explore</h2>
 		<ul class="center-block text-center">
-			<div class="col-xs-6 col-sm-3">
+			<div class="col-xs-6 col-sm-3 col-md-offset-2">
 			<a class="center-block" href="<?php echo MAPAS_URL; ?>/busca/##(global:(enabled:(agent:!t),filterEntity:agent))">
 			<li><i class="fa fa-user center-block"></i>
 			<h3 id="counter-agent"><span class="buscando">…</span><small>Agentes</small></h3></li></a>
