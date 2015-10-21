@@ -82,7 +82,7 @@ textarea { padding-right: 3px; padding-left: 0; }
 6.0 Accessibility
 --------------------------------------------------------------*/
 /* Text meant only for screen readers. */
-.screen-reader-text {
+.sr-only {
   &:hover, &:active, &:focus {
   	right: 5px;
   	left: auto;

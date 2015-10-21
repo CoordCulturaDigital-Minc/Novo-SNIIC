@@ -1,16 +1,16 @@
 & > section {
   &.velho-sniic {
     img {
-      min-width: $spacing-unit*5;
-      max-width: $spacing-unit*10;
+      min-width: $gutter*5;
+      max-width: $gutter*10;
     }
     p {
-      margin-top: $spacing-unit/4;
+      margin-top: $gutter/4;
       margin-bottom: 0;
       font-size: 18px;
     }
     button {
-      margin-top: $spacing-unit;
+      margin-top: $gutter;
     }
   }
   &.busca {
@@ -21,33 +21,33 @@
   }
   &.mapas {
     & > div > div {
-      margin-bottom: $spacing-unit;
+      margin-bottom: $gutter;
       &:last-child {
         margin-bottom: 0;
       }
     }
     .counters {
-      margin-top: $spacing-unit*2;
-      margin-bottom: $spacing-unit;
+      margin-top: $gutter*2;
+      margin-bottom: $gutter;
       h2 {
-        margin-bottom: $spacing-unit*2;
+        margin-bottom: $gutter*2;
       }
       ul {
         list-style: none;
         padding-left: 0;
         a {
           width: 130px;
-          margin-bottom: $spacing-unit;
+          margin-bottom: $gutter;
         }
         li {
           background-color: white;
-          border-radius: $spacing-unit/3;
+          border-radius: $gutter/3;
           overflow: hidden;
           border: 3px solid $color-teal;
-          padding-top: $spacing-unit/2;
+          padding-top: $gutter/2;
           i {
             font-size: 40px;
-            padding-bottom: $spacing-unit/3;
+            padding-bottom: $gutter/3;
           }
           h3 {
             margin: 0;
@@ -58,8 +58,8 @@
               display: block;
               text-transform: uppercase;
               background-color: $color-nil;
-              padding: $spacing-unit/3 0 $spacing-unit/3;
-              margin-top: $spacing-unit/3;
+              padding: $gutter/3 0 $gutter/3;
+              margin-top: $gutter/3;
             }
           }
         }

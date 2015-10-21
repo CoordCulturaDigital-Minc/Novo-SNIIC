@@ -237,7 +237,7 @@ add_filter( 'excerpt_length', 'argent_excerpt_length', 999 );
  * Add 'Read more' link to excerpts
  */
 function argent_excerpt_more( $excerpt ) {
-	return '&hellip; <a class="read-more" href="'. esc_url( get_permalink() ) . '">' . sprintf( wp_kses_post( __( 'Read more <span class="screen-reader-text">%1$s</span>', 'argent' ) ), esc_attr( strip_tags( get_the_title() ) ) ) . '</a>';
+	return '&hellip; <a class="read-more" href="'. esc_url( get_permalink() ) . '">' . sprintf( wp_kses_post( __( 'Read more <span class="sr-only">%1$s</span>', 'argent' ) ), esc_attr( strip_tags( get_the_title() ) ) ) . '</a>';
 }
 add_filter( 'excerpt_more', 'argent_excerpt_more' );
 

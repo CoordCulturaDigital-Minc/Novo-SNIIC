@@ -70,7 +70,7 @@ textarea {
 6.0 Accessibility
 --------------------------------------------------------------*/
 /* Text meant only for screen readers. */
-.screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
+.sr-only:hover, .sr-only:active, .sr-only:focus {
   right: 5px;
   left: auto; }
 

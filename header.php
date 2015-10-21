@@ -25,7 +25,7 @@
 <body <?php body_class(); ?>>
 <?php include_once("analyticstracking.php") ?>
 
-<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'argent' ); ?></a>
+<a class="skip-link sr-only" href="#content"><?php _e( 'Skip to content', 'argent' ); ?></a>
 
 <?php get_template_part( 'brasil/brasil', 'barra' ); ?>
 

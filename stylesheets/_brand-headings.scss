@@ -10,37 +10,37 @@ a, li, h1, h2, h3, h4, h5, h6 {
 }
 a.brand-heading {
   img {
-    width: $spacing-unit;
-    height: $spacing-unit;
-    margin-bottom: $spacing-unit/6;
-    margin-right: $spacing-unit/6;
+    width: $gutter;
+    height: $gutter;
+    margin-bottom: $gutter/6;
+    margin-right: $gutter/6;
     display: inline-block;
   }
 }
 h1.brand-heading {
   img {
-    width: $spacing-unit * 2;
-    height: $spacing-unit * 2;
-    margin-bottom: $spacing-unit/3;
-    margin-right: $spacing-unit/3;
+    width: $gutter * 2;
+    height: $gutter * 2;
+    margin-bottom: $gutter/3;
+    margin-right: $gutter/3;
     display: inline-block;
   }
 }
 h4.brand-heading {
   img {
-    width: $spacing-unit;
-    height: $spacing-unit;
-    margin-bottom: $spacing-unit/6;
-    margin-right: $spacing-unit/6;
+    width: $gutter;
+    height: $gutter;
+    margin-bottom: $gutter/6;
+    margin-right: $gutter/6;
     display: inline-block;
   }
 }
 h5.brand-heading {
   img {
-    width: 3*$spacing-unit/4;
-    height: 3*$spacing-unit/4;
-    margin-bottom: $spacing-unit/6;
-    margin-right: $spacing-unit/6;
+    width: 3*$gutter/4;
+    height: 3*$gutter/4;
+    margin-bottom: $gutter/6;
+    margin-right: $gutter/6;
     display: inline-block;
   }
 }

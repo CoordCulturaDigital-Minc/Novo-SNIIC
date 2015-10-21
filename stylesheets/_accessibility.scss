@@ -1,10 +1,5 @@
-/* Text meant only for screen readers. */
-.screen-reader-text {
+.sr-only {
 	clip: rect(1px, 1px, 1px, 1px);
-	position: absolute !important;
-	height: 1px;
-	width: 1px;
-	overflow: hidden;
   &:hover, &:active, &:focus {
   	background-color: #f1f1f1;
   	border-radius: 3px;
@@ -22,6 +17,6 @@
   	text-decoration: none;
   	top: 5px;
   	width: auto;
-  	z-index: 100000; /* Above WP toolbar. */
+  	z-index: 100000;
   }
 }

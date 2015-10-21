@@ -1,6 +1,6 @@
 aside {
 	aside {
-		margin-bottom: $spacing-unit;
+		margin-bottom: $gutter;
 		&:last-child {
 			margin-bottom: 0 !important;
 		}
@@ -10,8 +10,8 @@ aside {
 		padding-left: 0;
 		list-style: none;
 		ul {
-			margin-left: $spacing-unit/3;
-			margin-bottom: $spacing-unit;
+			margin-left: $gutter/3;
+			margin-bottom: $gutter;
 			&:last-child {
 				margin-bottom: 0;
 			}
@@ -21,7 +21,7 @@ aside {
 & > aside {
 	border: none;
 	& > .wrapper > div > aside {
-		margin-bottom: $spacing-unit;
+		margin-bottom: $gutter;
 		&:last-child {
 			margin-bottom: 0;
 		}
@@ -36,11 +36,11 @@ aside {
 				margin-left: 0px;
 				li {
 					font-size: 16px;
-					margin-bottom: $spacing-unit/2;
+					margin-bottom: $gutter/2;
 				}
 				i {
 					font-size: 20px;
-					margin-right: $spacing-unit/3;
+					margin-right: $gutter/3;
 				}
 			}
 		}
@@ -71,11 +71,11 @@ aside {
 			img {
 				width: 190px;
 				height: 110px;
-				margin-top: $spacing-unit;
-				margin-bottom: $spacing-unit;
+				margin-top: $gutter;
+				margin-bottom: $gutter;
 			}
 			button {
-				margin-top: $spacing-unit;
+				margin-top: $gutter;
 			}
 		}
 	}

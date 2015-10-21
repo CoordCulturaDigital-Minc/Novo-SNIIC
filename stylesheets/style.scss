@@ -2,7 +2,7 @@
 @import "colors";
 @import "mixins";
 
-$spacing-unit: 30px;
+$gutter: 30px; // medianiz
 
 body {
   overflow: hidden;
@@ -11,8 +11,8 @@ body {
     overflow: hidden;
     background-color: $color-nil;
     border-bottom: 1px solid white;
-    padding-top: $spacing-unit;
-    padding-bottom: $spacing-unit;
+    padding-top: $gutter;
+    padding-bottom: $gutter;
   }
   a:hover {
     text-decoration: none;
@@ -57,8 +57,8 @@ body {
     margin: 0;
     -webkit-padding-start: 0;
     li {
-      padding: $spacing-unit/4;
-      padding-top: $spacing-unit/2;
+      padding: $gutter/4;
+      padding-top: $gutter/2;
       border-bottom: 4px solid $color-nil;
       a {
         font-size: 20px;

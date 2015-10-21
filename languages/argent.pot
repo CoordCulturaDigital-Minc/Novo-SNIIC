@@ -166,7 +166,7 @@ msgid "no-subset"
 msgstr ""
 
 #: functions.php:219
-msgid "Read more <span class=\"screen-reader-text\">%1$s</span>"
+msgid "Read more <span class=\"sr-only\">%1$s</span>"
 msgstr ""
 
 #: header.php:22

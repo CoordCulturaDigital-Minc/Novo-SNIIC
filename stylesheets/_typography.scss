@@ -32,7 +32,7 @@ h5, h6 {
 	text-transform: uppercase;
 }
 p {
-	margin-bottom: $spacing-unit/2;
+	margin-bottom: $gutter/2;
   &:last-child {
   	margin-bottom: 0;
   }
@@ -108,7 +108,7 @@ big {
 	font-size: 125%;
 }
 figure {
-	margin-bottom: $spacing-unit/2;
+	margin-bottom: $gutter/2;
 	img {
 		width: 100% !important;
 		padding: 0;

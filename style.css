@@ -732,14 +732,9 @@ a img {
   content: "\00bb";
   margin-left: 5px; }
 
-/* Text meant only for screen readers. */
-.screen-reader-text {
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden; }
-  .screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
+.sr-only {
+  clip: rect(1px, 1px, 1px, 1px); }
+  .sr-only:hover, .sr-only:active, .sr-only:focus {
     background-color: #f1f1f1;
     border-radius: 3px;
     box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
@@ -756,8 +751,7 @@ a img {
     text-decoration: none;
     top: 5px;
     width: auto;
-    z-index: 100000;
-    /* Above WP toolbar. */ }
+    z-index: 100000; }
 
 .alignleft {
   display: inline;
@@ -770,6 +764,7 @@ a img {
   margin-left: 1.5em; }
 
 .aligncenter {
+  clear: both;
   display: block;
   margin-left: auto;
   margin-right: auto; }
