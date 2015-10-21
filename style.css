@@ -20,11 +20,11 @@ body > * {
 body a:hover {
   text-decoration: none; }
 body a.brand-heading, body li.brand-heading, body h1.brand-heading, body h2.brand-heading, body h3.brand-heading, body h4.brand-heading, body h5.brand-heading, body h6.brand-heading {
-  color: #7E7E7E;
-  font-weight: 400; }
+  color: #242424;
+  font-weight: 700; }
   body a.brand-heading span, body li.brand-heading span, body h1.brand-heading span, body h2.brand-heading span, body h3.brand-heading span, body h4.brand-heading span, body h5.brand-heading span, body h6.brand-heading span {
-    color: #242424;
-    font-weight: 700; }
+    color: #7E7E7E;
+    font-weight: 400; }
 body a.brand-heading img {
   width: 30px;
   height: 30px;
@@ -356,12 +356,45 @@ body > section.velho-sniic p {
 body > section.velho-sniic button {
   margin-top: 30px; }
 body > section.busca button, body > section.busca input[type="search"] {
-  font-size: 24px; }
-body > section.busca input[type="search"] {
+  font-size: 24px;
   border: none; }
-body ul:hover a, body ul:hover li {
+body > section.mapas > div > div {
+  margin-bottom: 30px; }
+  body > section.mapas > div > div:last-child {
+    margin-bottom: 0; }
+body > section.mapas .counters {
+  margin-top: 60px;
+  margin-bottom: 30px; }
+  body > section.mapas .counters h2 {
+    margin-bottom: 60px; }
+  body > section.mapas .counters ul {
+    list-style: none;
+    padding-left: 0; }
+    body > section.mapas .counters ul a {
+      width: 150px;
+      margin-bottom: 30px; }
+    body > section.mapas .counters ul li {
+      background-color: white;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 3px solid #69A0A8;
+      padding-top: 15px; }
+      body > section.mapas .counters ul li i {
+        font-size: 40px;
+        padding-bottom: 10px; }
+      body > section.mapas .counters ul li h3 {
+        margin: 0; }
+        body > section.mapas .counters ul li h3 span.buscando {
+          color: #7E7E7E; }
+        body > section.mapas .counters ul li h3 small {
+          display: block;
+          text-transform: uppercase;
+          background-color: #ECF3F4;
+          padding: 10px 0 10px;
+          margin-top: 10px; }
+body ul:hover a, body ul:hover li, body ul:hover span, body ul:hover i, body ul:hover h1, body ul:hover h2, body ul:hover h3, body ul:hover h4, body ul:hover h5, body ul:hover h6, body ul:hover small {
   color: #7E7E7E; }
-  body ul:hover a:hover, body ul:hover li:hover {
+  body ul:hover a li:hover a, body ul:hover a li:hover li, body ul:hover a li:hover span, body ul:hover a li:hover i, body ul:hover a li:hover h1, body ul:hover a li:hover h2, body ul:hover a li:hover h3, body ul:hover a li:hover h4, body ul:hover a li:hover h5, body ul:hover a li:hover h6, body ul:hover a li:hover small, body ul:hover li li:hover a, body ul:hover li li:hover li, body ul:hover li li:hover span, body ul:hover li li:hover i, body ul:hover li li:hover h1, body ul:hover li li:hover h2, body ul:hover li li:hover h3, body ul:hover li li:hover h4, body ul:hover li li:hover h5, body ul:hover li li:hover h6, body ul:hover li li:hover small, body ul:hover span li:hover a, body ul:hover span li:hover li, body ul:hover span li:hover span, body ul:hover span li:hover i, body ul:hover span li:hover h1, body ul:hover span li:hover h2, body ul:hover span li:hover h3, body ul:hover span li:hover h4, body ul:hover span li:hover h5, body ul:hover span li:hover h6, body ul:hover span li:hover small, body ul:hover i li:hover a, body ul:hover i li:hover li, body ul:hover i li:hover span, body ul:hover i li:hover i, body ul:hover i li:hover h1, body ul:hover i li:hover h2, body ul:hover i li:hover h3, body ul:hover i li:hover h4, body ul:hover i li:hover h5, body ul:hover i li:hover h6, body ul:hover i li:hover small, body ul:hover h1 li:hover a, body ul:hover h1 li:hover li, body ul:hover h1 li:hover span, body ul:hover h1 li:hover i, body ul:hover h1 li:hover h1, body ul:hover h1 li:hover h2, body ul:hover h1 li:hover h3, body ul:hover h1 li:hover h4, body ul:hover h1 li:hover h5, body ul:hover h1 li:hover h6, body ul:hover h1 li:hover small, body ul:hover h2 li:hover a, body ul:hover h2 li:hover li, body ul:hover h2 li:hover span, body ul:hover h2 li:hover i, body ul:hover h2 li:hover h1, body ul:hover h2 li:hover h2, body ul:hover h2 li:hover h3, body ul:hover h2 li:hover h4, body ul:hover h2 li:hover h5, body ul:hover h2 li:hover h6, body ul:hover h2 li:hover small, body ul:hover h3 li:hover a, body ul:hover h3 li:hover li, body ul:hover h3 li:hover span, body ul:hover h3 li:hover i, body ul:hover h3 li:hover h1, body ul:hover h3 li:hover h2, body ul:hover h3 li:hover h3, body ul:hover h3 li:hover h4, body ul:hover h3 li:hover h5, body ul:hover h3 li:hover h6, body ul:hover h3 li:hover small, body ul:hover h4 li:hover a, body ul:hover h4 li:hover li, body ul:hover h4 li:hover span, body ul:hover h4 li:hover i, body ul:hover h4 li:hover h1, body ul:hover h4 li:hover h2, body ul:hover h4 li:hover h3, body ul:hover h4 li:hover h4, body ul:hover h4 li:hover h5, body ul:hover h4 li:hover h6, body ul:hover h4 li:hover small, body ul:hover h5 li:hover a, body ul:hover h5 li:hover li, body ul:hover h5 li:hover span, body ul:hover h5 li:hover i, body ul:hover h5 li:hover h1, body ul:hover h5 li:hover h2, body ul:hover h5 li:hover h3, body ul:hover h5 li:hover h4, body ul:hover h5 li:hover h5, body ul:hover h5 li:hover h6, body ul:hover h5 li:hover small, body ul:hover h6 li:hover a, body ul:hover h6 li:hover li, body ul:hover h6 li:hover span, body ul:hover h6 li:hover i, body ul:hover h6 li:hover h1, body ul:hover h6 li:hover h2, body ul:hover h6 li:hover h3, body ul:hover h6 li:hover h4, body ul:hover h6 li:hover h5, body ul:hover h6 li:hover h6, body ul:hover h6 li:hover small, body ul:hover small li:hover a, body ul:hover small li:hover li, body ul:hover small li:hover span, body ul:hover small li:hover i, body ul:hover small li:hover h1, body ul:hover small li:hover h2, body ul:hover small li:hover h3, body ul:hover small li:hover h4, body ul:hover small li:hover h5, body ul:hover small li:hover h6, body ul:hover small li:hover small {
     color: black; }
 body > .dark {
   background: #242424; }
@@ -479,6 +512,17 @@ mark, ins {
 
 big {
   font-size: 125%; }
+
+figure {
+  margin-bottom: 15px; }
+  figure img {
+    width: 100% !important;
+    padding: 0;
+    margin: 0; }
+  figure figcaption {
+    color: #7E7E7E;
+    font-style: italic;
+    margin-top: 5px; }
 
 html {
   box-sizing: border-box; }

@@ -16,15 +16,60 @@
   &.busca {
     button, input[type="search"] {
       font-size: 24px;
-    }
-    input[type="search"] {
       border: none;
+    }
+  }
+  &.mapas {
+    & > div > div {
+      margin-bottom: $spacing-unit;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    .counters {
+      margin-top: $spacing-unit*2;
+      margin-bottom: $spacing-unit;
+      h2 {
+        margin-bottom: $spacing-unit*2;
+      }
+      ul {
+        list-style: none;
+        padding-left: 0;
+        a {
+          width: 150px;
+          margin-bottom: $spacing-unit;
+        }
+        li {
+          background-color: white;
+          border-radius: $spacing-unit/3;
+          overflow: hidden;
+          border: 3px solid $color-teal;
+          padding-top: $spacing-unit/2;
+          i {
+            font-size: 40px;
+            padding-bottom: $spacing-unit/3;
+          }
+          h3 {
+            margin: 0;
+            span.buscando {
+              color: $color-gray;
+            }
+            small {
+              display: block;
+              text-transform: uppercase;
+              background-color: $color-nil;
+              padding: $spacing-unit/3 0 $spacing-unit/3;
+              margin-top: $spacing-unit/3;
+            }
+          }
+        }
+      }
     }
   }
 }
 & {
-  ul:hover { a, li {
+  ul:hover { a, li, span, i, h1, h2, h3, h4, h5, h6, small {
       color: $color-gray;
-      &:hover { color: black; }
+      li:hover { a, li, span, i, h1, h2, h3, h4, h5, h6, small { color: black; } }
   } }
 }

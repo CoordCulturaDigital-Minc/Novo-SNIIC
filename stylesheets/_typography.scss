@@ -107,3 +107,16 @@ mark, ins {
 big {
 	font-size: 125%;
 }
+figure {
+	margin-bottom: $spacing-unit/2;
+	img {
+		width: 100% !important;
+		padding: 0;
+		margin: 0;
+	}
+	figcaption {
+		color: $color-gray;
+		font-style: italic;
+		margin-top: 5px;
+	}
+}
