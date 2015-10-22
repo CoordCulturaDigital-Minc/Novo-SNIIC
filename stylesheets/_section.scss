@@ -41,6 +41,7 @@
         }
         li {
           background-color: white;
+          @include linear-vertical-gradient(white, $color-nil);
           border-radius: $gutter/3;
           overflow: hidden;
           border: 3px solid $color-teal;
@@ -57,7 +58,7 @@
             small {
               display: block;
               text-transform: uppercase;
-              background-color: $color-nil;
+              @include linear-vertical-gradient(#FCFCFC, white);
               padding: $gutter/3 0 $gutter/3;
               margin-top: $gutter/3;
             }

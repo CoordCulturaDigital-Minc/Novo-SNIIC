@@ -376,6 +376,19 @@ body > section.mapas .counters {
       margin-bottom: 30px; }
     body > section.mapas .counters ul li {
       background-color: white;
+      background: -moz-linear-gradient(top, white 0%, #ECF3F4 100%);
+      /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #ECF3F4));
+      /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top, white 0%, #ECF3F4 100%);
+      /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, white 0%, #ECF3F4 100%);
+      /* Opera 11.10+ */
+      background: -ms-linear-gradient(top, white 0%, #ECF3F4 100%);
+      /* IE10+ */
+      background: linear-gradient(to bottom, white 0%, #ECF3F4 100%);
+      /* W3C */
+      background-repeat: repeat-x;
       border-radius: 10px;
       overflow: hidden;
       border: 3px solid #69A0A8;
@@ -390,7 +403,19 @@ body > section.mapas .counters {
         body > section.mapas .counters ul li h3 small {
           display: block;
           text-transform: uppercase;
-          background-color: #ECF3F4;
+          background: -moz-linear-gradient(top, #FCFCFC 0%, white 100%);
+          /* FF3.6+ */
+          background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FCFCFC), color-stop(100%, white));
+          /* Chrome,Safari4+ */
+          background: -webkit-linear-gradient(top, #FCFCFC 0%, white 100%);
+          /* Chrome10+,Safari5.1+ */
+          background: -o-linear-gradient(top, #FCFCFC 0%, white 100%);
+          /* Opera 11.10+ */
+          background: -ms-linear-gradient(top, #FCFCFC 0%, white 100%);
+          /* IE10+ */
+          background: linear-gradient(to bottom, #FCFCFC 0%, white 100%);
+          /* W3C */
+          background-repeat: repeat-x;
           padding: 10px 0 10px;
           margin-top: 10px; }
 body ul:hover a, body ul:hover li, body ul:hover span, body ul:hover i, body ul:hover h1, body ul:hover h2, body ul:hover h3, body ul:hover h4, body ul:hover h5, body ul:hover h6, body ul:hover small {
@@ -730,9 +755,13 @@ a img {
   content: "\00bb";
   margin-left: 5px; }
 
-.sr-only {
-  clip: rect(1px, 1px, 1px, 1px); }
-  .sr-only:hover, .sr-only:active, .sr-only:focus {
+.sr-only, .screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden; }
+  .sr-only:hover, .sr-only:active, .sr-only:focus, .screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
     background-color: #f1f1f1;
     border-radius: 3px;
     box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
