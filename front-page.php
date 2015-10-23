@@ -45,54 +45,7 @@ get_header(); ?>
 	</div>
 </div></section>
 
-<section class="container-fluid mapas"><div class="wrapper center-block clearfix row">
-	<div class="col-xs-12">
-	<h1 class="brand-heading">
-		<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.mapas.svg"/>
-		Mapas<span class="hidden-xs">.cultura.gov.br</span></h1>
-	</div>
-
-	<div class="col-xs-12 col-sm-6 col-md-4">
-	<p>
-		O Mapas Culturais substituirá o antigo cadastro do Sistema Nacional de Informações e Indicadores Culturais (SNIIC), porém com maior facilidade de uso, mais possibilidades de filtros de busca e integrado a outras bases de dados do MinC, como a Rede Cultura Viva, o Sistema Nacional de Bibliotecas Públicas e o Cadastro Nacional de Museus (este último em breve).</p>
-	</div>
-
-	<div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-4">
-	<a href="<?php echo MAPAS_URL; ?>"><figure>
-		<img src="<?php echo get_template_directory_uri() ?>/assets/thumbMapas.png" class="img-responsive">
-		<figcaption>Navegue pelo Mapa da Cultura</figcaption>
-	</figure></a>
-	</div>
-
-	<div class="counters">
-		<h2 class="hidden">Explore</h2>
-		<ul class="center-block text-center">
-			<div class="col-xs-6 col-sm-2 col-sm-offset-2">
-			<a class="center-block" href="<?php echo MAPAS_URL; ?>/busca/##(global:(enabled:(agent:!t),filterEntity:agent))">
-			<li><i class="fa fa-user center-block"></i>
-			<h3 id="counter-agent"><span class="buscando">…</span><small>Agentes</small></h3></li></a>
-			</div>
-
-			<div class="col-xs-6 col-sm-2">
-			<a class="center-block" href="<?php echo MAPAS_URL; ?>/busca/##(global:(enabled:(space:!t),filterEntity:space))">
-			<li><i class="fa fa-building-o center-block"></i>
-			<h3 id="counter-space"><span class="buscando">…</span><small>Espaços</small></h3></li></a>
-			</div>
-
-			<div class="col-xs-6 col-sm-2">
-			<a class="center-block" href="<?php echo MAPAS_URL; ?>/busca/##(global:(enabled:(project:!t),filterEntity:project))">
-			<li><i class="fa fa-file-o center-block"></i>
-			<h3 id="counter-project"><span class="buscando">…</span><small>Projetos</small></h3></li></a>
-			</div>
-
-			<div class="col-xs-6 col-sm-2">
-			<a class="center-block" href="<?php echo MAPAS_URL; ?>/busca/##(global:(enabled:(project:!t),filterEntity:project))">
-			<li><i class="fa fa-calendar center-block"></i>
-			<h3 id="counter-event"><span class="buscando">…</span><small>Eventos</small></h3></li></a>
-			</div>
-		</ul>
-	</div>
-</div></section>
+<?php get_template_part( 'front-page/front-page', 'mapas' ); ?>
 
 <section class="container-fluid breve"><div class="wrapper center-block clearfix row">
 <h1 class="col-xs-12">Em construção</h1>
@@ -146,22 +99,5 @@ get_header(); ?>
 </div></main>
 
 <?php get_sidebar(); ?>
-
-<script>
-jQuery(document).ready(function($) {
-	$.getJSON('<?php echo MAPAS_URL; ?>/api/agent/find?@select=id&@count=1', function(x) {
-			if (typeof(x) == 'number')
-				$('#counter-agent span.buscando').text(x).removeClass('buscando');
-	});
-	$.getJSON('<?php echo MAPAS_URL; ?>/api/space/find?@select=id&@count=1', function(x) {
-			if (typeof(x) == 'number')
-				$('#counter-space span.buscando').text(x).removeClass('buscando');
-	});
-	$.getJSON('<?php echo MAPAS_URL; ?>/api/project/find?@select=id&@count=1', function(x) {
-			if (typeof(x) == 'number')
-				$('#counter-project span.buscando').text(x).removeClass('buscando');
-	});
-});
-</script>
 
 <?php get_footer(); ?>

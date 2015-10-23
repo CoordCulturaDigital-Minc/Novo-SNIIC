@@ -20,50 +20,17 @@
     }
   }
   &.mapas {
-    & > div > div {
-      margin-bottom: $gutter;
-      &:last-child {
-        margin-bottom: 0;
+    ul {
+      list-style: none;
+      margin-left: 0px;
+      padding-left: 0px;
+      li {
+        font-size: 16px;
+        margin-bottom: $gutter/2;
       }
-    }
-    .counters {
-      margin-top: $gutter*2;
-      margin-bottom: $gutter;
-      h2 {
-        margin-bottom: $gutter*2;
-      }
-      ul {
-        list-style: none;
-        padding-left: 0;
-        a {
-          width: 130px;
-          margin-bottom: $gutter;
-        }
-        li {
-          background-color: white;
-          @include linear-vertical-gradient(white, $color-nil);
-          border-radius: $gutter/3;
-          overflow: hidden;
-          border: 3px solid $color-teal;
-          padding-top: $gutter/2;
-          i {
-            font-size: 40px;
-            padding-bottom: $gutter/3;
-          }
-          h3 {
-            margin: 0;
-            span.buscando {
-              color: $color-gray;
-            }
-            small {
-              display: block;
-              text-transform: uppercase;
-              @include linear-vertical-gradient(#FCFCFC, white);
-              padding: $gutter/3 0 $gutter/3;
-              margin-top: $gutter/3;
-            }
-          }
-        }
+      i {
+        font-size: 20px;
+        margin-right: $gutter/3;
       }
     }
   }
