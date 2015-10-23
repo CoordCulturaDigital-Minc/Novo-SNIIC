@@ -21,7 +21,8 @@ body a:hover {
   text-decoration: none; }
 body a.brand-heading, body li.brand-heading, body h1.brand-heading, body h2.brand-heading, body h3.brand-heading, body h4.brand-heading, body h5.brand-heading, body h6.brand-heading {
   color: #242424;
-  font-weight: 700; }
+  font-weight: 700;
+  text-transform: none; }
   body a.brand-heading span, body li.brand-heading span, body h1.brand-heading span, body h2.brand-heading span, body h3.brand-heading span, body h4.brand-heading span, body h5.brand-heading span, body h6.brand-heading span {
     color: #7E7E7E;
     font-weight: 400; }

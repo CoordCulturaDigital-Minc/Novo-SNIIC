@@ -21,22 +21,22 @@ get_header(); ?>
 	</header>
 
 	<aside class="col-xs-12 col-sm-4 col-md-4 ">
-		
+
 		<?php if (is_search()): ?>
-		
+
 			<div class="alert alert-info" role="alert">
 				<p>
 					<strong></strong>
 					Estamos trabalhando para que você consiga achar tudo o que procura através de uma única busca. Para melhorar nosso entendimento do que as pessoas esperam do SNIIC, estamos coletando e analisando os termos mais buscados.
 					<?php if (SaveSearch::getTopCount() > 50): ?>
-			
-						Até agora são: 
+
+						Até agora são:
 						<?php $termos = SaveSearch::getTopTerms(); ?>
 						<?php foreach ($termos as $i => $termo) : if (empty($termo)) continue;?>
 							<?php echo $termo; ?>
 							<?php echo ($i < sizeof($termos) -1) ? ',' : '.'; ?>
 						<?php endforeach; ?>
-					
+
 					<?php endif; ?>
 				</p>
 				<p>
@@ -44,7 +44,7 @@ get_header(); ?>
 				</p>
 			</div>
 
-			
+
 			<button class="hidden visible-xs col-xs-12 btn btn-link"
 							type="button"
 							data-toggle="collapse"
@@ -55,16 +55,16 @@ get_header(); ?>
 			</button>
 
 		<?php endif; // is_search() ?>
-		
+
 		<aside class="filter">
-			
+
 			<h5 class="brand-heading">
 				<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.publicacoes.svg"/>
-				<span>Publicações</span>
+				Publicações<span></span>
 			</h5>
 			<div class="form-group">
 				<label class="title" for="select-area">Tema</label>
-				
+
 				<?php wp_dropdown_categories(array(
 
 						'orderby'            => 'NAME',
@@ -136,14 +136,14 @@ get_header(); ?>
 								Agentes Culturais com "<em><?php echo get_search_query(); ?></em>"
 							</a></li>
 							<li><a href="<?php echo MAPAS_URL; ?>/busca/##(global:(enabled:(space:!t),filterEntity:space),space:(keyword:'<?php echo get_search_query(); ?>'))" target="blank">
-								Espaços Culturais com "<em><?php echo get_search_query(); ?></em>" 
+								Espaços Culturais com "<em><?php echo get_search_query(); ?></em>"
 							</a></li>
 							<li><a href="<?php echo MAPAS_URL; ?>/busca/##(global:(enabled:(event:!t),filterEntity:event),space:(keyword:'<?php echo get_search_query(); ?>'))" target="blank">
 								Eventos Culturais com "<em><?php echo get_search_query(); ?></em>"
 							</a></li>
 						</ul>
 					</li>
-					
+
 					<li class="hidden">
 						<h5 class="brand-heading">
 							<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.dados.svg"/>
@@ -157,8 +157,8 @@ get_header(); ?>
 				</ul>
 			</aside>
 		<?php endif; ?>
-	
-	
+
+
 	</aside>
 
 	<section class="col-xs-12 col-sm-8 col-md-8">
@@ -167,7 +167,7 @@ get_header(); ?>
 	<?php while ( have_posts() ) : the_post(); ?>
 
 	<?php get_template_part( 'content/content', get_post_format() ); ?>
-	
+
 	<?php endwhile; ?>
 
 	<?php the_posts_navigation(); ?>
