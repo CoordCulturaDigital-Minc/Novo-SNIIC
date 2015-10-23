@@ -14,7 +14,30 @@
       max-width: 425px;
       width: 100%;
     }
-    .quotes { font-weight: 300; }
+    .quotes { font-weight: 200;}
+    .button {
+      background-color: darken($color-nil, 10%);
+      border: 2px solid $color-coal;
+      border-radius: $gutter/3;
+      padding: $gutter/2 $gutter;
+      height: auto;
+      font-size: 20px;
+      font-weight: 200;
+      color: $color-coal;
+      text-decoration: none;
+      width: 200px;
+      margin-top: 2*$gutter;
+      margin-bottom: $gutter;
+      i {
+        margin-left: $gutter/3;
+      }
+      &:hover {
+        background-color: white;
+        color: black;
+        border-color: black;
+        text-decoration: none;
+      }
+    }
     & > h1 {
       display: table;
       margin: 0 auto;

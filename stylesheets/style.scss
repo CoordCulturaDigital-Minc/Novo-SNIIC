@@ -17,13 +17,6 @@ body {
 
   @import "brand-headings";
 
-  // TODO: desabilitar o uso dessas cores nesse tema pois elas remetem ao velho-sniic
-  button.btn-cadastre-se {
-    margin-top: 25px;
-    background-image: linear-gradient(to bottom, $color-velho-sniic-dark-blue  0px, $color-velho-sniic-second-shade-blue 100%);
-    border-color: $color-velho-sniic-second-shade-blue;
-  }
-
   .homeCount{
     font-size: 1.7em;
   }

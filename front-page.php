@@ -12,13 +12,12 @@ get_header(); ?>
 		<img src="<?php echo get_template_directory_uri() ?>/assets/main.acro.svg" class="img-responsive"/>
 	</div>
 
-	<h3 class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2 text-center quotes">
-		Conheça e explore a nova plataforma
-	</h3>
-	<br>
-	<br>
+	<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2 text-center quotes">
+	<h3>Conheça e explore a nova plataforma</h3>
+	</div>
+
 	<div class="col-xs-12">
-		<a href="<?php echo MAPAS_URL; ?>/painel"><button class="btn btn-primary btn-cadastre-se center-block">Cadastre-se</button></a>
+		<a class="button center-block text-center" href="<?php echo MAPAS_URL; ?>/painel">Cadastre-se<i class="fa fa-chevron-right"></i></a>
 	</div>
 
 	<h1 class="hidden"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
