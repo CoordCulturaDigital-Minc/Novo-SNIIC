@@ -293,13 +293,11 @@ body > aside {
       list-style: none;
       margin-left: 0px;
       padding-left: 0px; }
-    body > aside > .wrapper > div > aside.redes-sociais ul {
-      list-style: none;
-      margin-left: 0px; }
-      body > aside > .wrapper > div > aside.redes-sociais ul li {
+      body > aside > .wrapper > div > aside ul li {
         font-size: 16px;
-        margin-bottom: 15px; }
-      body > aside > .wrapper > div > aside.redes-sociais ul i {
+        padding-top: 7.5px;
+        padding-bottom: 7.5px; }
+      body > aside > .wrapper > div > aside ul i {
         font-size: 20px;
         margin-right: 10px; }
     body > aside > .wrapper > div > aside.plataformas ul li {

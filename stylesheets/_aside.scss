@@ -29,19 +29,14 @@ aside {
 			list-style: none;
 			margin-left: 0px;
 			padding-left: 0px;
-		}
-		&.redes-sociais {
-			ul {
-				list-style: none;
-				margin-left: 0px;
-				li {
-					font-size: 16px;
-					margin-bottom: $gutter/2;
-				}
-				i {
-					font-size: 20px;
-					margin-right: $gutter/3;
-				}
+			li {
+				font-size: 16px;
+				padding-top: $gutter/4;
+				padding-bottom: $gutter/4;
+			}
+			i {
+				font-size: 20px;
+				margin-right: $gutter/3;
 			}
 		}
 		&.plataformas ul {
