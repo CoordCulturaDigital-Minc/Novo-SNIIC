@@ -230,8 +230,6 @@ body > header > div {
   body > header > div #branding_simple {
     max-width: 425px;
     width: 100%; }
-  body > header > div .quotes {
-    font-weight: 200; }
   body > header > div .button {
     background-color: #ccdfe1;
     border: 2px solid #242424;
@@ -239,7 +237,6 @@ body > header > div {
     padding: 15px 30px;
     height: auto;
     font-size: 20px;
-    font-weight: 200;
     color: #242424;
     text-decoration: none;
     width: 200px;
