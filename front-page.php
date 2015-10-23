@@ -17,7 +17,7 @@ get_header(); ?>
 	</div>
 
 	<div class="col-xs-12">
-		<a class="button center-block text-center" href="<?php echo MAPAS_URL; ?>/painel">Cadastre-se<i class="fa fa-chevron-right"></i></a>
+		<a class="button center-block text-center" href="<?php echo MAPAS_URL; ?>/painel">Cadastre-se</a>
 	</div>
 
 	<h1 class="hidden"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
