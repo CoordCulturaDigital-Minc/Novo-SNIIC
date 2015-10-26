@@ -9,7 +9,7 @@
 
 get_header(); ?>
 
-<main id="main" class="site-main" role="main"><div class="wrapper center-block">
+<main class="container-fluid noticias" id="main" role="main"><div class="wrapper center-block clearfix row">
 
 <?php if ( have_posts() ) : ?>
 

@@ -1,5 +1,5 @@
 <?php
-// Dê um Find Replace (CASE SENSITIVE!) em Publicacoes pelo nome do seu post type 
+// Dê um Find Replace (CASE SENSITIVE!) em Publicacoes pelo nome do seu post type
 
 class Publicacoes
 {
@@ -7,7 +7,7 @@ class Publicacoes
     const MENU_NAME = 'Publicacoes';
 
     /**
-     * alug do post type: deve conter somente minúscula 
+     * alug do post type: deve conter somente minúscula
      * @var string
      */
     protected static $post_type;
@@ -20,34 +20,34 @@ class Publicacoes
         add_action('init', array(self::$post_type, 'register'), 0);
 
         add_action( 'init', array(__CLASS__, 'register_taxonomies') ,10);
-        
+
         //add_action( 'pre_get_posts', array(__CLASS__, 'add_to_search') ,10);
-        
+
         add_action( 'admin_init', array(__CLASS__, 'add_metabox') ,10);
-        
-        
-        
+
+
+
         //add_filter('menu_order', array(self::$post_type, 'change_menu_label'));
         //add_filter('custom_menu_order', array(self::$post_type, 'custom_menu_order'));
         add_action('save_post',array(__CLASS__, 'on_save'));
     }
-    
+
     static function add_to_search($query) {
-    
+
         if ($query->is_search()) {
-            
+
             $query->post_type = array('post', 'publicacoes');
         }
-    
+
     }
-    
+
     static function add_metabox() {
-        
+
         add_meta_box("my-pdf", "PDF da Publicação", array(__CLASS__, "pdf_metabox"), "publicacoes", "normal", "low");
         add_meta_box("publicacoes-fonte", "Fonte da Publicação", array(__CLASS__, "fonte_metabox"), "publicacoes", "normal", "low");
-        
+
     }
-    
+
     static function register()
     {
         register_post_type(self::$post_type, array(
@@ -106,7 +106,7 @@ class Publicacoes
             'rewrite' => true,
             )
         );
-        
+
         $labels = array(
             'name' => _x('Temas', 'taxonomy general name', 'SLUG'),
             'singular_name' => _x('Tema', 'taxonomy singular name', 'SLUG'),
@@ -145,7 +145,7 @@ class Publicacoes
     {
         return true;
     }
-    
+
     static function pdf_metabox() {
         global $post;
         $link    = get_post_meta($post->ID, 'pdf-link', true);
@@ -171,13 +171,13 @@ class Publicacoes
         echo '</select><br /></div>';
         echo '<p>Faça upload de um PDF nesta publicação e selecione aqui o arquivo.</p>';
     }
-    
+
     static function fonte_metabox() {
         global $post;
         $fonte    = get_post_meta($post->ID, 'fonte-nome', true);
         $link    = get_post_meta($post->ID, 'fonte-link', true);
         echo '<div class="link_header">';
-        
+
         ?>
         <p>
         <b>Nome da fonte</b><br/>
@@ -189,7 +189,7 @@ class Publicacoes
         </p>
         <?php
     }
-    
+
 
     /**
      * Chamado pelo hook save_post
@@ -212,51 +212,67 @@ class Publicacoes
 }
 Publicacoes::init();
 
-function the_pdf_link(){
-        global $post;
-        echo get_post_meta($post->ID, 'pdf-link', true);
-        
-        //TODO, se não tiver nenhum, pega o primeiro
-}
+// function the_pdf_link(){
+//         global $post;
+//         echo get_post_meta($post->ID, 'pdf-link', true);
+//
+//         //TODO, se não tiver nenhum, pega o primeiro
+// }
 
-function get_pdf_link(){
+function the_pdf_link(){
     global $post;
 
     if( get_post_type() !== 'publicacoes' )
         return false;
-    
+
     $pdf_link = get_post_meta($post->ID, 'pdf-link', true);
 
     if( !empty($pdf_link) )
-        return "<a href='" . $pdf_link . "' target='_blank' title='Baixar PDF'>Baixar PDF</a>";
+        return $pdf_link;
+        // return "<a href='" . $pdf_link . "' target='_blank' title='Baixar PDF'>Baixar PDF</a>";
 
     return false;
 }
 
-function get_fonte_link(){
+function the_fonte_link(){
     global $post;
 
     if( get_post_type() !== 'publicacoes' )
         return false;
-    
+
     $fonte_link = get_post_meta($post->ID, 'fonte-link', true);
 
     if( !empty( $fonte_link ) )
-        return "Fonte: <a href='" . $fonte_link . "' target='_blank'>". get_post_meta($post->ID, 'fonte-nome', true) ."</a>";
+        return $fonte_link;
+        // return "Fonte: <a href='" . $fonte_link . "' target='_blank'>". get_post_meta($post->ID, 'fonte-nome', true) ."</a>";
 
     return false;
 }
 
-function sniic_publicacoes_content_filter( $content ) {
+function the_fonte_name(){
+    global $post;
 
     if( get_post_type() !== 'publicacoes' )
-        return $content;
-    
-    $content = $content . get_pdf_link();
+        return false;
 
-    if( !empty( get_fonte_link() ) )
-     $content = $content . " - " . get_fonte_link();
-   
-    return $content;
+    $fonte_name = get_post_meta($post->ID, 'fonte-nome', true);
+
+    if( !empty( $fonte_name ) )
+        return $fonte_name;
+
+    return false;
 }
-add_filter( 'the_content', 'sniic_publicacoes_content_filter' );
+
+// function sniic_publicacoes_content_filter( $content ) {
+//
+//     if( get_post_type() !== 'publicacoes' )
+//         return $content;
+//
+//     $content = $content . get_pdf_link();
+//
+//     if( !empty( get_fonte_link() ) )
+//      $content = $content . " - " . get_fonte_link();
+//
+//     return $content;
+// }
+// add_filter( 'the_content', 'sniic_publicacoes_content_filter' );

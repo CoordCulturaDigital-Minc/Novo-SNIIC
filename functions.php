@@ -11,22 +11,6 @@ define('MAPAS_URL', 'http://mapas.cultura.gov.br');
 /**
  * Set the content width based on the theme's design and stylesheet.
  */
-if ( ! isset( $content_width ) ) {
-	$content_width = 780; /* pixels */
-}
-
-if ( ! function_exists( 'argent_content_width' ) ) :
-
-function argent_content_width() {
-	global $content_width;
-
-	if ( is_singular( 'post' ) ) {
-		$content_width = 490;
-	}
-}
-add_action( 'template_redirect', 'argent_content_width' );
-
-endif;
 
 if ( ! function_exists( 'argent_setup' ) ) :
 /**

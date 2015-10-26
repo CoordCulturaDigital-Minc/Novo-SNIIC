@@ -4,29 +4,24 @@
  */
 get_header(); ?>
 
-<?php if (is_search()): ?>
+<section class="container-fluid busca dark"><div class="wrapper center-block clearfix row">
+	<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+	<?php echo get_search_form(); ?>
+	</div>
+</div></section>
 
-	<section class="container-fluid busca dark"><div class="wrapper center-block clearfix row">
-		<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-		<?php echo get_search_form(); ?>
-		</div>
-	</div></section>
-
-<?php endif; ?>
-
-<main id="main" class="site-main" role="main"><div class="wrapper center-block clearfix row">
+<main id="main" class="publicacoes" role="main"><div class="wrapper center-block clearfix row">
 
 	<header class="page-header hidden">
 		<h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'argent' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 	</header>
 
-	<aside class="col-xs-12 col-sm-4 col-md-4 ">
+	<aside class="col-xs-12 col-sm-4 col-md-4">
 
 		<?php if (is_search()): ?>
 
 			<div class="alert alert-info" role="alert">
-				<p>
-					<strong></strong>
+				<p>	
 					Estamos trabalhando para que você consiga achar tudo o que procura através de uma única busca. Para melhorar nosso entendimento do que as pessoas esperam do SNIIC, estamos coletando e analisando os termos mais buscados.
 					<?php if (SaveSearch::getTopCount() > 50): ?>
 
@@ -40,7 +35,7 @@ get_header(); ?>
 					<?php endif; ?>
 				</p>
 				<p>
-					<b>Enquanto isso, utilize os campos abaixo para ajudá-lo a encontrar o que procura.</b>
+					<strong>Enquanto isso, utilize os campos abaixo para ajudá-lo a encontrar o que procura.</strong>
 				</p>
 			</div>
 
@@ -57,11 +52,6 @@ get_header(); ?>
 		<?php endif; // is_search() ?>
 
 		<aside class="filter">
-
-			<h5 class="brand-heading">
-				<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.publicacoes.svg"/>
-				Publicações<span></span>
-			</h5>
 			<div class="form-group">
 				<label class="title" for="select-area">Tema</label>
 
@@ -161,12 +151,12 @@ get_header(); ?>
 
 	</aside>
 
-	<section class="col-xs-12 col-sm-8 col-md-8">
+	<div class="col-xs-12 col-sm-8">
 
 	<?php if ( have_posts() ) : ?>
 	<?php while ( have_posts() ) : the_post(); ?>
 
-	<?php get_template_part( 'content/content', get_post_format() ); ?>
+	<?php get_template_part ('front-page/front-page', 'publicacoes'); ?>
 
 	<?php endwhile; ?>
 
@@ -177,7 +167,7 @@ get_header(); ?>
 		<h1>Nenhum conteúdo encontrado</h1>
 
 	<?php endif; ?>
-	</section>
+	</div>
 </main>
 
 

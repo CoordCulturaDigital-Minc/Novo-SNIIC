@@ -38,9 +38,15 @@
 	<div class="wrapper center-block clearfix row">
 
 	<a id="branding" class="clearfix" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><div>
-		<?php include get_template_directory() . '/assets/forma.svg';?>
-		<h1 class="hidden-sm"><?php bloginfo( 'name' ); ?>
-		<small class="hidden"><?php bloginfo( 'description' ); ?></small></h1>
+		<?php global $branding_name; ?>
+		<?php if ( ! isset( $branding_name ) ) : ?>
+			<?php include get_template_directory() . '/assets/forma.svg';?>
+			<h1 class="hidden-sm"><?php bloginfo( 'name' ); ?>
+			<small class="hidden"><?php bloginfo( 'description' ); ?></small></h1>
+		<?php else: ?>
+			<?php include get_template_directory() . '/assets/sub.glyph.' . $branding_name['hash'] . '.svg';?>
+			<h1><?php echo $branding_name['title']; ?><span class="hidden">.cultura.gov.br</span></h1>
+		<?php endif; ?>
 	</div></a>
 
 	<button class="visible-xs"

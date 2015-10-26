@@ -10,7 +10,7 @@ a, li, h1, h2, h3, h4, h5, h6 {
   }
 }
 a.brand-heading {
-  img {
+  img, svg {
     width: $gutter;
     height: $gutter;
     margin-bottom: $gutter/6;
@@ -19,7 +19,8 @@ a.brand-heading {
   }
 }
 h1.brand-heading {
-  img {
+  img, svg {
+    fill: $color-coal;
     width: $gutter * 2;
     height: $gutter * 2;
     margin-bottom: $gutter/3;
@@ -28,7 +29,7 @@ h1.brand-heading {
   }
 }
 h4.brand-heading {
-  img {
+  img, svg {
     width: $gutter;
     height: $gutter;
     margin-bottom: $gutter/6;
@@ -37,11 +38,22 @@ h4.brand-heading {
   }
 }
 h5.brand-heading {
-  img {
+  img, svg {
     width: 3*$gutter/4;
     height: 3*$gutter/4;
     margin-bottom: $gutter/6;
     margin-right: $gutter/6;
     display: inline-block;
+  }
+}
+
+.dark {
+  a, h1, h2, h3, h4, h5, h6 {
+    &.brand-heading {
+      color: $color-nil;
+      svg {
+        fill: $color-nil;
+      }
+    }
   }
 }

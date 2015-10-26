@@ -73,7 +73,21 @@ body {
 
   @import "section";
 
-  main.noticias {
+  main.publicacoes {
+    article.publicacoes {
+      & > header {
+        padding: 15px;
+      }
+    }
+    a {
+      & > section.title {
+        background-color: white;
+        box-shadow: 0px 1px 1px $color-gray;
+      }
+    }
+  }
+
+  main.noticias, main.publicacoes {
     header {
       position: relative;
       a.header-sublink {
@@ -113,8 +127,24 @@ body {
         }
       }
     }
+    article.publicacoes {
+      header {
+        h1 {
+          font-size: 30px;
+        }
+      }
+      section {
+        &.actions {
+          i {
+            font-size: 20px;
+            margin-left: 10px;
+          }
+        }
+      }
+      background-color: lighten($color-nil, 3%);
+    }
     a {
-      article {
+      & > article, & > section {
         padding: $gutter;
         margin-left: -$gutter/2;
         margin-right: -$gutter/2;
@@ -135,9 +165,9 @@ body {
           display: none;
         }
       }
-      &:hover article {
+      &:hover { article {
         background-color: white;
-      }
+      } }
     }
   }
   & {

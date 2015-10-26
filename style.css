@@ -26,30 +26,35 @@ body a.brand-heading, body li.brand-heading, body h1.brand-heading, body h2.bran
   body a.brand-heading span, body li.brand-heading span, body h1.brand-heading span, body h2.brand-heading span, body h3.brand-heading span, body h4.brand-heading span, body h5.brand-heading span, body h6.brand-heading span {
     color: #7E7E7E;
     font-weight: 400; }
-body a.brand-heading img {
+body a.brand-heading img, body a.brand-heading svg {
   width: 30px;
   height: 30px;
   margin-bottom: 5px;
   margin-right: 5px;
   display: inline-block; }
-body h1.brand-heading img {
+body h1.brand-heading img, body h1.brand-heading svg {
+  fill: #242424;
   width: 60px;
   height: 60px;
   margin-bottom: 10px;
   margin-right: 10px;
   display: inline-block; }
-body h4.brand-heading img {
+body h4.brand-heading img, body h4.brand-heading svg {
   width: 30px;
   height: 30px;
   margin-bottom: 5px;
   margin-right: 5px;
   display: inline-block; }
-body h5.brand-heading img {
+body h5.brand-heading img, body h5.brand-heading svg {
   width: 22.5px;
   height: 22.5px;
   margin-bottom: 5px;
   margin-right: 5px;
   display: inline-block; }
+body .dark a.brand-heading, body .dark h1.brand-heading, body .dark h2.brand-heading, body .dark h3.brand-heading, body .dark h4.brand-heading, body .dark h5.brand-heading, body .dark h6.brand-heading {
+  color: #ECF3F4; }
+  body .dark a.brand-heading svg, body .dark h1.brand-heading svg, body .dark h2.brand-heading svg, body .dark h3.brand-heading svg, body .dark h4.brand-heading svg, body .dark h5.brand-heading svg, body .dark h6.brand-heading svg {
+    fill: #ECF3F4; }
 body .homeCount {
   font-size: 1.7em; }
 @media screen and (min-width: 769px) {
@@ -380,9 +385,14 @@ body > section.mapas ul {
   body > section.mapas ul i {
     font-size: 20px;
     margin-right: 10px; }
-body main.noticias header {
+body main.publicacoes article.publicacoes > header {
+  padding: 15px; }
+body main.publicacoes a > section.title {
+  background-color: white;
+  box-shadow: 0px 1px 1px #7E7E7E; }
+body main.noticias header, body main.publicacoes header {
   position: relative; }
-  body main.noticias header a.header-sublink {
+  body main.noticias header a.header-sublink, body main.publicacoes header a.header-sublink {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -390,36 +400,43 @@ body main.noticias header {
     color: #242424;
     text-transform: uppercase;
     font-weight: 600; }
-    body main.noticias header a.header-sublink i {
+    body main.noticias header a.header-sublink i, body main.publicacoes header a.header-sublink i {
       margin-left: 10px; }
-    body main.noticias header a.header-sublink:hover {
+    body main.noticias header a.header-sublink:hover, body main.publicacoes header a.header-sublink:hover {
       text-decoration: none; }
-body main.noticias div.sticky-column article .img-wrapper {
+body main.noticias div.sticky-column article .img-wrapper, body main.publicacoes div.sticky-column article .img-wrapper {
   max-height: 370px;
   overflow: hidden; }
-body main.noticias div.sticky-column article header {
+body main.noticias div.sticky-column article header, body main.publicacoes div.sticky-column article header {
   margin-top: 15px; }
-  body main.noticias div.sticky-column article header h1 {
+  body main.noticias div.sticky-column article header h1, body main.publicacoes div.sticky-column article header h1 {
     font-size: 30px !important; }
-body main.noticias div.aside-column article img {
+body main.noticias div.aside-column article img, body main.publicacoes div.aside-column article img {
   display: none; }
-body main.noticias a article {
+body main.noticias article.publicacoes, body main.publicacoes article.publicacoes {
+  background-color: #f6f9fa; }
+  body main.noticias article.publicacoes header h1, body main.publicacoes article.publicacoes header h1 {
+    font-size: 30px; }
+  body main.noticias article.publicacoes section.actions i, body main.publicacoes article.publicacoes section.actions i {
+    font-size: 20px;
+    margin-left: 10px; }
+body main.noticias a > article, body main.noticias a > section, body main.publicacoes a > article, body main.publicacoes a > section {
   padding: 30px;
   margin-left: -15px;
   margin-right: -15px;
   margin-bottom: 0; }
-  body main.noticias a article img {
+  body main.noticias a > article img, body main.noticias a > section img, body main.publicacoes a > article img, body main.publicacoes a > section img {
     margin-bottom: 30px; }
-  body main.noticias a article h1 {
+  body main.noticias a > article h1, body main.noticias a > section h1, body main.publicacoes a > article h1, body main.publicacoes a > section h1 {
     line-height: 1 !important;
     margin-top: 0;
     margin-bottom: 10px;
     color: #51858d; }
-  body main.noticias a article time {
+  body main.noticias a > article time, body main.noticias a > section time, body main.publicacoes a > article time, body main.publicacoes a > section time {
     color: #69A0A8; }
-  body main.noticias a article footer span.byline {
+  body main.noticias a > article footer span.byline, body main.noticias a > section footer span.byline, body main.publicacoes a > article footer span.byline, body main.publicacoes a > section footer span.byline {
     display: none; }
-body main.noticias a:hover article {
+body main.noticias a:hover article, body main.publicacoes a:hover article {
   background-color: white; }
 body ul:hover a, body ul:hover li, body ul:hover span, body ul:hover i, body ul:hover h1, body ul:hover h2, body ul:hover h3, body ul:hover h4, body ul:hover h5, body ul:hover h6, body ul:hover small {
   color: #7E7E7E; }
