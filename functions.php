@@ -278,6 +278,11 @@ function remove_admin_bar(){
 }
 add_filter( 'show_admin_bar' , 'remove_admin_bar');
 
+function exclude_excerpt_more_link( $more ) {
+	return '...';
+}
+add_filter( 'excerpt_more', 'exclude_excerpt_more_link' );
+
 function exclude_post_thumbnail_link( $html, $post_id, $post_image_id ) {
 	return $html;
 }
