@@ -64,7 +64,7 @@ function argent_setup() {
 	 * @link http://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
 	 */
 	add_theme_support( 'post-thumbnails' );
-	add_image_size( 'argent-blog-thumbnail', 200, 133, true );
+	add_image_size( 'argent-blog-thumbnail', 'auto', 'auto', true );
 	add_image_size( 'argent-single-thumbnail', 660 );
 	add_image_size( 'argent-project-thumbnail', 310, 250, true );
 
@@ -277,3 +277,8 @@ function remove_admin_bar(){
    return false;
 }
 add_filter( 'show_admin_bar' , 'remove_admin_bar');
+
+function exclude_post_thumbnail_link( $html, $post_id, $post_image_id ) {
+	return $html;
+}
+add_filter( 'post_thumbnail_html', 'exclude_post_thumbnail_link', 10, 3 );

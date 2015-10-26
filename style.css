@@ -380,6 +380,47 @@ body > section.mapas ul {
   body > section.mapas ul i {
     font-size: 20px;
     margin-right: 10px; }
+body main.noticias header {
+  position: relative; }
+  body main.noticias header a.header-sublink {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 30px;
+    color: #242424;
+    text-transform: uppercase;
+    font-weight: 600; }
+    body main.noticias header a.header-sublink i {
+      margin-left: 10px; }
+    body main.noticias header a.header-sublink:hover {
+      text-decoration: none; }
+body main.noticias div.sticky-column article .img-wrapper {
+  max-height: 370px;
+  overflow: hidden; }
+body main.noticias div.sticky-column article header {
+  margin-top: 15px; }
+  body main.noticias div.sticky-column article header h1 {
+    font-size: 30px !important; }
+body main.noticias div.aside-column article img {
+  display: none; }
+body main.noticias a article {
+  padding: 30px;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: 0; }
+  body main.noticias a article img {
+    margin-bottom: 30px; }
+  body main.noticias a article h1 {
+    line-height: 1 !important;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #51858d; }
+  body main.noticias a article time {
+    color: #69A0A8; }
+  body main.noticias a article footer span.byline {
+    display: none; }
+body main.noticias a:hover article {
+  background-color: white; }
 body ul:hover a, body ul:hover li, body ul:hover span, body ul:hover i, body ul:hover h1, body ul:hover h2, body ul:hover h3, body ul:hover h4, body ul:hover h5, body ul:hover h6, body ul:hover small {
   color: #7E7E7E; }
   body ul:hover a:hover a, body ul:hover a:hover li, body ul:hover a:hover span, body ul:hover a:hover i, body ul:hover a:hover h1, body ul:hover a:hover h2, body ul:hover a:hover h3, body ul:hover a:hover h4, body ul:hover a:hover h5, body ul:hover a:hover h6, body ul:hover a:hover small, body ul:hover li:hover a, body ul:hover li:hover li, body ul:hover li:hover span, body ul:hover li:hover i, body ul:hover li:hover h1, body ul:hover li:hover h2, body ul:hover li:hover h3, body ul:hover li:hover h4, body ul:hover li:hover h5, body ul:hover li:hover h6, body ul:hover li:hover small, body ul:hover span:hover a, body ul:hover span:hover li, body ul:hover span:hover span, body ul:hover span:hover i, body ul:hover span:hover h1, body ul:hover span:hover h2, body ul:hover span:hover h3, body ul:hover span:hover h4, body ul:hover span:hover h5, body ul:hover span:hover h6, body ul:hover span:hover small, body ul:hover i:hover a, body ul:hover i:hover li, body ul:hover i:hover span, body ul:hover i:hover i, body ul:hover i:hover h1, body ul:hover i:hover h2, body ul:hover i:hover h3, body ul:hover i:hover h4, body ul:hover i:hover h5, body ul:hover i:hover h6, body ul:hover i:hover small, body ul:hover h1:hover a, body ul:hover h1:hover li, body ul:hover h1:hover span, body ul:hover h1:hover i, body ul:hover h1:hover h1, body ul:hover h1:hover h2, body ul:hover h1:hover h3, body ul:hover h1:hover h4, body ul:hover h1:hover h5, body ul:hover h1:hover h6, body ul:hover h1:hover small, body ul:hover h2:hover a, body ul:hover h2:hover li, body ul:hover h2:hover span, body ul:hover h2:hover i, body ul:hover h2:hover h1, body ul:hover h2:hover h2, body ul:hover h2:hover h3, body ul:hover h2:hover h4, body ul:hover h2:hover h5, body ul:hover h2:hover h6, body ul:hover h2:hover small, body ul:hover h3:hover a, body ul:hover h3:hover li, body ul:hover h3:hover span, body ul:hover h3:hover i, body ul:hover h3:hover h1, body ul:hover h3:hover h2, body ul:hover h3:hover h3, body ul:hover h3:hover h4, body ul:hover h3:hover h5, body ul:hover h3:hover h6, body ul:hover h3:hover small, body ul:hover h4:hover a, body ul:hover h4:hover li, body ul:hover h4:hover span, body ul:hover h4:hover i, body ul:hover h4:hover h1, body ul:hover h4:hover h2, body ul:hover h4:hover h3, body ul:hover h4:hover h4, body ul:hover h4:hover h5, body ul:hover h4:hover h6, body ul:hover h4:hover small, body ul:hover h5:hover a, body ul:hover h5:hover li, body ul:hover h5:hover span, body ul:hover h5:hover i, body ul:hover h5:hover h1, body ul:hover h5:hover h2, body ul:hover h5:hover h3, body ul:hover h5:hover h4, body ul:hover h5:hover h5, body ul:hover h5:hover h6, body ul:hover h5:hover small, body ul:hover h6:hover a, body ul:hover h6:hover li, body ul:hover h6:hover span, body ul:hover h6:hover i, body ul:hover h6:hover h1, body ul:hover h6:hover h2, body ul:hover h6:hover h3, body ul:hover h6:hover h4, body ul:hover h6:hover h5, body ul:hover h6:hover h6, body ul:hover h6:hover small, body ul:hover small:hover a, body ul:hover small:hover li, body ul:hover small:hover span, body ul:hover small:hover i, body ul:hover small:hover h1, body ul:hover small:hover h2, body ul:hover small:hover h3, body ul:hover small:hover h4, body ul:hover small:hover h5, body ul:hover small:hover h6, body ul:hover small:hover small {
@@ -660,8 +701,7 @@ form.search-form {
     color: #ECF3F4; }
     form.search-form input[type="search"]:focus {
       box-shadow: none;
-      border: none;
-      border-bottom: 2px solid #ECF3F4; }
+      border-color: #ECF3F4 !important; }
   form.search-form input::-webkit-input-placeholder {
     font-style: italic;
     font-weight: 300;

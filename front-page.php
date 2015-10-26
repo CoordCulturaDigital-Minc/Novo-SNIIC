@@ -1,8 +1,5 @@
-<?php
-/**
- * @package Argent Neue
- */
-get_header(); ?>
+<?php /* Template Name: Início */ ?>
+<?php get_header(); ?>
 
 <header class="container-fluid"><div class="wrapper center-block clearfix row">
 	<div id="branding_simple" class="visible-xs center-block">
@@ -69,33 +66,7 @@ get_header(); ?>
 </aside>
 </div></section>
 
-<main id="main" class="site-main container-fluid" role="main"><div class="wrapper center-block clearfix row">
-<h1 class="col-xs-12">Notícias</h1>
-
-<section class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-<?php if ( have_posts() ) : ?>
-
-	<?php /* Start the Loop */ ?>
-	<?php while ( have_posts() ) : the_post(); ?>
-		<?php
-			/* Include the Post-Format-specific template for the content.
-			 * If you want to override this in a child theme, then include a file
-			 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-			 */
-			get_template_part( 'content/content', get_post_format() );
-		?>
-	<?php endwhile; ?>
-
-	<?php the_posts_navigation(); ?>
-
-<?php else : ?>
-
-	<?php get_template_part( 'content/content', 'none' ); ?>
-
-<?php endif; ?>
-</section>
-
-</div></main>
+<?php get_template_part( 'front-page/front-page', 'noticias' ); ?>
 
 <?php get_sidebar(); ?>
 
