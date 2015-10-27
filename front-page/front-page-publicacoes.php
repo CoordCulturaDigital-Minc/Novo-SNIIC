@@ -37,21 +37,22 @@
     $fonte = the_fonte_link();
     $pdf = the_pdf_link();
   ?>
-
+  <footer class="row">
   <?php if ( $fonte != '' && $pdf != ''  ) : ?>
     <a class="col-xs-6 text-center" href="<?php echo the_fonte_link(); ?>">
-      <section class="actions"><?php echo the_fonte_name(); ?></section>
+      <section class="actions"><span>Fonte: </span><?php echo the_fonte_name(); ?></section>
     </a>
     <a class="col-xs-6 text-center download" href="<?php echo the_pdf_link(); ?>">
       <section class="actions">Baixar PDF<i class="fa fa-arrow-circle-o-down"></i></section>
   <?php elseif ( $fonte != '' && $pdf == '' ) : ?>
     <a class="col-xs-12 text-center" href="<?php echo the_fonte_link(); ?>">
-      <section class="actions"><?php echo the_fonte_name(); ?></section>
+      <section class="actions"><span>Fonte: </span><?php echo the_fonte_name(); ?></section>
   <?php elseif ( $fonte == '' && $pdf != '' ) : ?>
     <a class="col-xs-12 text-center download" href="<?php echo the_pdf_link(); ?>">
       <section class="actions">Baixar PDF<i class="fa fa-arrow-circle-o-down"></i></section>
   <?php endif; ?>
   </a>
+  </footer>
 
 </article>
 

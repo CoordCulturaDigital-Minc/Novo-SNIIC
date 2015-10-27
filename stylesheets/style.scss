@@ -86,6 +86,12 @@ body {
           }
         }
       }
+      & > footer {
+        padding: 15px;
+        section {
+          padding: 0;
+        }
+      }
     }
     a {
       & > section.title {

@@ -392,6 +392,10 @@ body main.publicacoes article.publicacoes > header {
       float: left; }
     body main.publicacoes article.publicacoes > header .pubdate {
       float: right; } }
+body main.publicacoes article.publicacoes > footer {
+  padding: 15px; }
+  body main.publicacoes article.publicacoes > footer section {
+    padding: 0; }
 body main.publicacoes a > section.title {
   background-color: white;
   box-shadow: 0px 1px 1px #7E7E7E; }
