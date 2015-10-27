@@ -102,7 +102,7 @@ get_header(); ?>
 					location.href = "<?php echo esc_url( home_url( '/' ) ); ?>/tema/"+tema.options[tema.selectedIndex].value;
 				}
 			}
-			tipo.onchange = onTemaChange;
+			tema.onchange = onTemaChange;
 
 			function onTipoChange() {
 				if ( tipo.options[tipo.selectedIndex].value != -1 ) {
