@@ -226,6 +226,14 @@ function the_pdf_link(){
         return false;
 
     $pdf_link = get_post_meta($post->ID, 'pdf-link', true);
+    
+    if (!$pdf_link) {
+		// se não tiver pdf selecionado tentamos pegar o primeiro pdf anexado
+		
+		global $wpdb;
+		$pdf_link = $wpdb->get_var("SELECT guid FROM $wpdb->posts WHERE post_parent = {$post->ID} AND post_type = 'attachment' AND post_mime_type = 'application/pdf' ORDER BY ID DESC LIMIT 1");
+		
+	}
 
     if( !empty($pdf_link) )
       return $pdf_link;
