@@ -156,7 +156,7 @@ get_header(); ?>
 	<?php if ( have_posts() ) : ?>
 	<?php while ( have_posts() ) : the_post(); ?>
 
-	<?php get_template_part ('front-page/front-page', 'publicacoes'); ?>
+	<?php get_template_part ('content/content', get_post_format() != '' ? get_post_format() : get_post_type()); ?>
 
 	<?php endwhile; ?>
 
