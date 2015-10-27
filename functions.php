@@ -271,3 +271,8 @@ function exclude_post_thumbnail_link( $html, $post_id, $post_image_id ) {
 	return $html;
 }
 add_filter( 'post_thumbnail_html', 'exclude_post_thumbnail_link', 10, 3 );
+
+function sniic_change_sender($email){
+	return "sniic@cultura.gov.br";
+}
+add_filter("wp_mail_from", "sniic_change_sender");
