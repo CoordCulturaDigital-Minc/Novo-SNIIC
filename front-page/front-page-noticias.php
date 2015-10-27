@@ -5,7 +5,7 @@
 	</header>
 
 	<?php
-	query_posts( 'posts_per_page=3' );
+	query_posts( 'posts_per_page=4' );
 
 	if ($wp_query->post_count == 0) :
 		get_template_part( 'content/content', 'none' );
