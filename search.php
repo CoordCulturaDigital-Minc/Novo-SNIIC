@@ -21,7 +21,7 @@ get_header(); ?>
 		<?php if (is_search()): ?>
 
 			<div class="alert alert-info" role="alert">
-				<p>	
+				<p>
 					Estamos trabalhando para que você consiga achar tudo o que procura através de uma única busca. Para melhorar nosso entendimento do que as pessoas esperam do SNIIC, estamos coletando e analisando os termos mais buscados.
 					<?php if (SaveSearch::getTopCount() > 50): ?>
 

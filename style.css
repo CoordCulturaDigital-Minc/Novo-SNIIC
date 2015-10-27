@@ -387,6 +387,11 @@ body > section.mapas ul {
     margin-right: 10px; }
 body main.publicacoes article.publicacoes > header {
   padding: 15px; }
+  @media screen and (min-width: 768px) {
+    body main.publicacoes article.publicacoes > header .taxonomies {
+      float: left; }
+    body main.publicacoes article.publicacoes > header .pubdate {
+      float: right; } }
 body main.publicacoes a > section.title {
   background-color: white;
   box-shadow: 0px 1px 1px #7E7E7E; }

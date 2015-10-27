@@ -77,6 +77,14 @@ body {
     article.publicacoes {
       & > header {
         padding: 15px;
+        @media screen and (min-width: 768px) {
+          .taxonomies {
+            float: left;
+          }
+          .pubdate {
+            float: right;
+          }
+        }
       }
     }
     a {

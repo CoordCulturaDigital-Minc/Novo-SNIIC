@@ -228,7 +228,7 @@ function the_pdf_link(){
     $pdf_link = get_post_meta($post->ID, 'pdf-link', true);
 
     if( !empty($pdf_link) )
-        return $pdf_link;
+      return $pdf_link;
         // return "<a href='" . $pdf_link . "' target='_blank' title='Baixar PDF'>Baixar PDF</a>";
 
     return false;

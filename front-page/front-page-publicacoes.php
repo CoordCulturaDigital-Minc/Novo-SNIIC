@@ -1,7 +1,8 @@
 <?php if( get_post_type() == 'publicacoes' ) : ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-  <header>
+  <header class="clearfix">
+    <div class="taxonomies">
     <?php
       $args = array(
           'before' => '<p class="entry-meta">',
@@ -10,6 +11,10 @@
       );
     ?>
     <?php the_taxonomies($args); ?>
+    </div>
+    <div class="pubdate">
+      <p class="hidden entry-meta">Publicação: <a href="">2008</a></p>
+    </div>
   </header>
 
   <a class="" href="<?php the_permalink(); ?>">
@@ -27,7 +32,7 @@
       </section>
     </section>
   </a>
-  <a class="col-xs-6 text-center" href="<?php the_fonte_link(); ?>">
+  <a class="col-xs-6 text-center" href="<?php echo the_fonte_link(); ?>">
     <section class="actions"><?php echo the_fonte_name(); ?></section>
   </a>
   <a class="col-xs-6 text-center download" href="<?php echo the_pdf_link(); ?>">
