@@ -12,7 +12,7 @@
     <?php the_taxonomies($args); ?>
   </header>
 
-  <a class="href="<?php the_permalink(); ?>">
+  <a class="" href="<?php the_permalink(); ?>">
     <section class="title">
       <div class="img-wrapper">
         <?php the_post_thumbnail( 'argent-blog-thumbnail', array( 'class' => 'img-responsive' ) ); ?>
@@ -28,9 +28,9 @@
     </section>
   </a>
   <a class="col-xs-6 text-center" href="<?php the_fonte_link(); ?>">
-    <section class="actions"><?php the_fonte_name(); ?></section>
+    <section class="actions"><?php echo the_fonte_name(); ?></section>
   </a>
-  <a class="col-xs-6 text-center download" href="<?php the_pdf_link(); ?>">
+  <a class="col-xs-6 text-center download" href="<?php echo the_pdf_link(); ?>">
     <section class="actions">Baixar PDF<i class="fa fa-arrow-circle-o-down"></i></section>
   </a>
 
