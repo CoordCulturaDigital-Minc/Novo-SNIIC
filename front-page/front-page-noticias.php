@@ -1,7 +1,7 @@
 <main class="container-fluid noticias" id="main" role="main"><div class="wrapper center-block clearfix row">
 	<header class="col-xs-12">
 		<h1>Notícias</h1>
-		<a href="http://sniic.cultura.gov.br/noticias/" class="header-sublink">Veja mais<i class="fa fa-chevron-right"></i></a>
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>/noticias/" class="header-sublink">Veja mais<i class="fa fa-chevron-right"></i></a>
 	</header>
 
 	<?php
