@@ -385,67 +385,39 @@ body > section.mapas ul {
   body > section.mapas ul i {
     font-size: 20px;
     margin-right: 10px; }
-body main.publicacoes article.publicacoes > header {
-  padding: 15px; }
-  @media screen and (min-width: 768px) {
-    body main.publicacoes article.publicacoes > header .taxonomies {
-      float: left; }
-    body main.publicacoes article.publicacoes > header .pubdate {
-      float: right; } }
-body main.publicacoes article.publicacoes > footer {
-  padding: 15px; }
-  body main.publicacoes article.publicacoes > footer section {
-    padding: 0; }
+body main.publicacoes article.publicacoes {
+  background-color: #f6f9fa; }
+  body main.publicacoes article.publicacoes > header {
+    padding: 15px; }
+    body main.publicacoes article.publicacoes > header h1 {
+      font-size: 30px; }
+    @media screen and (min-width: 768px) {
+      body main.publicacoes article.publicacoes > header .taxonomies {
+        float: left; }
+      body main.publicacoes article.publicacoes > header .pubdate {
+        float: right; } }
+  body main.publicacoes article.publicacoes > footer {
+    padding: 15px; }
+    body main.publicacoes article.publicacoes > footer section {
+      padding: 0; }
+  body main.publicacoes article.publicacoes section.actions i {
+    font-size: 20px;
+    margin-left: 10px; }
 body main.publicacoes a > section.title {
   background-color: white;
   box-shadow: 0px 1px 1px #7E7E7E; }
-body main.noticias header, body main.publicacoes header {
-  position: relative; }
-  body main.noticias header a.header-sublink, body main.publicacoes header a.header-sublink {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    margin-bottom: 30px;
-    color: #242424;
-    text-transform: uppercase;
-    font-weight: 600; }
-    body main.noticias header a.header-sublink i, body main.publicacoes header a.header-sublink i {
-      margin-left: 10px; }
-    body main.noticias header a.header-sublink:hover, body main.publicacoes header a.header-sublink:hover {
-      text-decoration: none; }
-body main.noticias div.sticky-column article .img-wrapper, body main.publicacoes div.sticky-column article .img-wrapper {
-  max-height: 370px;
-  overflow: hidden; }
-body main.noticias div.sticky-column article header, body main.publicacoes div.sticky-column article header {
-  margin-top: 15px; }
-  body main.noticias div.sticky-column article header h1, body main.publicacoes div.sticky-column article header h1 {
-    font-size: 30px !important; }
-body main.noticias div.aside-column article img, body main.publicacoes div.aside-column article img {
-  display: none; }
-body main.noticias article.publicacoes, body main.publicacoes article.publicacoes {
-  background-color: #f6f9fa; }
-  body main.noticias article.publicacoes header h1, body main.publicacoes article.publicacoes header h1 {
-    font-size: 30px; }
-  body main.noticias article.publicacoes section.actions i, body main.publicacoes article.publicacoes section.actions i {
-    font-size: 20px;
-    margin-left: 10px; }
-body main.noticias a > article, body main.noticias a > section, body main.publicacoes a > article, body main.publicacoes a > section {
+body main.publicacoes a > article, body main.publicacoes a > section {
   padding: 30px;
   margin-left: -15px;
   margin-right: -15px;
   margin-bottom: 0; }
-  body main.noticias a > article img, body main.noticias a > section img, body main.publicacoes a > article img, body main.publicacoes a > section img {
+  body main.publicacoes a > article img, body main.publicacoes a > section img {
     margin-bottom: 30px; }
-  body main.noticias a > article h1, body main.noticias a > section h1, body main.publicacoes a > article h1, body main.publicacoes a > section h1 {
-    line-height: 1 !important;
-    margin-top: 0;
-    margin-bottom: 10px;
-    color: #51858d; }
-  body main.noticias a > article time, body main.noticias a > section time, body main.publicacoes a > article time, body main.publicacoes a > section time {
+  body main.publicacoes a > article time, body main.publicacoes a > section time {
     color: #69A0A8; }
-  body main.noticias a > article footer span.byline, body main.noticias a > section footer span.byline, body main.publicacoes a > article footer span.byline, body main.publicacoes a > section footer span.byline {
+  body main.publicacoes a > article footer span.byline, body main.publicacoes a > section footer span.byline {
     display: none; }
-body main.noticias a:hover article, body main.publicacoes a:hover article {
+body main.publicacoes a:hover article {
   background-color: white; }
 body ul:hover a, body ul:hover li, body ul:hover span, body ul:hover i, body ul:hover h1, body ul:hover h2, body ul:hover h3, body ul:hover h4, body ul:hover h5, body ul:hover h6, body ul:hover small {
   color: #7E7E7E; }
@@ -858,16 +830,6 @@ a img {
   clear: both; }
 
 /*--------------------------------------------------------------
-10.1 Layout
---------------------------------------------------------------*/
-.site-info,
-.site-info a {
-  color: rgba(255, 255, 255, 0.5); }
-
-.site-info a:hover {
-  color: white; }
-
-/*--------------------------------------------------------------
 10.1 Posts and pages
 --------------------------------------------------------------*/
 .home .page-content:after {
@@ -919,30 +881,9 @@ a img {
   line-height: 1.6em;
   text-align: center; }
 
-.entry-meta {
-  color: #999;
-  font-size: 13px;
-  font-size: 1.3rem;
-  letter-spacing: .03em;
-  text-transform: uppercase; }
-
-.single-jetpack-portfolio .entry-meta, .page .entry-meta {
-  margin-top: 2.6667em; }
-
 .single-jetpack-portfolio .cat-links, .single-jetpack-portfolio .tags-links {
   display: block;
   margin-top: 0; }
-
-.entry-meta a {
-  color: #999; }
-  .entry-meta a:hover {
-    color: #444; }
-
-.entry-footer .entry-meta {
-  font-size: 11px; }
-  .entry-footer .entry-meta a {
-    font-weight: bold;
-    text-decoration: underline; }
 
 .single-jetpack-portfolio .entry-content {
   padding-left: 0; }
@@ -955,15 +896,6 @@ a img {
 .entry-content {
   font-size: 16px;
   font-size: 1.6rem; }
-
-.sticky {
-  display: block; }
-
-.hentry {
-  margin-bottom: 3.5556em; }
-
-.byline, .updated:not(.published) {
-  display: none; }
 
 .single .byline, .group-blog .byline {
   display: inline; }
@@ -1074,6 +1006,72 @@ a img {
   -webkit-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%); }
+
+.img-wrapper {
+  overflow: hidden;
+  padding: 0; }
+  .img-wrapper img {
+    display: block;
+    margin: 0 auto; }
+    .img-wrapper img.wide {
+      min-width: 100%;
+      min-height: 100%;
+      height: auto; }
+    .img-wrapper img.tall {
+      min-height: 100%;
+      min-width: 100%;
+      width: auto; }
+
+main.noticias > div header {
+  position: relative; }
+  main.noticias > div header a.header-sublink {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 30px;
+    color: #242424;
+    text-transform: uppercase;
+    font-weight: 600; }
+    main.noticias > div header a.header-sublink i {
+      margin-left: 10px; }
+    main.noticias > div header a.header-sublink:hover {
+      text-decoration: none; }
+main.noticias > div article {
+  margin-top: 30px; }
+  main.noticias > div article header {
+    margin-top: 0;
+    margin-bottom: 10px; }
+    main.noticias > div article header h1 {
+      color: #51858d;
+      line-height: 1.3;
+      margin-top: 0; }
+  main.noticias > div article footer {
+    margin-top: 7.5px; }
+    main.noticias > div article footer span, main.noticias > div article footer p, main.noticias > div article footer a {
+      font-size: 11px;
+      line-height: 1 !important;
+      text-transform: uppercase;
+      color: #7E7E7E; }
+    main.noticias > div article footer a:hover {
+      color: black;
+      text-decoration: underline; }
+    main.noticias > div article footer .byline, main.noticias > div article footer .taxonomies, main.noticias > div article footer .updated:not(.published) {
+      display: none; }
+  main.noticias > div article .media {
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 1px 1px gray; }
+  main.noticias > div article .media-left {
+    max-width: 300px; }
+    main.noticias > div article .media-left .img-wrapper {
+      height: 100px !important;
+      width: 100px !important; }
+  main.noticias > div article.sticky .img-wrapper {
+    max-height: 300px !important; }
+  main.noticias > div article.sticky header {
+    margin-top: 15px; }
+    main.noticias > div article.sticky header h1 {
+      font-size: 30px !important; }
 
 /*--------------------------------------------------------------
 10.4 Comments

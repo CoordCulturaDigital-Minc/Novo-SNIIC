@@ -1,25 +1,23 @@
 <?php
 /**
- * @package Argent
+ * @package Argent Neue
  */
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <a href="<?php the_permalink(); ?>">
     <div class="media">
-			<?php if ( ! post_password_required() && ! is_attachment() && has_post_thumbnail() ) : ?>
-	      <div class="media-left"><div class="img-wrapper center-block">
+      <?php if ( ! post_password_required() && ! is_attachment() && has_post_thumbnail() ) : ?>
+	      <div class="img-wrapper center-block">
 	        <?php the_post_thumbnail( 'argent-blog-thumbnail' ); ?>
-	      </div></div>
+	      </div>
 			<?php endif; ?>
 
-      <div class="media-right">
-        <header>
-          <h1 class="entry-title"><?php the_title(); ?></h1>
-        </header>
+      <header>
+        <h1 class="entry-title"><?php the_title(); ?></h1>
+      </header>
 
-        <?php the_excerpt(); ?>
-      </div>
+      <?php the_excerpt(); ?>
     </div>
   </a>
   <footer>
