@@ -33,7 +33,14 @@
 
 <?php get_template_part( 'front-page/front-page', 'breve' ); ?>
 
-<?php get_template_part( 'front-page/front-page', 'noticias' ); ?>
+<style>
+	main nav {
+		display: none;
+	}
+</style>
+
+<?php query_posts( 'posts_per_page=4' ); ?>
+<?php get_template_part( 'content/content', 'listing' ); ?>
 
 <?php get_sidebar(); ?>
 
