@@ -1,7 +1,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <a href="<?php the_permalink(); ?>">
     <div class="media">
-      <div class="media-left media-middle"><div class="img-wrapper center-block">
+      <div class="media-left media-middle"><div class="img-clipper center-block">
         <?php the_post_thumbnail( 'argent-blog-thumbnail' ); ?>
       </div></div>
       <div class="media-right">

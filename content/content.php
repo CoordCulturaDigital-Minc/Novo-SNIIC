@@ -1,14 +1,8 @@
-<?php
-/**
- * @package Argent
- */
-?>
-
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <a href="<?php the_permalink(); ?>">
-    <div class="media">
+    <div class="media row">
 			<?php if ( ! post_password_required() && ! is_attachment() && has_post_thumbnail() ) : ?>
-	      <div class="media-left"><div class="img-wrapper center-block">
+	      <div class="media-left"><div class="img-clipper center-block">
 	        <?php the_post_thumbnail( 'argent-blog-thumbnail' ); ?>
 	      </div></div>
 			<?php endif; ?>
@@ -22,7 +16,7 @@
       </div>
     </div>
   </a>
-  <footer>
+  <footer class="clearfix">
     <?php if ( 'post' == get_post_type() ) : ?>
       <div class="pull-left">
         <?php argent_posted_on(); ?>

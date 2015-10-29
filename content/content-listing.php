@@ -1,23 +1,15 @@
-<main class="container-fluid noticias" id="main" role="main"><div class="wrapper center-block clearfix row">
-
 <?php if ( have_posts() ) : ?>
 
-	<header class="col-xs-12">
-		<h1>Notícias</h1>
-    <a href="<?php echo esc_url( home_url( '/' ) ); ?>/noticias/" class="header-sublink">Veja mais<i class="fa fa-chevron-right"></i></a>
-	</header>
+	<?php while ( have_posts() ) : the_post(); ?>
+		<?php if (get_post_type() == 'publicacoes') : ?>
+			<?php get_template_part ('content/content', get_post_type()); ?>
+		<?php else: ?>
+			<?php get_template_part ('content/content', get_post_format()); ?>
+		<?php endif; ?>
 
-	<div class="col-xs-12 col-sm-8 col-sm-offset-2">
+	<?php endwhile; ?>
 
-		<?php while ( have_posts() ) : the_post(); ?>
-
-			<?php get_template_part( 'content/content', get_post_format() ); ?>
-
-		<?php endwhile; ?>
-
-		<?php the_posts_navigation(); ?>
-
-	</div>
+	<?php the_posts_navigation(); ?>
 
 <?php else : ?>
 
@@ -25,13 +17,14 @@
 
 <?php endif; ?>
 
-</div></main>
-
 <script type="text/javascript">
+
 jQuery(document).ready(function($) {
-	$('article .img-wrapper').find('img').each(function() {
-			var imgClass = (this.width / this.height > 1) ? 'wide' : 'tall';
-			$(this).addClass(imgClass);
-	})
-})
+	$('article .img-clipper img').each(function() {
+		var imgRatio = ($(this).attr('width')/$(this).attr('height'));
+		var wrapperRatio = ($(this).parent().width()/$(this).parent().height());
+		$(this).addClass((imgRatio > wrapperRatio) ? 'wide' : 'tall');
+	});
+});
+
 </script>

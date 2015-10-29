@@ -1007,24 +1007,30 @@ a img {
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%); }
 
-.img-wrapper {
+.img-clipper {
   overflow: hidden;
   padding: 0; }
-  .img-wrapper img {
+  .img-clipper img {
     display: block;
-    margin: 0 auto; }
-    .img-wrapper img.wide {
-      min-width: 100%;
-      min-height: 100%;
-      height: auto; }
-    .img-wrapper img.tall {
-      min-height: 100%;
-      min-width: 100%;
-      width: auto; }
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%; }
+    .img-clipper img.wide {
+      width: auto;
+      height: 100%;
+      min-width: none;
+      max-width: none; }
+    .img-clipper img.tall {
+      height: auto;
+      width: 100%;
+      min-height: none;
+      max-height: none; }
 
-main.noticias > div header {
+main > div header {
   position: relative; }
-  main.noticias > div header a.header-sublink {
+  main > div header a.header-sublink {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -1032,54 +1038,58 @@ main.noticias > div header {
     color: #242424;
     text-transform: uppercase;
     font-weight: 600; }
-    main.noticias > div header a.header-sublink i {
+    main > div header a.header-sublink i {
       margin-left: 10px; }
-    main.noticias > div header a.header-sublink:hover {
+    main > div header a.header-sublink:hover {
       text-decoration: none; }
-main.noticias > div article {
-  margin-top: 30px; }
-  main.noticias > div article footer {
-    margin-top: 7.5px; }
-    main.noticias > div article footer span, main.noticias > div article footer p, main.noticias > div article footer a {
+main > div article {
+  margin-bottom: 30px; }
+  main > div article > header, main > div article > footer {
+    padding: 10px;
+    margin-top: 2px;
+    background-color: #f6f9fa; }
+    main > div article > header span, main > div article > header p, main > div article > header a, main > div article > footer span, main > div article > footer p, main > div article > footer a {
       font-size: 11px;
       line-height: 1 !important;
       text-transform: uppercase;
       color: #7E7E7E; }
-    main.noticias > div article footer a:hover {
+    main > div article > header a:hover, main > div article > footer a:hover {
       color: black;
-      text-decoration: underline; }
-    main.noticias > div article footer .byline, main.noticias > div article footer .taxonomies, main.noticias > div article footer .updated:not(.published) {
-      display: none; }
-  main.noticias > div article .media {
-    padding: 30px;
+      text-decoration: none; }
+  main > div article > footer .byline, main > div article > footer .taxonomies, main > div article > footer .updated:not(.published) {
+    display: none; }
+  main > div article .media {
+    padding: 15px;
     background-color: white;
     box-shadow: 0px 1px 1px gray; }
-    main.noticias > div article .media .media-left {
+    main > div article .media .media-left {
       max-width: 300px; }
-      main.noticias > div article .media .media-left .img-wrapper {
+      main > div article .media .media-left .img-clipper {
         height: 100px;
         width: 100px; }
-    main.noticias > div article .media .media-right header {
+    main > div article .media .media-right header {
       margin-top: 0;
       margin-bottom: 10px; }
-      main.noticias > div article .media .media-right header h1 {
+      main > div article .media .media-right header h1 {
         color: #51858d;
         line-height: 1.3;
         margin-top: 0; }
-  main.noticias > div article.sticky .media .media-left {
-    display: block;
-    max-width: 100%;
-    width: auto;
-    height: auto;
-    padding-right: 0; }
-    main.noticias > div article.sticky .media .media-left .img-wrapper {
-      height: auto;
+  main > div article.sticky .media {
+    padding: 30px; }
+    main > div article.sticky .media .media-left {
+      display: block;
+      max-width: 100%;
       width: auto;
-      max-height: 300px; }
-  main.noticias > div article.sticky .media .media-right header {
-    margin-top: 15px; }
-    main.noticias > div article.sticky .media .media-right header h1 {
-      font-size: 30px !important; }
+      height: auto;
+      padding-right: 0; }
+      main > div article.sticky .media .media-left .img-clipper {
+        height: auto;
+        width: auto;
+        max-height: 300px; }
+    main > div article.sticky .media .media-right header {
+      margin-top: 15px; }
+      main > div article.sticky .media .media-right header h1 {
+        font-size: 30px !important; }
 
 /*--------------------------------------------------------------
 10.4 Comments
