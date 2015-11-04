@@ -276,3 +276,10 @@ function sniic_change_sender($email){
 	return "sniic@cultura.gov.br";
 }
 add_filter("wp_mail_from", "sniic_change_sender");
+
+function sniic_js() {
+	
+	wp_enqueue_script( 'sniic', get_template_directory_uri() . '/js/sniic.js' );
+
+}
+add_action( 'wp_enqueue_scripts', 'sniic_js' );
