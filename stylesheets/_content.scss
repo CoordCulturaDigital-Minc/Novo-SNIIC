@@ -250,12 +250,15 @@ SINGLE ARTICLE
 --------------------------------------------------------------*/
 
 .single {
+	margin-top: -$gutter;
 
 	article {
-		margin: $gutter * 2 auto;
 
 		.img-clipper {
 			max-height: 400px;
+			@media screen and (max-width: 767px) {
+				max-height: 250px;
+			}
 		}
 
 		header {

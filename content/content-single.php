@@ -1,14 +1,15 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-  <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+  <?php if ( ! post_password_required() && ! is_attachment() && has_post_thumbnail() ) : ?>
 
-    <?php if ( ! post_password_required() && ! is_attachment() && has_post_thumbnail() ) : ?>
-      <div class="img-clipper center-block">
-        <?php the_post_thumbnail( 'argent-blog-thumbnail' ); ?>
-      </div>
-    <?php endif; ?>
+    <div class="img-clipper center-block">
 
-  </div>
+      <?php the_post_thumbnail( 'argent-blog-thumbnail' ); ?>
+
+    </div>
+
+  <?php endif; ?>
+
 
   <div class="col-xs-12 col-sm-8 col-sm-offset-2">
 
