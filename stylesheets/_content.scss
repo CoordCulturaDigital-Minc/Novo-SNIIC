@@ -68,9 +68,6 @@
 	font-size: 16px;
 	font-size: 1.6rem;
 }
-.single .byline, .group-blog .byline {
-	display: inline;
-}
 .page-content, .entry-content, .entry-summary {
 	margin: 0.75em 0 0;
 }
@@ -238,6 +235,10 @@ main { & > div {
 			.byline, .taxonomies, .updated:not(.published) {
 				display: none;
 			}
+			i {
+        margin-left: $gutter/4;
+				font-size: 20px;
+      }
 		}
 		.media {
 			padding: $gutter/2;
