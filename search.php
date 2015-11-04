@@ -10,13 +10,13 @@ get_header(); ?>
 	</div>
 </div></section>
 
-<main id="main" class="publicacoes" role="main"><div class="wrapper center-block clearfix row">
+<main role="main"><div class="wrapper center-block clearfix row">
 
 	<header class="page-header hidden">
 		<h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'argent' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 	</header>
 
-	<aside class="col-xs-12 col-sm-4 col-md-4">
+	<aside class="col-xs-12 col-sm-4">
 
 		<?php if (is_search()): ?>
 
@@ -121,7 +121,7 @@ get_header(); ?>
 					<li>
 						<h5 class="brand-heading">
 							<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.mapas.svg"/>
-							<span>Mapas</span>.cultura.gov.br</h5>
+							Mapas<span>.cultura.gov.br</span></h5>
 						<ul>
 							<li><a href="<?php echo MAPAS_URL; ?>/busca/##(global:(enabled:(agent:!t),filterEntity:agent),agent:(keyword:'<?php echo get_search_query(); ?>'))" target="blank">
 								Agentes Culturais com "<em><?php echo get_search_query(); ?></em>"
@@ -153,21 +153,7 @@ get_header(); ?>
 	</aside>
 
 	<div class="col-xs-12 col-sm-8">
-
-	<?php if ( have_posts() ) : ?>
-	<?php while ( have_posts() ) : the_post(); ?>
-
-	<?php get_template_part ('content/content', get_post_format() != '' ? get_post_format() : get_post_type()); ?>
-
-	<?php endwhile; ?>
-
-	<?php the_posts_navigation(); ?>
-
-	<?php else : ?>
-
-		<h1>Nenhum conteúdo encontrado</h1>
-
-	<?php endif; ?>
+		<?php get_template_part( 'content/content', 'listing' ); ?>
 	</div>
 </main>
 

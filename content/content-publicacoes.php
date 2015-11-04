@@ -1,8 +1,6 @@
-<?php if( get_post_type() == 'publicacoes' ) : ?>
-
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <header class="clearfix">
-    <div class="taxonomies">
+    <div class="taxonomies pull-left">
     <?php
       $args = array(
           'before' => '<p class="entry-meta">',
@@ -12,48 +10,38 @@
     ?>
     <?php the_taxonomies($args); ?>
     </div>
-    <div class="pubdate">
-      <p class="hidden entry-meta">Publicação: <a href="">2008</a></p>
+    <div class="pubdate pull-right">
+      <p class="entry-meta">Publicação: <span><?php echo the_fonte_ano(); ?></span></p>
     </div>
   </header>
 
   <a class="" href="<?php the_permalink(); ?>">
-    <section class="title">
-      <div class="img-wrapper">
-        <?php the_post_thumbnail( 'argent-blog-thumbnail', array( 'class' => 'img-responsive' ) ); ?>
+    <div class="media row">
+      <?php if ( ! post_password_required() && ! is_attachment() && has_post_thumbnail() ) : ?>
+        <div class="media-left"><div class="img-clipper center-block">
+          <?php the_post_thumbnail( 'argent-blog-thumbnail' ); ?>
+        </div></div>
+      <?php endif; ?>
+
+      <div class="media-right">
+        <header>
+          <h1 class="entry-title"><?php the_title(); ?></h1>
+        </header>
+
+        <?php the_excerpt(); ?>
       </div>
-
-      <header>
-      	<h1 class="entry-title"><?php the_title(); ?></h1>
-      </header>
-
-      <section>
-      	<?php the_excerpt(); ?>
-      </section>
-    </section>
+    </div>
   </a>
 
-  <?php
-    $fonte = the_fonte_link();
-    $pdf = the_pdf_link();
-  ?>
-  <footer class="row">
-  <?php if ( $fonte != '' && $pdf != ''  ) : ?>
-    <a class="col-xs-6 text-center" href="<?php echo the_fonte_link(); ?>">
-      <section class="actions"><span>Fonte: </span><?php echo the_fonte_name(); ?></section>
-    </a>
-    <a class="col-xs-6 text-center download" href="<?php echo the_pdf_link(); ?>">
-      <section class="actions">Baixar PDF<i class="fa fa-arrow-circle-o-down"></i></section>
-  <?php elseif ( $fonte != '' && $pdf == '' ) : ?>
-    <a class="col-xs-12 text-center" href="<?php echo the_fonte_link(); ?>">
-      <section class="actions"><span>Fonte: </span><?php echo the_fonte_name(); ?></section>
-  <?php elseif ( $fonte == '' && $pdf != '' ) : ?>
-    <a class="col-xs-12 text-center download" href="<?php echo the_pdf_link(); ?>">
-      <section class="actions">Baixar PDF<i class="fa fa-arrow-circle-o-down"></i></section>
+  <?php if ( the_fonte_link() != '' || the_pdf_link() != ''  ) : ?>
+    <footer class="clearfix">
+      <div class="pull-left">
+        <p>Fonte: <a href="<?php echo the_fonte_link(); ?>"><?php echo the_fonte_name(); ?></a></p>
+      </div>
+      <div class="pull-right">
+        <p>Fonte: <a href="<?php echo the_pdf_link(); ?>">Baixar PDF<i class="fa fa-arrow-circle-o-down"></i></a></p>
+      </div>
+    </footer>
   <?php endif; ?>
-  </a>
-  </footer>
 
 </article>
-
-<?php endif; ?>

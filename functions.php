@@ -188,7 +188,10 @@ function argent_neue_twitter_bootstrap () {
 }
 add_action( 'wp_enqueue_scripts', 'argent_neue_twitter_bootstrap' );
 
-
+function img_clipper_js () {
+	wp_enqueue_script( 'img_clipper', get_template_directory_uri() . '/js/img-clipper.js', array( 'jquery' ), false, true );
+}
+add_action( 'wp_enqueue_scripts', 'img_clipper_js' );
 
 function argent_neue_scripts() {
 	wp_enqueue_style( 'argent-style', get_stylesheet_uri() );
