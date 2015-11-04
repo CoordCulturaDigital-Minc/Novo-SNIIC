@@ -202,7 +202,7 @@ class Publicacoes
             return $post_id;
 
         global $post;
-        if ($post->post_type == self::$post_type) {
+        if (is_object($post) && isset($post->post_type) && $post->post_type == self::$post_type) {
             update_post_meta($post->ID, "pdf-link", $_POST["pdf-link"]);
             update_post_meta($post->ID, "fonte-link", $_POST["fonte-link"]);
             update_post_meta($post->ID, "fonte-nome", $_POST["fonte-nome"]);
