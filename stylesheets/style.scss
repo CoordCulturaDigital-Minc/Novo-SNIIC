@@ -4,6 +4,11 @@
 
 $gutter: 30px; // medianiz
 
+.wrapper {
+	width: 100%;
+	max-width: 1000px;
+}
+
 body {
   & > * {
     background-color: $color-nil;
