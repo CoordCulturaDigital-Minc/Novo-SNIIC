@@ -1,5 +1,5 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-  <header class="clearfix">
+  <footer class="clearfix">
     <div class="taxonomies pull-left">
     <?php
       $args = array(
@@ -13,7 +13,7 @@
     <div class="pubdate pull-right">
       <p class="entry-meta">Publicação: <span><?php echo the_fonte_ano(); ?></span></p>
     </div>
-  </header>
+  </footer>
 
   <a class="" href="<?php the_permalink(); ?>">
     <div class="media row">

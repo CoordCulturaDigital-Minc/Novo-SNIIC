@@ -213,7 +213,7 @@ main { & > div {
 	}
 	article {
 		margin-bottom: $gutter;
-		& > header, & > footer {
+		& > footer {
 			padding: $gutter/3;
 			margin-top: 2px;
 			background-color: rgb(246, 249, 250);
@@ -231,11 +231,10 @@ main { & > div {
 				}
 			}
 			i {
-        margin-left: $gutter/5;
-				font-size: 20px;
-      }
-		}
-		& > footer {
+				margin-left: $gutter/5;
+				font-size: 15px;
+				margin-top: -999px;
+			}
 			.byline, .taxonomies, .updated:not(.published) {
 				display: none;
 			}
