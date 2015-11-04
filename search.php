@@ -26,12 +26,13 @@ get_header(); ?>
 					<?php if (SaveSearch::getTopCount() > 50): ?>
 
 						Até agora são:
-						<?php $termos = SaveSearch::getTopTerms(); ?>
-						<?php foreach ($termos as $i => $termo) : if (empty($termo)) continue;?>
-							<?php echo $termo; ?>
-							<?php echo ($i < sizeof($termos) -1) ? ',' : '.'; ?>
-						<?php endforeach; ?>
-
+						<?php
+							$termos = SaveSearch::getTopTerms();
+							foreach ($termos as $i => $termo) : if (empty($termo)) continue;
+								?><em><?php echo trim($termo); ?></em><?php
+								echo ($i < sizeof($termos) -1) ? ', ' : '.';
+							endforeach;
+						?>
 					<?php endif; ?>
 				</p>
 				<p>
