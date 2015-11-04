@@ -211,6 +211,84 @@ header.section-header {
 	}
 }
 
+footer, article footer {
+	.pull-left {
+		span {
+			margin-right: $gutter/3;
+		}
+	}
+	.pull-right {
+		span {
+			margin-left: $gutter/3;
+		}
+	}
+	p, span, a {
+		text-transform: uppercase;
+		color: $color-gray;
+		font-size: 11px;
+		line-height: 1 !important;
+	}
+	a {
+		color: black;
+		&:hover {
+			color: black;
+			text-decoration: none;
+		}
+	}
+	i {
+		margin-left: $gutter/5;
+		font-size: 15px;
+		margin-top: -999px;
+	}
+	.byline, .taxonomies, .updated:not(.published), .comments-link, .edit-link {
+		display: none;
+	}
+}
+
+/*--------------------------------------------------------------
+SINGLE ARTICLE
+--------------------------------------------------------------*/
+
+.single {
+	.img-clipper {
+		max-height: 400px;
+	}
+	header {
+		h1 {
+			text-align: center;
+		}
+	}
+	article {
+		margin: $gutter * 2 auto;
+
+		footer {
+			border-bottom: 1px solid $color-gray;
+			border-top: 1px solid $color-gray;
+		}
+
+		footer {
+			text-align: center;
+			span {
+				margin-left: $gutter/2;
+				margin-bottom: $gutter/3;
+				margin-top: $gutter/3;
+				&:last-child {
+					margin-left: 0;
+				}
+				@media screen and (min-width: 768px) {
+					display: inline-block;
+				}
+				@media screen and (max-width: 767px) {
+					display: block;
+				}
+			}
+			.byline, .taxonomies, .updated:not(.published), .comments-link, .edit-link {
+				display: none;
+			}
+		}
+	}
+}
+
 /*--------------------------------------------------------------
 LISTING OF ARTICLES
 --------------------------------------------------------------*/
@@ -218,41 +296,11 @@ LISTING OF ARTICLES
 .content-listing {
 	article {
 		margin-bottom: $gutter;
+
 		& > footer {
 			padding: $gutter/3;
 			margin-top: 2px;
 			background-color: rgb(246, 249, 250);
-			.pull-left {
-				span {
-					margin-right: $gutter/3;
-				}
-			}
-			.pull-right {
-				span {
-					margin-left: $gutter/3;
-				}
-			}
-			p, span, a {
-				text-transform: uppercase;
-				font-size: 11px;
-				color: $color-gray;
-				line-height: 1 !important;
-			}
-			a {
-				color: black;
-				&:hover {
-					color: black;
-					text-decoration: none;
-				}
-			}
-			i {
-				margin-left: $gutter/5;
-				font-size: 15px;
-				margin-top: -999px;
-			}
-			.byline, .taxonomies, .updated:not(.published), .comments-link, .edit-link {
-				display: none;
-			}
 		}
 		.media {
 			padding: $gutter/2;

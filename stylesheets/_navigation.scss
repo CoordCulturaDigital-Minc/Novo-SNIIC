@@ -73,24 +73,6 @@
             left: 0;
           } }
         }
-        & > ul {
-          // TODO: Block hover mixin
-          & > li > a {
-            color: $color-nil;
-          }
-          &:hover > li {
-            & > a {
-              color: $color-gray;
-              border-color: $color-coal;
-            }
-            &:hover > a {
-              color: $color-nil;
-            }
-          }
-          & > li ul > li {
-            border-bottom: 1px solid $color-nil;
-          }
-        }
       }
     }
 

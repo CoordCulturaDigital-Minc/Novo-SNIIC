@@ -52,9 +52,12 @@
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>/noticias/" class="header-sublink">Veja mais<i class="fa fa-chevron-right"></i></a>
 			</div>
 		</header>
+	</div>
 
+	<div class="col-xs-12 col-sm-8 col-sm-offset-2">
 		<?php get_template_part( 'content/content', 'listing' ); ?>
 	</div>
+
 </main>
 
 <?php get_sidebar(); ?>
