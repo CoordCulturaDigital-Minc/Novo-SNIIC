@@ -211,19 +211,34 @@ header.section-header {
 	}
 }
 
+/*--------------------------------------------------------------
+LISTING OF ARTICLES
+--------------------------------------------------------------*/
+
+.content-listing {
 	article {
 		margin-bottom: $gutter;
 		& > footer {
 			padding: $gutter/3;
 			margin-top: 2px;
 			background-color: rgb(246, 249, 250);
+			.pull-left {
+				span {
+					margin-right: $gutter/3;
+				}
+			}
+			.pull-right {
+				span {
+					margin-left: $gutter/3;
+				}
+			}
 			p, span, a {
 				text-transform: uppercase;
 				font-size: 11px;
 				color: $color-gray;
 				line-height: 1 !important;
 			}
-			span, a {
+			a {
 				color: black;
 				&:hover {
 					color: black;
@@ -235,7 +250,7 @@ header.section-header {
 				font-size: 15px;
 				margin-top: -999px;
 			}
-			.byline, .taxonomies, .updated:not(.published) {
+			.byline, .taxonomies, .updated:not(.published), .comments-link, .edit-link {
 				display: none;
 			}
 		}
@@ -262,6 +277,7 @@ header.section-header {
 				}
 			}
 		}
+
 		&.sticky {
 			.media {
 				padding: $gutter;
@@ -287,6 +303,9 @@ header.section-header {
 				}
 			}
 		}
+
 	}
 
-} }
+}
+
+}
