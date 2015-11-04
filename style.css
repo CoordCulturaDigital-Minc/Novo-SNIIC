@@ -1057,16 +1057,21 @@ main {
     margin-top: -999px; }
   main footer .byline, main footer .taxonomies, main footer .updated:not(.published), main footer .comments-link, main footer .edit-link, main article footer .byline, main article footer .taxonomies, main article footer .updated:not(.published), main article footer .comments-link, main article footer .edit-link {
     display: none; }
-  main .single .img-clipper {
-    max-height: 400px; }
-  main .single header h1 {
-    text-align: center; }
   main .single article {
     margin: 60px auto; }
+    main .single article .img-clipper {
+      max-height: 400px; }
+    main .single article header {
+      margin-top: 60px;
+      margin-bottom: 60px; }
+      main .single article header h1 {
+        text-align: center;
+        line-height: 1; }
+    main .single article .content > * {
+      margin: 15px; }
     main .single article footer {
       border-bottom: 1px solid #7E7E7E;
-      border-top: 1px solid #7E7E7E; }
-    main .single article footer {
+      border-top: 1px solid #7E7E7E;
       text-align: center; }
       main .single article footer span {
         margin-left: 15px;

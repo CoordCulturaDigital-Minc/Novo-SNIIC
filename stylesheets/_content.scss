@@ -250,23 +250,32 @@ SINGLE ARTICLE
 --------------------------------------------------------------*/
 
 .single {
-	.img-clipper {
-		max-height: 400px;
-	}
-	header {
-		h1 {
-			text-align: center;
-		}
-	}
+
 	article {
 		margin: $gutter * 2 auto;
+
+		.img-clipper {
+			max-height: 400px;
+		}
+
+		header {
+			margin-top: $gutter * 2;
+			margin-bottom: $gutter * 2;
+			h1 {
+				text-align: center;
+				line-height: 1;
+			}
+		}
+
+		.content {
+			& > * {
+				margin: $gutter/2;
+			}
+		}
 
 		footer {
 			border-bottom: 1px solid $color-gray;
 			border-top: 1px solid $color-gray;
-		}
-
-		footer {
 			text-align: center;
 			span {
 				margin-left: $gutter/2;
