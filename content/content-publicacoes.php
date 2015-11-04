@@ -11,7 +11,7 @@
     <?php the_taxonomies($args); ?>
     </div>
     <div class="pubdate pull-right">
-      <p class="entry-meta">Publicação: <a href="">2008</a></p>
+      <p class="entry-meta">Publicação: <span><?php echo the_fonte_ano(); ?></span></p>
     </div>
   </header>
 
@@ -35,12 +35,12 @@
 
   <?php if ( the_fonte_link() != '' || the_pdf_link() != ''  ) : ?>
     <footer class="clearfix">
-      <a class="pull-left" href="<?php echo the_fonte_link(); ?>">
-        <section class="actions"><span>Fonte: </span><?php echo the_fonte_name(); ?></section>
-      </a>
-      <a class="pull-right download" href="<?php echo the_pdf_link(); ?>">
-        <section class="actions">Baixar PDF<i class="fa fa-arrow-circle-o-down"></i></section>
-      </a>
+      <div class="pull-left">
+        <p>Fonte: <a href="<?php echo the_fonte_link(); ?>"><?php echo the_fonte_name(); ?></a></p>
+      </div>
+      <div class="pull-right">
+        <p>Fonte: <a href="<?php echo the_pdf_link(); ?>">Baixar PDF<i class="fa fa-arrow-circle-o-down"></i></a></p>
+      </div>
     </footer>
   <?php endif; ?>
 

@@ -1045,19 +1045,21 @@ main > div article {
     padding: 10px;
     margin-top: 2px;
     background-color: #f6f9fa; }
-    main > div article > header span, main > div article > header p, main > div article > header a, main > div article > footer span, main > div article > footer p, main > div article > footer a {
-      font-size: 11px;
-      line-height: 1 !important;
+    main > div article > header p, main > div article > header span, main > div article > header a, main > div article > footer p, main > div article > footer span, main > div article > footer a {
       text-transform: uppercase;
-      color: #7E7E7E; }
-    main > div article > header a:hover, main > div article > footer a:hover {
-      color: black;
-      text-decoration: none; }
+      font-size: 11px;
+      color: #7E7E7E;
+      line-height: 1 !important; }
+    main > div article > header span, main > div article > header a, main > div article > footer span, main > div article > footer a {
+      color: black; }
+      main > div article > header span:hover, main > div article > header a:hover, main > div article > footer span:hover, main > div article > footer a:hover {
+        color: black;
+        text-decoration: none; }
+    main > div article > header i, main > div article > footer i {
+      margin-left: 6px;
+      font-size: 20px; }
   main > div article > footer .byline, main > div article > footer .taxonomies, main > div article > footer .updated:not(.published) {
     display: none; }
-  main > div article > footer i {
-    margin-left: 7.5px;
-    font-size: 20px; }
   main > div article .media {
     padding: 15px;
     background-color: white;
