@@ -176,17 +176,23 @@ class Publicacoes
         global $post;
         $fonte    = get_post_meta($post->ID, 'fonte-nome', true);
         $link    = get_post_meta($post->ID, 'fonte-link', true);
-        echo '<div class="link_header">';
+        $ano    = get_post_meta($post->ID, 'fonte-ano', true);
 
         ?>
-        <p>
-        <b>Nome da fonte</b><br/>
-        <input type="text" name="fonte-nome" value="<?php echo $fonte; ?>" />
-        </p>
-        <p>
-        <b>Link da fonte</b><br/>
-        <input type="text" name="fonte-link" value="<?php echo $link; ?>" />
-        </p>
+        <div class="link_header">
+			<p>
+			<b>Nome da fonte</b><br/>
+			<input type="text" name="fonte-nome" value="<?php echo $fonte; ?>" />
+			</p>
+			<p>
+			<b>Link da fonte</b><br/>
+			<input type="text" name="fonte-link" value="<?php echo $link; ?>" />
+			</p>
+			<p>
+			<b>Ano de publicação</b><br/>
+			<input type="text" name="fonte-ano" maxlength="4" value="<?php echo $ano; ?>" />
+			</p>
+        </div>
         <?php
     }
 
@@ -206,6 +212,7 @@ class Publicacoes
             update_post_meta($post->ID, "pdf-link", $_POST["pdf-link"]);
             update_post_meta($post->ID, "fonte-link", $_POST["fonte-link"]);
             update_post_meta($post->ID, "fonte-nome", $_POST["fonte-nome"]);
+            update_post_meta($post->ID, "fonte-ano", $_POST["fonte-ano"]);
         }
     }
 
@@ -267,6 +274,20 @@ function the_fonte_name(){
 
     if( !empty( $fonte_name ) )
         return $fonte_name;
+
+    return false;
+}
+
+function the_fonte_ano(){
+    global $post;
+
+    if( get_post_type() !== 'publicacoes' )
+        return false;
+
+    $fonte_ano = get_post_meta($post->ID, 'fonte-ano', true);
+
+    if( !empty( $fonte_ano ) )
+        return $fonte_ano;
 
     return false;
 }
