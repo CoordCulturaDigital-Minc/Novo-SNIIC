@@ -120,7 +120,7 @@ get_header(); ?>
 					<li>
 						<h5 class="brand-heading">
 							<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.mapas.svg"/>
-							<span>Mapas</span>.cultura.gov.br</h5>
+							Mapas<span>.cultura.gov.br</span></h5>
 						<ul>
 							<li><a href="<?php echo MAPAS_URL; ?>/busca/##(global:(enabled:(agent:!t),filterEntity:agent),agent:(keyword:'<?php echo get_search_query(); ?>'))" target="blank">
 								Agentes Culturais com "<em><?php echo get_search_query(); ?></em>"
