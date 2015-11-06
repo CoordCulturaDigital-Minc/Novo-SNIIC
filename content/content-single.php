@@ -17,6 +17,16 @@
 
       <h1><?php the_title(); ?></h1>
 
+      <div class="meta">
+
+        <?php if ( 'post' == get_post_type() ) : ?>
+            <?php argent_posted_on(); ?>
+        <?php endif; ?>
+
+        <?php argent_entry_meta(); ?>
+
+      </div>
+
     </header>
 
     <div class="content">
@@ -24,14 +34,6 @@
       <?php the_content(); ?>
 
     </div>
-
-    <footer class="clearfix">
-      <?php if ( 'post' == get_post_type() ) : ?>
-          <?php argent_posted_on(); ?>
-      <?php endif; ?>
-
-      <?php argent_entry_meta(); ?>
-    </footer>
 
   </div>
 </article>
