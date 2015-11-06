@@ -38,7 +38,7 @@
 
 <div class="col-xs-12 col-sm-8 col-sm-offset-2">
 
-  <?php the_post_navigation(); ?>
+  <?php get_template_part( 'content/content', 'navigation' ); ?>
 
   <?php
     if ( comments_open() || get_comments_number() ) :

@@ -274,11 +274,12 @@ SINGLE ARTICLE
 			& > * {
 				margin: $gutter/2;
 			}
+			li {
+				margin-bottom: $gutter/6;
+			}
 		}
 
 		footer {
-			border-bottom: 1px solid $color-gray;
-			border-top: 1px solid $color-gray;
 			text-align: center;
 			span {
 				margin-left: $gutter/2;
@@ -299,6 +300,48 @@ SINGLE ARTICLE
 			}
 		}
 	}
+
+	nav {
+		ul {
+			list-style: none;
+			padding: 0;
+			margin-left: 0;
+			margin-right: 0;
+			li {
+				&.next {
+					margin-top: $gutter/3;
+					@media screen and (min-width: 768px) {
+						margin-top: 0;
+						a, span {
+							text-align: right !important;
+						}
+					}
+				}
+				span, a {
+					display: block;
+				}
+				span {
+					text-transform: uppercase;
+					color: $color-gray;
+					width: auto;
+				}
+				a {
+					line-height: 1.3;
+					font-size: 18px;
+					color: black;
+					&:hover {
+						text-decoration: none;
+					}
+				}
+				&:hover {
+					span, a {
+						color: black;
+					}
+				}
+			}
+		}
+	}
+
 }
 
 /*--------------------------------------------------------------

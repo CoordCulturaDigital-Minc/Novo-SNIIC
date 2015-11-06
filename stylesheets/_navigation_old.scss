@@ -48,13 +48,3 @@ a img {
 .comment-navigation, .posts-navigation, .post-navigation { .nav-previous {
 	margin-bottom: 1.7778em;
 } }
-.post-navigation {
-	.nav-previous:before {
-		content: "\00ab";
-		margin-right: 5px;
-	}
-	.nav-next:after {
-		content: "\00bb";
-		margin-left: 5px;
-	}
-}
