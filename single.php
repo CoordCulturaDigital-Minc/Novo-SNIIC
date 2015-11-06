@@ -7,24 +7,21 @@
 
 get_header(); ?>
 
-<main id="main" class="site-main" role="main"><div class="wrapper center-block">
+<main id="main" role="main"><div class="single">
 
-<?php while ( have_posts() ) : the_post(); ?>
+	<?php while ( have_posts() ) : the_post(); ?>
 
-	<?php get_template_part( 'content/content', 'single' ); ?>
+		<div class="wrapper center-block clearfix row">
 
-	<?php
-		// If comments are open or we have at least one comment, load up the comment template
-		if ( comments_open() || get_comments_number() ) :
-			comments_template();
-		endif;
-	?>
+			<?php get_template_part( 'content/content', 'single' ); ?>
 
-	<?php the_post_navigation(); ?>
+		</div>
 
-<?php endwhile; // end of the loop. ?>
+	<?php endwhile;?>
 
-</div></main>
+</div>
+
+</main>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

@@ -12,6 +12,10 @@ Text Domain: argent
 Tags: black, gray, white, one-column, custom-background, custom-header, custom-menu, rtl-language-support, translation-ready, dark, featured-images, responsive-layout, threaded-comments
 */
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f6f3a+0,0c451a+100 */
+.wrapper {
+  width: 100%;
+  max-width: 1000px; }
+
 body > * {
   background-color: #ECF3F4;
   border-bottom: 1px solid white;
@@ -108,15 +112,6 @@ body > nav {
   body > nav > .wrapper > div > div ul li:hover > ul,
   body > nav > .wrapper > div > div ul li.focus > ul {
     left: 0; }
-  body > nav > .wrapper > div > div > ul > li > a {
-    color: #ECF3F4; }
-  body > nav > .wrapper > div > div > ul:hover > li > a {
-    color: #7E7E7E;
-    border-color: #242424; }
-  body > nav > .wrapper > div > div > ul:hover > li:hover > a {
-    color: #ECF3F4; }
-  body > nav > .wrapper > div > div > ul > li ul > li {
-    border-bottom: 1px solid #ECF3F4; }
 @media screen and (min-width: 769px) {
   body > nav > .wrapper {
     padding-left: 30px;
@@ -419,13 +414,13 @@ body main.publicacoes a > article, body main.publicacoes a > section {
     display: none; }
 body main.publicacoes a:hover article {
   background-color: white; }
-body ul:hover a, body ul:hover li, body ul:hover span, body ul:hover i, body ul:hover h1, body ul:hover h2, body ul:hover h3, body ul:hover h4, body ul:hover h5, body ul:hover h6, body ul:hover small {
+body ul.context-list:hover a, body ul.context-list:hover li, body ul.context-list:hover span, body ul.context-list:hover i, body ul.context-list:hover h1, body ul.context-list:hover h2, body ul.context-list:hover h3, body ul.context-list:hover h4, body ul.context-list:hover h5, body ul.context-list:hover h6, body ul.context-list:hover small {
   color: #7E7E7E; }
-  body ul:hover a:hover a, body ul:hover a:hover li, body ul:hover a:hover span, body ul:hover a:hover i, body ul:hover a:hover h1, body ul:hover a:hover h2, body ul:hover a:hover h3, body ul:hover a:hover h4, body ul:hover a:hover h5, body ul:hover a:hover h6, body ul:hover a:hover small, body ul:hover li:hover a, body ul:hover li:hover li, body ul:hover li:hover span, body ul:hover li:hover i, body ul:hover li:hover h1, body ul:hover li:hover h2, body ul:hover li:hover h3, body ul:hover li:hover h4, body ul:hover li:hover h5, body ul:hover li:hover h6, body ul:hover li:hover small, body ul:hover span:hover a, body ul:hover span:hover li, body ul:hover span:hover span, body ul:hover span:hover i, body ul:hover span:hover h1, body ul:hover span:hover h2, body ul:hover span:hover h3, body ul:hover span:hover h4, body ul:hover span:hover h5, body ul:hover span:hover h6, body ul:hover span:hover small, body ul:hover i:hover a, body ul:hover i:hover li, body ul:hover i:hover span, body ul:hover i:hover i, body ul:hover i:hover h1, body ul:hover i:hover h2, body ul:hover i:hover h3, body ul:hover i:hover h4, body ul:hover i:hover h5, body ul:hover i:hover h6, body ul:hover i:hover small, body ul:hover h1:hover a, body ul:hover h1:hover li, body ul:hover h1:hover span, body ul:hover h1:hover i, body ul:hover h1:hover h1, body ul:hover h1:hover h2, body ul:hover h1:hover h3, body ul:hover h1:hover h4, body ul:hover h1:hover h5, body ul:hover h1:hover h6, body ul:hover h1:hover small, body ul:hover h2:hover a, body ul:hover h2:hover li, body ul:hover h2:hover span, body ul:hover h2:hover i, body ul:hover h2:hover h1, body ul:hover h2:hover h2, body ul:hover h2:hover h3, body ul:hover h2:hover h4, body ul:hover h2:hover h5, body ul:hover h2:hover h6, body ul:hover h2:hover small, body ul:hover h3:hover a, body ul:hover h3:hover li, body ul:hover h3:hover span, body ul:hover h3:hover i, body ul:hover h3:hover h1, body ul:hover h3:hover h2, body ul:hover h3:hover h3, body ul:hover h3:hover h4, body ul:hover h3:hover h5, body ul:hover h3:hover h6, body ul:hover h3:hover small, body ul:hover h4:hover a, body ul:hover h4:hover li, body ul:hover h4:hover span, body ul:hover h4:hover i, body ul:hover h4:hover h1, body ul:hover h4:hover h2, body ul:hover h4:hover h3, body ul:hover h4:hover h4, body ul:hover h4:hover h5, body ul:hover h4:hover h6, body ul:hover h4:hover small, body ul:hover h5:hover a, body ul:hover h5:hover li, body ul:hover h5:hover span, body ul:hover h5:hover i, body ul:hover h5:hover h1, body ul:hover h5:hover h2, body ul:hover h5:hover h3, body ul:hover h5:hover h4, body ul:hover h5:hover h5, body ul:hover h5:hover h6, body ul:hover h5:hover small, body ul:hover h6:hover a, body ul:hover h6:hover li, body ul:hover h6:hover span, body ul:hover h6:hover i, body ul:hover h6:hover h1, body ul:hover h6:hover h2, body ul:hover h6:hover h3, body ul:hover h6:hover h4, body ul:hover h6:hover h5, body ul:hover h6:hover h6, body ul:hover h6:hover small, body ul:hover small:hover a, body ul:hover small:hover li, body ul:hover small:hover span, body ul:hover small:hover i, body ul:hover small:hover h1, body ul:hover small:hover h2, body ul:hover small:hover h3, body ul:hover small:hover h4, body ul:hover small:hover h5, body ul:hover small:hover h6, body ul:hover small:hover small {
+  body ul.context-list:hover a:hover a, body ul.context-list:hover a:hover li, body ul.context-list:hover a:hover span, body ul.context-list:hover a:hover i, body ul.context-list:hover a:hover h1, body ul.context-list:hover a:hover h2, body ul.context-list:hover a:hover h3, body ul.context-list:hover a:hover h4, body ul.context-list:hover a:hover h5, body ul.context-list:hover a:hover h6, body ul.context-list:hover a:hover small, body ul.context-list:hover li:hover a, body ul.context-list:hover li:hover li, body ul.context-list:hover li:hover span, body ul.context-list:hover li:hover i, body ul.context-list:hover li:hover h1, body ul.context-list:hover li:hover h2, body ul.context-list:hover li:hover h3, body ul.context-list:hover li:hover h4, body ul.context-list:hover li:hover h5, body ul.context-list:hover li:hover h6, body ul.context-list:hover li:hover small, body ul.context-list:hover span:hover a, body ul.context-list:hover span:hover li, body ul.context-list:hover span:hover span, body ul.context-list:hover span:hover i, body ul.context-list:hover span:hover h1, body ul.context-list:hover span:hover h2, body ul.context-list:hover span:hover h3, body ul.context-list:hover span:hover h4, body ul.context-list:hover span:hover h5, body ul.context-list:hover span:hover h6, body ul.context-list:hover span:hover small, body ul.context-list:hover i:hover a, body ul.context-list:hover i:hover li, body ul.context-list:hover i:hover span, body ul.context-list:hover i:hover i, body ul.context-list:hover i:hover h1, body ul.context-list:hover i:hover h2, body ul.context-list:hover i:hover h3, body ul.context-list:hover i:hover h4, body ul.context-list:hover i:hover h5, body ul.context-list:hover i:hover h6, body ul.context-list:hover i:hover small, body ul.context-list:hover h1:hover a, body ul.context-list:hover h1:hover li, body ul.context-list:hover h1:hover span, body ul.context-list:hover h1:hover i, body ul.context-list:hover h1:hover h1, body ul.context-list:hover h1:hover h2, body ul.context-list:hover h1:hover h3, body ul.context-list:hover h1:hover h4, body ul.context-list:hover h1:hover h5, body ul.context-list:hover h1:hover h6, body ul.context-list:hover h1:hover small, body ul.context-list:hover h2:hover a, body ul.context-list:hover h2:hover li, body ul.context-list:hover h2:hover span, body ul.context-list:hover h2:hover i, body ul.context-list:hover h2:hover h1, body ul.context-list:hover h2:hover h2, body ul.context-list:hover h2:hover h3, body ul.context-list:hover h2:hover h4, body ul.context-list:hover h2:hover h5, body ul.context-list:hover h2:hover h6, body ul.context-list:hover h2:hover small, body ul.context-list:hover h3:hover a, body ul.context-list:hover h3:hover li, body ul.context-list:hover h3:hover span, body ul.context-list:hover h3:hover i, body ul.context-list:hover h3:hover h1, body ul.context-list:hover h3:hover h2, body ul.context-list:hover h3:hover h3, body ul.context-list:hover h3:hover h4, body ul.context-list:hover h3:hover h5, body ul.context-list:hover h3:hover h6, body ul.context-list:hover h3:hover small, body ul.context-list:hover h4:hover a, body ul.context-list:hover h4:hover li, body ul.context-list:hover h4:hover span, body ul.context-list:hover h4:hover i, body ul.context-list:hover h4:hover h1, body ul.context-list:hover h4:hover h2, body ul.context-list:hover h4:hover h3, body ul.context-list:hover h4:hover h4, body ul.context-list:hover h4:hover h5, body ul.context-list:hover h4:hover h6, body ul.context-list:hover h4:hover small, body ul.context-list:hover h5:hover a, body ul.context-list:hover h5:hover li, body ul.context-list:hover h5:hover span, body ul.context-list:hover h5:hover i, body ul.context-list:hover h5:hover h1, body ul.context-list:hover h5:hover h2, body ul.context-list:hover h5:hover h3, body ul.context-list:hover h5:hover h4, body ul.context-list:hover h5:hover h5, body ul.context-list:hover h5:hover h6, body ul.context-list:hover h5:hover small, body ul.context-list:hover h6:hover a, body ul.context-list:hover h6:hover li, body ul.context-list:hover h6:hover span, body ul.context-list:hover h6:hover i, body ul.context-list:hover h6:hover h1, body ul.context-list:hover h6:hover h2, body ul.context-list:hover h6:hover h3, body ul.context-list:hover h6:hover h4, body ul.context-list:hover h6:hover h5, body ul.context-list:hover h6:hover h6, body ul.context-list:hover h6:hover small, body ul.context-list:hover small:hover a, body ul.context-list:hover small:hover li, body ul.context-list:hover small:hover span, body ul.context-list:hover small:hover i, body ul.context-list:hover small:hover h1, body ul.context-list:hover small:hover h2, body ul.context-list:hover small:hover h3, body ul.context-list:hover small:hover h4, body ul.context-list:hover small:hover h5, body ul.context-list:hover small:hover h6, body ul.context-list:hover small:hover small {
     color: black; }
 body > .dark {
   background: #242424; }
-  body > .dark ul:hover a:hover a, body > .dark ul:hover a:hover li, body > .dark ul:hover a:hover span, body > .dark ul:hover a:hover i, body > .dark ul:hover a:hover h1, body > .dark ul:hover a:hover h2, body > .dark ul:hover a:hover h3, body > .dark ul:hover a:hover h4, body > .dark ul:hover a:hover h5, body > .dark ul:hover a:hover h6, body > .dark ul:hover a:hover small, body > .dark ul:hover li:hover a, body > .dark ul:hover li:hover li, body > .dark ul:hover li:hover span, body > .dark ul:hover li:hover i, body > .dark ul:hover li:hover h1, body > .dark ul:hover li:hover h2, body > .dark ul:hover li:hover h3, body > .dark ul:hover li:hover h4, body > .dark ul:hover li:hover h5, body > .dark ul:hover li:hover h6, body > .dark ul:hover li:hover small {
+  body > .dark ul.context-list:hover a:hover a, body > .dark ul.context-list:hover a:hover li, body > .dark ul.context-list:hover a:hover span, body > .dark ul.context-list:hover a:hover i, body > .dark ul.context-list:hover a:hover h1, body > .dark ul.context-list:hover a:hover h2, body > .dark ul.context-list:hover a:hover h3, body > .dark ul.context-list:hover a:hover h4, body > .dark ul.context-list:hover a:hover h5, body > .dark ul.context-list:hover a:hover h6, body > .dark ul.context-list:hover a:hover small, body > .dark ul.context-list:hover li:hover a, body > .dark ul.context-list:hover li:hover li, body > .dark ul.context-list:hover li:hover span, body > .dark ul.context-list:hover li:hover i, body > .dark ul.context-list:hover li:hover h1, body > .dark ul.context-list:hover li:hover h2, body > .dark ul.context-list:hover li:hover h3, body > .dark ul.context-list:hover li:hover h4, body > .dark ul.context-list:hover li:hover h5, body > .dark ul.context-list:hover li:hover h6, body > .dark ul.context-list:hover li:hover small {
     color: #ECF3F4; }
   body > .dark *, body > .dark a:hover {
     color: #ECF3F4; }
@@ -478,24 +473,20 @@ dfn, cite, em, i {
 
 blockquote {
   font-family: "Alegreya", Georgia, serif;
-  font-size: 40px;
-  font-size: 4rem;
-  font-style: italic;
-  font-weight: 800;
-  line-height: 1.3em;
+  font-weight: 400;
+  line-height: 1.1em;
   margin-bottom: 0.8em;
   position: relative;
   border-color: #7E7E7E; }
   blockquote:before {
     display: block;
-    color: #f7f7f7;
-    content: "\201C";
+    color: #7E7E7E;
+    content: '"';
     font-family: "Alegreya", Georgia, serif;
-    font-size: 250px;
-    font-size: 25rem;
+    font-size: 100px;
     position: absolute;
-    top: 45px;
-    left: -50px;
+    top: 35px;
+    left: -45px;
     z-index: -1; }
   blockquote cite {
     display: block;
@@ -577,8 +568,7 @@ ol {
 
 li > ul,
 li > ol {
-  margin-bottom: 0;
-  margin-left: 1.7778em; }
+  margin-bottom: 0; }
 
 dt {
   font-weight: bold; }
@@ -705,6 +695,26 @@ form.search-form {
     font-weight: 300;
     color: #7E7E7E; }
 
+form.comment-form .comment-notes {
+  display: none; }
+form.comment-form > * {
+  float: left;
+  padding: 0 15px;
+  width: 100%; }
+form.comment-form label {
+  display: block;
+  text-transform: uppercase;
+  color: #7E7E7E;
+  font-weight: normal;
+  font-size: 14px; }
+  form.comment-form label .required {
+    color: red; }
+form.comment-form input {
+  width: 100%; }
+@media screen and (min-width: 768px) {
+  form.comment-form .comment-form-author, form.comment-form .comment-form-email {
+    width: 50%; } }
+
 /*--------------------------------------------------------------
 5.1 Links
 --------------------------------------------------------------*/
@@ -747,13 +757,6 @@ a img {
 
 .comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous {
   margin-bottom: 1.7778em; }
-
-.post-navigation .nav-previous:before {
-  content: "\00ab";
-  margin-right: 5px; }
-.post-navigation .nav-next:after {
-  content: "\00bb";
-  margin-left: 5px; }
 
 .sr-only, .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
@@ -1025,73 +1028,148 @@ a img {
       min-height: none;
       max-height: none; }
 
-main > div header {
-  position: relative; }
-  main > div header a.header-sublink {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    margin-bottom: 30px;
-    color: #242424;
-    text-transform: uppercase;
-    font-weight: 600; }
-    main > div header a.header-sublink i {
-      margin-left: 10px; }
-    main > div header a.header-sublink:hover {
-      text-decoration: none; }
-main > div article {
-  margin-bottom: 30px; }
-  main > div article > header, main > div article > footer {
-    padding: 10px;
-    margin-top: 2px;
-    background-color: #f6f9fa; }
-    main > div article > header p, main > div article > header span, main > div article > header a, main > div article > footer p, main > div article > footer span, main > div article > footer a {
+main {
+  /*--------------------------------------------------------------
+  SINGLE ARTICLE
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  LISTING OF ARTICLES
+  --------------------------------------------------------------*/ }
+  main header.section-header .pull-right {
+    padding-top: 40px; }
+    main header.section-header .pull-right a {
+      color: #242424;
       text-transform: uppercase;
-      font-size: 11px;
-      color: #7E7E7E;
-      line-height: 1 !important; }
-    main > div article > header span, main > div article > header a, main > div article > footer span, main > div article > footer a {
-      color: black; }
-      main > div article > header span:hover, main > div article > header a:hover, main > div article > footer span:hover, main > div article > footer a:hover {
-        color: black;
+      font-weight: 600; }
+      main header.section-header .pull-right a i {
+        margin-left: 10px; }
+      main header.section-header .pull-right a:hover {
         text-decoration: none; }
-    main > div article > header i, main > div article > footer i {
-      margin-left: 6px;
-      font-size: 20px; }
-  main > div article > footer .byline, main > div article > footer .taxonomies, main > div article > footer .updated:not(.published) {
+  main footer .pull-left span, main article footer .pull-left span {
+    margin-right: 10px; }
+  main footer .pull-right span, main article footer .pull-right span {
+    margin-left: 10px; }
+  main footer p, main footer span, main footer a, main article footer p, main article footer span, main article footer a {
+    text-transform: uppercase;
+    color: #7E7E7E;
+    font-size: 11px;
+    line-height: 1 !important; }
+  main footer a, main article footer a {
+    color: black; }
+    main footer a:hover, main article footer a:hover {
+      color: black;
+      text-decoration: none; }
+  main footer i, main article footer i {
+    margin-left: 6px;
+    font-size: 15px;
+    margin-top: -999px; }
+  main footer .byline, main footer .taxonomies, main footer .updated:not(.published), main footer .comments-link, main footer .edit-link, main article footer .byline, main article footer .taxonomies, main article footer .updated:not(.published), main article footer .comments-link, main article footer .edit-link {
     display: none; }
-  main > div article .media {
-    padding: 15px;
-    background-color: white;
-    box-shadow: 0px 1px 1px gray; }
-    main > div article .media .media-left {
-      max-width: 300px; }
-      main > div article .media .media-left .img-clipper {
-        height: 100px;
-        width: 100px; }
-    main > div article .media .media-right header {
-      margin-top: 0;
-      margin-bottom: 10px; }
-      main > div article .media .media-right header h1 {
-        color: #51858d;
-        line-height: 1.3;
-        margin-top: 0; }
-  main > div article.sticky .media {
-    padding: 30px; }
-    main > div article.sticky .media .media-left {
-      display: block;
-      max-width: 100%;
-      width: auto;
-      height: auto;
-      padding-right: 0; }
-      main > div article.sticky .media .media-left .img-clipper {
-        height: auto;
+  main .single {
+    margin-top: -30px; }
+    main .single > div > article, main .single > div > article header, main .single > div > article .content, main .single > div > article nav, main .single > div > article .comments-area {
+      margin-bottom: 30px; }
+    main .single > div > article .img-clipper {
+      max-height: 400px; }
+      @media screen and (max-width: 767px) {
+        main .single > div > article .img-clipper {
+          max-height: 200px; } }
+    main .single > div > article header {
+      margin-top: 60px;
+      margin-bottom: 60px; }
+      main .single > div > article header h1 {
+        text-align: center;
+        line-height: 1; }
+      main .single > div > article header .meta {
+        text-align: center; }
+        main .single > div > article header .meta span {
+          margin: 0 7.5px 0 0;
+          text-transform: uppercase;
+          font-size: 14px;
+          color: #7E7E7E; }
+          main .single > div > article header .meta span a {
+            color: black; }
+          main .single > div > article header .meta span:last-child {
+            margin-right: 0; }
+          @media screen and (min-width: 768px) {
+            main .single > div > article header .meta span {
+              display: inline-block; } }
+          @media screen and (max-width: 767px) {
+            main .single > div > article header .meta span {
+              display: block;
+              margin: 5px 0; } }
+        main .single > div > article header .meta .byline, main .single > div > article header .meta .taxonomies, main .single > div > article header .meta .updated:not(.published), main .single > div > article header .meta .comments-link, main .single > div > article header .meta .edit-link {
+          display: none; }
+    main .single > div > article .content > * {
+      margin: 15px; }
+    main .single > div > article .content li {
+      margin-bottom: 5px; }
+    main .single nav {
+      margin-bottom: 30px; }
+      main .single nav ul {
+        list-style: none;
+        padding: 0; }
+        main .single nav ul li.next {
+          margin-top: 10px; }
+          @media screen and (min-width: 768px) {
+            main .single nav ul li.next {
+              margin-top: 0; }
+              main .single nav ul li.next a, main .single nav ul li.next span {
+                text-align: right !important; } }
+        main .single nav ul li span, main .single nav ul li a {
+          display: block; }
+        main .single nav ul li span {
+          text-transform: uppercase;
+          color: #7E7E7E;
+          width: auto; }
+        main .single nav ul li a {
+          line-height: 1.3;
+          font-size: 18px;
+          color: black; }
+          main .single nav ul li a:hover {
+            text-decoration: none; }
+        main .single nav ul li:hover span, main .single nav ul li:hover a {
+          color: black; }
+    main .single .comments-area h2, main .single .comments-area h3 {
+      display: none; }
+  main .content-listing article {
+    margin-bottom: 30px; }
+    main .content-listing article > footer {
+      padding: 10px;
+      margin-top: 2px;
+      background-color: #f6f9fa; }
+    main .content-listing article .media {
+      padding: 15px;
+      background-color: white;
+      box-shadow: 0px 1px 1px gray; }
+      main .content-listing article .media .media-left {
+        max-width: 300px; }
+        main .content-listing article .media .media-left .img-clipper {
+          height: 100px;
+          width: 100px; }
+      main .content-listing article .media .media-right header {
+        margin-top: 0;
+        margin-bottom: 10px; }
+        main .content-listing article .media .media-right header h1 {
+          color: #51858d;
+          line-height: 1.3;
+          margin-top: 0; }
+    main .content-listing article.sticky .media {
+      padding: 30px; }
+      main .content-listing article.sticky .media .media-left {
+        display: block;
+        max-width: 100%;
         width: auto;
-        max-height: 300px; }
-    main > div article.sticky .media .media-right header {
-      margin-top: 15px; }
-      main > div article.sticky .media .media-right header h1 {
-        font-size: 30px !important; }
+        height: auto;
+        padding-right: 0; }
+        main .content-listing article.sticky .media .media-left .img-clipper {
+          height: auto;
+          width: auto;
+          max-height: 300px; }
+      main .content-listing article.sticky .media .media-right header {
+        margin-top: 15px; }
+        main .content-listing article.sticky .media .media-right header h1 {
+          font-size: 30px !important; }
 
 /*--------------------------------------------------------------
 10.4 Comments
@@ -1100,22 +1178,12 @@ main > div article {
   font-size: 16px;
   font-size: 1.6rem; }
 
-.comment-list, .comment-list .children {
-  margin: 0; }
-
-.comment-list, .comment-list ol {
-  list-style: none; }
-
 .comment,
 .pingback {
   margin-top: 1.75em; }
 
 .bypostauthor {
   display: block; }
-
-.comment-list {
-  list-style-type: none;
-  margin-left: 0; }
 
 .comments-title,
 .comment-reply-title {
@@ -1168,6 +1236,28 @@ main > div article {
   font-style: italic;
   margin-top: 1.75em;
   text-align: center; }
+
+.comments-area ol {
+  margin: 0;
+  margin-left: 0;
+  -webkit-padding-start: 0px;
+  list-style: none;
+  list-style-type: none; }
+  .comments-area ol > li > ol {
+    border-left: 5px solid #cbcbcb;
+    padding-left: 15px; }
+    .comments-area ol > li > ol > li > ol {
+      border-color: #bebebe; }
+      .comments-area ol > li > ol > li > ol > li > ol {
+        border-color: #b1b1b1; }
+        .comments-area ol > li > ol > li > ol > li > ol > li > ol {
+          border-color: #a4a4a4; }
+          .comments-area ol > li > ol > li > ol > li > ol > li > ol > li > ol {
+            border-color: #989898; }
+            .comments-area ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol {
+              border-color: #8b8b8b; }
+              .comments-area ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol {
+                border-color: #7E7E7E; }
 
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
 .infinite-scroll .posts-navigation,
@@ -1268,10 +1358,6 @@ figure {
 .gallery-caption {
   display: block; }
 
-.wrapper {
-  width: 100%;
-  max-width: 1000px; }
-
 @media screen and (max-width: 767px) {
   .single-jetpack-portfolio .entry-footer {
     margin-right: 3em;
@@ -1289,24 +1375,6 @@ figure {
   .single-post .entry-content {
     float: left;
     width: 490px; }
-
-  /* Single Posts & Pages */
-  .entry-header {
-    margin-top: -9px; }
-
-  .single .entry-meta .posted-on,
-  .single .entry-meta .byline, .single:not(.single-jetpack-portfolio) .cat-links, .single:not(.single-jetpack-portfolio) .tags-links,
-  .single .post-edit-link {
-    display: block;
-    margin-top: 1.3335em; }
-  .single:not(.single-jetpack-portfolio) .entry-meta {
-    float: left;
-    margin-top: 0;
-    margin-right: 20px;
-    width: 150px; }
-
-  .comment-list .children {
-    margin-left: 3.5556em; }
 
   /* Posts, comments navigation */
   .comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous {

@@ -1,8 +1,3 @@
-.wrapper {
-	width: 100%;
-	max-width: 1000px;
-}
-
 @media screen and (max-width: 767px) {
 	.single-jetpack-portfolio .entry-footer {
 		margin-right: 3em;
@@ -25,30 +20,6 @@
 			float: left;
 			width: 490px;
 		}
-	}
-
-	/* Single Posts & Pages */
-	.entry-header {
-		margin-top: -9px;
-	}
-  .single {
-  	.entry-meta .posted-on,
-  	.entry-meta .byline,
-  	&:not(.single-jetpack-portfolio) .cat-links,
-  	&:not(.single-jetpack-portfolio) .tags-links,
-  	.post-edit-link {
-  		display: block;
-  		margin-top: 1.3335em;
-  	}
-		&:not(.single-jetpack-portfolio) .entry-meta {
-			float: left;
-			margin-top: 0;
-			margin-right: 20px;
-			width: 150px;
-		}
-  }
-	.comment-list .children {
-		margin-left: 3.5556em;
 	}
 
 	/* Posts, comments navigation */
