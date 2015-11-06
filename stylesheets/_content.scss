@@ -257,10 +257,9 @@ SINGLE ARTICLE
 		.img-clipper {
 			max-height: 400px;
 			@media screen and (max-width: 767px) {
-				max-height: 250px;
+				max-height: 200px;
 			}
 		}
-
 		header {
 			margin-top: $gutter * 2;
 			margin-bottom: $gutter * 2;
