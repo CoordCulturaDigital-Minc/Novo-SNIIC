@@ -2,7 +2,7 @@
 <?php $next     = get_adjacent_post( false, '', false ); ?>
 <?php if ( ! $next && ! $previous ) return; ?>
 
-<nav>
+<nav class="row">
   <h2 class="sr-only"><?php esc_html_e( 'Post navigation', 'argent' ); ?></h2>
   <ul>
 

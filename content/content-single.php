@@ -40,10 +40,6 @@
 
   <?php get_template_part( 'content/content', 'navigation' ); ?>
 
-  <?php
-    if ( comments_open() || get_comments_number() ) :
-      comments_template();
-    endif;
-  ?>
+  <?php if ( comments_open() || get_comments_number() ) comments_template(); ?>
 
 </div>

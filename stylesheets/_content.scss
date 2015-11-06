@@ -302,11 +302,10 @@ SINGLE ARTICLE
 	}
 
 	nav {
+		margin-bottom: $gutter;
 		ul {
 			list-style: none;
 			padding: 0;
-			margin-left: 0;
-			margin-right: 0;
 			li {
 				&.next {
 					margin-top: $gutter/3;
@@ -339,6 +338,12 @@ SINGLE ARTICLE
 					}
 				}
 			}
+		}
+	}
+
+	.comments-area {
+		h3 {
+			display: none;
 		}
 	}
 

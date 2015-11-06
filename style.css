@@ -696,6 +696,26 @@ form.search-form {
     font-weight: 300;
     color: #7E7E7E; }
 
+form.comment-form .comment-notes {
+  display: none; }
+form.comment-form > * {
+  float: left;
+  padding: 0 15px;
+  width: 100%; }
+form.comment-form label {
+  display: block;
+  text-transform: uppercase;
+  color: #7E7E7E;
+  font-weight: normal;
+  font-size: 14px; }
+  form.comment-form label .required {
+    color: red; }
+form.comment-form input {
+  width: 100%; }
+@media screen and (min-width: 768px) {
+  form.comment-form .comment-form-author, form.comment-form .comment-form-email {
+    width: 50%; } }
+
 /*--------------------------------------------------------------
 5.1 Links
 --------------------------------------------------------------*/
@@ -1079,32 +1099,34 @@ main {
             display: block; } }
       main .single article footer .byline, main .single article footer .taxonomies, main .single article footer .updated:not(.published), main .single article footer .comments-link, main .single article footer .edit-link {
         display: none; }
-    main .single nav ul {
-      list-style: none;
-      padding: 0;
-      margin-left: 0;
-      margin-right: 0; }
-      main .single nav ul li.next {
-        margin-top: 10px; }
-        @media screen and (min-width: 768px) {
-          main .single nav ul li.next {
-            margin-top: 0; }
-            main .single nav ul li.next a, main .single nav ul li.next span {
-              text-align: right !important; } }
-      main .single nav ul li span, main .single nav ul li a {
-        display: block; }
-      main .single nav ul li span {
-        text-transform: uppercase;
-        color: #7E7E7E;
-        width: auto; }
-      main .single nav ul li a {
-        line-height: 1.3;
-        font-size: 18px;
-        color: black; }
-        main .single nav ul li a:hover {
-          text-decoration: none; }
-      main .single nav ul li:hover span, main .single nav ul li:hover a {
-        color: black; }
+    main .single nav {
+      margin-bottom: 30px; }
+      main .single nav ul {
+        list-style: none;
+        padding: 0; }
+        main .single nav ul li.next {
+          margin-top: 10px; }
+          @media screen and (min-width: 768px) {
+            main .single nav ul li.next {
+              margin-top: 0; }
+              main .single nav ul li.next a, main .single nav ul li.next span {
+                text-align: right !important; } }
+        main .single nav ul li span, main .single nav ul li a {
+          display: block; }
+        main .single nav ul li span {
+          text-transform: uppercase;
+          color: #7E7E7E;
+          width: auto; }
+        main .single nav ul li a {
+          line-height: 1.3;
+          font-size: 18px;
+          color: black; }
+          main .single nav ul li a:hover {
+            text-decoration: none; }
+        main .single nav ul li:hover span, main .single nav ul li:hover a {
+          color: black; }
+    main .single .comments-area h3 {
+      display: none; }
   main .content-listing article {
     margin-bottom: 30px; }
     main .content-listing article > footer {

@@ -95,3 +95,35 @@ form.search-form {
 		 color: $color-gray;
 	}
 }
+
+form.comment-form {
+	.comment-notes {
+		display: none;
+	}
+	& > * {
+		float: left;
+		padding: 0 $gutter/2;
+		width: 100%;
+	}
+	label {
+		display: block;
+		text-transform: uppercase;
+		color: $color-gray;
+		font-weight: normal;
+		font-size: 14px;
+		.required {
+			color: red;
+		}
+	}
+	input {
+		width: 100%;
+	}
+	@media screen and (min-width: 768px) {
+		.comment-form-author, .comment-form-email {
+			width: 50%;
+		}
+	}
+	@media screen and (max-width: 767px) {
+
+	}
+}
