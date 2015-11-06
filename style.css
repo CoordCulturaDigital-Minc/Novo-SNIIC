@@ -568,8 +568,7 @@ ol {
 
 li > ul,
 li > ol {
-  margin-bottom: 0;
-  margin-left: 1.7778em; }
+  margin-bottom: 0; }
 
 dt {
   font-weight: bold; }
@@ -1068,37 +1067,43 @@ main {
     display: none; }
   main .single {
     margin-top: -30px; }
-    main .single article .img-clipper {
+    main .single > div > article, main .single > div > article header, main .single > div > article .content, main .single > div > article nav, main .single > div > article .comments-area {
+      margin-bottom: 30px; }
+    main .single > div > article .img-clipper {
       max-height: 400px; }
       @media screen and (max-width: 767px) {
-        main .single article .img-clipper {
-          max-height: 250px; } }
-    main .single article header {
+        main .single > div > article .img-clipper {
+          max-height: 200px; } }
+    main .single > div > article header {
       margin-top: 60px;
       margin-bottom: 60px; }
-      main .single article header h1 {
+      main .single > div > article header h1 {
         text-align: center;
         line-height: 1; }
-    main .single article .content > * {
+      main .single > div > article header .meta {
+        text-align: center; }
+        main .single > div > article header .meta span {
+          margin: 0 7.5px 0 0;
+          text-transform: uppercase;
+          font-size: 14px;
+          color: #7E7E7E; }
+          main .single > div > article header .meta span a {
+            color: black; }
+          main .single > div > article header .meta span:last-child {
+            margin-right: 0; }
+          @media screen and (min-width: 768px) {
+            main .single > div > article header .meta span {
+              display: inline-block; } }
+          @media screen and (max-width: 767px) {
+            main .single > div > article header .meta span {
+              display: block;
+              margin: 5px 0; } }
+        main .single > div > article header .meta .byline, main .single > div > article header .meta .taxonomies, main .single > div > article header .meta .updated:not(.published), main .single > div > article header .meta .comments-link, main .single > div > article header .meta .edit-link {
+          display: none; }
+    main .single > div > article .content > * {
       margin: 15px; }
-    main .single article .content li {
+    main .single > div > article .content li {
       margin-bottom: 5px; }
-    main .single article footer {
-      text-align: center; }
-      main .single article footer span {
-        margin-left: 15px;
-        margin-bottom: 10px;
-        margin-top: 10px; }
-        main .single article footer span:last-child {
-          margin-left: 0; }
-        @media screen and (min-width: 768px) {
-          main .single article footer span {
-            display: inline-block; } }
-        @media screen and (max-width: 767px) {
-          main .single article footer span {
-            display: block; } }
-      main .single article footer .byline, main .single article footer .taxonomies, main .single article footer .updated:not(.published), main .single article footer .comments-link, main .single article footer .edit-link {
-        display: none; }
     main .single nav {
       margin-bottom: 30px; }
       main .single nav ul {
@@ -1125,7 +1130,7 @@ main {
             text-decoration: none; }
         main .single nav ul li:hover span, main .single nav ul li:hover a {
           color: black; }
-    main .single .comments-area h3 {
+    main .single .comments-area h2, main .single .comments-area h3 {
       display: none; }
   main .content-listing article {
     margin-bottom: 30px; }
@@ -1173,22 +1178,12 @@ main {
   font-size: 16px;
   font-size: 1.6rem; }
 
-.comment-list, .comment-list .children {
-  margin: 0; }
-
-.comment-list, .comment-list ol {
-  list-style: none; }
-
 .comment,
 .pingback {
   margin-top: 1.75em; }
 
 .bypostauthor {
   display: block; }
-
-.comment-list {
-  list-style-type: none;
-  margin-left: 0; }
 
 .comments-title,
 .comment-reply-title {
@@ -1241,6 +1236,28 @@ main {
   font-style: italic;
   margin-top: 1.75em;
   text-align: center; }
+
+.comments-area ol {
+  margin: 0;
+  margin-left: 0;
+  -webkit-padding-start: 0px;
+  list-style: none;
+  list-style-type: none; }
+  .comments-area ol > li > ol {
+    border-left: 5px solid #cbcbcb;
+    padding-left: 15px; }
+    .comments-area ol > li > ol > li > ol {
+      border-color: #bebebe; }
+      .comments-area ol > li > ol > li > ol > li > ol {
+        border-color: #b1b1b1; }
+        .comments-area ol > li > ol > li > ol > li > ol > li > ol {
+          border-color: #a4a4a4; }
+          .comments-area ol > li > ol > li > ol > li > ol > li > ol > li > ol {
+            border-color: #989898; }
+            .comments-area ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol {
+              border-color: #8b8b8b; }
+              .comments-area ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol > li > ol {
+                border-color: #7E7E7E; }
 
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
 .infinite-scroll .posts-navigation,
@@ -1358,10 +1375,6 @@ figure {
   .single-post .entry-content {
     float: left;
     width: 490px; }
-
-  /* Single Posts & Pages */
-  .comment-list .children {
-    margin-left: 3.5556em; }
 
   /* Posts, comments navigation */
   .comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous {

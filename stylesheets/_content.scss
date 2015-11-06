@@ -252,7 +252,10 @@ SINGLE ARTICLE
 .single {
 	margin-top: -$gutter;
 
-	article {
+	& > div > article {
+		&, header, .content, nav, .comments-area {
+			margin-bottom: $gutter;
+		}
 
 		.img-clipper {
 			max-height: 400px;
@@ -346,7 +349,7 @@ SINGLE ARTICLE
 	}
 
 	.comments-area {
-		h3 {
+		h2, h3 {
 			display: none;
 		}
 	}
