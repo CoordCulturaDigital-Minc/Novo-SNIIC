@@ -1,0 +1,18 @@
+{
+  "name": "argento-neue",
+  "version": "0.2",
+  "homepage": "https://github.com/CoordCulturaDigital-Minc/Novo-SNIIC",
+  "authors": [
+    "tmergulhao <me@tmergulhao.com>"
+  ],
+  "description": "Simple Wordpress theme based on Argent Newe to help build the new SNIIC website http://i.cultura.gov.br",
+  "ignore": [
+    "**/.*",
+    "assets/vendor"
+  ],
+  "dependencies": {
+    "bootstrap": "twbs/bootstrap#~3.3.5",
+    "font-awesome": "FortAwesome/Font-Awesome#~4.4.0",
+    "normalize.css": "necolas/normalize.css#~3.0.3"
+  }
+}
