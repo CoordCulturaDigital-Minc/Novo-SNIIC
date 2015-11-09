@@ -7,6 +7,9 @@
     position: relative;
     #branding, #branding_simple {
       margin: $gutter*3 auto $gutter*2;
+      svg {
+        width: 100%;
+      }
     }
     #branding {
       max-width: 600px;

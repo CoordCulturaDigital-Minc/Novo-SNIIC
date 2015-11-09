@@ -164,6 +164,8 @@ body > header > div {
   position: relative; }
   body > header > div #branding, body > header > div #branding_simple {
     margin: 90px auto 60px; }
+    body > header > div #branding svg, body > header > div #branding_simple svg {
+      width: 100%; }
   body > header > div #branding {
     max-width: 600px; }
   body > header > div #branding_simple {
