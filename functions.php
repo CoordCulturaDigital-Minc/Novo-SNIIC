@@ -169,24 +169,25 @@ function argent_fonts_url() {
 	return $fonts_url;
 }
 
-// TODO: Dependencies management system for WordPress themes
+// Just run 'bower update' on terminal
 
-function argent_neue_fontawesome () {
- 	wp_enqueue_style( 'fontawesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' );
-}
-add_action( 'wp_enqueue_scripts', 'argent_neue_fontawesome' );
+function argent_neue_dependencies () {
 
-function argent_neue_normalize () {
- 	wp_enqueue_style( 'normalize', 'https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css' );
-}
-add_action( 'wp_enqueue_scripts', 'argent_neue_normalize' );
+	$bower_directory = get_template_directory_uri() . '/dependencies';
 
-function argent_neue_twitter_bootstrap () {
- 	wp_enqueue_style( 'twitter_bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' );
- 	wp_enqueue_style( 'twitter_bootstrap_theme', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css' );
- 	wp_enqueue_script( 'twitter_bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js', array( 'jquery' ), false, true );
+	// NECOLAS NORMALIZE.CSS
+	wp_enqueue_style( 'normalize.css', $bower_directory . '/normalize.css/normalize.css' );
+
+	// FONT-AWESOME
+	wp_enqueue_style( 'font-awesome', $bower_directory . '/font-awesome/css/font-awesome.min.css' );
+
+	// TWITTER BOOTSTRAP
+	wp_enqueue_style( 'twitter_bootstrap', $bower_directory . '/bootstrap/dist/css/bootstrap.min.css' );
+	wp_enqueue_style( 'twitter_bootstrap_theme', $bower_directory . '/bootstrap/dist/css/bootstrap-theme.min.css' );
+	wp_enqueue_script( 'twitter_bootstrap', $bower_directory . '/bootstrap/dist/js/bootstrap.min.js', array( 'jquery' ), false, true );
+
 }
-add_action( 'wp_enqueue_scripts', 'argent_neue_twitter_bootstrap' );
+add_action( 'wp_enqueue_scripts', 'argent_neue_dependencies' );
 
 function img_clipper_js () {
 	wp_enqueue_script( 'img_clipper', get_template_directory_uri() . '/js/img-clipper.js', array( 'jquery' ), false, true );
