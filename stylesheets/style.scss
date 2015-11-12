@@ -12,7 +12,6 @@ $gutter: 30px; // medianiz
 body {
   & > * {
     background-color: $color-nil;
-    border-bottom: 1px solid white;
     padding-top: $gutter;
     padding-bottom: $gutter;
   }
@@ -142,6 +141,9 @@ body {
     } }
   }
   & > .dark {
+		svg {
+			fill: $color-nil;
+		}
     ul.context-list:hover { a, li {
         &:hover { a, li, span, i, h1, h2, h3, h4, h5, h6, small { color: $color-nil; } }
     } }
