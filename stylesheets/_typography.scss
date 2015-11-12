@@ -45,20 +45,24 @@ dfn, cite, em, i {
 }
 blockquote {
 	font-family: "Alegreya", Georgia, serif;
-	font-weight: 400;
-	line-height: 1.1em;
+	font-size: 40px;
+	font-size: 4rem;
+	font-style: italic;
+	font-weight: 800;
+	line-height: 1.3em;
 	margin-bottom: 0.8em;
 	position: relative;
 	border-color: $color-gray;
   &:before {
   	display: block;
-  	color: $color-gray;
-  	content: '"';
+  	color: #f7f7f7;
+  	content: "\201C";
   	font-family: "Alegreya", Georgia, serif;
-  	font-size: 100px;
+  	font-size: 250px;
+  	font-size: 25rem;
   	position: absolute;
-  	top: 35px;
-  	left: -45px;
+  	top: 45px;
+  	left: -50px;
   	z-index: -1;
   }
   cite {

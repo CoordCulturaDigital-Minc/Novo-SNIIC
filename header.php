@@ -59,6 +59,6 @@
 		<i class="fa fa-chevron-down"></i>
 	</button>
 	<div class="collapse collapse-xs menu" id="collapseMenu">
-		<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu', 'menu_class' => 'context-list')); ?>
+		<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu')); ?>
 	</div>
 </div></nav>

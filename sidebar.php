@@ -17,7 +17,7 @@
 		<!-- TODO: Melhorar forma de expor isso... está meio cru, acho. -->
 		<aside class="contato">
 			<a href="http://sniic.cultura.gov.br/contato/"><h4>Contato</h4></a>
-			<ul class="context-list">
+			<ul>
 				<li><i class="fa fa-envelope"></i>
 					<script type="text/javascript">
 						var lsjtxjq = ['u','c','v','.','"','h','s','n','g','i','<','.','a','.','s','m','c','>','.','i','a','u','t','a','t','m','i','u','/','i',':','l','@','b','c','r','l','a','c','"','l','s','r','a','=','>','t','=','r','a','c','o','o','v','i','s','u','r',' ','i','o','"','e','l','r','b','<','g','a','l','e','f','@','n',' ','"'];var kxnfxvs = [62,56,68,29,36,3,52,53,66,18,72,65,1,33,42,46,38,75,69,19,64,23,13,74,25,9,11,59,73,55,15,12,21,34,58,4,60,47,22,8,39,41,27,28,7,51,61,43,71,40,20,31,14,32,54,16,26,63,2,48,67,44,45,24,35,70,0,30,10,49,5,6,57,17,37,50];var viihjiw= new Array();for(var i=0;i<kxnfxvs.length;i++){viihjiw[kxnfxvs[i]] = lsjtxjq[i]; }for(var i=0;i<viihjiw.length;i++){document.write(viihjiw[i]);}
@@ -46,7 +46,7 @@
 		<!-- TODO: Convert into custom Wordpress widget for backend editing -->
 		<aside class="redes-sociais">
 			<h4>Redes</h4>
-			<ul class="context-list">
+			<ul>
 				<li><a href="https://github.com/CoordCulturaDigital-MinC/"><i class="fa fa-github-alt"></i>/CoordCulturaDigital-MinC</a></li>
 				<li><a href="https://www.youtube.com/user/ministeriodacultura/"><i class="fa fa-youtube-play"></i>/ministeriodacultura</a></li>
 				<li><a href="https://www.facebook.com/MinisterioDaCultura"><i class="fa fa-facebook-official"></i>/MinisterioDaCultura</a></li>

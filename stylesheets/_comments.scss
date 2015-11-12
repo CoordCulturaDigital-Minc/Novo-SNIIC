@@ -5,13 +5,22 @@
 	font-size: 16px;
 	font-size: 1.6rem;
 }
-
+.comment-list { &, .children {
+	margin: 0;
+} }
+.comment-list { &, ol {
+	list-style: none;
+} }
 .comment,
 .pingback {
 	margin-top: 1.75em;
 }
 .bypostauthor {
 	display: block;
+}
+.comment-list {
+	list-style-type: none;
+	margin-left: 0;
 }
 .comments-title,
 .comment-reply-title {
@@ -68,25 +77,4 @@
 	font-style: italic;
 	margin-top: 1.75em;
 	text-align: center;
-}
-
-.comments-area {
-	ol {
-		margin: 0;
-		margin-left: 0;
-		-webkit-padding-start: 0px;
-		list-style: none;
-		list-style-type: none;
-		& > li > ol {
-			border-left: 5px solid lighten($color-gray, 30%);
-			padding-left: $gutter/2;
-			& > li > ol { 					border-color: lighten($color-gray, 25%);
-				& > li > ol { 				border-color: lighten($color-gray, 20%);
-					& > li > ol { 			border-color: lighten($color-gray, 15%);
-						& > li > ol { 		border-color: lighten($color-gray, 10%);
-							& > li > ol { 	border-color: lighten($color-gray, 5%);
-								& > li > ol { border-color: $color-gray;
-			} } } } } }
-		}
-	}
 }

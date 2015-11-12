@@ -23,8 +23,15 @@
       </div>
     <?php endif; ?>
 
+    <?php
+      $args = array(
+          'before' => '<span class="taxonomies">',
+          'after' => '</span>',
+          'template' => '%1$s: %2$l'
+      );
+    ?>
 		<div class="pull-right">
-	     <?php argent_entry_meta(); ?>
+    	<?php the_taxonomies($args); ?>
 		</div>
   </footer>
 </article>
