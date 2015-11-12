@@ -30,14 +30,14 @@
 <?php get_template_part( 'brasil/brasil', 'barra' ); ?>
 
 <nav class="container-fluid dark">
-	<div class="beta-marker hidden">
+	<div class="beta-marker">
 		<img class="hidden-xs" src="<?php echo get_template_directory_uri() ?>/assets/beta.svg">
 		<img class="visible-xs" src="<?php echo get_template_directory_uri() ?>/assets/beta_sign.svg">
 	</div>
 
 	<div class="wrapper center-block clearfix row">
 
-	<a id="branding" class="clearfix hidden" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><div>
+	<a id="branding" class="clearfix" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><div>
 		<?php global $branding_name; ?>
 		<?php if ( ! isset( $branding_name ) ) : ?>
 			<?php include get_template_directory() . '/assets/forma.svg';?>
