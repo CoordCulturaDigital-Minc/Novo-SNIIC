@@ -35,12 +35,16 @@
 
   <?php if ( the_fonte_link() != '' || the_pdf_link() != ''  ) : ?>
     <footer class="clearfix">
+      <?php if (the_fonte_link() != '') : ?>
       <div class="pull-left">
         <p>Fonte: <a href="<?php echo the_fonte_link(); ?>"><?php echo the_fonte_name(); ?></a></p>
       </div>
+      <?php endif; ?>
+      <?php if (the_pdf_link() != '') : ?>
       <div class="pull-right">
         <p>Fonte: <a href="<?php echo the_pdf_link(); ?>">Baixar PDF<i class="fa fa-arrow-circle-o-down"></i></a></p>
       </div>
+      <?php endif; ?>
     </footer>
   <?php endif; ?>
 
