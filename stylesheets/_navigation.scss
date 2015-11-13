@@ -1,58 +1,50 @@
-& > nav {
+& > header > div > nav, & > nav {
   padding-top: 0;
   padding-bottom: 0;
 
-  & > .wrapper {
-    .branding a, .menu-item > a {
-      padding: $gutter/5 $gutter/2;
-      display: block;
+  .branding a, .menu-item > a {
+    padding: $gutter/5 $gutter/2;
+    display: block;
 
-      &:hover {
-        background-color: $color-dark-gray;
+    &:hover {
+      background-color: $color-dark-gray;
+    }
+  }
+
+  .branding a {
+    svg, h1 {
+      float: left;
+    }
+    svg {
+      width: $gutter;
+      height: $gutter;
+    }
+    h1 {
+      margin: 0;
+      margin-left: $gutter/4;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: $gutter;
+    }
+  }
+
+  .menu {
+    text-transform: uppercase;
+    float: right;
+    ul {
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+    }
+    .menu-item {
+      display: inline-block;
+      font-size: 15px;
+      a {
+        line-height: 2;
       }
     }
-
-    .branding a {
-      svg, h1 {
-        float: left;
-      }
-      svg {
-        width: $gutter;
-        height: $gutter;
-        path, g {
-          fill: $color-nil;
-        }
-      }
-      h1 {
-        margin: 0;
-        margin-left: $gutter/4;
-        font-size: 28px;
-        font-weight: 600;
-        line-height: $gutter;
-      }
+    .sub-menu {
+      display: none;
     }
-
-    .menu {
-      text-transform: uppercase;
-      float: right;
-      ul {
-        list-style: none;
-        margin: 0;
-        padding-left: 0;
-      }
-      .menu-item {
-        display: inline-block;
-        font-size: 15px;
-        a {
-          line-height: 2;
-        }
-      }
-      .sub-menu {
-        display: none;
-      }
-    }
-
-    .search {}
-
   }
 }

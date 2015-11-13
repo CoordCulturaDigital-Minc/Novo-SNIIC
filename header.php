@@ -29,22 +29,65 @@
 
 <?php get_template_part( 'brasil/brasil', 'barra' ); ?>
 
-<nav class="container-fluid dark">
+<header class="container-fluid dark">
 	<div class="wrapper center-block clearfix row">
 
-	<div class="pull-left branding">
-		<a id="branding" class="clearfix" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-			<?php include get_template_directory() . '/assets/forma.svg';?>
-			<h1 class="hidden-sm"><?php bloginfo( 'name' ); ?>
-			<small class="hidden"><?php bloginfo( 'description' ); ?></small></h1>
-		</a>
+	<div id="branding_simple" class="visible-xs center-block">
+		<?php include get_template_directory() . '/assets/main.acro.simple.svg';?>
+	</div>
+	<div id="branding" class="hidden-xs center-block">
+		<?php include get_template_directory() . '/assets/main.acro.svg';?>
 	</div>
 
-	<div class="pull-left search">
+	<h1 class="text-center">Conheça e explore a nova plataforma</h1>
+
+	<div class="row">
+	<div class="search col-xs-12 col-sm-8">
 		<?php echo get_search_form(); ?>
 	</div>
-
-	<div class="pull-right menu">
-		<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu')); ?>
+	<div class="col-xs-12 col-sm-4">
+		<a class="button">Cadastre-se já</a>
 	</div>
-</div></nav>
+	</div>
+
+	<nav>
+		<div class="row">
+			<div class="pull-left branding">
+				<a id="branding" class="clearfix" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+					<?php include get_template_directory() . '/assets/forma.svg';?>
+					<h1 class="hidden-sm"><?php bloginfo( 'name' ); ?>
+					<small class="hidden"><?php bloginfo( 'description' ); ?></small></h1>
+				</a>
+			</div>
+
+			<div class="pull-left search">
+				<?php echo get_search_form(); ?>
+			</div>
+
+			<div class="pull-right menu">
+				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu')); ?>
+			</div>
+	</div></nav>
+
+</div></header>
+
+<nav class="container-fluid dark">
+	<div class="wrapper center-block clearfix row"><div class="row">
+
+		<div class="pull-left branding">
+			<a id="branding" class="clearfix" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+				<?php include get_template_directory() . '/assets/forma.svg';?>
+				<h1 class="hidden-sm"><?php bloginfo( 'name' ); ?>
+				<small class="hidden"><?php bloginfo( 'description' ); ?></small></h1>
+			</a>
+		</div>
+
+		<div class="pull-left search">
+			<?php echo get_search_form(); ?>
+		</div>
+
+		<div class="pull-right menu">
+			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu')); ?>
+		</div>
+
+</div></div></nav>
