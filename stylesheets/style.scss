@@ -7,7 +7,6 @@ $gutter: 30px; // medianiz
 body {
   & > * {
     background-color: $color-nil;
-    border-bottom: 1px solid white;
     padding-top: $gutter;
     padding-bottom: $gutter;
   }

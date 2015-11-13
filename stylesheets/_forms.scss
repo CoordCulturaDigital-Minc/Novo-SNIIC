@@ -56,8 +56,17 @@ textarea {
 
 form.search-form {
 	position: relative;
+	display: block;
+
+	button, label {
+		display: inline-block;
+	}
+	label {
+		background-color: $color-dark-gray;
+		padding-bottom: 2px;
+	}
 	label, input {
-		width: 100%;
+		margin-bottom: 0;
 	}
 	button {
 		background-image: none;
@@ -66,24 +75,18 @@ form.search-form {
 		text-shadow: none;
 		border: none !important;
 		margin-left: 0 !important;
-		margin-top: -5px;
 		box-shadow: none;
-		position: absolute;
-		right: 0;
-		top: 0;
-		padding-right: $gutter/3;
+		padding: 0 $gutter/2;
 		span {
-			color: $color-gray;
+			color: $color-nil;
 		}
 	}
 	input[type="search"] {
-		padding-right: 30px;
 		border: none;
-		background: none;
-		border-bottom: 2px solid $color-gray !important;
 		border-radius: 0;
 		padding-left: 10px;
 		color: $color-nil;
+		background: transparent;
 		&:focus {
 			box-shadow: none;
 			border-color: $color-nil !important;
