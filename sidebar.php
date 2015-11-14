@@ -8,11 +8,6 @@
 
 <aside class="container-fluid dark"><div class="wrapper center-block clearfix">
 	<div class="col-xs-12 col-sm-4 col-md-4">
-		<!-- TODO: Convert into custom Wordpress widget for backend editing -->
-		<aside class="busca">
-			<h4>Busca</h4>
-			<?php echo get_search_form(); ?>
-		</aside/>
 
 		<!-- TODO: Melhorar forma de expor isso... está meio cru, acho. -->
 		<aside class="contato">

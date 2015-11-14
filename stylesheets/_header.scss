@@ -8,11 +8,13 @@
     position: relative;
 
     & > * {
-      padding-top: $gutter;
-      padding-bottom: $gutter;
+      padding-top: $gutter/2;
+      padding-bottom: $gutter/2;
       display: block;
     }
-
+    #branding, #branding_simple {
+      padding-top: $gutter;
+    }
     #branding {
       max-width: 600px;
       width: 100%;
@@ -39,26 +41,122 @@
         text-decoration: none;
       }
     }
-    & > h1 {
-      display: table;
-      margin: 0 auto;
-      max-width: 90%;
+    h1 {
       text-align: center;
-      z-index: 0;
+    }
+  }
+}
+
+& > nav {
+  z-index: 999;
+
+  padding-top: 0;
+  padding-bottom: 0;
+
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 0;
+
+  &.sticky {
+    .branding, .search {
+      opacity: 1;
+    }
+  }
+
+  & > .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .branding, .search {
+    opacity: 0;
+    @media screen and (max-width: 767px) {
+      opacity: 1;
+    }
+    transition: all 0.4s ease;
+  }
+
+  .branding a, .menu-item > a {
+    padding: $gutter/5 $gutter/2;
+    display: block;
+    &:hover {
+      background-color: $color-dark-gray;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .branding, .menu-item, button.menu-visibility {
+      margin: $gutter/3 0;
+    }
+  }
+
+  .branding {
+    a {
+      z-index: -999;
+
+      svg, h1 {
+        float: left;
+      }
+      svg {
+        width: $gutter;
+        height: $gutter;
+      }
+      h1 {
+        margin: 0;
+        margin-left: $gutter/4;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: $gutter;
+      }
+    }
+  }
+
+  .search {
+    flex: 1;
+  }
+
+  .menu {
+    text-transform: uppercase;
+    float: right;
+    @media screen and (max-width: 767px) {
+      width: 100%;
+    }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+    }
+    .menu-item {
+      font-size: 15px;
+      text-align: center;
       a {
-        line-height: 1.25;
-        padding: 0 .25em;
-        letter-spacing: .03em;
-        text-transform: uppercase;
-        border: 10px solid #222;
-        color: #222;
+        line-height: 2;
       }
-      small {
-        display: block;
-        font-size: 16px;
-        font-size: 1.6rem;
-        margin-top: 0.8889em;
+      @media screen and (min-width: 768px) {
+        display: inline-block;
       }
+    }
+    .sub-menu {
+      display: none;
+    }
+  }
+
+  button.menu-visibility {
+    border: none;
+    height: 41px;
+    width: 42px;
+    padding: 0;
+    i {
+      font-size: 24px;
+    }
+  }
+
+  .search {
+    @media screen and (max-width: 767px) {
+      margin: $gutter/3 0;
     }
   }
 }

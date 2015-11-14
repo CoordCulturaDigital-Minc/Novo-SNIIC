@@ -60,39 +60,6 @@ body .homeCount {
   body .collapse-xs {
     display: block !important;
     height: auto !important; } }
-body > header > div > nav, body > nav {
-  padding-top: 0;
-  padding-bottom: 0; }
-  body > header > div > nav .branding a, body > header > div > nav .menu-item > a, body > nav .branding a, body > nav .menu-item > a {
-    padding: 6px 15px;
-    display: block; }
-    body > header > div > nav .branding a:hover, body > header > div > nav .menu-item > a:hover, body > nav .branding a:hover, body > nav .menu-item > a:hover {
-      background-color: #3D3D3D; }
-  body > header > div > nav .branding a svg, body > header > div > nav .branding a h1, body > nav .branding a svg, body > nav .branding a h1 {
-    float: left; }
-  body > header > div > nav .branding a svg, body > nav .branding a svg {
-    width: 30px;
-    height: 30px; }
-  body > header > div > nav .branding a h1, body > nav .branding a h1 {
-    margin: 0;
-    margin-left: 7.5px;
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 30px; }
-  body > header > div > nav .menu, body > nav .menu {
-    text-transform: uppercase;
-    float: right; }
-    body > header > div > nav .menu ul, body > nav .menu ul {
-      list-style: none;
-      margin: 0;
-      padding-left: 0; }
-    body > header > div > nav .menu .menu-item, body > nav .menu .menu-item {
-      display: inline-block;
-      font-size: 15px; }
-      body > header > div > nav .menu .menu-item a, body > nav .menu .menu-item a {
-        line-height: 2; }
-    body > header > div > nav .menu .sub-menu, body > nav .menu .sub-menu {
-      display: none; }
 body > header {
   padding-bottom: 0; }
   body > header > div {
@@ -102,9 +69,11 @@ body > header {
     margin: 0 auto;
     position: relative; }
     body > header > div > * {
-      padding-top: 30px;
-      padding-bottom: 30px;
+      padding-top: 15px;
+      padding-bottom: 15px;
       display: block; }
+    body > header > div #branding, body > header > div #branding_simple {
+      padding-top: 30px; }
     body > header > div #branding {
       max-width: 600px;
       width: 100%; }
@@ -126,24 +95,83 @@ body > header {
         background-color: #ECF3F4;
         color: black;
         text-decoration: none; }
-    body > header > div > h1 {
-      display: table;
-      margin: 0 auto;
-      max-width: 90%;
-      text-align: center;
-      z-index: 0; }
-      body > header > div > h1 a {
-        line-height: 1.25;
-        padding: 0 .25em;
-        letter-spacing: .03em;
-        text-transform: uppercase;
-        border: 10px solid #222;
-        color: #222; }
-      body > header > div > h1 small {
-        display: block;
-        font-size: 16px;
-        font-size: 1.6rem;
-        margin-top: 0.8889em; }
+    body > header > div h1 {
+      text-align: center; }
+body > nav {
+  z-index: 999;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 0; }
+  body > nav.sticky .branding, body > nav.sticky .search {
+    opacity: 1; }
+  body > nav > .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  body > nav .branding, body > nav .search {
+    opacity: 0;
+    transition: all 0.4s ease; }
+    @media screen and (max-width: 767px) {
+      body > nav .branding, body > nav .search {
+        opacity: 1; } }
+  body > nav .branding a, body > nav .menu-item > a {
+    padding: 6px 15px;
+    display: block; }
+    body > nav .branding a:hover, body > nav .menu-item > a:hover {
+      background-color: #3D3D3D; }
+  @media screen and (max-width: 767px) {
+    body > nav .branding, body > nav .menu-item, body > nav button.menu-visibility {
+      margin: 10px 0; } }
+  body > nav .branding a {
+    z-index: -999; }
+    body > nav .branding a svg, body > nav .branding a h1 {
+      float: left; }
+    body > nav .branding a svg {
+      width: 30px;
+      height: 30px; }
+    body > nav .branding a h1 {
+      margin: 0;
+      margin-left: 7.5px;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 30px; }
+  body > nav .search {
+    flex: 1; }
+  body > nav .menu {
+    text-transform: uppercase;
+    float: right; }
+    @media screen and (max-width: 767px) {
+      body > nav .menu {
+        width: 100%; } }
+    body > nav .menu ul {
+      list-style: none;
+      margin: 0;
+      padding-left: 0; }
+    body > nav .menu .menu-item {
+      font-size: 15px;
+      text-align: center; }
+      body > nav .menu .menu-item a {
+        line-height: 2; }
+      @media screen and (min-width: 768px) {
+        body > nav .menu .menu-item {
+          display: inline-block; } }
+    body > nav .menu .sub-menu {
+      display: none; }
+  body > nav button.menu-visibility {
+    border: none;
+    height: 41px;
+    width: 42px;
+    padding: 0; }
+    body > nav button.menu-visibility i {
+      font-size: 24px; }
+  @media screen and (max-width: 767px) {
+    body > nav .search {
+      margin: 10px 0; } }
 body aside aside {
   margin-bottom: 30px; }
   body aside aside:last-child {
@@ -244,9 +272,6 @@ body > section.velho-sniic p {
   font-size: 18px; }
 body > section.velho-sniic button {
   margin-top: 30px; }
-body > section.busca button, body > section.busca input[type="search"] {
-  font-size: 24px;
-  border: none; }
 body > section.mapas ul {
   list-style: none;
   margin-left: 0px;
@@ -546,6 +571,13 @@ textarea {
   padding-left: 7px;
   width: 100%; }
 
+form.search-form button {
+  width: 40px; }
+form.search-form input[type="search"] {
+  width: 100%;
+  padding-right: 40px;
+  margin-right: -40px; }
+
 form.search-form {
   position: relative;
   display: block; }
@@ -575,10 +607,7 @@ form.search-form {
     border-radius: 0;
     padding-left: 10px;
     color: #ECF3F4;
-    background: transparent;
-    padding-right: 45px;
-    margin-right: -45px;
-    width: 100%; }
+    background: transparent; }
     form.search-form input[type="search"]:focus {
       box-shadow: none;
       border-color: #ECF3F4 !important; }

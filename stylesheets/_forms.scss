@@ -55,6 +55,17 @@ textarea {
 }
 
 form.search-form {
+	button {
+		width: 40px;
+	}
+	input[type="search"] {
+		width: 100%;
+		padding-right: 40px;
+		margin-right: -40px;
+	}
+}
+
+form.search-form {
 	position: relative;
 	display: block;
 
@@ -90,9 +101,6 @@ form.search-form {
 		padding-left: 10px;
 		color: $color-nil;
 		background: transparent;
-		padding-right: 45px;
-		margin-right: -45px;
-		width: 100%;
 		&:focus {
 			box-shadow: none;
 			border-color: $color-nil !important;
