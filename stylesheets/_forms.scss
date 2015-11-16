@@ -4,15 +4,12 @@ input[type="reset"],
 input[type="submit"],
 #infinite-handle span {
 	background: none;
-	border: 2px solid #999;
 	color: rgba(0, 0, 0, 0.5);
 	cursor: pointer;
 	display: inline-block;
 	font-size: 14px;
 	font-size: 1.4rem;
-	height: 2.9em;
 	letter-spacing: .03em;
-	padding: 0 24px;
 	text-transform: uppercase;
 	&:hover {
 		border-color: #000;
@@ -34,7 +31,6 @@ input[type="search"],
 textarea {
 	font-size: 16px;
 	font-size: 1.6rem;
-	border: 2px solid #999;
 	&:focus {
 		border-color: #000;
 		outline: none;
@@ -53,55 +49,17 @@ textarea {
 	width: 100%;
 }
 
-form {
-	label.has-glyph-button {
-		input {
-			width: 100%;
-		}
-		button {
-			border-radius: 0 !important;
-			border: none !important;
-			margin-left: 0 !important;
-			text-shadow: none;
-			box-shadow: none;
-			background-image: none;
-			background-color: transparent;
-			text-align: center;
-			float: right;
-			margin: 0;
-		}
-	}
-}
-
 // SIZING
 
-form {
-	label.has-glyph-button {
-		input {
-			padding-right: 42px;
-			margin-right: -42px;
-			padding-left: 10px;
-		}
-		button {
-			width: 42px;
-		}
-	}
-}
-
-.lead {
-	form {
-		label.has-glyph-button {
+@media screen and (min-width: 768px) {
+	.lead form, .big form, form.big {
+		.form-group .input-group {
 			input {
 				font-size: 24px;
-				padding-right: 60px;
-				margin-right: -60px;
 				padding-left: 20px;
 			}
-			button {
-				width: 60px;
-				i {
-					font-size: 32px;
-				}
+			.input-group-addon button span {
+				font-size: 24px;
 			}
 		}
 	}
@@ -110,7 +68,7 @@ form {
 // THEME
 
 form {
-	label {
+	.form-group {
 		background-color: white;
 		input {
 			color: black;
@@ -118,9 +76,7 @@ form {
 				color: $color-coal;
 			}
 		}
-	}
-	label.has-glyph-button {
-		button {
+		.input-group-addon button {
 			span {
 				color: black;
 			}
@@ -133,7 +89,7 @@ form {
 
 .dark {
 	form {
-		label {
+		.form-group {
 			background-color: $color-dark-gray;
 			input {
 				&, &:active, &:focus {
@@ -143,48 +99,56 @@ form {
 					color: $color-gray;
 				}
 			}
-		}
-		label.has-glyph-button {
-			button span {
+			.input-group-addon button span {
 				color: $color-nil;
 			}
 		}
 	}
 }
 
-form.search-form {
+form {
 	display: block;
 
-	label {
+	.form-group {
 		padding: 0;
 		padding-top: 1px;
 		width: 100%;
-	}
-	label, input {
-		margin-bottom: 0;
-	}
-	button {
-		border-radius: 0 !important;
-		border: none !important;
-		margin-left: 0 !important;
-		text-shadow: none;
-		box-shadow: none;
-		background-image: none;
-		background-color: transparent;
-		padding: 0 $gutter/2;
-		float: right;
-	}
-	input[type="search"] {
-		border: none;
-		border-radius: 0;
-		background: transparent;
-		&:focus {
-			box-shadow: none;
-			border: none;
+
+		.input-group {
+			input {
+				width: 100%;
+				border: none;
+				border-radius: 0;
+				background: transparent;
+				&::-webkit-input-placeholder {
+					 font-style: italic;
+					 font-weight: 300;
+				}
+				&:focus {
+					box-shadow: none;
+					border: none;
+				}
+			}
+			.input-group-addon {
+				background-color: transparent;
+				border: none;
+				border-radius: 0px;
+				button {
+					border-radius: 0 !important;
+					border: none !important;
+					margin-left: 0 !important;
+					text-shadow: none;
+					box-shadow: none;
+					background-image: none;
+					background-color: transparent;
+					text-align: center;
+					float: right;
+					margin: 0;
+				}
+			}
 		}
 	}
-	input::-webkit-input-placeholder {
-		 font-style: italic;
-		 font-weight: 300;
+	.form-group, input {
+		margin-bottom: 0;
 	}
 }

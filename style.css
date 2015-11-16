@@ -510,15 +510,12 @@ input[type="reset"],
 input[type="submit"],
 #infinite-handle span {
   background: none;
-  border: 2px solid #999;
   color: rgba(0, 0, 0, 0.5);
   cursor: pointer;
   display: inline-block;
   font-size: 14px;
   font-size: 1.4rem;
-  height: 2.9em;
   letter-spacing: .03em;
-  padding: 0 24px;
   text-transform: uppercase; }
   button:hover,
   input[type="button"]:hover,
@@ -545,8 +542,7 @@ input[type="password"],
 input[type="search"],
 textarea {
   font-size: 16px;
-  font-size: 1.6rem;
-  border: 2px solid #999; }
+  font-size: 1.6rem; }
   input[type="text"]:focus,
   input[type="email"]:focus,
   input[type="url"]:focus,
@@ -568,85 +564,66 @@ textarea {
   padding-left: 7px;
   width: 100%; }
 
-form label.has-glyph-button input {
-  width: 100%; }
-form label.has-glyph-button button {
-  border-radius: 0 !important;
-  border: none !important;
-  margin-left: 0 !important;
-  text-shadow: none;
-  box-shadow: none;
-  background-image: none;
-  background-color: transparent;
-  text-align: center;
-  float: right;
-  margin: 0; }
-
-form label.has-glyph-button input {
-  padding-right: 42px;
-  margin-right: -42px;
-  padding-left: 10px; }
-form label.has-glyph-button button {
-  width: 42px; }
-
-.lead form label.has-glyph-button input {
-  font-size: 24px;
-  padding-right: 60px;
-  margin-right: -60px;
-  padding-left: 20px; }
-.lead form label.has-glyph-button button {
-  width: 60px; }
-  .lead form label.has-glyph-button button i {
-    font-size: 32px; }
-
-form label {
+@media screen and (min-width: 768px) {
+  .lead form .form-group .input-group input, .big form .form-group .input-group input, form.big .form-group .input-group input {
+    font-size: 24px;
+    padding-left: 20px; }
+  .lead form .form-group .input-group .input-group-addon button span, .big form .form-group .input-group .input-group-addon button span, form.big .form-group .input-group .input-group-addon button span {
+    font-size: 24px; } }
+form .form-group {
   background-color: white; }
-  form label input {
+  form .form-group input {
     color: black; }
-    form label input::-webkit-input-placeholder {
+    form .form-group input::-webkit-input-placeholder {
       color: #242424; }
-form label.has-glyph-button button span {
-  color: black; }
-form label.has-glyph-button button:hover {
-  background-color: transparent; }
+  form .form-group .input-group-addon button span {
+    color: black; }
+  form .form-group .input-group-addon button:hover {
+    background-color: transparent; }
 
-.dark form label {
+.dark form .form-group {
   background-color: #3D3D3D; }
-  .dark form label input, .dark form label input:active, .dark form label input:focus {
+  .dark form .form-group input, .dark form .form-group input:active, .dark form .form-group input:focus {
     color: #ECF3F4; }
-  .dark form label input::-webkit-input-placeholder {
+  .dark form .form-group input::-webkit-input-placeholder {
     color: #7E7E7E; }
-.dark form label.has-glyph-button button span {
-  color: #ECF3F4; }
+  .dark form .form-group .input-group-addon button span {
+    color: #ECF3F4; }
 
-form.search-form {
+form {
   display: block; }
-  form.search-form label {
+  form .form-group {
     padding: 0;
     padding-top: 1px;
     width: 100%; }
-  form.search-form label, form.search-form input {
+    form .form-group .input-group input {
+      width: 100%;
+      border: none;
+      border-radius: 0;
+      background: transparent; }
+      form .form-group .input-group input::-webkit-input-placeholder {
+        font-style: italic;
+        font-weight: 300; }
+      form .form-group .input-group input:focus {
+        box-shadow: none;
+        border: none; }
+    form .form-group .input-group .input-group-addon {
+      background-color: transparent;
+      border: none;
+      border-radius: 0px; }
+      form .form-group .input-group .input-group-addon button {
+        border-radius: 0 !important;
+        border: none !important;
+        margin-left: 0 !important;
+        text-shadow: none;
+        box-shadow: none;
+        background-image: none;
+        background-color: transparent;
+        text-align: center;
+        float: right;
+        margin: 0; }
+  form .form-group, form input {
     margin-bottom: 0; }
-  form.search-form button {
-    border-radius: 0 !important;
-    border: none !important;
-    margin-left: 0 !important;
-    text-shadow: none;
-    box-shadow: none;
-    background-image: none;
-    background-color: transparent;
-    padding: 0 15px;
-    float: right; }
-  form.search-form input[type="search"] {
-    border: none;
-    border-radius: 0;
-    background: transparent; }
-    form.search-form input[type="search"]:focus {
-      box-shadow: none;
-      border: none; }
-  form.search-form input::-webkit-input-placeholder {
-    font-style: italic;
-    font-weight: 300; }
 
 /*--------------------------------------------------------------
 5.1 Links
