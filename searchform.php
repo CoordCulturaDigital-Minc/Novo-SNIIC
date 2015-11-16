@@ -1,4 +1,5 @@
-<form role="search" method="get" class="search-form clearfix" action="<?php bloginfo('siteurl'); ?>"><label>
+<form role="search" method="get" class="search-form clearfix" action="<?php bloginfo('siteurl'); ?>">
+	<label class="has-glyph-button">
 		<span class="sr-only">Buscar:</span>
 
 		<input type="search" class="search-field" placeholder="O que você está buscando?" value="<?php

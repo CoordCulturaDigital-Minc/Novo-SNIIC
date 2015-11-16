@@ -29,29 +29,6 @@
 
 <?php get_template_part( 'brasil/brasil', 'barra' ); ?>
 
-<header class="container-fluid hidden-xs dark">
-	<div class="wrapper center-block clearfix row">
-
-	<div id="branding_simple" class="visible-xs center-block">
-		<?php include get_template_directory() . '/assets/main.acro.simple.svg';?>
-	</div>
-
-	<div id="branding" class="hidden-xs center-block">
-		<?php include get_template_directory() . '/assets/main.acro.svg';?>
-	</div>
-
-	<h1 class="text-center">Conheça e explore a nova plataforma</h1>
-
-	<div class="search col-xs-12 col-sm-8">
-		<?php echo get_search_form(); ?>
-	</div>
-
-	<div class="col-xs-12 col-sm-4">
-		<a class="button">Cadastre-se já</a>
-	</div>
-
-</div></header>
-
 <nav class="container-fluid dark">
 	<div class="wrapper center-block clearfix row">
 
@@ -79,6 +56,10 @@
 
 		<div class="collapse collapse-xs menu" id="collapseMenu">
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu')); ?>
+
+			<div class="cadastre">
+				<a>Cadastre-se já</a>
+			</div>
 		</div>
 
 </div></nav>
@@ -86,7 +67,7 @@
 <script type="text/javascript">
 
 	jQuery(window).scroll(function($) {
-		if (jQuery(this).scrollTop() == jQuery('body > nav').position().top) {
+		if (jQuery(this).scrollTop() > (jQuery('body > header').position().top + jQuery('body > header').height())) {
 			jQuery('body > nav').addClass("sticky");
 		}
 		else {

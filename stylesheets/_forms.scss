@@ -37,7 +37,6 @@ textarea {
 	border: 2px solid #999;
 	&:focus {
 		border-color: #000;
-		color: #111;
 		outline: none;
 	}
 }
@@ -54,26 +53,109 @@ textarea {
 	width: 100%;
 }
 
-form.search-form {
-	button {
-		width: 40px;
+form {
+	label.has-glyph-button {
+		input {
+			width: 100%;
+		}
+		button {
+			border-radius: 0 !important;
+			border: none !important;
+			margin-left: 0 !important;
+			text-shadow: none;
+			box-shadow: none;
+			background-image: none;
+			background-color: transparent;
+			text-align: center;
+			float: right;
+			margin: 0;
+		}
 	}
-	input[type="search"] {
-		width: 100%;
-		padding-right: 40px;
-		margin-right: -40px;
+}
+
+// SIZING
+
+form {
+	label.has-glyph-button {
+		input {
+			padding-right: 42px;
+			margin-right: -42px;
+			padding-left: 10px;
+		}
+		button {
+			width: 42px;
+		}
+	}
+}
+
+.lead {
+	form {
+		label.has-glyph-button {
+			input {
+				font-size: 24px;
+				padding-right: 60px;
+				margin-right: -60px;
+				padding-left: 20px;
+			}
+			button {
+				width: 60px;
+				i {
+					font-size: 32px;
+				}
+			}
+		}
+	}
+}
+
+// THEME
+
+form {
+	label {
+		background-color: white;
+		input {
+			color: black;
+			&::-webkit-input-placeholder {
+				color: $color-coal;
+			}
+		}
+	}
+	label.has-glyph-button {
+		button {
+			span {
+				color: black;
+			}
+			&:hover {
+				background-color: transparent;
+			}
+		}
+	}
+}
+
+.dark {
+	form {
+		label {
+			background-color: $color-dark-gray;
+			input {
+				&, &:active, &:focus {
+					color: $color-nil;
+				}
+				&::-webkit-input-placeholder {
+					color: $color-gray;
+				}
+			}
+		}
+		label.has-glyph-button {
+			button span {
+				color: $color-nil;
+			}
+		}
 	}
 }
 
 form.search-form {
-	position: relative;
 	display: block;
 
-	button, label {
-		display: inline-block;
-	}
 	label {
-		background-color: $color-dark-gray;
 		padding: 0;
 		padding-top: 1px;
 		width: 100%;
@@ -82,33 +164,27 @@ form.search-form {
 		margin-bottom: 0;
 	}
 	button {
-		background-image: none;
-		background-color: transparent;
 		border-radius: 0 !important;
-		text-shadow: none;
 		border: none !important;
 		margin-left: 0 !important;
+		text-shadow: none;
 		box-shadow: none;
+		background-image: none;
+		background-color: transparent;
 		padding: 0 $gutter/2;
 		float: right;
-		span {
-			color: $color-nil;
-		}
 	}
 	input[type="search"] {
 		border: none;
 		border-radius: 0;
-		padding-left: 10px;
-		color: $color-nil;
 		background: transparent;
 		&:focus {
 			box-shadow: none;
-			border-color: $color-nil !important;
+			border: none;
 		}
 	}
 	input::-webkit-input-placeholder {
 		 font-style: italic;
 		 font-weight: 300;
-		 color: $color-gray;
 	}
 }
