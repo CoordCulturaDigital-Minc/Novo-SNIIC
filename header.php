@@ -67,6 +67,8 @@
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		jQuery('body > nav').css('top', 34);
+
+		if (jQuery('body > nav').css('position') == 'fixed') jQuery('body').addClass('no-sticky');
 	});
 
 	jQuery(window).scroll(function($) {

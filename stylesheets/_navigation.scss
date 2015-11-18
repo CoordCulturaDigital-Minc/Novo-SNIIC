@@ -1,3 +1,14 @@
+&.no-sticky {
+  #barra-brasil {
+    @media screen and (max-width: 767px) {
+      margin-bottom: 62px;
+    }
+    @media screen and (min-width: 768px) {
+      margin-bottom: 42px;
+    }
+  }
+}
+
 & > nav {
   z-index: 999;
 
@@ -16,6 +27,25 @@
 
   @media screen and (min-width: 768px) {
     height: 42px;
+  }
+
+  @media screen and (max-width: 767px) {
+    div.menu {
+      width: 100%;
+      & > * {
+        width: 100%;
+        &.cadastre {
+          display: block;
+          text-align: center;
+          a {
+            display: inline-block;
+            vertical-align: middle;
+            margin: $gutter 0;
+          }
+        }
+      }
+    }
+
   }
 
   &.sticky {
@@ -82,13 +112,13 @@
       a {
         background-color: $color-teal;
         color: $color-nil;
-        float: right;
         font-size: 15px;
         text-align: center;
         font-weight: 800;
         line-height: 2;
         padding: 6px 15px;
         @media screen and (min-width: 768px) {
+          float: right;
           margin-left: -4px;
         }
         &:hover {
