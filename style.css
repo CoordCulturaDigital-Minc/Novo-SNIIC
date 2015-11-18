@@ -25,40 +25,50 @@ body {
       font-weight: 400; }
     body h1 img, body h1 svg, body h2 img, body h2 svg, body h3 img, body h3 svg, body h4 img, body h4 svg, body h5 img, body h5 svg, body h6 img, body h6 svg, body a h1 img, body a h1 svg, body a h2 img, body a h2 svg, body a h3 img, body a h3 svg, body a h4 img, body a h4 svg, body a h5 img, body a h5 svg, body a h6 img, body a h6 svg {
       display: inline-block;
-      fill: #242424; }
+      fill: #242424;
+      vertical-align: middle; }
   body h1, body a h1 {
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    line-height: 1.1; }
     body h1 img, body h1 svg, body a h1 img, body a h1 svg {
       width: 45px;
       height: 45px;
-      margin-right: 10px; }
-    body h1 svg, body a h1 svg {
-      margin-bottom: -7.5px; }
+      margin-right: 10px;
+      margin-bottom: 7px; }
   body h2, body a h2 {
     margin-bottom: 10px;
-    line-height: 0.5;
-    margin: 0 7.5px; }
+    line-height: 0.5; }
     body h2 img, body h2 svg, body a h2 img, body a h2 svg {
       width: 30px;
-      height: 30px; }
-    body h2 img, body a h2 img {
+      height: 30px;
+      margin-right: 6px;
+      margin-bottom: 4px; }
+  body h3, body a h3 {
+    margin-bottom: 10px;
+    line-height: 0.5;
+    vertical-align: middle; }
+    body h3 img, body h3 svg, body a h3 img, body a h3 svg {
+      width: 24px;
+      height: 24px;
+      margin-right: 5px;
       margin-bottom: 3px; }
-    body h2 svg, body a h2 svg {
-      margin-bottom: -7.5px; }
   body h4, body a h4 {
     margin-bottom: 5px; }
     body h4 img, body h4 svg, body a h4 img, body a h4 svg {
-      width: 30px;
-      height: 30px;
-      margin-right: 5px; }
-    body h4 svg, body a h4 svg {
-      margin-bottom: -6px; }
+      width: 21px;
+      height: 21px;
+      margin-right: 5px;
+      margin-bottom: 3px; }
   body h5 img, body h5 svg, body a h5 img, body a h5 svg {
-    width: 21px;
-    height: 21px;
-    margin-right: 5px; }
-  body h5 svg, body a h5 svg {
-    margin-bottom: -5px; }
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    margin-bottom: 1px; }
+  body h6 img, body h6 svg, body a h6 img, body a h6 svg {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    margin-bottom: 2px; }
   body .dark h1.brand-heading, body .dark h2.brand-heading, body .dark h3.brand-heading, body .dark h4.brand-heading, body .dark h5.brand-heading, body .dark h6.brand-heading, body a .dark h1.brand-heading, body a .dark h2.brand-heading, body a .dark h3.brand-heading, body a .dark h4.brand-heading, body a .dark h5.brand-heading, body a .dark h6.brand-heading {
     color: #ECF3F4; }
     body .dark h1.brand-heading svg, body .dark h2.brand-heading svg, body .dark h3.brand-heading svg, body .dark h4.brand-heading svg, body .dark h5.brand-heading svg, body .dark h6.brand-heading svg, body a .dark h1.brand-heading svg, body a .dark h2.brand-heading svg, body a .dark h3.brand-heading svg, body a .dark h4.brand-heading svg, body a .dark h5.brand-heading svg, body a .dark h6.brand-heading svg {
@@ -224,7 +234,7 @@ body {
       body > nav .branding h2 span {
         font-weight: 600; }
       body > nav .branding h2 svg {
-        margin-bottom: -4px; }
+        margin-bottom: 4px; }
     body > nav .search {
       flex: 1; }
       body > nav .search input {
@@ -350,22 +360,6 @@ body {
     list-style: none;
     margin: 0;
     -webkit-padding-start: 0; }
-    body .plataformas ul li {
-      padding: 7.5px;
-      padding-top: 15px;
-      border-bottom: 4px solid #ECF3F4; }
-      body .plataformas ul li a {
-        font-size: 20px; }
-      body .plataformas ul li:hover {
-        border-color: #69A0A8;
-        background-color: white; }
-        body .plataformas ul li:hover a {
-          color: #242424; }
-  body > footer {
-    background: black;
-    border: none; }
-    body > footer p {
-      color: #7E7E7E; }
   body > section.velho-sniic img {
     min-width: 150px;
     max-width: 300px; }
@@ -421,8 +415,12 @@ body {
     background-color: white; }
   body ul:hover a, body ul:hover li, body ul:hover span, body ul:hover i, body ul:hover h1, body ul:hover h2, body ul:hover h3, body ul:hover h4, body ul:hover h5, body ul:hover h6, body ul:hover small {
     color: #7E7E7E; }
+    body ul:hover a svg, body ul:hover li svg, body ul:hover span svg, body ul:hover i svg, body ul:hover h1 svg, body ul:hover h2 svg, body ul:hover h3 svg, body ul:hover h4 svg, body ul:hover h5 svg, body ul:hover h6 svg, body ul:hover small svg {
+      fill: #7E7E7E; }
     body ul:hover a:hover a, body ul:hover a:hover li, body ul:hover a:hover span, body ul:hover a:hover i, body ul:hover a:hover h1, body ul:hover a:hover h2, body ul:hover a:hover h3, body ul:hover a:hover h4, body ul:hover a:hover h5, body ul:hover a:hover h6, body ul:hover a:hover small, body ul:hover li:hover a, body ul:hover li:hover li, body ul:hover li:hover span, body ul:hover li:hover i, body ul:hover li:hover h1, body ul:hover li:hover h2, body ul:hover li:hover h3, body ul:hover li:hover h4, body ul:hover li:hover h5, body ul:hover li:hover h6, body ul:hover li:hover small, body ul:hover span:hover a, body ul:hover span:hover li, body ul:hover span:hover span, body ul:hover span:hover i, body ul:hover span:hover h1, body ul:hover span:hover h2, body ul:hover span:hover h3, body ul:hover span:hover h4, body ul:hover span:hover h5, body ul:hover span:hover h6, body ul:hover span:hover small, body ul:hover i:hover a, body ul:hover i:hover li, body ul:hover i:hover span, body ul:hover i:hover i, body ul:hover i:hover h1, body ul:hover i:hover h2, body ul:hover i:hover h3, body ul:hover i:hover h4, body ul:hover i:hover h5, body ul:hover i:hover h6, body ul:hover i:hover small, body ul:hover h1:hover a, body ul:hover h1:hover li, body ul:hover h1:hover span, body ul:hover h1:hover i, body ul:hover h1:hover h1, body ul:hover h1:hover h2, body ul:hover h1:hover h3, body ul:hover h1:hover h4, body ul:hover h1:hover h5, body ul:hover h1:hover h6, body ul:hover h1:hover small, body ul:hover h2:hover a, body ul:hover h2:hover li, body ul:hover h2:hover span, body ul:hover h2:hover i, body ul:hover h2:hover h1, body ul:hover h2:hover h2, body ul:hover h2:hover h3, body ul:hover h2:hover h4, body ul:hover h2:hover h5, body ul:hover h2:hover h6, body ul:hover h2:hover small, body ul:hover h3:hover a, body ul:hover h3:hover li, body ul:hover h3:hover span, body ul:hover h3:hover i, body ul:hover h3:hover h1, body ul:hover h3:hover h2, body ul:hover h3:hover h3, body ul:hover h3:hover h4, body ul:hover h3:hover h5, body ul:hover h3:hover h6, body ul:hover h3:hover small, body ul:hover h4:hover a, body ul:hover h4:hover li, body ul:hover h4:hover span, body ul:hover h4:hover i, body ul:hover h4:hover h1, body ul:hover h4:hover h2, body ul:hover h4:hover h3, body ul:hover h4:hover h4, body ul:hover h4:hover h5, body ul:hover h4:hover h6, body ul:hover h4:hover small, body ul:hover h5:hover a, body ul:hover h5:hover li, body ul:hover h5:hover span, body ul:hover h5:hover i, body ul:hover h5:hover h1, body ul:hover h5:hover h2, body ul:hover h5:hover h3, body ul:hover h5:hover h4, body ul:hover h5:hover h5, body ul:hover h5:hover h6, body ul:hover h5:hover small, body ul:hover h6:hover a, body ul:hover h6:hover li, body ul:hover h6:hover span, body ul:hover h6:hover i, body ul:hover h6:hover h1, body ul:hover h6:hover h2, body ul:hover h6:hover h3, body ul:hover h6:hover h4, body ul:hover h6:hover h5, body ul:hover h6:hover h6, body ul:hover h6:hover small, body ul:hover small:hover a, body ul:hover small:hover li, body ul:hover small:hover span, body ul:hover small:hover i, body ul:hover small:hover h1, body ul:hover small:hover h2, body ul:hover small:hover h3, body ul:hover small:hover h4, body ul:hover small:hover h5, body ul:hover small:hover h6, body ul:hover small:hover small {
       color: black; }
+      body ul:hover a:hover a svg, body ul:hover a:hover li svg, body ul:hover a:hover span svg, body ul:hover a:hover i svg, body ul:hover a:hover h1 svg, body ul:hover a:hover h2 svg, body ul:hover a:hover h3 svg, body ul:hover a:hover h4 svg, body ul:hover a:hover h5 svg, body ul:hover a:hover h6 svg, body ul:hover a:hover small svg, body ul:hover li:hover a svg, body ul:hover li:hover li svg, body ul:hover li:hover span svg, body ul:hover li:hover i svg, body ul:hover li:hover h1 svg, body ul:hover li:hover h2 svg, body ul:hover li:hover h3 svg, body ul:hover li:hover h4 svg, body ul:hover li:hover h5 svg, body ul:hover li:hover h6 svg, body ul:hover li:hover small svg, body ul:hover span:hover a svg, body ul:hover span:hover li svg, body ul:hover span:hover span svg, body ul:hover span:hover i svg, body ul:hover span:hover h1 svg, body ul:hover span:hover h2 svg, body ul:hover span:hover h3 svg, body ul:hover span:hover h4 svg, body ul:hover span:hover h5 svg, body ul:hover span:hover h6 svg, body ul:hover span:hover small svg, body ul:hover i:hover a svg, body ul:hover i:hover li svg, body ul:hover i:hover span svg, body ul:hover i:hover i svg, body ul:hover i:hover h1 svg, body ul:hover i:hover h2 svg, body ul:hover i:hover h3 svg, body ul:hover i:hover h4 svg, body ul:hover i:hover h5 svg, body ul:hover i:hover h6 svg, body ul:hover i:hover small svg, body ul:hover h1:hover a svg, body ul:hover h1:hover li svg, body ul:hover h1:hover span svg, body ul:hover h1:hover i svg, body ul:hover h1:hover h1 svg, body ul:hover h1:hover h2 svg, body ul:hover h1:hover h3 svg, body ul:hover h1:hover h4 svg, body ul:hover h1:hover h5 svg, body ul:hover h1:hover h6 svg, body ul:hover h1:hover small svg, body ul:hover h2:hover a svg, body ul:hover h2:hover li svg, body ul:hover h2:hover span svg, body ul:hover h2:hover i svg, body ul:hover h2:hover h1 svg, body ul:hover h2:hover h2 svg, body ul:hover h2:hover h3 svg, body ul:hover h2:hover h4 svg, body ul:hover h2:hover h5 svg, body ul:hover h2:hover h6 svg, body ul:hover h2:hover small svg, body ul:hover h3:hover a svg, body ul:hover h3:hover li svg, body ul:hover h3:hover span svg, body ul:hover h3:hover i svg, body ul:hover h3:hover h1 svg, body ul:hover h3:hover h2 svg, body ul:hover h3:hover h3 svg, body ul:hover h3:hover h4 svg, body ul:hover h3:hover h5 svg, body ul:hover h3:hover h6 svg, body ul:hover h3:hover small svg, body ul:hover h4:hover a svg, body ul:hover h4:hover li svg, body ul:hover h4:hover span svg, body ul:hover h4:hover i svg, body ul:hover h4:hover h1 svg, body ul:hover h4:hover h2 svg, body ul:hover h4:hover h3 svg, body ul:hover h4:hover h4 svg, body ul:hover h4:hover h5 svg, body ul:hover h4:hover h6 svg, body ul:hover h4:hover small svg, body ul:hover h5:hover a svg, body ul:hover h5:hover li svg, body ul:hover h5:hover span svg, body ul:hover h5:hover i svg, body ul:hover h5:hover h1 svg, body ul:hover h5:hover h2 svg, body ul:hover h5:hover h3 svg, body ul:hover h5:hover h4 svg, body ul:hover h5:hover h5 svg, body ul:hover h5:hover h6 svg, body ul:hover h5:hover small svg, body ul:hover h6:hover a svg, body ul:hover h6:hover li svg, body ul:hover h6:hover span svg, body ul:hover h6:hover i svg, body ul:hover h6:hover h1 svg, body ul:hover h6:hover h2 svg, body ul:hover h6:hover h3 svg, body ul:hover h6:hover h4 svg, body ul:hover h6:hover h5 svg, body ul:hover h6:hover h6 svg, body ul:hover h6:hover small svg, body ul:hover small:hover a svg, body ul:hover small:hover li svg, body ul:hover small:hover span svg, body ul:hover small:hover i svg, body ul:hover small:hover h1 svg, body ul:hover small:hover h2 svg, body ul:hover small:hover h3 svg, body ul:hover small:hover h4 svg, body ul:hover small:hover h5 svg, body ul:hover small:hover h6 svg, body ul:hover small:hover small svg {
+        fill: black; }
   body > .dark {
     background: #242424; }
     body > .dark ul:hover a:hover a, body > .dark ul:hover a:hover li, body > .dark ul:hover a:hover span, body > .dark ul:hover a:hover i, body > .dark ul:hover a:hover h1, body > .dark ul:hover a:hover h2, body > .dark ul:hover a:hover h3, body > .dark ul:hover a:hover h4, body > .dark ul:hover a:hover h5, body > .dark ul:hover a:hover h6, body > .dark ul:hover a:hover small, body > .dark ul:hover li:hover a, body > .dark ul:hover li:hover li, body > .dark ul:hover li:hover span, body > .dark ul:hover li:hover i, body > .dark ul:hover li:hover h1, body > .dark ul:hover li:hover h2, body > .dark ul:hover li:hover h3, body > .dark ul:hover li:hover h4, body > .dark ul:hover li:hover h5, body > .dark ul:hover li:hover h6, body > .dark ul:hover li:hover small {

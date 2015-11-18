@@ -5,18 +5,18 @@
 </p>
 <aside class="col-xs-12 col-sm-6 col-sm-offset-2 plataformas">
 	<ul>
-		<li><a href="<?php echo site_url('publicacoes'); ?>"><h2>
+		<li><a href="<?php echo site_url('publicacoes'); ?>"><h3>
 			<?php include get_template_directory() . '/assets/sub.glyph.publicacoes.svg'; ?>
-			Publicações<span>.cultura.gov.br</span></h2></a></li>
-		<li><a href="<?php echo site_url('indicadores'); ?>"><h2>
-			<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.indicadores.svg"/>
-			Indicadores<span>.cultura.gov.br</span></h2></a></li>
-		<li><a href="<?php echo site_url('dados'); ?>"><h2>
-			<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.dados.svg"/>
-			Dados<span>.cultura.gov.br</span></h2></a></li>
-		<li><a href="<?php echo site_url('vocabulario'); ?>"><h2>
-			<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.vocabulario.svg"/>
-			Vocabulário<span>.cultura.gov.br</span></h2></a></li>
+			Publicações<span>.cultura.gov.br</span></h3></a></li>
+		<li><a href="<?php echo site_url('indicadores'); ?>"><h3>
+			<?php include get_template_directory() . '/assets/sub.glyph.indicadores.svg'; ?>
+			Indicadores<span>.cultura.gov.br</span></h3></a></li>
+		<li><a href="<?php echo site_url('dados'); ?>"><h3>
+			<?php include get_template_directory() . '/assets/sub.glyph.dados.svg'; ?>
+			Dados<span>.cultura.gov.br</span></h3></a></li>
+		<li><a href="<?php echo site_url('vocabulario'); ?>"><h3>
+			<?php include get_template_directory() . '/assets/sub.glyph.vocabulario.svg'; ?>
+			Vocabulário<span>.cultura.gov.br</span></h3></a></li>
 	</ul>
 </aside>
 </div></section>

@@ -15,56 +15,67 @@ h1, h2, h3, h4, h5, h6 {
   img, svg {
     display: inline-block;
 		fill: $color-coal;
+		vertical-align: middle;
   }
 }
 h1 {
 	margin-bottom: $gutter/3;
+	line-height: 1.1;
 
   img, svg {
     width: $gutter * 1.5;
     height: $gutter * 1.5;
     margin-right: $gutter/3;
-  }
-  svg {
-    margin-bottom: -$gutter/4;
+		margin-bottom: 7px;
   }
 }
 h2 {
 	margin-bottom: $gutter/3;
 	line-height: 0.5;
-	margin: 0 $gutter/4;
 
   img, svg {
     width: $gutter;
     height: $gutter;
+		margin-right: $gutter/5;
+		margin-bottom: 4px;
   }
-	img {
+}
+h3 {
+	margin-bottom: $gutter/3;
+	line-height: 0.5;
+	vertical-align: middle;
+
+  img, svg {
+    width: $gutter*0.8;
+    height: $gutter*0.8;
+		margin-right: $gutter/6;
 		margin-bottom: 3px;
-	}
-  svg {
-    margin-bottom: -$gutter/4;
   }
 }
 h4 {
 	margin-bottom: $gutter/6;
 
   img, svg {
-    width: $gutter;
-    height: $gutter;
+    width: $gutter*0.7;
+    height: $gutter*0.7;
     margin-right: $gutter/6;
-  }
-  svg {
-    margin-bottom: -$gutter/5;
+		margin-bottom: 3px;
   }
 }
 h5 {
   img, svg {
-    width: $gutter*0.7;
-    height: $gutter*0.7;
+    width: $gutter*0.5;
+    height: $gutter*0.5;
     margin-right: $gutter/6;
+		margin-bottom: 1px;
   }
-  svg {
-    margin-bottom: -$gutter/6;
+}
+h6 {
+  img, svg {
+    width: $gutter*0.5;
+    height: $gutter*0.5;
+    margin-right: $gutter/6;
+		margin-bottom: 2px;
   }
 }
 

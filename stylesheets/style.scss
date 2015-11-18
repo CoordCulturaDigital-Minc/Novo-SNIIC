@@ -47,29 +47,6 @@ body {
     list-style: none;
     margin: 0;
     -webkit-padding-start: 0;
-    li {
-      padding: $gutter/4;
-      padding-top: $gutter/2;
-      border-bottom: 4px solid $color-nil;
-      a {
-        font-size: 20px;
-      }
-      &:hover {
-        border-color: $color-teal;
-        background-color: white;
-        a {
-          color: $color-coal;
-        }
-      }
-    }
-  }
-
-  & > footer {
-  	background: black;
-  	border: none;
-    p {
-      color: $color-gray;
-    }
   }
 
   @import "section";
@@ -134,7 +111,11 @@ body {
   & {
     ul:hover { a, li, span, i, h1, h2, h3, h4, h5, h6, small {
         color: $color-gray;
-        &:hover { a, li, span, i, h1, h2, h3, h4, h5, h6, small { color: black; } }
+        svg { fill: $color-gray; }
+        &:hover { a, li, span, i, h1, h2, h3, h4, h5, h6, small {
+          color: black;
+          svg { fill: black; }
+        } }
     } }
   }
   & > .dark {
