@@ -29,20 +29,12 @@ input[type="url"],
 input[type="password"],
 input[type="search"],
 textarea {
-	font-size: 16px;
+	font-size: 18px;
 	font-size: 1.6rem;
 	&:focus {
 		border-color: #000;
 		outline: none;
 	}
-}
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"] {
-	height: 2.5em;
-	padding: 0 7px;
 }
 textarea {
 	padding-left: 7px;
@@ -118,6 +110,7 @@ form {
 			input {
 				width: 100%;
 				border: none;
+				box-shadow: none;
 				border-radius: 0;
 				background: transparent;
 				&::-webkit-input-placeholder {
@@ -133,6 +126,7 @@ form {
 				background-color: transparent;
 				border: none;
 				border-radius: 0px;
+				padding: $gutter/5;
 				button {
 					border-radius: 0 !important;
 					border: none !important;

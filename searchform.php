@@ -4,7 +4,7 @@
 		<span class="sr-only">Buscar</span>
 
 		<div class="input-group">
-			<input type="search" class="search-field" placeholder="O que você está buscando?" value="<?php
+			<input type="search" class="search-field form-control" placeholder="O que você está buscando?" value="<?php
 				echo get_search_query();
 			?>" name="s" title="Search for:">
 			<!-- id="searchForm" -->

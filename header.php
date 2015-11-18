@@ -33,10 +33,10 @@
 	<div class="wrapper center-block clearfix row">
 
 		<div class="branding">
-			<a id="branding" class="clearfix" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<?php include get_template_directory() . '/assets/forma.svg';?>
-				<h1 class="hidden-sm hidden-xs"><?php bloginfo( 'name' ); ?>
-				<small class="hidden"><?php bloginfo( 'description' ); ?></small></h1>
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+				<h2>
+				<?php include get_template_directory() . '/assets/forma.svg';?><span class="hidden-sm hidden-xs"><?php bloginfo( 'name' ); ?></span>
+				<small class="hidden"><?php bloginfo( 'description' ); ?></small></h2>
 			</a>
 		</div>
 

@@ -5,8 +5,9 @@
 get_header(); ?>
 
 <section class="container-fluid busca dark"><div class="wrapper center-block clearfix row">
-	<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-	<?php echo get_search_form(); ?>
+	<div class="col-xs-12 col-sm-6">
+		<h1 class="brand-heading">
+			<?php include get_template_directory() . '/assets/sub.glyph.publicacoes.svg'; ?>Publicações<span class="hidden">.cultura.gov.br</span></h1>
 	</div>
 </div></section>
 
@@ -17,6 +18,10 @@ get_header(); ?>
 	</header>
 
 	<aside class="col-xs-12 col-sm-4">
+
+		<div class="search">
+			<?php echo get_search_form(); ?>
+		</div>
 
 		<?php if (is_search()): ?>
 

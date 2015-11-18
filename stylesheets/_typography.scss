@@ -1,36 +1,86 @@
 * {
 	font-family: "Lato", Helvetica, sans-serif;
-	color: $color-coal;
+	color: black;
 }
+
+&, a {
+
 h1, h2, h3, h4, h5, h6 {
+	color: $color-coal;
 	font-weight: 700;
+	span {
+		color: $color-gray;
+		font-weight: 400;
+	}
+  img, svg {
+    display: inline-block;
+		fill: $color-coal;
+  }
 }
 h1 {
-	font-size: 40px;
-	font-size: 4rem;
-	line-height: 1.6;
+	margin-bottom: $gutter/3;
+
+  img, svg {
+    width: $gutter * 1.5;
+    height: $gutter * 1.5;
+    margin-right: $gutter/3;
+  }
+  svg {
+    margin-bottom: -$gutter/4;
+  }
 }
 h2 {
-	font-size: 36px;
-	font-size: 3.6rem;
-	line-height: 1;
-}
-h3 {
-	font-size: 32px;
-	font-size: 3.2rem;
-	line-height: 1;
+	margin-bottom: $gutter/3;
+	line-height: 0.5;
+	margin: 0 $gutter/4;
+
+  img, svg {
+    width: $gutter;
+    height: $gutter;
+  }
+	img {
+		margin-bottom: 3px;
+	}
+  svg {
+    margin-bottom: -$gutter/4;
+  }
 }
 h4 {
-	font-size: 24px;
-	font-size: 2.4rem;
-	line-height: 1.3333;
+	margin-bottom: $gutter/6;
+
+  img, svg {
+    width: $gutter;
+    height: $gutter;
+    margin-right: $gutter/6;
+  }
+  svg {
+    margin-bottom: -$gutter/5;
+  }
 }
-h5, h6 {
-	font-size: 18px;
-	font-size: 1.8rem;
-	line-height: 1.7778;
-	text-transform: uppercase;
+h5 {
+  img, svg {
+    width: $gutter*0.7;
+    height: $gutter*0.7;
+    margin-right: $gutter/6;
+  }
+  svg {
+    margin-bottom: -$gutter/6;
+  }
 }
+
+.dark {
+  h1, h2, h3, h4, h5, h6 {
+    &.brand-heading {
+      color: $color-nil;
+      svg {
+        fill: $color-nil;
+      }
+    }
+  }
+}
+
+}
+
 p {
 	margin-bottom: $gutter/2;
   &:last-child {
@@ -45,11 +95,6 @@ dfn, cite, em, i {
 }
 blockquote {
 	font-family: "Alegreya", Georgia, serif;
-	font-size: 40px;
-	font-size: 4rem;
-	font-style: italic;
-	font-weight: 800;
-	line-height: 1.3em;
 	margin-bottom: 0.8em;
 	position: relative;
 	border-color: $color-gray;

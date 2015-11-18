@@ -76,33 +76,35 @@
   }
   @media screen and (max-width: 767px) {
     .branding, .menu-item, button.menu-visibility {
-      margin: $gutter/3 0;
+      margin: $gutter/6 0;
     }
   }
 
   .branding {
     a {
       z-index: -999;
-
-      svg, h1 {
-        float: left;
+      @media screen and (min-width: 768px) {
+        padding-top: 6px;
+        padding-bottom: 10px;
+      }
+    }
+    h2 {
+      margin: 0;
+      padding: 0;
+      span {
+        font-weight: 600;
       }
       svg {
-        width: $gutter;
-        height: $gutter;
-      }
-      h1 {
-        margin: 0;
-        margin-left: $gutter/4;
-        font-size: 28px;
-        font-weight: 600;
-        line-height: $gutter;
+        margin-bottom: -4px;
       }
     }
   }
 
   .search {
     flex: 1;
+    input {
+      height: 41px;
+    }
   }
 
   div.menu {

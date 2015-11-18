@@ -14,48 +14,129 @@ Tags: black, gray, white, one-column, custom-background, custom-header, custom-m
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f6f3a+0,0c451a+100 */
 body {
   position: relative; }
+  body * {
+    font-family: "Lato", Helvetica, sans-serif;
+    color: black; }
+  body h1, body h2, body h3, body h4, body h5, body h6, body a h1, body a h2, body a h3, body a h4, body a h5, body a h6 {
+    color: #242424;
+    font-weight: 700; }
+    body h1 span, body h2 span, body h3 span, body h4 span, body h5 span, body h6 span, body a h1 span, body a h2 span, body a h3 span, body a h4 span, body a h5 span, body a h6 span {
+      color: #7E7E7E;
+      font-weight: 400; }
+    body h1 img, body h1 svg, body h2 img, body h2 svg, body h3 img, body h3 svg, body h4 img, body h4 svg, body h5 img, body h5 svg, body h6 img, body h6 svg, body a h1 img, body a h1 svg, body a h2 img, body a h2 svg, body a h3 img, body a h3 svg, body a h4 img, body a h4 svg, body a h5 img, body a h5 svg, body a h6 img, body a h6 svg {
+      display: inline-block;
+      fill: #242424; }
+  body h1, body a h1 {
+    margin-bottom: 10px; }
+    body h1 img, body h1 svg, body a h1 img, body a h1 svg {
+      width: 45px;
+      height: 45px;
+      margin-right: 10px; }
+    body h1 svg, body a h1 svg {
+      margin-bottom: -7.5px; }
+  body h2, body a h2 {
+    margin-bottom: 10px;
+    line-height: 0.5;
+    margin: 0 7.5px; }
+    body h2 img, body h2 svg, body a h2 img, body a h2 svg {
+      width: 30px;
+      height: 30px; }
+    body h2 img, body a h2 img {
+      margin-bottom: 3px; }
+    body h2 svg, body a h2 svg {
+      margin-bottom: -7.5px; }
+  body h4, body a h4 {
+    margin-bottom: 5px; }
+    body h4 img, body h4 svg, body a h4 img, body a h4 svg {
+      width: 30px;
+      height: 30px;
+      margin-right: 5px; }
+    body h4 svg, body a h4 svg {
+      margin-bottom: -6px; }
+  body h5 img, body h5 svg, body a h5 img, body a h5 svg {
+    width: 21px;
+    height: 21px;
+    margin-right: 5px; }
+  body h5 svg, body a h5 svg {
+    margin-bottom: -5px; }
+  body .dark h1.brand-heading, body .dark h2.brand-heading, body .dark h3.brand-heading, body .dark h4.brand-heading, body .dark h5.brand-heading, body .dark h6.brand-heading, body a .dark h1.brand-heading, body a .dark h2.brand-heading, body a .dark h3.brand-heading, body a .dark h4.brand-heading, body a .dark h5.brand-heading, body a .dark h6.brand-heading {
+    color: #ECF3F4; }
+    body .dark h1.brand-heading svg, body .dark h2.brand-heading svg, body .dark h3.brand-heading svg, body .dark h4.brand-heading svg, body .dark h5.brand-heading svg, body .dark h6.brand-heading svg, body a .dark h1.brand-heading svg, body a .dark h2.brand-heading svg, body a .dark h3.brand-heading svg, body a .dark h4.brand-heading svg, body a .dark h5.brand-heading svg, body a .dark h6.brand-heading svg {
+      fill: #ECF3F4; }
+  body p {
+    margin-bottom: 15px; }
+    body p:last-child {
+      margin-bottom: 0; }
+  body p b, body strong {
+    font-weight: bold; }
+  body dfn, body cite, body em, body i {
+    font-style: italic; }
+  body blockquote {
+    font-family: "Alegreya", Georgia, serif;
+    margin-bottom: 0.8em;
+    position: relative;
+    border-color: #7E7E7E; }
+    body blockquote:before {
+      display: block;
+      color: #f7f7f7;
+      content: "\201C";
+      font-family: "Alegreya", Georgia, serif;
+      font-size: 250px;
+      font-size: 25rem;
+      position: absolute;
+      top: 45px;
+      left: -50px;
+      z-index: -1; }
+    body blockquote cite {
+      display: block;
+      font-family: "Lato", Helvetica, sans-serif;
+      font-size: 16px;
+      font-size: 1.6rem;
+      font-style: normal;
+      letter-spacing: .03em;
+      line-height: 2.2857;
+      margin-top: 1.14285em;
+      text-transform: uppercase; }
+  body address {
+    margin: 0 0 1.7778em; }
+  body pre {
+    background: #eee;
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 2.2857;
+    margin-bottom: 2.2857em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1.6em; }
+  body code, body kbd, body tt, body var {
+    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+    font-size: 15px;
+    font-size: 1.5rem; }
+  body abbr, body acronym {
+    border-bottom: 1px dotted #666;
+    cursor: help; }
+  body mark, body ins {
+    background: #fff9c0;
+    text-decoration: none; }
+  body big {
+    font-size: 125%; }
+  body figure {
+    margin-bottom: 15px; }
+    body figure img {
+      width: 100% !important;
+      padding: 0;
+      margin: 0; }
+    body figure figcaption {
+      color: #7E7E7E;
+      font-style: italic;
+      margin-top: 5px; }
   body > * {
     background-color: #ECF3F4;
     padding-top: 30px;
     padding-bottom: 30px; }
   body a:hover {
     text-decoration: none; }
-  body a.brand-heading, body li.brand-heading, body h1.brand-heading, body h2.brand-heading, body h3.brand-heading, body h4.brand-heading, body h5.brand-heading, body h6.brand-heading {
-    color: #242424;
-    font-weight: 700;
-    text-transform: none; }
-    body a.brand-heading span, body li.brand-heading span, body h1.brand-heading span, body h2.brand-heading span, body h3.brand-heading span, body h4.brand-heading span, body h5.brand-heading span, body h6.brand-heading span {
-      color: #7E7E7E;
-      font-weight: 400; }
-  body a.brand-heading img, body a.brand-heading svg {
-    width: 30px;
-    height: 30px;
-    margin-bottom: 5px;
-    margin-right: 5px;
-    display: inline-block; }
-  body h1.brand-heading img, body h1.brand-heading svg {
-    fill: #242424;
-    width: 60px;
-    height: 60px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    display: inline-block; }
-  body h4.brand-heading img, body h4.brand-heading svg {
-    width: 30px;
-    height: 30px;
-    margin-bottom: 5px;
-    margin-right: 5px;
-    display: inline-block; }
-  body h5.brand-heading img, body h5.brand-heading svg {
-    width: 22.5px;
-    height: 22.5px;
-    margin-bottom: 5px;
-    margin-right: 5px;
-    display: inline-block; }
-  body .dark a.brand-heading, body .dark h1.brand-heading, body .dark h2.brand-heading, body .dark h3.brand-heading, body .dark h4.brand-heading, body .dark h5.brand-heading, body .dark h6.brand-heading {
-    color: #ECF3F4; }
-    body .dark a.brand-heading svg, body .dark h1.brand-heading svg, body .dark h2.brand-heading svg, body .dark h3.brand-heading svg, body .dark h4.brand-heading svg, body .dark h5.brand-heading svg, body .dark h6.brand-heading svg {
-      fill: #ECF3F4; }
   body .homeCount {
     font-size: 1.7em; }
   @media screen and (min-width: 768px) {
@@ -130,22 +211,24 @@ body {
         background-color: #3D3D3D; }
     @media screen and (max-width: 767px) {
       body > nav .branding, body > nav .menu-item, body > nav button.menu-visibility {
-        margin: 10px 0; } }
+        margin: 5px 0; } }
     body > nav .branding a {
       z-index: -999; }
-      body > nav .branding a svg, body > nav .branding a h1 {
-        float: left; }
-      body > nav .branding a svg {
-        width: 30px;
-        height: 30px; }
-      body > nav .branding a h1 {
-        margin: 0;
-        margin-left: 7.5px;
-        font-size: 28px;
-        font-weight: 600;
-        line-height: 30px; }
+      @media screen and (min-width: 768px) {
+        body > nav .branding a {
+          padding-top: 6px;
+          padding-bottom: 10px; } }
+    body > nav .branding h2 {
+      margin: 0;
+      padding: 0; }
+      body > nav .branding h2 span {
+        font-weight: 600; }
+      body > nav .branding h2 svg {
+        margin-bottom: -4px; }
     body > nav .search {
       flex: 1; }
+      body > nav .search input {
+        height: 41px; }
     body > nav div.menu > * {
       display: inline-block; }
       body > nav div.menu > *.cadastre a {
@@ -353,123 +436,6 @@ body {
     body > .dark svg g, body > .dark svg path {
       fill: #ECF3F4; }
 
-* {
-  font-family: "Lato", Helvetica, sans-serif;
-  color: #242424; }
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 700; }
-
-h1 {
-  font-size: 40px;
-  font-size: 4rem;
-  line-height: 1.6; }
-
-h2 {
-  font-size: 36px;
-  font-size: 3.6rem;
-  line-height: 1; }
-
-h3 {
-  font-size: 32px;
-  font-size: 3.2rem;
-  line-height: 1; }
-
-h4 {
-  font-size: 24px;
-  font-size: 2.4rem;
-  line-height: 1.3333; }
-
-h5, h6 {
-  font-size: 18px;
-  font-size: 1.8rem;
-  line-height: 1.7778;
-  text-transform: uppercase; }
-
-p {
-  margin-bottom: 15px; }
-  p:last-child {
-    margin-bottom: 0; }
-
-p b, strong {
-  font-weight: bold; }
-
-dfn, cite, em, i {
-  font-style: italic; }
-
-blockquote {
-  font-family: "Alegreya", Georgia, serif;
-  font-size: 40px;
-  font-size: 4rem;
-  font-style: italic;
-  font-weight: 800;
-  line-height: 1.3em;
-  margin-bottom: 0.8em;
-  position: relative;
-  border-color: #7E7E7E; }
-  blockquote:before {
-    display: block;
-    color: #f7f7f7;
-    content: "\201C";
-    font-family: "Alegreya", Georgia, serif;
-    font-size: 250px;
-    font-size: 25rem;
-    position: absolute;
-    top: 45px;
-    left: -50px;
-    z-index: -1; }
-  blockquote cite {
-    display: block;
-    font-family: "Lato", Helvetica, sans-serif;
-    font-size: 16px;
-    font-size: 1.6rem;
-    font-style: normal;
-    letter-spacing: .03em;
-    line-height: 2.2857;
-    margin-top: 1.14285em;
-    text-transform: uppercase; }
-
-address {
-  margin: 0 0 1.7778em; }
-
-pre {
-  background: #eee;
-  font-family: "Courier 10 Pitch", Courier, monospace;
-  font-size: 14px;
-  font-size: 1.4rem;
-  line-height: 2.2857;
-  margin-bottom: 2.2857em;
-  max-width: 100%;
-  overflow: auto;
-  padding: 1.6em; }
-
-code, kbd, tt, var {
-  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-  font-size: 15px;
-  font-size: 1.5rem; }
-
-abbr, acronym {
-  border-bottom: 1px dotted #666;
-  cursor: help; }
-
-mark, ins {
-  background: #fff9c0;
-  text-decoration: none; }
-
-big {
-  font-size: 125%; }
-
-figure {
-  margin-bottom: 15px; }
-  figure img {
-    width: 100% !important;
-    padding: 0;
-    margin: 0; }
-  figure figcaption {
-    color: #7E7E7E;
-    font-style: italic;
-    margin-top: 5px; }
-
 html {
   box-sizing: border-box; }
 
@@ -563,7 +529,7 @@ input[type="url"],
 input[type="password"],
 input[type="search"],
 textarea {
-  font-size: 16px;
+  font-size: 18px;
   font-size: 1.6rem; }
   input[type="text"]:focus,
   input[type="email"]:focus,
@@ -573,14 +539,6 @@ textarea {
   textarea:focus {
     border-color: #000;
     outline: none; }
-
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"] {
-  height: 2.5em;
-  padding: 0 7px; }
 
 textarea {
   padding-left: 7px;
@@ -621,6 +579,7 @@ form {
     form .form-group .input-group input {
       width: 100%;
       border: none;
+      box-shadow: none;
       border-radius: 0;
       background: transparent; }
       form .form-group .input-group input::-webkit-input-placeholder {
@@ -632,7 +591,8 @@ form {
     form .form-group .input-group .input-group-addon {
       background-color: transparent;
       border: none;
-      border-radius: 0px; }
+      border-radius: 0px;
+      padding: 6px; }
       form .form-group .input-group .input-group-addon button {
         border-radius: 0 !important;
         border: none !important;

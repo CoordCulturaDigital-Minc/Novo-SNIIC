@@ -7,6 +7,8 @@ $gutter: 30px; // medianiz
 body {
   position: relative;
 
+  @import "typography";
+
   & > * {
     background-color: $color-nil;
     padding-top: $gutter;
@@ -15,8 +17,6 @@ body {
   a:hover {
     text-decoration: none;
   }
-
-  @import "brand-headings";
 
   .homeCount{
     font-size: 1.7em;
@@ -151,7 +151,6 @@ body {
   }
 }
 
-@import "typography";
 @import "elements";
 @import "forms";
 @import "navigation_old";
