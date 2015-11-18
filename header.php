@@ -65,14 +65,24 @@
 </div></nav>
 
 <script type="text/javascript">
+	jQuery(document).ready(function($) {
+		jQuery('body > nav').css('top', 34);
+	});
 
 	jQuery(window).scroll(function($) {
-		if (jQuery(this).scrollTop() > (jQuery('body > header').position().top + jQuery('body > header').height())) {
-			jQuery('body > nav').addClass("sticky");
+		var scrollPosition = jQuery(this).scrollTop();
+		var $header = jQuery('body > header');
+		var $nav = jQuery('body > nav');
+
+		if (scrollPosition > ($header.position().top + $header.height())) {
+			$nav.addClass("sticky");
 		}
 		else {
-			jQuery('body > nav').removeClass("sticky");
+			$nav.removeClass("sticky");
 		}
+
+		$nav.css('top', scrollPosition >= 34 ? 0 : 34 - jQuery(this).scrollTop());
+
 	});
 
 </script>

@@ -5,6 +5,8 @@
 $gutter: 30px; // medianiz
 
 body {
+  position: relative;
+
   & > * {
     background-color: $color-nil;
     padding-top: $gutter;
