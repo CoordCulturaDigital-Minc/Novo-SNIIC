@@ -58,7 +58,7 @@
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu')); ?>
 
 			<div class="cadastre">
-				<a>Cadastre-se já</a>
+				<a href="<?php echo MAPAS_URL; ?>/painel">Cadastre-se já</a>
 			</div>
 		</div>
 
