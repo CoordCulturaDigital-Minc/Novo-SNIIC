@@ -4,6 +4,13 @@
 
 $gutter: 30px; // medianiz
 
+@media screen and (min-width: 768px) {
+  .collapse-xs {
+    display: block !important;
+    height: auto !important;
+  }
+}
+
 body {
   position: relative;
 
@@ -18,17 +25,6 @@ body {
     text-decoration: none;
   }
 
-  .homeCount{
-    font-size: 1.7em;
-  }
-
-  @media screen and (min-width: 768px) {
-    .collapse-xs {
-      display: block !important;
-      height: auto !important;
-    }
-  }
-
   @import 'header';
   @import 'navigation';
   @import 'aside';
@@ -36,15 +32,6 @@ body {
   aside.velho-sniic, section.velho-sniic {
     background-color: $color-velho-sniic-second-shade-blue;
     @include linear-vertical-gradient($color-velho-sniic-dark-blue, $color-velho-sniic-second-shade-blue);
-  }
-  .velho-sniic {
-    p {
-      color: $color-velho-sniic-nil;
-    }
-  }
-
-  .plataformas ul {
-    list-style: none;
   }
 
   @import "section";

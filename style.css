@@ -12,67 +12,73 @@ Text Domain: argent
 Tags: black, gray, white, one-column, custom-background, custom-header, custom-menu, rtl-language-support, translation-ready, dark, featured-images, responsive-layout, threaded-comments
 */
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f6f3a+0,0c451a+100 */
+@media screen and (min-width: 768px) {
+  .collapse-xs {
+    display: block !important;
+    height: auto !important; } }
 body {
   position: relative; }
   body * {
     font-family: "Lato", Helvetica, sans-serif;
     color: black; }
+    body * svg {
+      fill: black; }
+  body .dark * {
+    color: white; }
+    body .dark * svg {
+      fill: white; }
   body h1, body h2, body h3, body h4, body h5, body h6, body a h1, body a h2, body a h3, body a h4, body a h5, body a h6 {
-    color: #242424;
-    font-weight: 700; }
+    font-weight: 700;
+    color: black; }
     body h1 span, body h2 span, body h3 span, body h4 span, body h5 span, body h6 span, body a h1 span, body a h2 span, body a h3 span, body a h4 span, body a h5 span, body a h6 span {
       color: #7E7E7E;
       font-weight: 400; }
     body h1 img, body h1 svg, body h2 img, body h2 svg, body h3 img, body h3 svg, body h4 img, body h4 svg, body h5 img, body h5 svg, body h6 img, body h6 svg, body a h1 img, body a h1 svg, body a h2 img, body a h2 svg, body a h3 img, body a h3 svg, body a h4 img, body a h4 svg, body a h5 img, body a h5 svg, body a h6 img, body a h6 svg {
       display: inline-block;
-      fill: #242424;
+      fill: black;
       vertical-align: middle; }
   body h1, body a h1 {
-    margin-bottom: 30px;
-    line-height: 1.1; }
+    margin-bottom: 30px; }
     body h1 img, body h1 svg, body a h1 img, body a h1 svg {
       width: 45px;
       height: 45px;
       margin-right: 10px;
       margin-bottom: 7px; }
   body h2, body a h2 {
-    margin-bottom: 27px;
-    line-height: 0.5; }
+    margin-bottom: 27px; }
     body h2 img, body h2 svg, body a h2 img, body a h2 svg {
       width: 30px;
       height: 30px;
       margin-right: 6px;
       margin-bottom: 4px; }
   body h3, body a h3 {
-    margin-bottom: 21px;
-    line-height: 0.5;
-    vertical-align: middle; }
+    margin-bottom: 21px; }
     body h3 img, body h3 svg, body a h3 img, body a h3 svg {
       width: 24px;
       height: 24px;
       margin-right: 5px;
       margin-bottom: 3px; }
   body h4, body a h4 {
-    margin-bottom: 5px; }
+    margin-bottom: 18px; }
     body h4 img, body h4 svg, body a h4 img, body a h4 svg {
       width: 21px;
       height: 21px;
       margin-right: 5px;
       margin-bottom: 3px; }
-  body h5 img, body h5 svg, body a h5 img, body a h5 svg {
-    width: 15px;
-    height: 15px;
-    margin-right: 5px;
-    margin-bottom: 1px; }
-  body h6 img, body h6 svg, body a h6 img, body a h6 svg {
-    width: 15px;
-    height: 15px;
-    margin-right: 5px;
-    margin-bottom: 2px; }
-  body .dark h1.brand-heading, body .dark h2.brand-heading, body .dark h3.brand-heading, body .dark h4.brand-heading, body .dark h5.brand-heading, body .dark h6.brand-heading, body a .dark h1.brand-heading, body a .dark h2.brand-heading, body a .dark h3.brand-heading, body a .dark h4.brand-heading, body a .dark h5.brand-heading, body a .dark h6.brand-heading {
-    color: #ECF3F4; }
-    body .dark h1.brand-heading svg, body .dark h2.brand-heading svg, body .dark h3.brand-heading svg, body .dark h4.brand-heading svg, body .dark h5.brand-heading svg, body .dark h6.brand-heading svg, body a .dark h1.brand-heading svg, body a .dark h2.brand-heading svg, body a .dark h3.brand-heading svg, body a .dark h4.brand-heading svg, body a .dark h5.brand-heading svg, body a .dark h6.brand-heading svg {
-      fill: #ECF3F4; }
+  body h5, body a h5 {
+    margin-bottom: 18px; }
+    body h5 img, body h5 svg, body a h5 img, body a h5 svg {
+      width: 15px;
+      height: 15px;
+      margin-right: 5px;
+      margin-bottom: 1px; }
+  body h6, body a h6 {
+    margin-bottom: 18px; }
+    body h6 img, body h6 svg, body a h6 img, body a h6 svg {
+      width: 15px;
+      height: 15px;
+      margin-right: 5px;
+      margin-bottom: 2px; }
   body p {
     margin-bottom: 15px; }
     body p:last-child {
@@ -147,12 +153,6 @@ body {
     padding-bottom: 30px; }
   body a:hover {
     text-decoration: none; }
-  body .homeCount {
-    font-size: 1.7em; }
-  @media screen and (min-width: 768px) {
-    body .collapse-xs {
-      display: block !important;
-      height: auto !important; } }
   body > header {
     padding-top: 60px;
     padding-bottom: 30px; }
@@ -224,10 +224,12 @@ body {
         margin: 5px 0; } }
     body > nav .branding a {
       z-index: -999; }
+      body > nav .branding a h2 svg {
+        margin-bottom: 5px; }
       @media screen and (min-width: 768px) {
         body > nav .branding a {
-          padding-top: 6px;
-          padding-bottom: 10px; } }
+          padding-top: 3px;
+          padding-bottom: 1px; } }
     body > nav .branding h2 {
       margin: 0;
       padding: 0; }
@@ -354,21 +356,12 @@ body {
     background: linear-gradient(to bottom, #002C40 0%, #005781 100%);
     /* W3C */
     background-repeat: repeat-x; }
-  body .velho-sniic p {
-    color: #F9F5EF; }
-  body .plataformas ul {
-    list-style: none; }
   body > section.velho-sniic img {
     min-width: 150px;
     max-width: 300px; }
-  body > section.velho-sniic p {
-    margin-top: 7.5px;
-    margin-bottom: 0;
-    font-size: 18px; }
   body > section.velho-sniic button {
     margin-top: 30px; }
   body > section.mapas ul {
-    list-style: none;
     margin-left: 0px;
     padding-left: 0px; }
     body > section.mapas ul li {

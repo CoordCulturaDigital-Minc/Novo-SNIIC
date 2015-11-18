@@ -1,27 +1,35 @@
 * {
 	font-family: "Lato", Helvetica, sans-serif;
 	color: black;
+	svg {
+		fill: black;
+	}
+}
+
+.dark * {
+	color: white;
+	svg {
+		fill: white;
+	}
 }
 
 &, a {
 
 h1, h2, h3, h4, h5, h6 {
-	color: $color-coal;
 	font-weight: 700;
+	color: black;
 	span {
 		color: $color-gray;
 		font-weight: 400;
 	}
   img, svg {
     display: inline-block;
-		fill: $color-coal;
+		fill: black;
 		vertical-align: middle;
   }
 }
 h1 {
 	margin-bottom: $gutter;
-	line-height: 1.1;
-
   img, svg {
     width: $gutter * 1.5;
     height: $gutter * 1.5;
@@ -31,8 +39,6 @@ h1 {
 }
 h2 {
 	margin-bottom: $gutter*0.9;
-	line-height: 0.5;
-
   img, svg {
     width: $gutter;
     height: $gutter;
@@ -42,9 +48,6 @@ h2 {
 }
 h3 {
 	margin-bottom: $gutter*0.7;
-	line-height: 0.5;
-	vertical-align: middle;
-
   img, svg {
     width: $gutter*0.8;
     height: $gutter*0.8;
@@ -53,8 +56,7 @@ h3 {
   }
 }
 h4 {
-	margin-bottom: $gutter/6;
-
+	margin-bottom: $gutter*0.6;
   img, svg {
     width: $gutter*0.7;
     height: $gutter*0.7;
@@ -63,6 +65,7 @@ h4 {
   }
 }
 h5 {
+	margin-bottom: $gutter*0.6;
   img, svg {
     width: $gutter*0.5;
     height: $gutter*0.5;
@@ -71,22 +74,12 @@ h5 {
   }
 }
 h6 {
+	margin-bottom: $gutter*0.6;
   img, svg {
     width: $gutter*0.5;
     height: $gutter*0.5;
     margin-right: $gutter/6;
 		margin-bottom: 2px;
-  }
-}
-
-.dark {
-  h1, h2, h3, h4, h5, h6 {
-    &.brand-heading {
-      color: $color-nil;
-      svg {
-        fill: $color-nil;
-      }
-    }
   }
 }
 

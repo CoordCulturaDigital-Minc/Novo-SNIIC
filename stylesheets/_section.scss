@@ -4,18 +4,12 @@
       min-width: $gutter*5;
       max-width: $gutter*10;
     }
-    p {
-      margin-top: $gutter/4;
-      margin-bottom: 0;
-      font-size: 18px;
-    }
     button {
       margin-top: $gutter;
     }
   }
   &.mapas {
     ul {
-      list-style: none;
       margin-left: 0px;
       padding-left: 0px;
       li {

@@ -83,9 +83,14 @@
   .branding {
     a {
       z-index: -999;
+      h2 {
+        svg {
+          margin-bottom: 5px;
+        }
+      }
       @media screen and (min-width: 768px) {
-        padding-top: 6px;
-        padding-bottom: 10px;
+        padding-top: 3px;
+        padding-bottom: 1px;
       }
     }
     h2 {
