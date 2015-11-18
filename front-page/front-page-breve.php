@@ -1,8 +1,14 @@
 <section class="container-fluid breve"><div class="wrapper center-block clearfix row">
-<h1 class="col-xs-12">Em construção</h1>
-<p class="col-xs-12 col-sm-4">
+<div class="col-xs-12">
+	<h1>Em construção</h1>
+</div>
+
+<div class="col-xs-12 col-sm-4">
+<p>
 	O novo Sistema Nacional de Informações e Indicadores Culturais irá agregar outras plataformas em breve. As publicações estarão reunidas em um repositório de pesquisas, artigos, estudos, produtos de consultorias e outras informações relevantes. O conteúdo será trabalhado por meio do vocabulário, espaço para publicação de taxonomias e ontologias da cultura. Os dados estarão todos abertos e de forma transparente o que permitirá a construção de painéis de visualização de indicadores. Aguarde!
 </p>
+</div>
+
 <aside class="col-xs-12 col-sm-6 col-sm-offset-2 plataformas">
 	<ul>
 		<li><a href="<?php echo site_url('publicacoes'); ?>"><h3>
