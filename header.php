@@ -63,28 +63,3 @@
 		</div>
 
 </div></nav>
-
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		jQuery('body > nav').css('top', 34);
-
-		if (jQuery('body > nav').css('position') == 'fixed') jQuery('body').addClass('no-sticky');
-	});
-
-	jQuery(window).scroll(function($) {
-		var scrollPosition = jQuery(this).scrollTop();
-		var $header = jQuery('body > header');
-		var $nav = jQuery('body > nav');
-
-		if (scrollPosition > ($header.position().top + $header.height())) {
-			$nav.addClass("sticky");
-		}
-		else {
-			$nav.removeClass("sticky");
-		}
-
-		$nav.css('top', scrollPosition >= 34 ? 0 : 34 - jQuery(this).scrollTop());
-
-	});
-
-</script>
