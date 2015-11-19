@@ -1,19 +1,12 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-  <header class="clearfix">
-    <div class="taxonomies pull-left">
-    <?php
-      $args = array(
-          'before' => '<p class="entry-meta">',
-          'after' => '</p>',
-          'template' => '%1$s: %2$l'
-      );
-    ?>
-    <?php the_taxonomies($args); ?>
+  <footer class="clearfix">
+    <div class="pull-left">
+      <?php argent_entry_meta(); ?>
     </div>
     <div class="pubdate pull-right">
-      <p class="entry-meta">Publicação: <span><?php echo the_fonte_ano(); ?></span></p>
+      <span class="entry-meta">Publicação: <a href=""><?php echo the_fonte_ano(); ?></a></span>
     </div>
-  </header>
+  </footer>
 
   <a class="" href="<?php the_permalink(); ?>">
     <div class="media row">
@@ -35,16 +28,12 @@
 
   <?php if ( the_fonte_link() != '' || the_pdf_link() != ''  ) : ?>
     <footer class="clearfix">
-      <?php if (the_fonte_link() != '') : ?>
       <div class="pull-left">
         <p>Fonte: <a href="<?php echo the_fonte_link(); ?>"><?php echo the_fonte_name(); ?></a></p>
       </div>
-      <?php endif; ?>
-      <?php if (the_pdf_link() != '') : ?>
       <div class="pull-right">
-        <p>Fonte: <a href="<?php echo the_pdf_link(); ?>">Baixar PDF<i class="fa fa-arrow-circle-o-down"></i></a></p>
+        <p><a href="<?php echo the_pdf_link(); ?>">Baixar PDF<i class="fa fa-arrow-circle-o-down"></i></a></p>
       </div>
-      <?php endif; ?>
     </footer>
   <?php endif; ?>
 

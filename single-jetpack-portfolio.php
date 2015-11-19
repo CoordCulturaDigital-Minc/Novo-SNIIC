@@ -22,7 +22,7 @@ get_header(); ?>
 
 <?php endwhile; // end of the loop. ?>
 
-<?php the_post_navigation(); ?>
+<?php get_template_part( 'content/content', 'navigation' ); ?>
 
 </div></main>
 
