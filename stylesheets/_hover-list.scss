@@ -1,5 +1,5 @@
 & {
-  ul:hover { a, li, span, i, h1, h2, h3, h4, h5, h6, small {
+  ul.hover-list:hover { a, li, span, i, h1, h2, h3, h4, h5, h6, small {
       color: $color-gray;
       svg { fill: $color-gray; }
       &:hover { a, li, span, i, h1, h2, h3, h4, h5, h6, small {
@@ -9,7 +9,7 @@
   } }
 }
 & > .dark {
-  ul:hover { a, li {
+  ul.hover-list:hover { a, li {
       &:hover { a, li, span, i, h1, h2, h3, h4, h5, h6, small { color: $color-nil; } }
   } }
   background: $color-coal;
