@@ -1346,7 +1346,6 @@ figure {
     margin-left: 0;
     width: 100%; }
 
-  img.size-big,
   .wp-caption.caption-big {
     display: inline-block;
     float: none;
@@ -1354,7 +1353,6 @@ figure {
     margin-bottom: 1.7778em;
     max-width: 780px; }
 
-  .single-post img.size-big,
   .single-post .wp-caption.caption-big {
     margin-left: 0;
     max-width: 100%; }
@@ -1370,11 +1368,6 @@ figure {
 
   blockquote.alignleft, blockquote.alignright {
     width: 360px; }
-
-  .wp-caption.alignleft, img.alignleft, blockquote.alignleft {
-    /*margin-left: -175px;*/ }
-  .wp-caption.alignright, img.alignright, blockquote.alignright {
-    /*margin-right: -175px;*/ }
 
   .single-post .wp-caption.alignright, .single-post img.alignright, .single-post blockquote.alignright {
     margin-right: 0; }

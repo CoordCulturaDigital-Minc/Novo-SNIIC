@@ -136,10 +136,6 @@
   		width: 360px;
   	}
   }
-	.wp-caption, img, blockquote {
-    &.alignleft { /*margin-left: -175px;*/ }
-    &.alignright { /*margin-right: -175px;*/ }
-	}
   .single-post {
     .wp-caption, img, blockquote {
       &.alignright { margin-right: 0; }
