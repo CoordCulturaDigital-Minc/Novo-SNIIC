@@ -30,35 +30,36 @@
 <?php get_template_part( 'brasil/brasil', 'barra' ); ?>
 
 <nav class="container-fluid dark">
-	<div class="beta-marker">
-		<img class="hidden-xs" src="<?php echo get_template_directory_uri() ?>/assets/beta.svg">
-		<img class="visible-xs" src="<?php echo get_template_directory_uri() ?>/assets/beta_sign.svg">
-	</div>
-
 	<div class="wrapper center-block clearfix row">
 
-	<a id="branding" class="clearfix" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><div>
-		<?php global $branding_name; ?>
-		<?php if ( ! isset( $branding_name ) ) : ?>
-			<?php include get_template_directory() . '/assets/forma.svg';?>
-			<h1 class="hidden-sm"><?php bloginfo( 'name' ); ?>
-			<small class="hidden"><?php bloginfo( 'description' ); ?></small></h1>
-		<?php else: ?>
-			<?php include get_template_directory() . '/assets/sub.glyph.' . $branding_name['hash'] . '.svg';?>
-			<h1><?php echo $branding_name['title']; ?><span class="hidden">.cultura.gov.br</span></h1>
-		<?php endif; ?>
-	</div></a>
+		<div class="branding">
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+				<h2>
+				<?php include get_template_directory() . '/assets/forma.svg';?><span class="hidden-sm hidden-xs"><?php bloginfo( 'name' ); ?></span>
+				<small class="hidden"><?php bloginfo( 'description' ); ?></small></h2>
+			</a>
+		</div>
 
-	<button class="visible-xs"
-					type="button"
-					data-toggle="collapse"
-					data-target="#collapseMenu"
-					aria-expanded="false"
-					aria-controls="collapseMenu">
-	  <span class="sr-only"><?php _e( 'Menu', 'argent' ); ?></span>
-		<i class="fa fa-chevron-down"></i>
-	</button>
-	<div class="collapse collapse-xs menu" id="collapseMenu">
-		<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu')); ?>
-	</div>
+		<div class="search">
+			<?php echo get_search_form(); ?>
+		</div>
+
+		<button 	class="menu-visibility visible-xs"
+							type="button"
+							data-toggle="collapse"
+							data-target="#collapseMenu"
+							aria-expanded="false"
+							aria-controls="collapseMenu">
+			<span class="sr-only"><?php _e( 'Menu', 'argent' ); ?></span>
+			<i class="fa fa-chevron-down"></i>
+		</button>
+
+		<div class="collapse collapse-xs menu" id="collapseMenu">
+			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu', 'menu_class' => 'hover-list menu')); ?>
+
+			<div class="cadastre">
+				<a href="<?php echo MAPAS_URL; ?>/painel">Cadastre-se já</a>
+			</div>
+		</div>
+
 </div></nav>

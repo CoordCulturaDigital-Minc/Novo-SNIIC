@@ -12,7 +12,7 @@
 
   <div class="col-xs-12 col-sm-6 col-md-4">
 		<h4>Explore</h4>
-		<ul>
+		<ul class="list-unstyled">
 			<li id="counter-agent"><a href="<?php echo MAPAS_URL; ?>/busca/##(global:(enabled:(agent:!t),filterEntity:agent))">
         <i class="fa fa-user"></i><span class="buscando">…</span> agentes</a></li>
 

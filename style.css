@@ -12,542 +12,418 @@ Text Domain: argent
 Tags: black, gray, white, one-column, custom-background, custom-header, custom-menu, rtl-language-support, translation-ready, dark, featured-images, responsive-layout, threaded-comments
 */
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f6f3a+0,0c451a+100 */
-body > * {
-  background-color: #ECF3F4;
-  border-bottom: 1px solid white;
-  padding-top: 30px;
-  padding-bottom: 30px; }
-body a:hover {
-  text-decoration: none; }
-body a.brand-heading, body li.brand-heading, body h1.brand-heading, body h2.brand-heading, body h3.brand-heading, body h4.brand-heading, body h5.brand-heading, body h6.brand-heading {
-  color: #242424;
-  font-weight: 700;
-  text-transform: none; }
-  body a.brand-heading span, body li.brand-heading span, body h1.brand-heading span, body h2.brand-heading span, body h3.brand-heading span, body h4.brand-heading span, body h5.brand-heading span, body h6.brand-heading span {
-    color: #7E7E7E;
-    font-weight: 400; }
-body a.brand-heading img, body a.brand-heading svg {
-  width: 30px;
-  height: 30px;
-  margin-bottom: 5px;
-  margin-right: 5px;
-  display: inline-block; }
-body h1.brand-heading img, body h1.brand-heading svg {
-  fill: #242424;
-  width: 60px;
-  height: 60px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  display: inline-block; }
-body h4.brand-heading img, body h4.brand-heading svg {
-  width: 30px;
-  height: 30px;
-  margin-bottom: 5px;
-  margin-right: 5px;
-  display: inline-block; }
-body h5.brand-heading img, body h5.brand-heading svg {
-  width: 22.5px;
-  height: 22.5px;
-  margin-bottom: 5px;
-  margin-right: 5px;
-  display: inline-block; }
-body .dark a.brand-heading, body .dark h1.brand-heading, body .dark h2.brand-heading, body .dark h3.brand-heading, body .dark h4.brand-heading, body .dark h5.brand-heading, body .dark h6.brand-heading {
-  color: #ECF3F4; }
-  body .dark a.brand-heading svg, body .dark h1.brand-heading svg, body .dark h2.brand-heading svg, body .dark h3.brand-heading svg, body .dark h4.brand-heading svg, body .dark h5.brand-heading svg, body .dark h6.brand-heading svg {
-    fill: #ECF3F4; }
-body .homeCount {
-  font-size: 1.7em; }
-@media screen and (min-width: 769px) {
-  body .collapse-xs {
+@media screen and (min-width: 768px) {
+  .collapse-xs {
     display: block !important;
     height: auto !important; } }
-body > nav {
+body {
   position: relative; }
-  body > nav > .beta-marker {
-    position: absolute;
-    top: 0;
-    left: 0; }
-  body > nav > .wrapper #branding svg, body > nav > .wrapper #branding h1 {
-    float: left; }
-  body > nav > .wrapper #branding svg {
-    width: 45px;
-    height: 45px; }
-    body > nav > .wrapper #branding svg path, body > nav > .wrapper #branding svg g {
-      fill: #ECF3F4; }
-  body > nav > .wrapper #branding h1 {
-    margin: 0;
-    margin-top: 6px;
-    margin-left: 15px;
-    font-size: 35px;
-    font-weight: 600;
-    line-height: 30px; }
-  body > nav > .wrapper div.menu > div {
-    text-transform: uppercase; }
-    body > nav > .wrapper div.menu > div > ul {
-      margin: 0; }
-      body > nav > .wrapper div.menu > div > ul, body > nav > .wrapper div.menu > div > ul ul {
-        list-style: none !important; }
-      body > nav > .wrapper div.menu > div > ul > li {
-        border-bottom: 1px solid #242424; }
-        body > nav > .wrapper div.menu > div > ul > li:hover {
-          border-color: #69A0A8; }
-  body > nav > .wrapper > div > div ul ul {
-    display: block;
-    list-style-position: inside;
-    list-style-type: disc;
-    border-left: 1px solid rgba(255, 255, 255, 0.3); }
-    body > nav > .wrapper > div > div ul ul li {
-      border-bottom: none;
-      padding: 0;
-      padding-left: 1em; }
-      body > nav > .wrapper > div > div ul ul li:hover > ul, body > nav > .wrapper > div > div ul ul li.focus > ul {
-        left: 100%; }
-    body > nav > .wrapper > div > div ul ul ul {
-      left: -999em;
-      top: 0; }
-  body > nav > .wrapper > div > div ul li:hover > ul,
-  body > nav > .wrapper > div > div ul li.focus > ul {
-    left: 0; }
-  body > nav > .wrapper > div > div > ul > li > a {
-    color: #ECF3F4; }
-  body > nav > .wrapper > div > div > ul:hover > li > a {
-    color: #7E7E7E;
-    border-color: #242424; }
-  body > nav > .wrapper > div > div > ul:hover > li:hover > a {
-    color: #ECF3F4; }
-  body > nav > .wrapper > div > div > ul > li ul > li {
-    border-bottom: 1px solid #ECF3F4; }
-@media screen and (min-width: 769px) {
-  body > nav > .wrapper {
-    padding-left: 30px;
-    padding-right: 30px; }
-    body > nav > .wrapper #branding {
-      overflow-x: visible;
-      width: 0 !important;
-      float: left;
-      padding: 0;
-      margin: 0; }
-      body > nav > .wrapper #branding div {
-        width: 300px;
-        overflow: visible; }
-    body > nav > .wrapper div.menu > div {
-      float: right; }
-      body > nav > .wrapper div.menu > div > ul {
-        margin: 0;
-        display: block;
-        padding-top: 10px; }
-        body > nav > .wrapper div.menu > div > ul > li {
-          font-size: 14px;
-          text-transform: uppercase;
-          display: inline-block;
-          margin: 0 10px;
-          padding: 0;
-          padding-bottom: 10px;
-          position: relative; }
-          body > nav > .wrapper div.menu > div > ul > li:first-child {
-            padding-left: 0; }
-          body > nav > .wrapper div.menu > div > ul > li:last-child {
-            padding-right: 0; }
-          body > nav > .wrapper div.menu > div > ul > li > ul, body > nav > .wrapper div.menu > div > ul > li > ul > li > ul {
-            background-color: #7E7E7E; }
-            body > nav > .wrapper div.menu > div > ul > li > ul > li a, body > nav > .wrapper div.menu > div > ul > li > ul > li > ul > li a {
-              color: white; }
-            body > nav > .wrapper div.menu > div > ul > li > ul > li:hover, body > nav > .wrapper div.menu > div > ul > li > ul > li > ul > li:hover {
-              background-color: #242424; }
-    body > nav > .wrapper ul {
-      margin: 0;
-      padding-left: 0;
-      text-align: center; }
-      body > nav > .wrapper ul ul {
-        float: left;
-        margin: 0;
-        position: absolute;
-        top: 2em;
-        left: -999em;
-        text-align: left;
-        z-index: 99999; }
-        body > nav > .wrapper ul ul li {
-          padding-top: 0.5em !important;
-          padding-bottom: 0.5em !important;
-          border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-          padding: 1em;
-          min-width: 200px; }
-      body > nav > .wrapper ul div > ul > li > ul::before {
-        border-color: transparent transparent #222;
-        border-style: solid;
-        border-width: 6px 6px 8px;
-        content: "";
-        position: absolute;
-        top: -13px;
-        left: 20px; } }
-@media screen and (max-width: 768px) {
-  body > nav {
-    padding-top: 15px;
-    padding-bottom: 15px; }
-    body > nav > .beta-marker {
-      width: 60px;
-      height: 60px;
-      z-index: 999; }
-    body > nav > .wrapper {
-      position: relative; }
-      body > nav > .wrapper > button {
-        position: absolute;
-        top: 0;
-        right: 0;
-        padding: 0;
-        border: none;
-        font-size: 30px;
-        height: 30px;
-        font-weight: 600; }
-      body > nav > .wrapper ul ul {
-        padding-left: 30px; }
-      body > nav > .wrapper div.menu > div {
-        text-align: center;
-        margin-bottom: 15px; }
-        body > nav > .wrapper div.menu > div ul, body > nav > .wrapper div.menu > div ul li, body > nav > .wrapper div.menu > div ul ul, body > nav > .wrapper div.menu > div ul ul li {
-          margin: 0;
-          padding: 0;
-          border: none; }
-        body > nav > .wrapper div.menu > div > ul > li {
-          margin-top: 10px;
-          background-color: #3e3e3e;
-          padding: 10px 0; }
-          body > nav > .wrapper div.menu > div > ul > li > a {
-            font-size: 20px; }
-          body > nav > .wrapper div.menu > div > ul > li > ul > li {
-            margin-top: 5px; }
-            body > nav > .wrapper div.menu > div > ul > li > ul > li > a {
-              font-size: 14px; }
-            body > nav > .wrapper div.menu > div > ul > li > ul > li > ul > li {
-              margin-top: 5px; }
-              body > nav > .wrapper div.menu > div > ul > li > ul > li > ul > li > a {
-                font-size: 14px;
-                text-transform: none; } }
-body > header > div {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: 0 auto;
-  position: relative; }
-  body > header > div #branding {
-    max-width: 600px;
-    width: 100%; }
-  body > header > div #branding_simple {
-    max-width: 425px;
-    width: 100%; }
-  body > header > div .button {
-    background-color: #ccdfe1;
-    border: 2px solid #242424;
-    border-radius: 10px;
-    padding: 15px 30px;
-    height: auto;
-    font-size: 20px;
-    color: #242424;
-    text-decoration: none;
-    width: 200px;
-    margin-top: 60px;
+  body * {
+    font-family: "Lato", Helvetica, sans-serif;
+    color: black; }
+    body * svg {
+      fill: black; }
+  body .dark * {
+    color: white; }
+    body .dark * svg {
+      fill: white; }
+  body h1, body h2, body h3, body h4, body h5, body h6, body a h1, body a h2, body a h3, body a h4, body a h5, body a h6 {
+    font-weight: 700;
+    color: black; }
+    body h1 span, body h2 span, body h3 span, body h4 span, body h5 span, body h6 span, body a h1 span, body a h2 span, body a h3 span, body a h4 span, body a h5 span, body a h6 span {
+      color: #7E7E7E;
+      font-weight: 400; }
+    body h1 img, body h1 svg, body h2 img, body h2 svg, body h3 img, body h3 svg, body h4 img, body h4 svg, body h5 img, body h5 svg, body h6 img, body h6 svg, body a h1 img, body a h1 svg, body a h2 img, body a h2 svg, body a h3 img, body a h3 svg, body a h4 img, body a h4 svg, body a h5 img, body a h5 svg, body a h6 img, body a h6 svg {
+      display: inline-block;
+      fill: black;
+      vertical-align: middle; }
+  body h1, body a h1 {
     margin-bottom: 30px; }
-    body > header > div .button i {
-      margin-left: 10px; }
-    body > header > div .button:hover {
-      background-color: white;
-      color: black;
-      border-color: black;
-      text-decoration: none; }
-  body > header > div > h1 {
-    display: table;
-    margin: 0 auto;
-    max-width: 90%;
-    text-align: center;
-    z-index: 0; }
-    body > header > div > h1 a {
-      line-height: 1.25;
-      padding: 0 .25em;
-      letter-spacing: .03em;
-      text-transform: uppercase;
-      border: 10px solid #222;
-      color: #222; }
-    body > header > div > h1 small {
+    body h1 img, body h1 svg, body a h1 img, body a h1 svg {
+      width: 45px;
+      height: 45px;
+      margin-right: 10px;
+      margin-bottom: 7px; }
+  body h2, body a h2 {
+    margin-bottom: 27px; }
+    body h2 img, body h2 svg, body a h2 img, body a h2 svg {
+      width: 30px;
+      height: 30px;
+      margin-right: 6px;
+      margin-bottom: 4px; }
+  body h3, body a h3 {
+    margin-bottom: 21px; }
+    body h3 img, body h3 svg, body a h3 img, body a h3 svg {
+      width: 24px;
+      height: 24px;
+      margin-right: 5px;
+      margin-bottom: 3px; }
+  body h4, body a h4 {
+    margin-bottom: 18px; }
+    body h4 img, body h4 svg, body a h4 img, body a h4 svg {
+      width: 21px;
+      height: 21px;
+      margin-right: 5px;
+      margin-bottom: 3px; }
+  body h5, body a h5 {
+    margin-bottom: 18px; }
+    body h5 img, body h5 svg, body a h5 img, body a h5 svg {
+      width: 15px;
+      height: 15px;
+      margin-right: 5px;
+      margin-bottom: 1px; }
+  body h6, body a h6 {
+    margin-bottom: 18px; }
+    body h6 img, body h6 svg, body a h6 img, body a h6 svg {
+      width: 15px;
+      height: 15px;
+      margin-right: 5px;
+      margin-bottom: 2px; }
+  body p {
+    margin-bottom: 15px; }
+    body p:last-child {
+      margin-bottom: 0; }
+  body p b, body strong {
+    font-weight: bold; }
+  body dfn, body cite, body em, body i {
+    font-style: italic; }
+  body blockquote {
+    font-family: "Alegreya", Georgia, serif;
+    margin-bottom: 0.8em;
+    position: relative;
+    border-color: #7E7E7E; }
+    body blockquote:before {
       display: block;
+      color: #f7f7f7;
+      content: "\201C";
+      font-family: "Alegreya", Georgia, serif;
+      font-size: 250px;
+      font-size: 25rem;
+      position: absolute;
+      top: 45px;
+      left: -50px;
+      z-index: -1; }
+    body blockquote cite {
+      display: block;
+      font-family: "Lato", Helvetica, sans-serif;
       font-size: 16px;
       font-size: 1.6rem;
-      margin-top: 0.8889em; }
-body aside aside {
-  margin-bottom: 30px; }
-  body aside aside:last-child {
-    margin-bottom: 0 !important; }
-body aside ul {
-  margin-left: 0;
-  padding-left: 0;
-  list-style: none; }
-  body aside ul ul {
-    margin-left: 10px;
-    margin-bottom: 30px; }
-    body aside ul ul:last-child {
-      margin-bottom: 0; }
-body > aside {
-  border: none; }
-  body > aside > .wrapper > div > aside {
-    margin-bottom: 30px; }
-    body > aside > .wrapper > div > aside:last-child {
-      margin-bottom: 0; }
-    body > aside > .wrapper > div > aside ul {
-      list-style: none;
-      margin-left: 0px;
-      padding-left: 0px; }
-      body > aside > .wrapper > div > aside ul li {
-        font-size: 16px;
-        padding-top: 7.5px;
-        padding-bottom: 7.5px; }
-      body > aside > .wrapper > div > aside ul i {
-        font-size: 20px;
-        margin-right: 10px; }
-    body > aside > .wrapper > div > aside.plataformas ul li {
-      border-color: #242424; }
-      body > aside > .wrapper > div > aside.plataformas ul li i {
-        background-color: #ECF3F4; }
-      body > aside > .wrapper > div > aside.plataformas ul li a {
-        color: #7E7E7E; }
-      body > aside > .wrapper > div > aside.plataformas ul li:hover {
-        border-color: #69A0A8;
-        background-color: black; }
-        body > aside > .wrapper > div > aside.plataformas ul li:hover a {
-          color: #ECF3F4; }
-    body > aside > .wrapper > div > aside.velho-sniic {
-      margin: -15px;
-      margin-bottom: 0px;
-      padding: 15px;
-      box-shadow: 5px 5px 0px black;
-      margin-top: 0; }
-      body > aside > .wrapper > div > aside.velho-sniic img {
-        width: 190px;
-        height: 110px;
-        margin-top: 30px;
-        margin-bottom: 30px; }
-      body > aside > .wrapper > div > aside.velho-sniic button {
-        margin-top: 30px; }
-body aside.velho-sniic, body section.velho-sniic {
-  background-color: #005781;
-  background: -moz-linear-gradient(top, #002C40 0%, #005781 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #002C40), color-stop(100%, #005781));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #002C40 0%, #005781 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #002C40 0%, #005781 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #002C40 0%, #005781 100%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, #002C40 0%, #005781 100%);
-  /* W3C */
-  background-repeat: repeat-x; }
-body .velho-sniic p {
-  color: #F9F5EF; }
-body .plataformas ul {
-  list-style: none;
-  margin: 0;
-  -webkit-padding-start: 0; }
-  body .plataformas ul li {
-    padding: 7.5px;
-    padding-top: 15px;
-    border-bottom: 4px solid #ECF3F4; }
-    body .plataformas ul li a {
-      font-size: 20px; }
-    body .plataformas ul li:hover {
-      border-color: #69A0A8;
-      background-color: white; }
-      body .plataformas ul li:hover a {
-        color: #242424; }
-body > footer {
-  background: black;
-  border: none; }
-  body > footer p {
-    color: #7E7E7E; }
-body > section.velho-sniic img {
-  min-width: 150px;
-  max-width: 300px; }
-body > section.velho-sniic p {
-  margin-top: 7.5px;
-  margin-bottom: 0;
-  font-size: 18px; }
-body > section.velho-sniic button {
-  margin-top: 30px; }
-body > section.busca button, body > section.busca input[type="search"] {
-  font-size: 24px;
-  border: none; }
-body > section.mapas ul {
-  list-style: none;
-  margin-left: 0px;
-  padding-left: 0px; }
-  body > section.mapas ul li {
-    font-size: 16px;
-    margin-bottom: 15px; }
-  body > section.mapas ul i {
-    font-size: 20px;
-    margin-right: 10px; }
-body main.publicacoes article.publicacoes {
-  background-color: #f6f9fa; }
-  body main.publicacoes article.publicacoes > header {
-    padding: 15px; }
-    body main.publicacoes article.publicacoes > header h1 {
-      font-size: 30px; }
-    @media screen and (min-width: 768px) {
-      body main.publicacoes article.publicacoes > header .taxonomies {
-        float: left; }
-      body main.publicacoes article.publicacoes > header .pubdate {
-        float: right; } }
-  body main.publicacoes article.publicacoes > footer {
-    padding: 15px; }
-    body main.publicacoes article.publicacoes > footer section {
-      padding: 0; }
-  body main.publicacoes article.publicacoes section.actions i {
-    font-size: 20px;
-    margin-left: 10px; }
-body main.publicacoes a > section.title {
-  background-color: white;
-  box-shadow: 0px 1px 1px #7E7E7E; }
-body main.publicacoes a > article, body main.publicacoes a > section {
-  padding: 30px;
-  margin-left: -15px;
-  margin-right: -15px;
-  margin-bottom: 0; }
-  body main.publicacoes a > article img, body main.publicacoes a > section img {
-    margin-bottom: 30px; }
-  body main.publicacoes a > article time, body main.publicacoes a > section time {
-    color: #69A0A8; }
-  body main.publicacoes a > article footer span.byline, body main.publicacoes a > section footer span.byline {
-    display: none; }
-body main.publicacoes a:hover article {
-  background-color: white; }
-body ul:hover a, body ul:hover li, body ul:hover span, body ul:hover i, body ul:hover h1, body ul:hover h2, body ul:hover h3, body ul:hover h4, body ul:hover h5, body ul:hover h6, body ul:hover small {
-  color: #7E7E7E; }
-  body ul:hover a:hover a, body ul:hover a:hover li, body ul:hover a:hover span, body ul:hover a:hover i, body ul:hover a:hover h1, body ul:hover a:hover h2, body ul:hover a:hover h3, body ul:hover a:hover h4, body ul:hover a:hover h5, body ul:hover a:hover h6, body ul:hover a:hover small, body ul:hover li:hover a, body ul:hover li:hover li, body ul:hover li:hover span, body ul:hover li:hover i, body ul:hover li:hover h1, body ul:hover li:hover h2, body ul:hover li:hover h3, body ul:hover li:hover h4, body ul:hover li:hover h5, body ul:hover li:hover h6, body ul:hover li:hover small, body ul:hover span:hover a, body ul:hover span:hover li, body ul:hover span:hover span, body ul:hover span:hover i, body ul:hover span:hover h1, body ul:hover span:hover h2, body ul:hover span:hover h3, body ul:hover span:hover h4, body ul:hover span:hover h5, body ul:hover span:hover h6, body ul:hover span:hover small, body ul:hover i:hover a, body ul:hover i:hover li, body ul:hover i:hover span, body ul:hover i:hover i, body ul:hover i:hover h1, body ul:hover i:hover h2, body ul:hover i:hover h3, body ul:hover i:hover h4, body ul:hover i:hover h5, body ul:hover i:hover h6, body ul:hover i:hover small, body ul:hover h1:hover a, body ul:hover h1:hover li, body ul:hover h1:hover span, body ul:hover h1:hover i, body ul:hover h1:hover h1, body ul:hover h1:hover h2, body ul:hover h1:hover h3, body ul:hover h1:hover h4, body ul:hover h1:hover h5, body ul:hover h1:hover h6, body ul:hover h1:hover small, body ul:hover h2:hover a, body ul:hover h2:hover li, body ul:hover h2:hover span, body ul:hover h2:hover i, body ul:hover h2:hover h1, body ul:hover h2:hover h2, body ul:hover h2:hover h3, body ul:hover h2:hover h4, body ul:hover h2:hover h5, body ul:hover h2:hover h6, body ul:hover h2:hover small, body ul:hover h3:hover a, body ul:hover h3:hover li, body ul:hover h3:hover span, body ul:hover h3:hover i, body ul:hover h3:hover h1, body ul:hover h3:hover h2, body ul:hover h3:hover h3, body ul:hover h3:hover h4, body ul:hover h3:hover h5, body ul:hover h3:hover h6, body ul:hover h3:hover small, body ul:hover h4:hover a, body ul:hover h4:hover li, body ul:hover h4:hover span, body ul:hover h4:hover i, body ul:hover h4:hover h1, body ul:hover h4:hover h2, body ul:hover h4:hover h3, body ul:hover h4:hover h4, body ul:hover h4:hover h5, body ul:hover h4:hover h6, body ul:hover h4:hover small, body ul:hover h5:hover a, body ul:hover h5:hover li, body ul:hover h5:hover span, body ul:hover h5:hover i, body ul:hover h5:hover h1, body ul:hover h5:hover h2, body ul:hover h5:hover h3, body ul:hover h5:hover h4, body ul:hover h5:hover h5, body ul:hover h5:hover h6, body ul:hover h5:hover small, body ul:hover h6:hover a, body ul:hover h6:hover li, body ul:hover h6:hover span, body ul:hover h6:hover i, body ul:hover h6:hover h1, body ul:hover h6:hover h2, body ul:hover h6:hover h3, body ul:hover h6:hover h4, body ul:hover h6:hover h5, body ul:hover h6:hover h6, body ul:hover h6:hover small, body ul:hover small:hover a, body ul:hover small:hover li, body ul:hover small:hover span, body ul:hover small:hover i, body ul:hover small:hover h1, body ul:hover small:hover h2, body ul:hover small:hover h3, body ul:hover small:hover h4, body ul:hover small:hover h5, body ul:hover small:hover h6, body ul:hover small:hover small {
-    color: black; }
-body > .dark {
-  background: #242424; }
-  body > .dark ul:hover a:hover a, body > .dark ul:hover a:hover li, body > .dark ul:hover a:hover span, body > .dark ul:hover a:hover i, body > .dark ul:hover a:hover h1, body > .dark ul:hover a:hover h2, body > .dark ul:hover a:hover h3, body > .dark ul:hover a:hover h4, body > .dark ul:hover a:hover h5, body > .dark ul:hover a:hover h6, body > .dark ul:hover a:hover small, body > .dark ul:hover li:hover a, body > .dark ul:hover li:hover li, body > .dark ul:hover li:hover span, body > .dark ul:hover li:hover i, body > .dark ul:hover li:hover h1, body > .dark ul:hover li:hover h2, body > .dark ul:hover li:hover h3, body > .dark ul:hover li:hover h4, body > .dark ul:hover li:hover h5, body > .dark ul:hover li:hover h6, body > .dark ul:hover li:hover small {
-    color: #ECF3F4; }
-  body > .dark *, body > .dark a:hover {
-    color: #ECF3F4; }
-  body > .dark, body > .dark a {
-    color: #ECF3F4; }
-
-* {
-  font-family: "Lato", Helvetica, sans-serif;
-  color: #242424; }
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 700; }
-
-h1 {
-  font-size: 40px;
-  font-size: 4rem;
-  line-height: 1.6; }
-
-h2 {
-  font-size: 36px;
-  font-size: 3.6rem;
-  line-height: 1; }
-
-h3 {
-  font-size: 32px;
-  font-size: 3.2rem;
-  line-height: 1; }
-
-h4 {
-  font-size: 24px;
-  font-size: 2.4rem;
-  line-height: 1.3333; }
-
-h5, h6 {
-  font-size: 18px;
-  font-size: 1.8rem;
-  line-height: 1.7778;
-  text-transform: uppercase; }
-
-p {
-  margin-bottom: 15px; }
-  p:last-child {
-    margin-bottom: 0; }
-
-p b, strong {
-  font-weight: bold; }
-
-dfn, cite, em, i {
-  font-style: italic; }
-
-blockquote {
-  font-family: "Alegreya", Georgia, serif;
-  font-size: 40px;
-  font-size: 4rem;
-  font-style: italic;
-  font-weight: 800;
-  line-height: 1.3em;
-  margin-bottom: 0.8em;
-  position: relative;
-  border-color: #7E7E7E; }
-  blockquote:before {
-    display: block;
-    color: #f7f7f7;
-    content: "\201C";
-    font-family: "Alegreya", Georgia, serif;
-    font-size: 250px;
-    font-size: 25rem;
-    position: absolute;
-    top: 45px;
-    left: -50px;
-    z-index: -1; }
-  blockquote cite {
-    display: block;
-    font-family: "Lato", Helvetica, sans-serif;
-    font-size: 16px;
-    font-size: 1.6rem;
-    font-style: normal;
-    letter-spacing: .03em;
+      font-style: normal;
+      letter-spacing: .03em;
+      line-height: 2.2857;
+      margin-top: 1.14285em;
+      text-transform: uppercase; }
+  body address {
+    margin: 0 0 1.7778em; }
+  body pre {
+    background: #eee;
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 2.2857;
-    margin-top: 1.14285em;
-    text-transform: uppercase; }
-
-address {
-  margin: 0 0 1.7778em; }
-
-pre {
-  background: #eee;
-  font-family: "Courier 10 Pitch", Courier, monospace;
-  font-size: 14px;
-  font-size: 1.4rem;
-  line-height: 2.2857;
-  margin-bottom: 2.2857em;
-  max-width: 100%;
-  overflow: auto;
-  padding: 1.6em; }
-
-code, kbd, tt, var {
-  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-  font-size: 15px;
-  font-size: 1.5rem; }
-
-abbr, acronym {
-  border-bottom: 1px dotted #666;
-  cursor: help; }
-
-mark, ins {
-  background: #fff9c0;
-  text-decoration: none; }
-
-big {
-  font-size: 125%; }
-
-figure {
-  margin-bottom: 15px; }
-  figure img {
-    width: 100% !important;
-    padding: 0;
-    margin: 0; }
-  figure figcaption {
-    color: #7E7E7E;
-    font-style: italic;
-    margin-top: 5px; }
+    margin-bottom: 2.2857em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1.6em; }
+  body code, body kbd, body tt, body var {
+    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+    font-size: 15px;
+    font-size: 1.5rem; }
+  body abbr, body acronym {
+    border-bottom: 1px dotted #666;
+    cursor: help; }
+  body mark, body ins {
+    background: #fff9c0;
+    text-decoration: none; }
+  body big {
+    font-size: 125%; }
+  body figure {
+    margin-bottom: 15px; }
+    body figure img {
+      width: 100% !important;
+      padding: 0;
+      margin: 0; }
+    body figure figcaption {
+      color: #7E7E7E;
+      font-style: italic;
+      margin-top: 5px; }
+  body > * {
+    background-color: #ECF3F4;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  body a:hover {
+    text-decoration: none; }
+  body > header {
+    padding-top: 60px;
+    padding-bottom: 30px; }
+    body > header > div {
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      margin: 0 auto; }
+      body > header > div .lead {
+        margin-top: 60px; }
+      body > header > div #branding {
+        max-width: 600px;
+        width: 100%; }
+      body > header > div #branding_simple {
+        max-width: 425px;
+        width: 100%; }
+  @media screen and (max-width: 767px) {
+    body.no-sticky #barra-brasil {
+      margin-bottom: 62px; } }
+  @media screen and (min-width: 768px) {
+    body.no-sticky #barra-brasil {
+      margin-bottom: 42px; } }
+  body > nav {
+    z-index: 999;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: fixed;
+    width: 100%;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    position: sticky;
+    top: 0; }
+    @media screen and (min-width: 768px) {
+      body > nav {
+        height: 42px; } }
+    @media screen and (max-width: 767px) {
+      body > nav div.menu {
+        width: 100%; }
+        body > nav div.menu > * {
+          width: 100%; }
+          body > nav div.menu > *.cadastre {
+            display: block;
+            text-align: center; }
+            body > nav div.menu > *.cadastre a {
+              display: inline-block;
+              vertical-align: middle;
+              margin: 30px 0; } }
+    body > nav.sticky .branding, body > nav.sticky .search {
+      opacity: 1; }
+    body > nav > .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+    body > nav .branding, body > nav .search {
+      opacity: 0;
+      transition: all 0.4s ease; }
+      @media screen and (max-width: 767px) {
+        body > nav .branding, body > nav .search {
+          opacity: 1; } }
+    body > nav .branding a, body > nav .menu-item > a {
+      padding: 6px 15px;
+      display: block; }
+      body > nav .branding a:hover, body > nav .menu-item > a:hover {
+        background-color: #3D3D3D; }
+    @media screen and (max-width: 767px) {
+      body > nav .branding, body > nav .menu-item, body > nav button.menu-visibility {
+        margin: 5px 0; } }
+    body > nav .branding a {
+      z-index: -999; }
+      body > nav .branding a h2 svg {
+        margin-bottom: 5px; }
+      @media screen and (min-width: 768px) {
+        body > nav .branding a {
+          padding-top: 3px;
+          padding-bottom: 1px; } }
+    body > nav .branding h2 {
+      margin: 0;
+      padding: 0; }
+      body > nav .branding h2 span {
+        font-weight: 600; }
+      body > nav .branding h2 svg {
+        margin-bottom: 4px; }
+    body > nav .search {
+      flex: 1; }
+      body > nav .search input {
+        height: 41px; }
+    body > nav div.menu > * {
+      display: inline-block; }
+      body > nav div.menu > *.cadastre a {
+        background-color: #69A0A8;
+        color: #ECF3F4;
+        font-size: 15px;
+        text-align: center;
+        font-weight: 800;
+        line-height: 2;
+        padding: 6px 15px; }
+        @media screen and (min-width: 768px) {
+          body > nav div.menu > *.cadastre a {
+            float: right;
+            margin-left: -4px; } }
+        body > nav div.menu > *.cadastre a:hover {
+          color: white; }
+    body > nav .menu {
+      text-transform: uppercase;
+      float: right; }
+      @media screen and (max-width: 767px) {
+        body > nav .menu {
+          width: 100%; } }
+      body > nav .menu ul {
+        list-style: none;
+        margin: 0;
+        padding-left: 0; }
+      body > nav .menu .menu-item {
+        font-size: 15px;
+        text-align: center; }
+        body > nav .menu .menu-item a {
+          line-height: 2; }
+        @media screen and (min-width: 768px) {
+          body > nav .menu .menu-item {
+            display: inline-block; } }
+      body > nav .menu .sub-menu {
+        display: none; }
+    body > nav button.menu-visibility {
+      border: none;
+      height: 41px;
+      width: 42px;
+      padding: 0; }
+      body > nav button.menu-visibility i {
+        font-size: 24px; }
+    @media screen and (max-width: 767px) {
+      body > nav .search {
+        margin: 10px 0; } }
+  body aside aside {
+    margin-bottom: 30px; }
+    body aside aside:last-child {
+      margin-bottom: 0 !important; }
+  body aside ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none; }
+    body aside ul ul {
+      margin-left: 10px;
+      margin-bottom: 30px; }
+      body aside ul ul:last-child {
+        margin-bottom: 0; }
+  body > aside {
+    border: none; }
+    body > aside > .wrapper > div > aside {
+      margin-bottom: 30px; }
+      body > aside > .wrapper > div > aside:last-child {
+        margin-bottom: 0; }
+      body > aside > .wrapper > div > aside ul {
+        list-style: none;
+        margin-left: 0px;
+        padding-left: 0px; }
+        body > aside > .wrapper > div > aside ul li {
+          font-size: 16px;
+          padding-top: 7.5px;
+          padding-bottom: 7.5px; }
+        body > aside > .wrapper > div > aside ul i {
+          font-size: 20px;
+          margin-right: 10px; }
+      body > aside > .wrapper > div > aside.plataformas ul li {
+        border-color: #242424; }
+        body > aside > .wrapper > div > aside.plataformas ul li i {
+          background-color: #ECF3F4; }
+        body > aside > .wrapper > div > aside.plataformas ul li a {
+          color: #7E7E7E; }
+        body > aside > .wrapper > div > aside.plataformas ul li:hover {
+          border-color: #69A0A8;
+          background-color: black; }
+          body > aside > .wrapper > div > aside.plataformas ul li:hover a {
+            color: #ECF3F4; }
+      body > aside > .wrapper > div > aside.velho-sniic {
+        margin: -15px;
+        margin-bottom: 0px;
+        padding: 15px;
+        box-shadow: 5px 5px 0px black;
+        margin-top: 0; }
+        body > aside > .wrapper > div > aside.velho-sniic img {
+          width: 190px;
+          height: 110px;
+          margin-top: 30px;
+          margin-bottom: 30px; }
+        body > aside > .wrapper > div > aside.velho-sniic button {
+          margin-top: 30px; }
+  body aside.velho-sniic, body section.velho-sniic {
+    background-color: #005781;
+    background: -moz-linear-gradient(top, #002C40 0%, #005781 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #002C40), color-stop(100%, #005781));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #002C40 0%, #005781 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #002C40 0%, #005781 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #002C40 0%, #005781 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #002C40 0%, #005781 100%);
+    /* W3C */
+    background-repeat: repeat-x; }
+  body > section.velho-sniic img {
+    min-width: 150px;
+    max-width: 300px; }
+  body > section.velho-sniic button {
+    margin-top: 30px; }
+  body > section.mapas ul {
+    margin-left: 0px;
+    padding-left: 0px; }
+    body > section.mapas ul li {
+      font-size: 16px;
+      margin-bottom: 15px; }
+    body > section.mapas ul i {
+      font-size: 20px;
+      margin-right: 10px; }
+  body main.publicacoes article.publicacoes {
+    background-color: #f6f9fa; }
+    body main.publicacoes article.publicacoes > header {
+      padding: 15px; }
+      body main.publicacoes article.publicacoes > header h1 {
+        font-size: 30px; }
+      @media screen and (min-width: 768px) {
+        body main.publicacoes article.publicacoes > header .taxonomies {
+          float: left; }
+        body main.publicacoes article.publicacoes > header .pubdate {
+          float: right; } }
+    body main.publicacoes article.publicacoes > footer {
+      padding: 15px; }
+      body main.publicacoes article.publicacoes > footer section {
+        padding: 0; }
+    body main.publicacoes article.publicacoes section.actions i {
+      font-size: 20px;
+      margin-left: 10px; }
+  body main.publicacoes a > section.title {
+    background-color: white;
+    box-shadow: 0px 1px 1px #7E7E7E; }
+  body main.publicacoes a > article, body main.publicacoes a > section {
+    padding: 30px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 0; }
+    body main.publicacoes a > article img, body main.publicacoes a > section img {
+      margin-bottom: 30px; }
+    body main.publicacoes a > article time, body main.publicacoes a > section time {
+      color: #69A0A8; }
+    body main.publicacoes a > article footer span.byline, body main.publicacoes a > section footer span.byline {
+      display: none; }
+  body main.publicacoes a:hover article {
+    background-color: white; }
+  body ul.hover-list:hover a, body ul.hover-list:hover li, body ul.hover-list:hover span, body ul.hover-list:hover i, body ul.hover-list:hover h1, body ul.hover-list:hover h2, body ul.hover-list:hover h3, body ul.hover-list:hover h4, body ul.hover-list:hover h5, body ul.hover-list:hover h6, body ul.hover-list:hover small {
+    color: #7E7E7E; }
+    body ul.hover-list:hover a svg, body ul.hover-list:hover li svg, body ul.hover-list:hover span svg, body ul.hover-list:hover i svg, body ul.hover-list:hover h1 svg, body ul.hover-list:hover h2 svg, body ul.hover-list:hover h3 svg, body ul.hover-list:hover h4 svg, body ul.hover-list:hover h5 svg, body ul.hover-list:hover h6 svg, body ul.hover-list:hover small svg {
+      fill: #7E7E7E; }
+    body ul.hover-list:hover a:hover a, body ul.hover-list:hover a:hover li, body ul.hover-list:hover a:hover span, body ul.hover-list:hover a:hover i, body ul.hover-list:hover a:hover h1, body ul.hover-list:hover a:hover h2, body ul.hover-list:hover a:hover h3, body ul.hover-list:hover a:hover h4, body ul.hover-list:hover a:hover h5, body ul.hover-list:hover a:hover h6, body ul.hover-list:hover a:hover small, body ul.hover-list:hover li:hover a, body ul.hover-list:hover li:hover li, body ul.hover-list:hover li:hover span, body ul.hover-list:hover li:hover i, body ul.hover-list:hover li:hover h1, body ul.hover-list:hover li:hover h2, body ul.hover-list:hover li:hover h3, body ul.hover-list:hover li:hover h4, body ul.hover-list:hover li:hover h5, body ul.hover-list:hover li:hover h6, body ul.hover-list:hover li:hover small, body ul.hover-list:hover span:hover a, body ul.hover-list:hover span:hover li, body ul.hover-list:hover span:hover span, body ul.hover-list:hover span:hover i, body ul.hover-list:hover span:hover h1, body ul.hover-list:hover span:hover h2, body ul.hover-list:hover span:hover h3, body ul.hover-list:hover span:hover h4, body ul.hover-list:hover span:hover h5, body ul.hover-list:hover span:hover h6, body ul.hover-list:hover span:hover small, body ul.hover-list:hover i:hover a, body ul.hover-list:hover i:hover li, body ul.hover-list:hover i:hover span, body ul.hover-list:hover i:hover i, body ul.hover-list:hover i:hover h1, body ul.hover-list:hover i:hover h2, body ul.hover-list:hover i:hover h3, body ul.hover-list:hover i:hover h4, body ul.hover-list:hover i:hover h5, body ul.hover-list:hover i:hover h6, body ul.hover-list:hover i:hover small, body ul.hover-list:hover h1:hover a, body ul.hover-list:hover h1:hover li, body ul.hover-list:hover h1:hover span, body ul.hover-list:hover h1:hover i, body ul.hover-list:hover h1:hover h1, body ul.hover-list:hover h1:hover h2, body ul.hover-list:hover h1:hover h3, body ul.hover-list:hover h1:hover h4, body ul.hover-list:hover h1:hover h5, body ul.hover-list:hover h1:hover h6, body ul.hover-list:hover h1:hover small, body ul.hover-list:hover h2:hover a, body ul.hover-list:hover h2:hover li, body ul.hover-list:hover h2:hover span, body ul.hover-list:hover h2:hover i, body ul.hover-list:hover h2:hover h1, body ul.hover-list:hover h2:hover h2, body ul.hover-list:hover h2:hover h3, body ul.hover-list:hover h2:hover h4, body ul.hover-list:hover h2:hover h5, body ul.hover-list:hover h2:hover h6, body ul.hover-list:hover h2:hover small, body ul.hover-list:hover h3:hover a, body ul.hover-list:hover h3:hover li, body ul.hover-list:hover h3:hover span, body ul.hover-list:hover h3:hover i, body ul.hover-list:hover h3:hover h1, body ul.hover-list:hover h3:hover h2, body ul.hover-list:hover h3:hover h3, body ul.hover-list:hover h3:hover h4, body ul.hover-list:hover h3:hover h5, body ul.hover-list:hover h3:hover h6, body ul.hover-list:hover h3:hover small, body ul.hover-list:hover h4:hover a, body ul.hover-list:hover h4:hover li, body ul.hover-list:hover h4:hover span, body ul.hover-list:hover h4:hover i, body ul.hover-list:hover h4:hover h1, body ul.hover-list:hover h4:hover h2, body ul.hover-list:hover h4:hover h3, body ul.hover-list:hover h4:hover h4, body ul.hover-list:hover h4:hover h5, body ul.hover-list:hover h4:hover h6, body ul.hover-list:hover h4:hover small, body ul.hover-list:hover h5:hover a, body ul.hover-list:hover h5:hover li, body ul.hover-list:hover h5:hover span, body ul.hover-list:hover h5:hover i, body ul.hover-list:hover h5:hover h1, body ul.hover-list:hover h5:hover h2, body ul.hover-list:hover h5:hover h3, body ul.hover-list:hover h5:hover h4, body ul.hover-list:hover h5:hover h5, body ul.hover-list:hover h5:hover h6, body ul.hover-list:hover h5:hover small, body ul.hover-list:hover h6:hover a, body ul.hover-list:hover h6:hover li, body ul.hover-list:hover h6:hover span, body ul.hover-list:hover h6:hover i, body ul.hover-list:hover h6:hover h1, body ul.hover-list:hover h6:hover h2, body ul.hover-list:hover h6:hover h3, body ul.hover-list:hover h6:hover h4, body ul.hover-list:hover h6:hover h5, body ul.hover-list:hover h6:hover h6, body ul.hover-list:hover h6:hover small, body ul.hover-list:hover small:hover a, body ul.hover-list:hover small:hover li, body ul.hover-list:hover small:hover span, body ul.hover-list:hover small:hover i, body ul.hover-list:hover small:hover h1, body ul.hover-list:hover small:hover h2, body ul.hover-list:hover small:hover h3, body ul.hover-list:hover small:hover h4, body ul.hover-list:hover small:hover h5, body ul.hover-list:hover small:hover h6, body ul.hover-list:hover small:hover small {
+      color: black; }
+      body ul.hover-list:hover a:hover a svg, body ul.hover-list:hover a:hover li svg, body ul.hover-list:hover a:hover span svg, body ul.hover-list:hover a:hover i svg, body ul.hover-list:hover a:hover h1 svg, body ul.hover-list:hover a:hover h2 svg, body ul.hover-list:hover a:hover h3 svg, body ul.hover-list:hover a:hover h4 svg, body ul.hover-list:hover a:hover h5 svg, body ul.hover-list:hover a:hover h6 svg, body ul.hover-list:hover a:hover small svg, body ul.hover-list:hover li:hover a svg, body ul.hover-list:hover li:hover li svg, body ul.hover-list:hover li:hover span svg, body ul.hover-list:hover li:hover i svg, body ul.hover-list:hover li:hover h1 svg, body ul.hover-list:hover li:hover h2 svg, body ul.hover-list:hover li:hover h3 svg, body ul.hover-list:hover li:hover h4 svg, body ul.hover-list:hover li:hover h5 svg, body ul.hover-list:hover li:hover h6 svg, body ul.hover-list:hover li:hover small svg, body ul.hover-list:hover span:hover a svg, body ul.hover-list:hover span:hover li svg, body ul.hover-list:hover span:hover span svg, body ul.hover-list:hover span:hover i svg, body ul.hover-list:hover span:hover h1 svg, body ul.hover-list:hover span:hover h2 svg, body ul.hover-list:hover span:hover h3 svg, body ul.hover-list:hover span:hover h4 svg, body ul.hover-list:hover span:hover h5 svg, body ul.hover-list:hover span:hover h6 svg, body ul.hover-list:hover span:hover small svg, body ul.hover-list:hover i:hover a svg, body ul.hover-list:hover i:hover li svg, body ul.hover-list:hover i:hover span svg, body ul.hover-list:hover i:hover i svg, body ul.hover-list:hover i:hover h1 svg, body ul.hover-list:hover i:hover h2 svg, body ul.hover-list:hover i:hover h3 svg, body ul.hover-list:hover i:hover h4 svg, body ul.hover-list:hover i:hover h5 svg, body ul.hover-list:hover i:hover h6 svg, body ul.hover-list:hover i:hover small svg, body ul.hover-list:hover h1:hover a svg, body ul.hover-list:hover h1:hover li svg, body ul.hover-list:hover h1:hover span svg, body ul.hover-list:hover h1:hover i svg, body ul.hover-list:hover h1:hover h1 svg, body ul.hover-list:hover h1:hover h2 svg, body ul.hover-list:hover h1:hover h3 svg, body ul.hover-list:hover h1:hover h4 svg, body ul.hover-list:hover h1:hover h5 svg, body ul.hover-list:hover h1:hover h6 svg, body ul.hover-list:hover h1:hover small svg, body ul.hover-list:hover h2:hover a svg, body ul.hover-list:hover h2:hover li svg, body ul.hover-list:hover h2:hover span svg, body ul.hover-list:hover h2:hover i svg, body ul.hover-list:hover h2:hover h1 svg, body ul.hover-list:hover h2:hover h2 svg, body ul.hover-list:hover h2:hover h3 svg, body ul.hover-list:hover h2:hover h4 svg, body ul.hover-list:hover h2:hover h5 svg, body ul.hover-list:hover h2:hover h6 svg, body ul.hover-list:hover h2:hover small svg, body ul.hover-list:hover h3:hover a svg, body ul.hover-list:hover h3:hover li svg, body ul.hover-list:hover h3:hover span svg, body ul.hover-list:hover h3:hover i svg, body ul.hover-list:hover h3:hover h1 svg, body ul.hover-list:hover h3:hover h2 svg, body ul.hover-list:hover h3:hover h3 svg, body ul.hover-list:hover h3:hover h4 svg, body ul.hover-list:hover h3:hover h5 svg, body ul.hover-list:hover h3:hover h6 svg, body ul.hover-list:hover h3:hover small svg, body ul.hover-list:hover h4:hover a svg, body ul.hover-list:hover h4:hover li svg, body ul.hover-list:hover h4:hover span svg, body ul.hover-list:hover h4:hover i svg, body ul.hover-list:hover h4:hover h1 svg, body ul.hover-list:hover h4:hover h2 svg, body ul.hover-list:hover h4:hover h3 svg, body ul.hover-list:hover h4:hover h4 svg, body ul.hover-list:hover h4:hover h5 svg, body ul.hover-list:hover h4:hover h6 svg, body ul.hover-list:hover h4:hover small svg, body ul.hover-list:hover h5:hover a svg, body ul.hover-list:hover h5:hover li svg, body ul.hover-list:hover h5:hover span svg, body ul.hover-list:hover h5:hover i svg, body ul.hover-list:hover h5:hover h1 svg, body ul.hover-list:hover h5:hover h2 svg, body ul.hover-list:hover h5:hover h3 svg, body ul.hover-list:hover h5:hover h4 svg, body ul.hover-list:hover h5:hover h5 svg, body ul.hover-list:hover h5:hover h6 svg, body ul.hover-list:hover h5:hover small svg, body ul.hover-list:hover h6:hover a svg, body ul.hover-list:hover h6:hover li svg, body ul.hover-list:hover h6:hover span svg, body ul.hover-list:hover h6:hover i svg, body ul.hover-list:hover h6:hover h1 svg, body ul.hover-list:hover h6:hover h2 svg, body ul.hover-list:hover h6:hover h3 svg, body ul.hover-list:hover h6:hover h4 svg, body ul.hover-list:hover h6:hover h5 svg, body ul.hover-list:hover h6:hover h6 svg, body ul.hover-list:hover h6:hover small svg, body ul.hover-list:hover small:hover a svg, body ul.hover-list:hover small:hover li svg, body ul.hover-list:hover small:hover span svg, body ul.hover-list:hover small:hover i svg, body ul.hover-list:hover small:hover h1 svg, body ul.hover-list:hover small:hover h2 svg, body ul.hover-list:hover small:hover h3 svg, body ul.hover-list:hover small:hover h4 svg, body ul.hover-list:hover small:hover h5 svg, body ul.hover-list:hover small:hover h6 svg, body ul.hover-list:hover small:hover small svg {
+        fill: black; }
+  body > .dark {
+    background: #242424; }
+    body > .dark ul.hover-list:hover a:hover a, body > .dark ul.hover-list:hover a:hover li, body > .dark ul.hover-list:hover a:hover span, body > .dark ul.hover-list:hover a:hover i, body > .dark ul.hover-list:hover a:hover h1, body > .dark ul.hover-list:hover a:hover h2, body > .dark ul.hover-list:hover a:hover h3, body > .dark ul.hover-list:hover a:hover h4, body > .dark ul.hover-list:hover a:hover h5, body > .dark ul.hover-list:hover a:hover h6, body > .dark ul.hover-list:hover a:hover small, body > .dark ul.hover-list:hover li:hover a, body > .dark ul.hover-list:hover li:hover li, body > .dark ul.hover-list:hover li:hover span, body > .dark ul.hover-list:hover li:hover i, body > .dark ul.hover-list:hover li:hover h1, body > .dark ul.hover-list:hover li:hover h2, body > .dark ul.hover-list:hover li:hover h3, body > .dark ul.hover-list:hover li:hover h4, body > .dark ul.hover-list:hover li:hover h5, body > .dark ul.hover-list:hover li:hover h6, body > .dark ul.hover-list:hover li:hover small {
+      color: #ECF3F4; }
+    body > .dark *, body > .dark a:hover {
+      color: #ECF3F4; }
+    body > .dark, body > .dark a {
+      color: #ECF3F4; }
+    body > .dark i {
+      color: #ECF3F4; }
+    body > .dark svg g, body > .dark svg path {
+      fill: #ECF3F4; }
 
 html {
   box-sizing: border-box; }
@@ -611,15 +487,12 @@ input[type="reset"],
 input[type="submit"],
 #infinite-handle span {
   background: none;
-  border: 2px solid #999;
   color: rgba(0, 0, 0, 0.5);
   cursor: pointer;
   display: inline-block;
   font-size: 14px;
   font-size: 1.4rem;
-  height: 2.9em;
   letter-spacing: .03em;
-  padding: 0 24px;
   text-transform: uppercase; }
   button:hover,
   input[type="button"]:hover,
@@ -645,9 +518,8 @@ input[type="url"],
 input[type="password"],
 input[type="search"],
 textarea {
-  font-size: 16px;
-  font-size: 1.6rem;
-  border: 2px solid #999; }
+  font-size: 18px;
+  font-size: 1.6rem; }
   input[type="text"]:focus,
   input[type="email"]:focus,
   input[type="url"]:focus,
@@ -655,55 +527,74 @@ textarea {
   input[type="search"]:focus,
   textarea:focus {
     border-color: #000;
-    color: #111;
     outline: none; }
-
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"] {
-  height: 2.5em;
-  padding: 0 7px; }
 
 textarea {
   padding-left: 7px;
   width: 100%; }
 
-form.search-form {
-  position: relative; }
-  form.search-form label, form.search-form input {
-    width: 100%; }
-  form.search-form button {
-    background-image: none;
-    background-color: transparent;
-    border-radius: 0 !important;
-    text-shadow: none;
-    border: none !important;
-    margin-left: 0 !important;
-    margin-top: -5px;
-    box-shadow: none;
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding-right: 10px; }
-    form.search-form button span {
-      color: #7E7E7E; }
-  form.search-form input[type="search"] {
-    padding-right: 30px;
-    border: none;
-    background: none;
-    border-bottom: 2px solid #7E7E7E !important;
-    border-radius: 0;
-    padding-left: 10px;
+@media screen and (min-width: 768px) {
+  .lead form .form-group .input-group input, .big form .form-group .input-group input, form.big .form-group .input-group input {
+    font-size: 24px;
+    padding-left: 20px; }
+  .lead form .form-group .input-group .input-group-addon button span, .big form .form-group .input-group .input-group-addon button span, form.big .form-group .input-group .input-group-addon button span {
+    font-size: 24px; } }
+form .form-group {
+  background-color: white; }
+  form .form-group input {
+    color: black; }
+    form .form-group input::-webkit-input-placeholder {
+      color: #242424; }
+  form .form-group .input-group-addon button span {
+    color: black; }
+  form .form-group .input-group-addon button:hover {
+    background-color: transparent; }
+
+.dark form .form-group {
+  background-color: #3D3D3D; }
+  .dark form .form-group input, .dark form .form-group input:active, .dark form .form-group input:focus {
     color: #ECF3F4; }
-    form.search-form input[type="search"]:focus {
-      box-shadow: none;
-      border-color: #ECF3F4 !important; }
-  form.search-form input::-webkit-input-placeholder {
-    font-style: italic;
-    font-weight: 300;
+  .dark form .form-group input::-webkit-input-placeholder {
     color: #7E7E7E; }
+  .dark form .form-group .input-group-addon button span {
+    color: #ECF3F4; }
+
+form {
+  display: block; }
+  form .form-group {
+    padding: 0;
+    padding-top: 1px;
+    width: 100%; }
+    form .form-group .input-group input {
+      width: 100%;
+      border: none;
+      box-shadow: none;
+      border-radius: 0;
+      background: transparent; }
+      form .form-group .input-group input::-webkit-input-placeholder {
+        font-style: italic;
+        font-weight: 300; }
+      form .form-group .input-group input:focus {
+        box-shadow: none;
+        border: none; }
+    form .form-group .input-group .input-group-addon {
+      background-color: transparent;
+      border: none;
+      border-radius: 0px;
+      padding: 6px; }
+      form .form-group .input-group .input-group-addon button {
+        border-radius: 0 !important;
+        border: none !important;
+        margin-left: 0 !important;
+        text-shadow: none;
+        box-shadow: none;
+        background-image: none;
+        background-color: transparent;
+        text-align: center;
+        float: right;
+        margin: 0; }
+  form .form-group, form input {
+    margin-bottom: 0; }
 
 /*--------------------------------------------------------------
 5.1 Links

@@ -170,7 +170,8 @@ function argent_fonts_url() {
 }
 
 function img_clipper_js () {
-	wp_enqueue_script( 'img_clipper', get_template_directory_uri() . '/js/img-clipper.js', array( 'jquery' ), false, true );
+	wp_enqueue_script( 'img-clipper', get_template_directory_uri() . '/javascript/img-clipper.js', array( 'jquery' ), false, true );
+	wp_enqueue_script( 'sticky-header', get_template_directory_uri() . '/javascript/sticky-header.js', array( 'jquery' ), false, true );
 }
 add_action( 'wp_enqueue_scripts', 'img_clipper_js' );
 

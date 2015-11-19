@@ -1,241 +1,179 @@
-& > nav {
-  position: relative;
-  & > .beta-marker {
-    position: absolute;
-    top: 0;
-    left: 0;
+&.no-sticky {
+  #barra-brasil {
+    @media screen and (max-width: 767px) {
+      margin-bottom: 62px;
+    }
+    @media screen and (min-width: 768px) {
+      margin-bottom: 42px;
+    }
   }
-  & > .wrapper {
-    #branding {
-      svg, h1 {
-        float: left;
+}
+
+& > nav {
+  z-index: 999;
+
+  padding-top: 0;
+  padding-bottom: 0;
+
+  position: fixed;
+  width: 100%;
+
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 0;
+
+  @media screen and (min-width: 768px) {
+    height: 42px;
+  }
+
+  @media screen and (max-width: 767px) {
+    div.menu {
+      width: 100%;
+      & > * {
+        width: 100%;
+        &.cadastre {
+          display: block;
+          text-align: center;
+          a {
+            display: inline-block;
+            vertical-align: middle;
+            margin: $gutter 0;
+          }
+        }
+      }
+    }
+
+  }
+
+  &.sticky {
+    .branding, .search {
+      opacity: 1;
+    }
+  }
+  & > .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .branding, .search {
+    opacity: 0;
+    @media screen and (max-width: 767px) {
+      opacity: 1;
+    }
+    transition: all 0.4s ease;
+  }
+
+  .branding a, .menu-item > a {
+    padding: $gutter/5 $gutter/2;
+    display: block;
+    &:hover {
+      background-color: $color-dark-gray;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .branding, .menu-item, button.menu-visibility {
+      margin: $gutter/6 0;
+    }
+  }
+
+  .branding {
+    a {
+      z-index: -999;
+      h2 {
+        svg {
+          margin-bottom: 5px;
+        }
+      }
+      @media screen and (min-width: 768px) {
+        padding-top: 3px;
+        padding-bottom: 1px;
+      }
+    }
+    h2 {
+      margin: 0;
+      padding: 0;
+      span {
+        font-weight: 600;
       }
       svg {
-        width: $gutter * 1.5;
-        height: $gutter * 1.5;
-        path, g {
-          fill: $color-nil;
-        }
-      }
-      h1 {
-        margin: 0;
-        margin-top: $gutter/5;
-        margin-left: $gutter/2;
-        font-size: 35px;
-        font-weight: 600;
-        line-height: $gutter;
-      }
-    }
-
-    div.menu > div {
-      text-transform: uppercase;
-
-      & > ul {
-        margin: 0;
-
-        &, ul {
-          list-style: none !important;
-        }
-        & > li {
-          border-bottom: 1px solid $color-coal;
-          &:hover {
-            border-color: $color-teal;
-          }
-        }
-      }
-    }
-    & > div {
-      & > div {
-        ul {
-          ul {
-            display: block;
-            list-style-position: inside;
-            list-style-type: disc;
-            border-left: 1px solid rgba(255, 255, 255, 0.3);
-            li {
-              border-bottom: none;
-              padding: 0;
-              padding-left: 1em;
-              &:hover, &.focus { & > ul {
-                left: 100%;
-              } }
-            }
-            ul {
-              left: -999em;
-              top: 0;
-            }
-          }
-          ul :hover > a,
-          ul > .focus > a {
-          }
-          li:hover,
-          li.focus { & > ul {
-            left: 0;
-          } }
-        }
-        & > ul {
-          // TODO: Block hover mixin
-          & > li > a {
-            color: $color-nil;
-          }
-          &:hover > li {
-            & > a {
-              color: $color-gray;
-              border-color: $color-coal;
-            }
-            &:hover > a {
-              color: $color-nil;
-            }
-          }
-          & > li ul > li {
-            border-bottom: 1px solid $color-nil;
-          }
-        }
-      }
-    }
-
-  }
-}
-
-@media screen and (min-width: 769px) {
-  & > nav {
-    & > .wrapper {
-      padding-left: $gutter;
-      padding-right: $gutter;
-
-      #branding {
-        overflow-x: visible;
-        width: 0 !important;
-        float: left;
-        padding: 0;
-        margin: 0;
-        div {
-          width: 300px;
-          overflow: visible;
-        }
-      }
-
-      div.menu > div {
-        float: right;
-        & > ul {
-          margin: 0;
-          display: block;
-          padding-top: $gutter/3;
-          & > li {
-            font-size: 14px;
-            text-transform: uppercase;
-            display: inline-block;
-            margin: 0 $gutter/3;
-            padding: 0;
-            padding-bottom: $gutter/3;
-            position: relative;
-            &:first-child { padding-left: 0; }
-            &:last-child { padding-right: 0; }
-            & > ul, & > ul > li > ul {
-              background-color: $color-gray;
-              & > li {
-                a { color: white; }
-                &:hover { background-color: $color-coal; }
-              }
-            }
-          }
-        }
-      }
-      ul {
-    		margin: 0;
-    		padding-left: 0;
-    		text-align: center;
-        ul {
-      		float: left;
-      		margin: 0;
-      		position: absolute;
-          top: 2em;
-      		left: -999em;
-      		text-align: left;
-      		z-index: 99999;
-          li {
-            padding-top: 0.5em !important;
-            padding-bottom: 0.5em !important;
-        		border-bottom: 1px solid rgba(255, 2555, 255, 0.1);
-            padding: 1em;
-            min-width: 200px;
-        	}
-      	}
-      	div>ul>li>ul::before {
-      		border-color: transparent transparent #222;
-      		border-style: solid;
-      		border-width: 6px 6px 8px;
-      		content: "";
-      		position: absolute;
-      		top: -13px;
-      		left: 20px;
-      	}
+        margin-bottom: 4px;
       }
     }
   }
-}
-@media screen and (max-width: 768px) {
-  & > nav {
-    padding-top: $gutter/2;
-    padding-bottom: $gutter/2;
-    & > .beta-marker {
-      width: $gutter*2;
-      height: $gutter*2;
-      z-index: 999;
+
+  .search {
+    flex: 1;
+    input {
+      height: 41px;
     }
-    & > .wrapper {
-      position: relative;
-      & > button {
-        position: absolute;
-        top: 0;
-        right: 0;
-        padding: 0;
-        border: none;
-        font-size: $gutter;
-        height: $gutter;
-        font-weight: 600;
-      }
-      ul ul { padding-left: $gutter; }
-      div.menu > div {
+  }
+
+  div.menu {
+    & > * {
+      display: inline-block;
+      &.cadastre {
+      a {
+        background-color: $color-teal;
+        color: $color-nil;
+        font-size: 15px;
         text-align: center;
-        margin-bottom: $gutter/2;
-        ul, ul ul {
-          &, li {
-            margin: 0;
-            padding: 0;
-            border: none;
-          }
+        font-weight: 800;
+        line-height: 2;
+        padding: 6px 15px;
+        @media screen and (min-width: 768px) {
+          float: right;
+          margin-left: -4px;
         }
-        & > ul {
-          & > li {
-            margin-top: $gutter/3;
-            background-color: lighten($color-coal, 10%);
-            padding: $gutter/3 0;
-            & > a {
-              font-size: 20px;
-            }
-            & > ul {
-              & > li {
-                margin-top: $gutter/6;
-                & > a {
-                  font-size: 14px;
-                }
-                & > ul {
-                  & > li {
-                    margin-top: $gutter/6;
-                    & > a {
-                      font-size: 14px;
-                      text-transform: none;
-                    }
-                  }
-                }
-              }
-            }
-          }
+        &:hover {
+          color: white;
         }
       }
+      }
+    }
+  }
+  .menu {
+    text-transform: uppercase;
+    float: right;
+    @media screen and (max-width: 767px) {
+      width: 100%;
+    }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+    }
+    .menu-item {
+      font-size: 15px;
+      text-align: center;
+      a {
+        line-height: 2;
+      }
+      @media screen and (min-width: 768px) {
+        display: inline-block;
+      }
+    }
+    .sub-menu {
+      display: none;
+    }
+  }
 
+  button.menu-visibility {
+    border: none;
+    height: 41px;
+    width: 42px;
+    padding: 0;
+    i {
+      font-size: 24px;
+    }
+  }
 
+  .search {
+    @media screen and (max-width: 767px) {
+      margin: $gutter/3 0;
     }
   }
 }
