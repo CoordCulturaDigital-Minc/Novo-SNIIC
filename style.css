@@ -600,6 +600,17 @@ form {
   form .form-group, form input {
     margin-bottom: 0; }
 
+form.gform_wrapper ul.gform_fields li.gfield {
+  clear: none;
+  padding-left: 15px;
+  padding-right: 15px; }
+  form.gform_wrapper ul.gform_fields li.gfield input, form.gform_wrapper ul.gform_fields li.gfield textarea {
+    width: 100%; }
+  form.gform_wrapper ul.gform_fields li.gfield label, form.gform_wrapper ul.gform_fields li.gfield .gfield_description {
+    padding-left: 2px; }
+  form.gform_wrapper ul.gform_fields li.gfield .gfield_description {
+    color: #3D3D3D; }
+
 /*--------------------------------------------------------------
 5.1 Links
 --------------------------------------------------------------*/

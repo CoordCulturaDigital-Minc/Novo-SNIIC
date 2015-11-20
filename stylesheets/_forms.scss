@@ -146,3 +146,24 @@ form {
 		margin-bottom: 0;
 	}
 }
+
+// GRAVITY FORMS OVERRIDE
+
+form.gform_wrapper {
+	ul.gform_fields {
+		li.gfield {
+			clear: none;
+			padding-left: 15px;
+			padding-right: 15px;
+			input, textarea {
+				width: 100%;
+			}
+			label, .gfield_description {
+				padding-left: 2px;
+			}
+			.gfield_description {
+				color: $color-dark-gray;
+			}
+		}
+	}
+}
