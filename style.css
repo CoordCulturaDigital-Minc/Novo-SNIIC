@@ -39,6 +39,9 @@ body {
       display: inline-block;
       fill: black;
       vertical-align: middle; }
+    body h1 i.after, body h2 i.after, body h3 i.after, body h4 i.after, body h5 i.after, body h6 i.after, body a h1 i.after, body a h2 i.after, body a h3 i.after, body a h4 i.after, body a h5 i.after, body a h6 i.after {
+      margin-left: 0.5em;
+      font-size: 0.7em; }
   body h1, body a h1 {
     margin-bottom: 30px; }
     body h1 img, body h1 svg, body a h1 img, body a h1 svg {
