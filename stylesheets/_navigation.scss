@@ -120,7 +120,6 @@
         background-color: $color-teal;
         color: $color-nil;
         font-size: 15px;
-        text-align: center;
         font-weight: 800;
         line-height: 2;
         padding: 6px 15px;
@@ -136,7 +135,6 @@
     }
   }
   .menu {
-    text-transform: uppercase;
     float: right;
     @media screen and (max-width: 767px) {
       width: 100%;

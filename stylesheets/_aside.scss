@@ -1,76 +1,11 @@
-aside {
-	aside {
-		margin-bottom: $gutter;
-		&:last-child {
-			margin-bottom: 0 !important;
-		}
-	}
-	ul {
-		margin-left: 0;
-		padding-left: 0;
-		list-style: none;
-		ul {
-			margin-left: $gutter/3;
-			margin-bottom: $gutter;
-			&:last-child {
-				margin-bottom: 0;
-			}
-		}
-	}
-}
 & > aside {
-	border: none;
 	& > .wrapper > div > aside {
-		margin-bottom: $gutter;
-		&:last-child {
-			margin-bottom: 0;
-		}
 		ul {
-			list-style: none;
-			margin-left: 0px;
-			padding-left: 0px;
+			margin-left: 0;
 			li {
 				font-size: 16px;
-				padding-top: $gutter/4;
-				padding-bottom: $gutter/4;
-			}
-			i {
-				font-size: 20px;
-				margin-right: $gutter/3;
-			}
-		}
-		&.plataformas ul {
-			li {
-				border-color: $color-coal;
-				i {
-					background-color: $color-nil;
-				}
-				a {
-					color: $color-gray;
-				}
-				&:hover {
-					border-color: $color-teal;
-					background-color: black;
-					a {
-						color: $color-nil;
-					}
-				}
-			}
-		}
-		&.velho-sniic {
-			margin: -15px;
-			margin-bottom: 0px;
-			padding: 15px;
-			box-shadow: 5px 5px 0px black;
-			margin-top: 0;
-			img {
-				width: 190px;
-				height: 110px;
-				margin-top: $gutter;
-				margin-bottom: $gutter;
-			}
-			button {
-				margin-top: $gutter;
+				padding-top: 0.5em;
+				padding-bottom: 0.5em;
 			}
 		}
 	}

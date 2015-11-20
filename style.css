@@ -29,6 +29,10 @@ body {
       fill: white; }
   body a, body a:hover, body a:visited {
     text-decoration: none; }
+  body i.before {
+    padding-right: 0.5em; }
+  body i.after {
+    padding-left: 0.5em; }
   body h1, body h2, body h3, body h4, body h5, body h6, body a h1, body a h2, body a h3, body a h4, body a h5, body a h6 {
     font-weight: 700;
     color: black; }
@@ -39,9 +43,6 @@ body {
       display: inline-block;
       fill: black;
       vertical-align: middle; }
-    body h1 i.after, body h2 i.after, body h3 i.after, body h4 i.after, body h5 i.after, body h6 i.after, body a h1 i.after, body a h2 i.after, body a h3 i.after, body a h4 i.after, body a h5 i.after, body a h6 i.after {
-      margin-left: 0.5em;
-      font-size: 0.7em; }
   body h1, body a h1 {
     margin-bottom: 30px; }
     body h1 img, body h1 svg, body a h1 img, body a h1 svg {
@@ -167,7 +168,8 @@ body {
       background-size: cover;
       margin: 0 auto; }
       body > header > div .lead {
-        margin-top: 60px; }
+        margin-top: 60px;
+        font-size: 30px; }
       body > header > div #branding {
         max-width: 600px;
         width: 100%; }
@@ -252,7 +254,6 @@ body {
         background-color: #69A0A8;
         color: #ECF3F4;
         font-size: 15px;
-        text-align: center;
         font-weight: 800;
         line-height: 2;
         padding: 6px 15px; }
@@ -263,7 +264,6 @@ body {
         body > nav div.menu > *.cadastre a:hover {
           color: white; }
     body > nav .menu {
-      text-transform: uppercase;
       float: right; }
       @media screen and (max-width: 767px) {
         body > nav .menu {
@@ -292,61 +292,13 @@ body {
     @media screen and (max-width: 767px) {
       body > nav .search {
         margin: 10px 0; } }
-  body aside aside {
-    margin-bottom: 30px; }
-    body aside aside:last-child {
-      margin-bottom: 0 !important; }
-  body aside ul {
-    margin-left: 0;
-    padding-left: 0;
-    list-style: none; }
-    body aside ul ul {
-      margin-left: 10px;
-      margin-bottom: 30px; }
-      body aside ul ul:last-child {
-        margin-bottom: 0; }
-  body > aside {
-    border: none; }
-    body > aside > .wrapper > div > aside {
-      margin-bottom: 30px; }
-      body > aside > .wrapper > div > aside:last-child {
-        margin-bottom: 0; }
-      body > aside > .wrapper > div > aside ul {
-        list-style: none;
-        margin-left: 0px;
-        padding-left: 0px; }
-        body > aside > .wrapper > div > aside ul li {
-          font-size: 16px;
-          padding-top: 7.5px;
-          padding-bottom: 7.5px; }
-        body > aside > .wrapper > div > aside ul i {
-          font-size: 20px;
-          margin-right: 10px; }
-      body > aside > .wrapper > div > aside.plataformas ul li {
-        border-color: #242424; }
-        body > aside > .wrapper > div > aside.plataformas ul li i {
-          background-color: #ECF3F4; }
-        body > aside > .wrapper > div > aside.plataformas ul li a {
-          color: #7E7E7E; }
-        body > aside > .wrapper > div > aside.plataformas ul li:hover {
-          border-color: #69A0A8;
-          background-color: black; }
-          body > aside > .wrapper > div > aside.plataformas ul li:hover a {
-            color: #ECF3F4; }
-      body > aside > .wrapper > div > aside.velho-sniic {
-        margin: -15px;
-        margin-bottom: 0px;
-        padding: 15px;
-        box-shadow: 5px 5px 0px black;
-        margin-top: 0; }
-        body > aside > .wrapper > div > aside.velho-sniic img {
-          width: 190px;
-          height: 110px;
-          margin-top: 30px;
-          margin-bottom: 30px; }
-        body > aside > .wrapper > div > aside.velho-sniic button {
-          margin-top: 30px; }
-  body aside.velho-sniic, body section.velho-sniic {
+  body > aside > .wrapper > div > aside ul {
+    margin-left: 0; }
+    body > aside > .wrapper > div > aside ul li {
+      font-size: 16px;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em; }
+  body > section.velho-sniic {
     background-color: #005781;
     background: -moz-linear-gradient(top, #002C40 0%, #005781 100%);
     /* FF3.6+ */
@@ -361,11 +313,11 @@ body {
     background: linear-gradient(to bottom, #002C40 0%, #005781 100%);
     /* W3C */
     background-repeat: repeat-x; }
-  body > section.velho-sniic img {
-    min-width: 150px;
-    max-width: 300px; }
-  body > section.velho-sniic button {
-    margin-top: 30px; }
+    body > section.velho-sniic img {
+      min-width: 150px;
+      max-width: 300px; }
+    body > section.velho-sniic button {
+      margin-top: 30px; }
   body > section.mapas ul {
     margin-left: 0px;
     padding-left: 0px; }
@@ -952,6 +904,8 @@ main {
     margin-right: 10px; }
   main footer .pull-right span, main article footer .pull-right span {
     margin-left: 10px; }
+    main footer .pull-right span.tags-links, main article footer .pull-right span.tags-links {
+      display: none; }
   main footer p, main footer span, main footer a, main article footer p, main article footer span, main article footer a {
     text-transform: uppercase;
     color: #7E7E7E;

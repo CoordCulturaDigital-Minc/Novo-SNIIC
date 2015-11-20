@@ -28,12 +28,6 @@ body {
   @import 'header';
   @import 'navigation';
   @import 'aside';
-
-  aside.velho-sniic, section.velho-sniic {
-    background-color: $color-velho-sniic-second-shade-blue;
-    @include linear-vertical-gradient($color-velho-sniic-dark-blue, $color-velho-sniic-second-shade-blue);
-  }
-
   @import "section";
 
   main.publicacoes {

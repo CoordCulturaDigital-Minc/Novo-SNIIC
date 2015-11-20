@@ -19,6 +19,15 @@ a {
 	}
 }
 
+i {
+	&.before {
+		padding-right: 0.5em;
+	}
+	&.after {
+		padding-left: 0.5em;
+	}
+}
+
 &, a {
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,10 +42,6 @@ h1, h2, h3, h4, h5, h6 {
 		fill: black;
 		vertical-align: middle;
   }
-	i.after {
-		margin-left: 0.5em;
-		font-size: 0.7em;
-	}
 }
 h1 {
 	margin-bottom: $gutter;

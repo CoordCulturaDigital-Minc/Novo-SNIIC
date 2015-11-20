@@ -233,6 +233,9 @@ footer, article footer {
 	.pull-right {
 		span {
 			margin-left: $gutter/3;
+			&.tags-links {
+				display: none;
+			}
 		}
 	}
 	p, span, a {

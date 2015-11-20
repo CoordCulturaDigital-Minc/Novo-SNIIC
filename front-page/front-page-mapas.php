@@ -1,8 +1,7 @@
 <section class="container-fluid mapas"><div class="wrapper center-block clearfix row">
+
 	<div class="col-xs-12">
-	<h1 class="brand-heading">
-		<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.mapas.svg"/>
-		Mapas<span class="hidden-xs">.cultura.gov.br</span></h1>
+		<h1><?php include get_template_directory() . '/assets/sub.glyph.mapas.svg'; ?>Mapas<span class="hidden-xs">.cultura.gov.br</span></h1>
 	</div>
 
 	<div class="col-xs-12 col-sm-6 col-md-4">
@@ -27,7 +26,7 @@
 		</ul>
 	</div>
 
-	<div class="col-xs-12 col-sm-6 col-md-4">
+	<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4">
 	<a href="<?php echo MAPAS_URL; ?>"><figure>
 		<img src="<?php echo get_template_directory_uri() ?>/assets/thumbMapas.png" class="img-responsive">
 		<figcaption>Navegue pelo Mapa da Cultura</figcaption>

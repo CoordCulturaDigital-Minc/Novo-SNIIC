@@ -55,9 +55,9 @@
 		</button>
 
 		<div class="collapse collapse-xs menu" id="collapseMenu">
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu', 'menu_class' => 'hover-list menu')); ?>
+			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu', 'menu_class' => 'hover-list menu text-uppercase')); ?>
 
-			<div class="cadastre">
+			<div class="cadastre text-uppercase text-center">
 				<a href="<?php echo MAPAS_URL; ?>/painel">Cadastre-se já</a>
 			</div>
 		</div>

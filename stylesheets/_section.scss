@@ -1,5 +1,7 @@
 & > section {
   &.velho-sniic {
+    background-color: $color-velho-sniic-second-shade-blue;
+    @include linear-vertical-gradient($color-velho-sniic-dark-blue, $color-velho-sniic-second-shade-blue);
     img {
       min-width: $gutter*5;
       max-width: $gutter*10;
