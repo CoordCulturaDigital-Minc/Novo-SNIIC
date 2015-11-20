@@ -15,6 +15,14 @@ get_header(); ?>
 
 			<?php get_template_part( 'content/content', 'single' ); ?>
 
+			<div class="col-xs-12 col-sm-8 col-sm-offset-2">
+
+			  <?php get_template_part( 'content/content', 'navigation' ); ?>
+
+			  <?php if ( comments_open() || get_comments_number() ) comments_template(); ?>
+
+			</div>
+
 		</div>
 
 	<?php endwhile;?>
