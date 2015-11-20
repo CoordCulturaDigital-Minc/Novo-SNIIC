@@ -4,19 +4,23 @@
 
 <nav class="row">
   <h2 class="sr-only"><?php esc_html_e( 'Post navigation', 'argent' ); ?></h2>
-  <ul>
+
+  <ul class="list-unstyled clearfix">
 
     <?php if ($previous) : ?>
     <li class="previous col-xs-12 col-sm-6">
-      <span>Anterior</span><?php previous_post_link( '%link', '%title' ); ?>
+      <span>Anterior</span>
+      <h4><?php previous_post_link( '%link', '%title' ); ?></h4>
     </li>
     <?php endif;?>
 
     <?php if ($next) : ?>
     <li class="next col-xs-12 col-sm-6">
-      <span>Próximo</span><?php next_post_link( '%link', '%title' ); ?>
+      <span>Próximo</span>
+      <h4><?php next_post_link( '%link', '%title' ); ?></h4>
     </li>
     <?php endif;?>
 
   </ul>
+
 </nav>

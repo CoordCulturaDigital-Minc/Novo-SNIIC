@@ -7,7 +7,7 @@
 
 get_header(); ?>
 
-<main id="main" role="main"><div class="single">
+<main class="single" role="main">
 
 	<?php while ( have_posts() ) : the_post(); ?>
 
@@ -26,8 +26,6 @@ get_header(); ?>
 		</div>
 
 	<?php endwhile;?>
-
-</div>
 
 </main>
 

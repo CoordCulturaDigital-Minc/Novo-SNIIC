@@ -27,6 +27,8 @@ body {
     color: white; }
     body .dark * svg {
       fill: white; }
+  body a, body a:hover, body a:visited {
+    text-decoration: none; }
   body h1, body h2, body h3, body h4, body h5, body h6, body a h1, body a h2, body a h3, body a h4, body a h5, body a h6 {
     font-weight: 700;
     color: black; }
@@ -742,11 +744,11 @@ a img {
 .entry-header {
   display: inline-block; }
 
-.single .entry-header, .page-header {
+.page-header {
   display: block;
   margin-bottom: 3.5556em; }
 
-.single.without-featured-image .entry-header {
+.entry-header {
   margin-bottom: 1.7778em; }
 
 .entry-title {
@@ -757,7 +759,7 @@ a img {
   .entry-title a {
     color: #000; }
 
-.single .entry-title, .page-title, .page-title {
+.page-title, .page-title {
   font-size: 40px;
   font-size: 4rem;
   font-style: italic;
@@ -784,7 +786,7 @@ a img {
   margin: 0.75em 0 0; }
 
 /* Page links */
-.single .page-links, .page .page-links {
+.page .page-links {
   clear: both;
   font-size: 14px;
   font-size: 1.4rem;
@@ -952,72 +954,58 @@ main {
     margin-top: -999px; }
   main footer .byline, main footer .taxonomies, main footer .updated:not(.published), main footer .comments-link, main footer .edit-link, main article footer .byline, main article footer .taxonomies, main article footer .updated:not(.published), main article footer .comments-link, main article footer .edit-link {
     display: none; }
-  main .single {
-    margin-top: -30px; }
-    main .single > div > article, main .single > div > article header, main .single > div > article .content, main .single > div > article nav, main .single > div > article .comments-area {
+  main.single, main.page {
+    padding-top: 0; }
+    main.single > div > article, main.single > div > article header, main.single > div > article .content, main.single > div > article nav, main.single > div > article .comments-area, main.page > div > article, main.page > div > article header, main.page > div > article .content, main.page > div > article nav, main.page > div > article .comments-area {
       margin-bottom: 30px; }
-    main .single > div > article .img-clipper {
+    main.single > div > article .img-clipper, main.page > div > article .img-clipper {
       max-height: 400px; }
       @media screen and (max-width: 767px) {
-        main .single > div > article .img-clipper {
+        main.single > div > article .img-clipper, main.page > div > article .img-clipper {
           max-height: 200px; } }
-    main .single > div > article header {
+    main.single > div > article header, main.page > div > article header {
       margin-top: 60px;
       margin-bottom: 60px; }
-      main .single > div > article header h1 {
+      main.single > div > article header h1, main.page > div > article header h1 {
         text-align: center;
         line-height: 1; }
-      main .single > div > article header .meta {
+      main.single > div > article header .meta, main.page > div > article header .meta {
         text-align: center; }
-        main .single > div > article header .meta span {
+        main.single > div > article header .meta span, main.page > div > article header .meta span {
           margin: 0 7.5px 0 0;
           text-transform: uppercase;
           font-size: 14px;
           color: #7E7E7E; }
-          main .single > div > article header .meta span a {
+          main.single > div > article header .meta span a, main.page > div > article header .meta span a {
             color: black; }
-          main .single > div > article header .meta span:last-child {
+          main.single > div > article header .meta span:last-child, main.page > div > article header .meta span:last-child {
             margin-right: 0; }
           @media screen and (min-width: 768px) {
-            main .single > div > article header .meta span {
+            main.single > div > article header .meta span, main.page > div > article header .meta span {
               display: inline-block; } }
           @media screen and (max-width: 767px) {
-            main .single > div > article header .meta span {
+            main.single > div > article header .meta span, main.page > div > article header .meta span {
               display: block;
               margin: 5px 0; } }
-        main .single > div > article header .meta .byline, main .single > div > article header .meta .taxonomies, main .single > div > article header .meta .updated:not(.published), main .single > div > article header .meta .comments-link, main .single > div > article header .meta .edit-link {
+        main.single > div > article header .meta .byline, main.single > div > article header .meta .taxonomies, main.single > div > article header .meta .updated:not(.published), main.single > div > article header .meta .comments-link, main.single > div > article header .meta .edit-link, main.page > div > article header .meta .byline, main.page > div > article header .meta .taxonomies, main.page > div > article header .meta .updated:not(.published), main.page > div > article header .meta .comments-link, main.page > div > article header .meta .edit-link {
           display: none; }
-    main .single > div > article .content > * {
+    main.single > div > article .content > *, main.page > div > article .content > * {
       margin: 15px; }
-    main .single > div > article .content li {
+    main.single > div > article .content li, main.page > div > article .content li {
       margin-bottom: 5px; }
-    main .single nav {
-      margin-bottom: 30px; }
-      main .single nav ul {
-        list-style: none;
-        padding: 0; }
-        main .single nav ul li.next {
-          margin-top: 10px; }
-          @media screen and (min-width: 768px) {
-            main .single nav ul li.next {
-              margin-top: 0; }
-              main .single nav ul li.next a, main .single nav ul li.next span {
-                text-align: right !important; } }
-        main .single nav ul li span, main .single nav ul li a {
-          display: block; }
-        main .single nav ul li span {
-          text-transform: uppercase;
-          color: #7E7E7E;
-          width: auto; }
-        main .single nav ul li a {
-          line-height: 1.3;
-          font-size: 18px;
-          color: black; }
-          main .single nav ul li a:hover {
-            text-decoration: none; }
-        main .single nav ul li:hover span, main .single nav ul li:hover a {
-          color: black; }
-    main .single .comments-area h2, main .single .comments-area h3 {
+    @media screen and (max-width: 767px) {
+      main.single nav ul li.next, main.page nav ul li.next {
+        margin-top: 10px; } }
+    @media screen and (min-width: 768px) {
+      main.single nav ul li.next > *, main.page nav ul li.next > * {
+        text-align: right !important; } }
+    main.single nav ul li > *, main.page nav ul li > * {
+      display: block; }
+    main.single nav ul li span, main.page nav ul li span {
+      text-transform: uppercase;
+      color: #7E7E7E;
+      width: auto; }
+    main.single .comments-area h2, main.single .comments-area h3, main.page .comments-area h2, main.page .comments-area h3 {
       display: none; }
   main .content-listing article {
     margin-bottom: 30px; }
