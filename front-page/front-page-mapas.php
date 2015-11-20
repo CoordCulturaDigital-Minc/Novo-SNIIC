@@ -26,7 +26,7 @@
 		</ul>
 	</div>
 
-	<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4">
+	<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0">
 	<a href="<?php echo MAPAS_URL; ?>"><figure>
 		<img src="<?php echo get_template_directory_uri() ?>/assets/thumbMapas.png" class="img-responsive">
 		<figcaption>Navegue pelo Mapa da Cultura</figcaption>
