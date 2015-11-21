@@ -1,3 +1,4 @@
 .sass-cache/*
 dependencies/*
 node_modules/*
+*.css

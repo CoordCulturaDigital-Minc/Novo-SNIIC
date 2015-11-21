@@ -17,11 +17,7 @@
 
   position: fixed;
   width: 100%;
-
-  position: -webkit-sticky;
-  position: -moz-sticky;
-  position: -ms-sticky;
-  position: -o-sticky;
+  
   position: sticky;
   top: 0;
 
@@ -68,7 +64,7 @@
   }
 
   .branding a, .menu-item > a {
-    padding: $gutter/5 $gutter/2;
+    padding: calc($gutter/5) calc($gutter/2);
     display: block;
     &:hover {
       background-color: $color-dark-gray;
@@ -76,7 +72,7 @@
   }
   @media screen and (max-width: 767px) {
     .branding, .menu-item, button.menu-visibility {
-      margin: $gutter/6 0;
+      margin: calc($gutter/6) 0;
     }
   }
 
@@ -171,7 +167,7 @@
 
   .search {
     @media screen and (max-width: 767px) {
-      margin: $gutter/3 0;
+      margin: calc($gutter/3) 0;
     }
   }
 }

@@ -191,8 +191,6 @@
 	transform: translate(0, -50%);
 }
 
-@import "img-clipper";
-
 main {
 
 	& > div {
@@ -209,13 +207,13 @@ main {
 
 header.section-header {
 	.pull-right {
-		padding-top: $gutter*4/3;
+		padding-top: calc($gutter*4/3);
 		a {
 			color: $color-coal;
 			text-transform: uppercase;
 			font-weight: 600;
 			i {
-				margin-left: $gutter/3;
+				margin-left: calc($gutter/3);
 			}
 			&:hover {
 				text-decoration: none;
@@ -227,12 +225,12 @@ header.section-header {
 footer, article footer {
 	.pull-left {
 		span {
-			margin-right: $gutter/3;
+			margin-right: calc($gutter/3);
 		}
 	}
 	.pull-right {
 		span {
-			margin-left: $gutter/3;
+			margin-left: calc($gutter/3);
 			&.tags-links {
 				display: none;
 			}
@@ -252,7 +250,7 @@ footer, article footer {
 		}
 	}
 	i {
-		margin-left: $gutter/5;
+		margin-left: calc($gutter/5);
 		font-size: 15px;
 		margin-top: -999px;
 	}
@@ -280,8 +278,8 @@ SINGLE ARTICLE
 			}
 		}
 		header {
-			margin-top: $gutter * 2;
-			margin-bottom: $gutter * 2;
+			margin-top: calc($gutter * 2);
+			margin-bottom: calc($gutter * 2);
 			h1 {
 				text-align: center;
 				line-height: 1;
@@ -289,7 +287,7 @@ SINGLE ARTICLE
 			.meta {
 				text-align: center;
 				span {
-					margin: 0 $gutter/4 0 0;
+					margin: 0 calc($gutter/4) 0 0;
 					text-transform: uppercase;
 					font-size: 14px;
 					color: $color-gray;
@@ -304,7 +302,7 @@ SINGLE ARTICLE
 					}
 					@media screen and (max-width: 767px) {
 						display: block;
-						margin: $gutter/6 0;
+						margin: calc($gutter/6) 0;
 					}
 				}
 				.byline, .taxonomies, .updated:not(.published), .comments-link, .edit-link {
@@ -315,10 +313,10 @@ SINGLE ARTICLE
 
 		.content {
 			& > * {
-				margin: $gutter/2;
+				margin: calc($gutter/2);
 			}
 			li {
-				margin-bottom: $gutter/6;
+				margin-bottom: calc($gutter/6);
 			}
 		}
 
@@ -329,7 +327,7 @@ SINGLE ARTICLE
 			li {
 				&.next {
 					@media screen and (max-width: 767px) {
-						margin-top: $gutter/3;
+						margin-top: calc($gutter/3);
 					}
 					@media screen and (min-width: 768px) {
 						& > * {
@@ -366,12 +364,12 @@ LISTING OF ARTICLES
 		margin-bottom: $gutter;
 
 		& > footer {
-			padding: $gutter/3;
+			padding: calc($gutter/3);
 			margin-top: 2px;
 			background-color: rgb(246, 249, 250);
 		}
 		.media {
-			padding: $gutter/2;
+			padding: calc($gutter/2);
 			background-color: white;
 			box-shadow: 0px 1px 1px gray;
 			.media-left {
@@ -411,7 +409,7 @@ LISTING OF ARTICLES
 				}
 				.media-right {
 					header {
-						margin-top: $gutter/2;
+						margin-top: calc($gutter/2);
 						h1 {
 							font-size: 30px !important;
 						}

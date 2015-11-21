@@ -1,11 +1,13 @@
+@charset "UTF-8";
+
 @import "info";
 @import "colors";
 @import "mixins";
 
-$gutter: 30px; // medianiz
+$gutter: 30px;
 
-@media screen and (min-width: 768px) {
-  .collapse-xs {
+.collapse-xs {
+  @media screen and (min-width: 768px) {
     display: block !important;
     height: auto !important;
   }
@@ -25,15 +27,15 @@ body {
     text-decoration: none;
   }
 
-  @import 'header';
-  @import 'navigation';
-  @import 'aside';
+  @import "header";
+  @import "navigation";
+  @import "aside";
   @import "section";
 
   main.publicacoes {
     article.publicacoes {
       & > header {
-        padding: 15px;
+        padding: calc($gutter/2);
         h1 {
           font-size: 30px;
         }
@@ -69,8 +71,8 @@ body {
       }
       & > article, & > section {
         padding: $gutter;
-        margin-left: -$gutter/2;
-        margin-right: -$gutter/2;
+        margin-left: calc(-$gutter/2);
+        margin-right: calc(-$gutter/2);
         margin-bottom: 0;
         img {
           margin-bottom: $gutter;
@@ -98,6 +100,7 @@ body {
 @import "alignments";
 @import "clearings";
 @import "content";
+@import "img-clipper";
 @import "comments";
 @import "scroll";
 @import "media";
