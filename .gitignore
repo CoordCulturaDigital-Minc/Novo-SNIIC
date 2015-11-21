@@ -1,4 +1,3 @@
-.sass-cache/*
-dependencies/*
+bower_components/*
 node_modules/*
 *.css

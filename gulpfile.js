@@ -32,5 +32,5 @@ gulp.task('stylesheets', function () {
 gulp.task('bower', function() {
   var bower = require('gulp-bower');
 
-  return bower('./dependencies');
+  return bower();
 });

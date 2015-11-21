@@ -244,7 +244,7 @@ require get_template_directory() . '/inc/sniic_save_search.php';
 
 function argent_neue_dependencies () {
 
-	$bower_directory = get_template_directory_uri() . '/dependencies';
+	$bower_directory = get_template_directory_uri() . '/bower_components';
 
 	// NECOLAS NORMALIZE.CSS
 	wp_enqueue_style( 'normalize.css', $bower_directory . '/normalize.css/normalize.css' );
