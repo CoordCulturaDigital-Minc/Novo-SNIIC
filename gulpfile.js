@@ -1,36 +1,36 @@
 var gulp = require('gulp');
-var rename = require ('gulp-rename');
 
 gulp.task('default', ['stylesheets', 'bower']);
 
-var postcss = require('gulp-postcss');
-
 gulp.task('stylesheets', function () {
+  var postcss = require('gulp-postcss');
+      nano = require('gulp-cssnano');
+      rename = require ('gulp-rename');
+
+  var precss = require('precss');
+      autoprefixer = require('autoprefixer');
+      cssnext = require('cssnext');
+
   return gulp.src('./*.pcss')
     .pipe(postcss([
-      require('precss')({
+      precss({
         import: ({
           prefix: 'stylesheets/_',
           extension: 'pcss'
         })
       }),
-      require('postcss-discard-comments'),
-      require('autoprefixer'),
-      require('postcss-calc')
+      autoprefixer,
+      cssnext
     ]))
     .pipe(rename({
       extname: ".css"
     }))
+    .pipe(nano())
     .pipe(gulp.dest('./'));
 });
 
-var bower = require('gulp-bower');
-
 gulp.task('bower', function() {
-  return bower('./dependencies');
-});
+  var bower = require('gulp-bower');
 
-gulp.task('watch', function() {
-  gulp.watch('stylesheets/*', ['stylesheets']);
-  gulp.watch(['.bowerrc', 'bower.json'], ['bower']);
+  return bower('./dependencies');
 });
