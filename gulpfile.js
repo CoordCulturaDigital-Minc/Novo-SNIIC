@@ -34,3 +34,7 @@ gulp.task('bower', function() {
 
   return bower();
 });
+
+gulp.task('watch', function() {
+  gulp.watch(['*.pcss', 'stylesheets/*.pcss'], ['stylesheets']);
+});
