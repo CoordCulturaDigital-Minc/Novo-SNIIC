@@ -1,0 +1,27 @@
+& > section {
+  &.velho-sniic {
+    @mixin linear-vertical-gradient $color-velho-sniic-dark-blue, $color-velho-sniic-second-shade-blue;
+
+    img {
+      min-width: calc($gutter*5);
+      max-width: calc($gutter*10);
+    }
+    button {
+      margin-top: $gutter;
+    }
+  }
+  &.mapas {
+    ul {
+      margin-left: 0px;
+      padding-left: 0px;
+      li {
+        font-size: 16px;
+        margin-bottom: calc($gutter/2);
+      }
+      i {
+        font-size: 20px;
+        margin-right: calc($gutter/3);
+      }
+    }
+  }
+}
