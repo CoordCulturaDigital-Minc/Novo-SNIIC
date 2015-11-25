@@ -19,36 +19,6 @@ function argent_header_background() {
 }
 add_action( 'wp_enqueue_scripts', 'argent_header_background', 11 );
 
-if ( ! function_exists( 'the_posts_navigation' ) ) :
-/**
- * Display navigation to next/previous set of posts when applicable.
- *
- * @todo Remove this function when WordPress 4.3 is released.
- */
-function the_posts_navigation() {
-	// Don't print empty markup if there's only one page.
-	if ( $GLOBALS['wp_query']->max_num_pages < 2 ) {
-		return;
-	}
-	?>
-	<nav class="navigation posts-navigation" role="navigation">
-		<h2 class="sr-only"><?php esc_html_e( 'Posts navigation', 'argent' ); ?></h2>
-		<div class="nav-links">
-
-			<?php if ( get_next_posts_link() ) : ?>
-			<div class="nav-previous"><?php next_posts_link( esc_html__( 'Previous', 'argent' ) ); ?></div>
-			<?php endif; ?>
-
-			<?php if ( get_previous_posts_link() ) : ?>
-			<div class="nav-next"><?php previous_posts_link( esc_html__( 'Next', 'argent' ) ); ?></div>
-			<?php endif; ?>
-
-		</div><!-- .nav-links -->
-	</nav><!-- .navigation -->
-	<?php
-}
-endif;
-
 if ( ! function_exists( 'argent_posted_on' ) ) :
 /**
  * Prints HTML with meta information for the current post-date/time and author.

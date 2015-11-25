@@ -50,7 +50,7 @@ get_header(); ?>
 
 	<?php endif; ?>
 
-		<?php the_posts_navigation(); ?>
+		<?php get_template_part( 'content/content', 'pagination' ); ?>
 
 	<?php else : ?>
 
