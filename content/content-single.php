@@ -16,13 +16,13 @@
     <header>
 
       <h1><?php the_title(); ?>
-        <small><?php edit_post_link( '<i class="fa fa-pencil-square-o"></i>' ); ?></small>
+        <span class="edit-link"><?php edit_post_link( '<i class="fa fa-pencil-square-o"></i>' ); ?></span>
       </h1>
 
       <div class="meta">
 
         <?php if ( 'post' == get_post_type() ) : ?>
-            <?php argent_posted_on(); ?>
+            <?php get_template_part( 'content/content', 'post-date' ); ?>
         <?php endif; ?>
 
         <?php get_template_part( 'content/content', 'meta' ); ?>

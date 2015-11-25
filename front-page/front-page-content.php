@@ -18,7 +18,7 @@
   <footer>
     <?php if ( 'post' == get_post_type() ) : ?>
       <div class="entry-meta">
-        <?php argent_posted_on(); ?>
+        <?php get_template_part( 'content/content', 'post-date' ); ?>
       </div>
     <?php endif; ?>
 
