@@ -17,6 +17,7 @@
     </div>
   </a>
   <footer class="clearfix">
+
     <?php if ( 'post' == get_post_type() ) : ?>
       <div class="pull-left">
         <?php argent_posted_on(); ?>
@@ -24,7 +25,8 @@
     <?php endif; ?>
 
 		<div class="pull-right">
-	     <?php argent_entry_meta(); ?>
+	     <?php get_template_part( 'content/content', 'meta' ); ?>
 		</div>
+
   </footer>
 </article>

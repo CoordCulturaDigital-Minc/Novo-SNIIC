@@ -15,7 +15,9 @@
 
     <header>
 
-      <h1><?php the_title(); ?></h1>
+      <h1><?php the_title(); ?>
+        <small><?php edit_post_link( '<i class="fa fa-pencil-square-o"></i>' ); ?></small>
+      </h1>
 
       <div class="meta">
 
@@ -23,7 +25,7 @@
             <?php argent_posted_on(); ?>
         <?php endif; ?>
 
-        <?php argent_entry_meta(); ?>
+        <?php get_template_part( 'content/content', 'meta' ); ?>
 
       </div>
 

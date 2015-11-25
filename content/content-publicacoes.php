@@ -1,11 +1,14 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <footer class="clearfix">
+
     <div class="pull-left">
-      <?php argent_entry_meta(); ?>
+      <?php get_template_part( 'content/content', 'meta' ); ?>
     </div>
+
     <div class="pubdate pull-right">
       <span class="entry-meta">Publicação: <a href=""><?php echo the_fonte_ano(); ?></a></span>
     </div>
+
   </footer>
 
   <a class="" href="<?php the_permalink(); ?>">
@@ -18,7 +21,9 @@
 
       <div class="media-right">
         <header>
-          <h1 class="entry-title"><?php the_title(); ?></h1>
+          <h1 class="entry-title"><?php the_title(); ?>
+            <small><?php edit_post_link( '<i class="fa fa-pencil-square-o"></i>' ); ?></small>
+          </h1>
         </header>
 
         <?php the_excerpt(); ?>
