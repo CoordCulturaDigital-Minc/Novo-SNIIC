@@ -296,6 +296,6 @@ function spagobi_shortcode( $atts ) {
 		), $atts )
 	);
 
-	return '<iframe src="http://spagobi.lab.cultura.gov.br/SpagoBISDK/verdocspago.jsp?documentLabel=' . $documentlabel . '" width="100%" height="'.$height.'" />';
+	return '<iframe src="http://spagobi.lab.cultura.gov.br/SpagoBISDK/verdocspago.jsp?documentLabel=' . $documentlabel . '" width="100%" height="'.$height.'" ></iframe>';
 }
 add_shortcode( 'spagobi', 'spagobi_shortcode' );
