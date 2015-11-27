@@ -1,7 +1,7 @@
 {
   "name": "SNIIC",
   "title": "SNIIC",
-  "version": "0.1",
+  "version": "1.0.0",
   "description": "Wordpress theme for SNIIC website",
   "author": {
     "name": "Tiago Mergulhão",
@@ -11,12 +11,6 @@
     "type": "git",
     "url": "git://github.com/CoordCulturaDigital-Minc/Novo-SNIIC.git"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://mit-license.org/markdalgleish"
-    }
-  ],
   "keywords": [
     "Wordpress",
     "responsive"
