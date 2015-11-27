@@ -17,7 +17,7 @@
 
   position: fixed;
   width: 100%;
-  
+
   position: sticky;
   top: 0;
 
@@ -115,7 +115,7 @@
       a {
         background-color: $color-teal;
         color: $color-nil;
-        font-size: 15px;
+        /*font-size: 15px;*/
         font-weight: 800;
         line-height: 2;
         padding: 6px 15px;
@@ -131,27 +131,56 @@
     }
   }
   .menu {
+    .menu-item {
+      a {
+        white-space: nowrap !important;
+      }
+    }
+  }
+  ul.menu {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    & > li.menu-item {
+      position: relative;
+      & > a {
+        line-height: 2;
+        /*font-size: 15px;*/
+        text-align: center;
+      }
+      & > .sub-menu {
+        & > .menu-item {
+          & > a {
+
+          }
+        }
+      }
+    }
+  }
+  .menu {
     float: right;
     @media screen and (max-width: 767px) {
       width: 100%;
     }
-    ul {
-      list-style: none;
-      margin: 0;
-      padding-left: 0;
-    }
-    .menu-item {
-      font-size: 15px;
-      text-align: center;
-      a {
-        line-height: 2;
-      }
+    & > .menu-item {
       @media screen and (min-width: 768px) {
         display: inline-block;
       }
-    }
-    .sub-menu {
-      display: none;
+      /*&:hover .sub-menu {
+        display: block;
+      }*/
+      & > .sub-menu {
+        display: none;
+        position: absolute;
+        right: 0;
+        & > .menu-item {
+          display: block;
+          width: 100%;
+          & > a {
+            /*font-size: 0.8em;*/
+          }
+        }
+      }
     }
   }
 
