@@ -282,20 +282,4 @@ function sniic_change_sender($email){
 }
 add_filter("wp_mail_from", "sniic_change_sender");
 
-
-
-///////////////////////// SPAGO BI Shortcode \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
-function spagobi_shortcode( $atts ) {
-
-	// Attributes
-	extract( shortcode_atts(
-		array(
-			'documentlabel' => '', //nomes de atributo sao todos lowercase
-			'height' => '500px',
-		), $atts )
-	);
-
-	return '<iframe src="http://spagobi.lab.cultura.gov.br/SpagoBISDK/verdocspago.jsp?documentLabel=' . $documentlabel . '" width="100%" height="'.$height.'" ></iframe>';
-}
-add_shortcode( 'spagobi', 'spagobi_shortcode' );
+include ('shortcodes.php');
