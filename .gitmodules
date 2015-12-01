@@ -1,0 +1,3 @@
+[submodule "SpagoBI-ChartStyleOverride"]
+	path = SpagoBI-ChartStyleOverride
+	url = https://github.com/CoordCulturaDigital-Minc/SpagoBI-ChartStyleOverride.git
