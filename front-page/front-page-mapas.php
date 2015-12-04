@@ -13,16 +13,16 @@
 		<h4>Explore</h4>
 		<ul class="list-unstyled">
 			<li id="counter-agent"><a href="<?php echo MAPAS_URL; ?>/busca/##(global:(enabled:(agent:!t),filterEntity:agent))">
-        <i class="fa fa-user"></i><span class="buscando">…</span> agentes</a></li>
+        <i class="fa fa-user before"></i><span class="buscando">…</span> agentes</a></li>
 
 			<li id="counter-space"><a href="<?php echo MAPAS_URL; ?>/busca/##(global:(enabled:(space:!t),filterEntity:space))">
-			     <i class="fa fa-building-o"></i><span class="buscando">…</span> espaços</a></li>
+			     <i class="fa fa-building-o before"></i><span class="buscando">…</span> espaços</a></li>
 
 			<li id="counter-project"><a href="<?php echo MAPAS_URL; ?>/busca/##(global:(enabled:(project:!t),filterEntity:project))">
-			<i class="fa fa-file-o"></i><span class="buscando">…</span> projetos</a></li>
+			<i class="fa fa-file-o before"></i><span class="buscando">…</span> projetos</a></li>
 
       <li id="counter-event" class="hidden"><a href="">
-			<i class="fa fa-calendar"></i><span class="buscando">…</span> eventos</a></li>
+			<i class="fa fa-calendar before"></i><span class="buscando">…</span> eventos</a></li>
 		</ul>
 	</div>
 

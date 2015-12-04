@@ -1,11 +1,4 @@
-<?php
-/**
- * The template for displaying all single posts.
- *
- * @package Argent
- */
-
-get_header(); ?>
+<?php get_header(); ?>
 
 <main class="single" role="main">
 

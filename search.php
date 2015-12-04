@@ -122,12 +122,12 @@ get_header(); ?>
 		<?php if (get_search_query()): ?>
 			<aside>
 				<h4>Buscar nas plataformas</h4>
-				<ul>
+				<ul class="list-unstyled">
 					<li>
 						<h5 class="brand-heading">
 							<img src="<?php echo get_template_directory_uri() ?>/assets/sub.glyph.mapas.svg"/>
 							Mapas<span>.cultura.gov.br</span></h5>
-						<ul>
+						<ul class="list-unstyled">
 							<li><a href="<?php echo MAPAS_URL; ?>/busca/##(global:(enabled:(agent:!t),filterEntity:agent),agent:(keyword:'<?php echo get_search_query(); ?>'))" target="blank">
 								Agentes Culturais com "<em><?php echo get_search_query(); ?></em>"
 							</a></li>

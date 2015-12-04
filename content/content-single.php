@@ -23,6 +23,10 @@
 
         <?php if ( 'post' == get_post_type() ) : ?>
             <?php get_template_part( 'content/content', 'post-date' ); ?>
+        <?php else: ?>
+          <?php if ( the_fonte_ano() != '') : ?><span><i class="fa fa-calendar before"></i><a href=""><?php echo the_fonte_ano(); ?></a></span><?php endif; ?>
+          <?php if ( the_fonte_link() != '') : ?><span><i class="fa fa-university before"></i><a href="<?php echo the_fonte_link(); ?>"><?php echo the_fonte_name(); ?></a></span><?php endif; ?>
+          <?php if ( the_pdf_link() != '') : ?><span><i class="fa fa-arrow-circle-o-down before"></i><a href="<?php echo the_pdf_link(); ?>">Baixar PDF</a><span><?php endif; ?>
         <?php endif; ?>
 
         <?php get_template_part( 'content/content', 'meta' ); ?>
