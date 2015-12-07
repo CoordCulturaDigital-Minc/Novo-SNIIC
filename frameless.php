@@ -13,11 +13,11 @@
 
 	<?php while ( have_posts() ) : the_post(); ?>
 
-		<div class="clearfix row">
+		<div class="clearfix row"><div class="col-xs-12">
 
 		<?php the_content(); ?>
 
-		</div>
+		</div></div>
 
 	<?php endwhile; ?>
 
