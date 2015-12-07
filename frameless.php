@@ -13,27 +13,9 @@
 
 	<?php while ( have_posts() ) : the_post(); ?>
 
-		<div class="wrapper center-block clearfix row">
+		<div class="clearfix row">
 
-		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
-			<div class="col-xs-12">
-
-		    <div class="content">
-
-		      <?php the_content(); ?>
-
-		    </div>
-
-			</div>
-
-		</article>
-
-		<div class="col-xs-12 col-sm-8 col-sm-offset-2 hidden">
-
-			<?php if ( comments_open() || get_comments_number() ) comments_template(); ?>
-
-		</div>
+		<?php the_content(); ?>
 
 		</div>
 
