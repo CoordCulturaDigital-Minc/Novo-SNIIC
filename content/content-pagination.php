@@ -5,11 +5,11 @@
   <div class="nav-links">
 
     <?php if ( get_next_posts_link() ) : ?>
-    <div class="nav-previous"><?php next_posts_link( esc_html__( 'Previous', 'argent' ) ); ?></div>
+      <div class="nav-previous"><?php next_posts_link( '<i class="fa fa-arrow-left"></i>' ); ?></div>
     <?php endif; ?>
 
     <?php if ( get_previous_posts_link() ) : ?>
-    <div class="nav-next"><?php previous_posts_link( esc_html__( 'Next', 'argent' ) ); ?></div>
+      <div class="nav-next"><?php previous_posts_link( '<i class="fa fa-arrow-right"></i>' ); ?></div>
     <?php endif; ?>
 
   </div>
