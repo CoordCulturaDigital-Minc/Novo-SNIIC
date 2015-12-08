@@ -20,7 +20,7 @@ function bootstrap_text_wrapper($atts, $content = null) {
 			'backgroundcolor' => 'transparent',
 		), $atts )
 	);
-	return '<div class="clearfix row" style="background-color:'. $backgroundcolor .'"><div class="wrapper center-block"><div class="col-xs-12 col-sm-10 col-md-8">'. do_shortcode($content) . '</div></div></div>';
+	return '<div class="clearfix row" style="background-color:'. $backgroundcolor .'"><div class="wrapper center-block"><div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-8 col-sm-offset-2">'. do_shortcode($content) . '</div></div></div>';
 }
 add_shortcode( 'twbs_txt', 'bootstrap_text_wrapper' );
 
