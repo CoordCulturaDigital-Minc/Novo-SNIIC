@@ -14,6 +14,16 @@ function spagobi_shortcode( $atts ) {
 }
 add_shortcode( 'spagobi', 'spagobi_shortcode' );
 
+function bootstrap_text_wrapper($atts, $content = null) {
+	extract( shortcode_atts(
+		array(
+			'backgroundcolor' => 'transparent',
+		), $atts )
+	);
+	return '<div class="clearfix row" style="background-color:'. $backgroundcolor .'"><div class="wrapper center-block"><div class="col-xs-12 col-sm-10 col-md-8">'. do_shortcode($content) . '</div></div></div>';
+}
+add_shortcode( 'twbs_txt', 'bootstrap_text_wrapper' );
+
 function bootstrap_wrapper($atts, $content = null) {
 	extract( shortcode_atts(
 		array(
