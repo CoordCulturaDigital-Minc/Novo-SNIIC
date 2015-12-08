@@ -264,6 +264,11 @@ SINGLE ARTICLE
 &.single, &.page {
 	padding-top: 0;
 
+	&.frameless {
+		background-color: transparent;
+		padding-bottom: 0;
+	}
+
 	& > div > article {
 		&, header, .content, nav, .comments-area {
 			margin-bottom: $gutter;
