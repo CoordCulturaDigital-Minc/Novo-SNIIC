@@ -20,7 +20,7 @@ function bootstrap_wrapper($atts, $content = null) {
 			'backgroundcolor' => 'transparent',
 		), $atts )
 	);
-	return '<div class="clearfix row" style="background-color:'. $backgroundcolor .'"><div class="wrapper center-block"><div class="col-xs-12">'. $content. '</div></div></div>';
+	return '<div class="clearfix row" style="background-color:'. $backgroundcolor .'"><div class="wrapper center-block"><div class="col-xs-12">'. do_shortcode($content) . '</div></div></div>';
 }
 add_shortcode( 'twbs_wrapper', 'bootstrap_wrapper' );
 
@@ -30,6 +30,6 @@ function bootstrap_frameless($atts, $content = null) {
 			'backgroundcolor' => 'transparent',
 		), $atts )
 	);
-	return '<div class="clearfix row" style="background-color:'. $backgroundcolor .'"><div class="col-xs-12">'. $content. '</div></div>';
+	return '<div class="clearfix row" style="background-color:'. $backgroundcolor .'"><div class="col-xs-12">'. do_shortcode($content) . '</div></div>';
 }
 add_shortcode( 'twbs_frameless', 'bootstrap_frameless' );
