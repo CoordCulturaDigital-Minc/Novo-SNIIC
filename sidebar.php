@@ -11,7 +11,7 @@
 
 		<!-- TODO: Melhorar forma de expor isso... está meio cru, acho. -->
 		<aside class="contato">
-			<a href="http://sniic.cultura.gov.br/contato/"><h3>Contato<i class="fa fa-chevron-right after"></i></h3></a>
+			<h3>Contato</h3>
 			<ul class="hover-list list-unstyled">
 				<li><i class="fa fa-envelope before"></i>
 					<script type="text/javascript">
