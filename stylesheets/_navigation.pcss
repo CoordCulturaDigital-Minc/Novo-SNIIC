@@ -178,16 +178,17 @@
           }
         }
       }
-      & > .sub-menu {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        text-transform: none;
-        & > .menu-item {
-          text-align: center;
+      @media screen and (max-width: 767px) {
+        & > .sub-menu {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          text-transform: none;
+          & > .menu-item {
+            text-align: center;
+          }
         }
       }
-
     }
   }
 
