@@ -36,7 +36,7 @@
           a {
             display: inline-block;
             vertical-align: middle;
-            margin: $gutter 0;
+            margin: calc($gutter/3) 0 calc($gutter/2);
           }
         }
       }
@@ -115,7 +115,6 @@
       a {
         background-color: $color-teal;
         color: $color-nil;
-        /*font-size: 15px;*/
         font-weight: 800;
         line-height: 2;
         padding: 6px 15px;
@@ -145,7 +144,7 @@
       position: relative;
       & > a {
         line-height: 2;
-        /*font-size: 15px;*/
+        font-size: 15px;
         text-align: center;
       }
       & > .sub-menu {
@@ -165,22 +164,30 @@
     & > .menu-item {
       @media screen and (min-width: 768px) {
         display: inline-block;
-      }
-      /*&:hover .sub-menu {
-        display: block;
-      }*/
-      & > .sub-menu {
-        display: none;
-        position: absolute;
-        right: 0;
-        & > .menu-item {
+        &:hover .sub-menu {
           display: block;
-          width: 100%;
-          & > a {
-            /*font-size: 0.8em;*/
+          text-align: right;
+        }
+        & > .sub-menu {
+          display: none;
+          position: absolute;
+          right: 0;
+          & > .menu-item {
+            display: block;
+            width: 100%;
           }
         }
       }
+      & > .sub-menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-transform: none;
+        & > .menu-item {
+          text-align: center;
+        }
+      }
+
     }
   }
 
