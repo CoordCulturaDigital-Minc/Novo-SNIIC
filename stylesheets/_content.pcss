@@ -267,6 +267,16 @@ SINGLE ARTICLE
 	&.frameless {
 		background-color: transparent;
 		padding-bottom: 0;
+		& > * {
+			padding-top: calc($gutter/2);
+			padding-bottom: calc($gutter/2);
+			&:first-child {
+				padding-top: $gutter;
+			}
+			&:last-child {
+				padding-bottom: $gutter;
+			}
+		}
 	}
 
 	& > div > article {
