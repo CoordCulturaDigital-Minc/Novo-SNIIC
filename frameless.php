@@ -9,7 +9,7 @@
 	</div>
 </div></section>
 
-<main class="page frameless" role="main">
+<main class="container-fluid page frameless" role="main">
 
 	<?php while ( have_posts() ) : the_post(); ?>
 
