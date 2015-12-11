@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <section class="container-fluid busca dark"><div class="wrapper center-block clearfix row">
-	<div class="col-xs-12 col-sm-6">
+	<div class="col-xs-12 col-sm-10">
 		<h1 class="brand-heading"><?php the_title(); ?>
 			<span class="edit-link"><?php edit_post_link( '<i class="fa fa-pencil-square-o"></i>' ); ?></span>
 		</h1>

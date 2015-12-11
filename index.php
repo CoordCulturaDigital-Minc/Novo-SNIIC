@@ -10,7 +10,7 @@
 get_header(); ?>
 
 <section class="container-fluid busca dark"><div class="wrapper center-block clearfix row">
-	<div class="col-xs-12 col-sm-6">
+	<div class="col-xs-12 col-sm-10">
 		<h1 class="brand-heading">Notícias</h1>
 	</div>
 </div></section>

@@ -5,7 +5,7 @@
 get_header(); ?>
 
 <section class="container-fluid busca dark"><div class="wrapper center-block clearfix row">
-	<div class="col-xs-12 col-sm-6">
+	<div class="col-xs-12 col-sm-10">
 		<h1 class="brand-heading">
 			<?php include get_template_directory() . '/assets/sub.glyph.publicacoes.svg'; ?>Publicações<span class="hidden">.cultura.gov.br</span></h1>
 	</div>
