@@ -29,6 +29,11 @@ function h3_shortcode( $atts, $content = null ) {
 }
 add_shortcode( 'h3', 'h3_shortcode' );
 
+function h4_shortcode( $atts, $content = null ) {
+	return '<h4>' . $content . '</h4>';
+}
+add_shortcode( 'h4', 'h4_shortcode' );
+
 function blockquote_shortcode( $atts, $content = null ) {
 	return '<blockquote>' . $content . '</blockquote>';
 }
