@@ -14,22 +14,22 @@ function spagobi_shortcode( $atts ) {
 }
 add_shortcode( 'spagobi', 'spagobi_shortcode' );
 
-function h1_shortcode( $content = null ) {
+function h1_shortcode( $atts, $content = null ) {
 	return '<h1>' . $content . '</h1>';
 }
 add_shortcode( 'h1', 'h1_shortcode' );
 
-function h2_shortcode( $content = null ) {
+function h2_shortcode( $atts, $content = null ) {
 	return '<h2>' . $content . '</h2>';
 }
 add_shortcode( 'h2', 'h2_shortcode' );
 
-function h3_shortcode( $content = null ) {
+function h3_shortcode( $atts, $content = null ) {
 	return '<h3>' . $content . '</h3>';
 }
 add_shortcode( 'h3', 'h3_shortcode' );
 
-function blockquote_shortcode( $content = null ) {
+function blockquote_shortcode( $atts, $content = null ) {
 	return '<blockquote>' . $content . '</blockquote>';
 }
 add_shortcode( 'blockquote', 'blockquote_shortcode' );
