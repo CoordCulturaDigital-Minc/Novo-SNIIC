@@ -1,18 +1,18 @@
 <?php
 
-function spagobi_dashboard_shortcode( $atts ) {
+function spagobi_shortcode( $atts ) {
 	// Attributes
 	extract( shortcode_atts(
 		array(
 			'label' => '', //nomes de atributo sao todos lowercase
-			'height' => '500px',
+			'height' => '540px',
 			'width' => '100%',
 		), $atts )
 	);
 
 	return do_shortcode('[twbs_frameless]' . '<iframe frameborder="no" width="' . $width . '" scrolling="no" src="http://spagobi.lab.cultura.gov.br/SpagoBISDK/verdocspago.jsp?documentLabel=' . $label . '" height="'.$height.'" ></iframe>' . '[/twbs_frameless]');
 }
-add_shortcode( 'spagobi', 'spagobi_dashboard_shortcode' );
+add_shortcode( 'spagobi', 'spagobi_shortcode' );
 
 function h1_shortcode( $content = null ) {
 	return '<h1>' . $content . '</h1>';
