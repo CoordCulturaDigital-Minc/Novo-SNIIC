@@ -6,12 +6,14 @@ gulp.task('stylesheets', function () {
   var postcss = require('gulp-postcss');
       nano = require('gulp-cssnano');
       rename = require ('gulp-rename');
+      sourcemaps = require('gulp-sourcemaps');
 
   var precss = require('precss');
       autoprefixer = require('autoprefixer');
       cssnext = require('cssnext');
 
   return gulp.src('./*.pcss')
+    .pipe( sourcemaps.init() )
     .pipe(postcss([
       precss({
         import: ({
@@ -26,6 +28,7 @@ gulp.task('stylesheets', function () {
       extname: ".css"
     }))
     .pipe(nano())
+    .pipe( sourcemaps.write('.') )
     .pipe(gulp.dest('./'));
 });
 
