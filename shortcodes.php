@@ -10,7 +10,7 @@ function spagobi_shortcode( $atts ) {
 		), $atts )
 	);
 
-	return do_shortcode('[twbs_frameless]' . '<iframe frameborder="no" width="' . $width . '" scrolling="no" src="http://spagobi.lab.cultura.gov.br/SpagoBISDK/verdocspago.jsp?documentLabel=' . $label . '" height="'.$height.'" ></iframe>' . '[/twbs_frameless]');
+	return do_shortcode('[twbs_frameless]' . '<iframe frameborder="no" width="' . $width . '" scrolling="no" src="http://alpha.indicadores.cultura.gov.br/SpagoBISDK/verdocspago.jsp?documentLabel=' . $label . '" height="'.$height.'" ></iframe>' . '[/twbs_frameless]');
 }
 add_shortcode( 'spagobi', 'spagobi_shortcode' );
 
