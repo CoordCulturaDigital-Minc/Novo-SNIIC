@@ -1,7 +1,7 @@
 <?php /* Template Name: Início */ ?>
 <?php get_header(); ?>
 
-<?php while ( have_posts() ) : the_post(); ?>
+<?php the_post(); ?>
 
 <header class="container-fluid dark text-center">
 	<div class="wrapper center-block clearfix row">
@@ -98,8 +98,6 @@
 		<?php get_template_part( 'content/content', 'listing' ); ?>
 	</div>
 </main>
-
-<?php endwhile; ?>
 
 <?php get_sidebar(); ?>
 
