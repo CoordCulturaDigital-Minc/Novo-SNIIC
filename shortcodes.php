@@ -14,6 +14,11 @@ function spagobi_shortcode( $atts ) {
 }
 add_shortcode( 'spagobi', 'spagobi_shortcode' );
 
+function lead_shortcode( $atts, $content = null ) {
+	return '<p class="lead">' . $content . '</p>';
+}
+add_shortcode( 'lead', 'lead_shortcode' );
+
 function h1_shortcode( $atts, $content = null ) {
 	return '<h1>' . $content . '</h1>';
 }
@@ -58,6 +63,28 @@ function bootstrap_wrapper($atts, $content = null) {
 	return '<div class="clearfix row" style="background-color:'. $backgroundcolor .'"><div class="wrapper center-block"><div class="col-xs-12">'. do_shortcode($content) . '</div></div></div>';
 }
 add_shortcode( 'twbs_wrapper', 'bootstrap_wrapper' );
+
+function img_section_shortcode($atts, $content = null) {
+	extract( shortcode_atts(
+		array(
+			'img' => '',
+			'mode' => 'multiply',
+			'color' => '',
+			'url' => '',
+		), $atts )
+	);
+
+	if ($img == '') return;
+	if ($color == '') return;
+
+	$link = $url == '' ? '' : '<a href="' . $url . '"><h4>Saiba mais<i class="fa fa-chevron-right after"></i></h4>';
+
+	return 	'<div class="clearfix row img-section text-center dark" style="background-image: url(' . $img .
+					'); background-color: #' . $color .
+					';"><div class="wrapper center-block"><div class="col-xs-12 col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">'. do_shortcode($content) .
+					$link . '</div></div></div>';
+}
+add_shortcode( 'img_section', 'img_section_shortcode' );
 
 function bootstrap_frameless($atts, $content = null) {
 	extract( shortcode_atts(

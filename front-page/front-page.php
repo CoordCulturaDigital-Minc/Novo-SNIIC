@@ -1,7 +1,9 @@
 <?php /* Template Name: Início */ ?>
 <?php get_header(); ?>
 
-<header class="container-fluid hidden-xs dark text-center">
+<?php while ( have_posts() ) : the_post(); ?>
+
+<header class="container-fluid dark text-center">
 	<div class="wrapper center-block clearfix row">
 
 	<div id="branding_simple" class="visible-xs center-block lead">
@@ -13,10 +15,10 @@
 	</div>
 
 	<div>
-		<p class="lead">Conheça e explore a nova plataforma</p>
+		<h1><?php the_title(); ?></h1>
 	</div>
 
-	<div class="col-xs-12 col-sm-8 col-sm-offset-2 lead">
+	<div class="col-xs-12 col-sm-8 col-sm-offset-2 hidden-xs lead">
 		<?php echo get_search_form(); ?>
 	</div>
 
@@ -39,6 +41,12 @@
 	</div>
 
 </div></section>
+
+<main class="container-fluid page frameless" role="main">
+
+		<?php the_content(); ?>
+
+</main>
 
 <?php get_template_part( 'front-page/front-page', 'mapas' ); ?>
 
@@ -90,6 +98,8 @@
 		<?php get_template_part( 'content/content', 'listing' ); ?>
 	</div>
 </main>
+
+<?php endwhile; ?>
 
 <?php get_sidebar(); ?>
 
