@@ -19,6 +19,7 @@
 					</script>
 				<noscript>Javascript indisponível</noscript></li>
 				<li><a href="tel:+556120242230"><i class="fa fa-phone before"></i>+55 (61) 2024-2230</a></li>
+				<li><a href="tel:+556120242260"><i class="fa fa-phone before"></i>+55 (61) 2024-2260</a></li>
 			</ul>
 		</aside>
 
