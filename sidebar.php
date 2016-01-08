@@ -33,6 +33,7 @@
 			<ul class="hover-list list-unstyled">
 				<li><a href="https://github.com/CoordCulturaDigital-MinC/"><i class="fa fa-github-alt before"></i>/CoordCulturaDigital-MinC</a></li>
 				<li><a href="https://www.youtube.com/user/ministeriodacultura/"><i class="fa fa-youtube-play before"></i>/ministeriodacultura</a></li>
+				<li><a href="https://www.youtube.com/channel/UCht2Rxgkl9SgdmwJg5jrpFw"><i class="fa fa-youtube-play before"></i>SNIIC Ministério da Cultura</a></li>
 				<li><a href="https://www.facebook.com/MinisterioDaCultura"><i class="fa fa-facebook-official before"></i>/MinisterioDaCultura</a></li>
 				<li><a href="https://www.facebook.com/sniic"><i class="fa fa-facebook-official before"></i>/SNIIC</a></li>
 				<li><a href="https://instagram.com/culturagovbr/"><i class="fa fa-instagram before"></i>/culturagovbr</a></li>
