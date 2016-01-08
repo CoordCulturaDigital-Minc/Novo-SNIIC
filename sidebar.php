@@ -39,6 +39,7 @@
 				<li><a href="https://instagram.com/culturagovbr/"><i class="fa fa-instagram before"></i>/culturagovbr</a></li>
 				<li><a href="https://flickr.com/photos/ministeriodacultura"><i class="fa fa-flickr before"></i>/MinisterioDaCultura</a></li>
 				<li><a href="https://twitter.com/culturagovbr/"><i class="fa fa-twitter before"></i>/culturagovbr</a></li>
+				<li><a href="https://twitter.com/SNIIC_BR/"><i class="fa fa-twitter before"></i>/SNIIC_BR</a></li>
 			</ul>
 		</aside>
 
