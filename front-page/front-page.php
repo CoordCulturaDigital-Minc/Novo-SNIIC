@@ -75,7 +75,7 @@
 			Dados<span>.cultura.gov.br</span></h3></a></li>
 		<li><a href="<?php echo site_url('vocabulario'); ?>"><h3>
 			<?php include get_template_directory() . '/assets/sub.glyph.vocabulario.svg'; ?>
-			Vocabulário<span>.cultura.gov.br</span></h3></a></li>
+			Vocabulários<span>.cultura.gov.br</span></h3></a></li>
 	</ul>
 </div>
 
