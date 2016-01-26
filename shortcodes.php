@@ -77,7 +77,7 @@ function img_section_shortcode($atts, $content = null) {
 	if ($img == '') return;
 	if ($color == '') return;
 
-	$link = $url == '' ? '' : '<a href="' . $url . '"><h4>Saiba mais<i class="fa fa-chevron-right after"></i></h4>';
+	$link = $url == '' ? '' : '<a href="' . $url . '"><h4>Saiba mais<i class="fa fa-chevron-right after"></i></h4></a>';
 
 	return 	'<div class="clearfix row img-section text-center dark" style="background-image: url(' . $img .
 					'); background-color: #' . $color .
