@@ -66,16 +66,16 @@
 	<ul class="list-unstyled">
 		<li><a href="<?php echo site_url('publicacoes'); ?>"><h3>
 			<?php include get_template_directory() . '/assets/sub.glyph.publicacoes.svg'; ?>
-			Publicações<span>.cultura.gov.br</span></h3></a></li>
+			Publicações<span class="hidden-xs">.cultura.gov.br</span></h3></a></li>
 		<li><a href="<?php echo site_url('indicadores'); ?>"><h3>
 			<?php include get_template_directory() . '/assets/sub.glyph.indicadores.svg'; ?>
-			Indicadores<span>.cultura.gov.br</span></h3></a></li>
+			Indicadores<span class="hidden-xs">.cultura.gov.br</span></h3></a></li>
 		<li><a href="<?php echo site_url('dados'); ?>"><h3>
 			<?php include get_template_directory() . '/assets/sub.glyph.dados.svg'; ?>
-			Dados<span>.cultura.gov.br</span></h3></a></li>
+			Dados<span class="hidden-xs">.cultura.gov.br</span></h3></a></li>
 		<li><a href="<?php echo site_url('vocabulario'); ?>"><h3>
 			<?php include get_template_directory() . '/assets/sub.glyph.vocabulario.svg'; ?>
-			Vocabulários<span>.cultura.gov.br</span></h3></a></li>
+			Vocabulários<span class="hidden-xs">.cultura.gov.br</span></h3></a></li>
 	</ul>
 </div>
 
