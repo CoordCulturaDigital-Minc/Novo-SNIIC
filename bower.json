@@ -11,6 +11,7 @@
     "assets/vendor"
   ],
   "dependencies": {
+    "d3": "^3.5.16",
     "bootstrap": "twbs/bootstrap#~3.3.5",
     "font-awesome": "FortAwesome/Font-Awesome#~4.4.0",
     "normalize.css": "necolas/normalize.css#~3.0.3"

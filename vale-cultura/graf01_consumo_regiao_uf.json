@@ -1,0 +1,6287 @@
+{
+  "title": "Consumo",
+  "data": [
+    {
+      "Regiao": "SUL",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 79.2,
+      "Valor_consumido": 79.2,
+      "Ano": 2013,
+      "UF": "PR",
+      "Qtd_operacoes": 2
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 15696.76,
+      "Valor_consumido": 68,
+      "Ano": 2014,
+      "UF": "MS",
+      "Qtd_operacoes": 2
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 15696.76,
+      "Valor_consumido": 50,
+      "Ano": 2014,
+      "UF": "MT",
+      "Qtd_operacoes": 1
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 15696.76,
+      "Valor_consumido": 320.74,
+      "Ano": 2014,
+      "UF": "BA",
+      "Qtd_operacoes": 8
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 15696.76,
+      "Valor_consumido": 149.8,
+      "Ano": 2014,
+      "UF": "CE",
+      "Qtd_operacoes": 3
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 15696.76,
+      "Valor_consumido": 50,
+      "Ano": 2014,
+      "UF": "PB",
+      "Qtd_operacoes": 2
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 15696.76,
+      "Valor_consumido": 268.4,
+      "Ano": 2014,
+      "UF": "PE",
+      "Qtd_operacoes": 8
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 15696.76,
+      "Valor_consumido": 66.5,
+      "Ano": 2014,
+      "UF": "RN",
+      "Qtd_operacoes": 2
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 15696.76,
+      "Valor_consumido": 44.8,
+      "Ano": 2014,
+      "UF": "AM",
+      "Qtd_operacoes": 1
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 15696.76,
+      "Valor_consumido": 180.49,
+      "Ano": 2014,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 6
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 15696.76,
+      "Valor_consumido": 46.9,
+      "Ano": 2014,
+      "UF": "ES",
+      "Qtd_operacoes": 2
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 15696.76,
+      "Valor_consumido": 561.23,
+      "Ano": 2014,
+      "UF": "MG",
+      "Qtd_operacoes": 15
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 15696.76,
+      "Valor_consumido": 1598.54,
+      "Ano": 2014,
+      "UF": "RJ",
+      "Qtd_operacoes": 41
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 15696.76,
+      "Valor_consumido": 10090.15,
+      "Ano": 2014,
+      "UF": "SP",
+      "Qtd_operacoes": 266
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 15696.76,
+      "Valor_consumido": 1569.81,
+      "Ano": 2014,
+      "UF": "PR",
+      "Qtd_operacoes": 31
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 15696.76,
+      "Valor_consumido": 304.13,
+      "Ano": 2014,
+      "UF": "RS",
+      "Qtd_operacoes": 9
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 15696.76,
+      "Valor_consumido": 327.27,
+      "Ano": 2014,
+      "UF": "SC",
+      "Qtd_operacoes": 9
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 7948.47,
+      "Ano": 2014,
+      "UF": "DF",
+      "Qtd_operacoes": 241
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 4547.93,
+      "Ano": 2014,
+      "UF": "GO",
+      "Qtd_operacoes": 109
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 2549.97,
+      "Ano": 2014,
+      "UF": "MS",
+      "Qtd_operacoes": 76
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 689.37,
+      "Ano": 2014,
+      "UF": "MT",
+      "Qtd_operacoes": 19
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 101.1,
+      "Ano": 2014,
+      "UF": "AL",
+      "Qtd_operacoes": 3
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 18543.04,
+      "Ano": 2014,
+      "UF": "BA",
+      "Qtd_operacoes": 461
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 3536.24,
+      "Ano": 2014,
+      "UF": "CE",
+      "Qtd_operacoes": 76
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 891.37,
+      "Ano": 2014,
+      "UF": "MA",
+      "Qtd_operacoes": 30
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 2604.02,
+      "Ano": 2014,
+      "UF": "PB",
+      "Qtd_operacoes": 67
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 10375.46,
+      "Ano": 2014,
+      "UF": "PE",
+      "Qtd_operacoes": 273
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 144.1,
+      "Ano": 2014,
+      "UF": "PI",
+      "Qtd_operacoes": 2
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 4460.34,
+      "Ano": 2014,
+      "UF": "RN",
+      "Qtd_operacoes": 97
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 2251.49,
+      "Ano": 2014,
+      "UF": "SE",
+      "Qtd_operacoes": 61
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 567.66,
+      "Ano": 2014,
+      "UF": "AC",
+      "Qtd_operacoes": 19
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 3821.75,
+      "Ano": 2014,
+      "UF": "AM",
+      "Qtd_operacoes": 95
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 259.94,
+      "Ano": 2014,
+      "UF": "AP",
+      "Qtd_operacoes": 5
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 2923.93,
+      "Ano": 2014,
+      "UF": "PA",
+      "Qtd_operacoes": 88
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 315.3,
+      "Ano": 2014,
+      "UF": "RO",
+      "Qtd_operacoes": 8
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 149.75,
+      "Ano": 2014,
+      "UF": "RR",
+      "Qtd_operacoes": 5
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 406.62,
+      "Ano": 2014,
+      "UF": "TO",
+      "Qtd_operacoes": 20
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 10428.66,
+      "Ano": 2014,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 227
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 5231.24,
+      "Ano": 2014,
+      "UF": "ES",
+      "Qtd_operacoes": 125
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 22834.03,
+      "Ano": 2014,
+      "UF": "MG",
+      "Qtd_operacoes": 562
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 34866.47,
+      "Ano": 2014,
+      "UF": "RJ",
+      "Qtd_operacoes": 816
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 231978.33,
+      "Ano": 2014,
+      "UF": "SP",
+      "Qtd_operacoes": 5188
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 25312.03,
+      "Ano": 2014,
+      "UF": "PR",
+      "Qtd_operacoes": 552
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 23413.94,
+      "Ano": 2014,
+      "UF": "RS",
+      "Qtd_operacoes": 530
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 434995.34,
+      "Valor_consumido": 13842.79,
+      "Ano": 2014,
+      "UF": "SC",
+      "Qtd_operacoes": 321
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 23166.65,
+      "Ano": 2014,
+      "UF": "DF",
+      "Qtd_operacoes": 461
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 13093.83,
+      "Ano": 2014,
+      "UF": "GO",
+      "Qtd_operacoes": 233
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 10664.68,
+      "Ano": 2014,
+      "UF": "MS",
+      "Qtd_operacoes": 142
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 4153.1,
+      "Ano": 2014,
+      "UF": "MT",
+      "Qtd_operacoes": 86
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 552.85,
+      "Ano": 2014,
+      "UF": "AL",
+      "Qtd_operacoes": 16
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 56713.75,
+      "Ano": 2014,
+      "UF": "BA",
+      "Qtd_operacoes": 1116
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 8142.59,
+      "Ano": 2014,
+      "UF": "CE",
+      "Qtd_operacoes": 144
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 55956.23,
+      "Ano": 2014,
+      "UF": "MA",
+      "Qtd_operacoes": 573
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 8446.7,
+      "Ano": 2014,
+      "UF": "PB",
+      "Qtd_operacoes": 151
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 34008.35,
+      "Ano": 2014,
+      "UF": "PE",
+      "Qtd_operacoes": 665
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 3287.7,
+      "Ano": 2014,
+      "UF": "PI",
+      "Qtd_operacoes": 50
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 11687.33,
+      "Ano": 2014,
+      "UF": "RN",
+      "Qtd_operacoes": 237
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 24661.08,
+      "Ano": 2014,
+      "UF": "SE",
+      "Qtd_operacoes": 294
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 1332.68,
+      "Ano": 2014,
+      "UF": "AC",
+      "Qtd_operacoes": 36
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 6717.98,
+      "Ano": 2014,
+      "UF": "AM",
+      "Qtd_operacoes": 140
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 1400.8,
+      "Ano": 2014,
+      "UF": "AP",
+      "Qtd_operacoes": 34
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 122585.76,
+      "Ano": 2014,
+      "UF": "PA",
+      "Qtd_operacoes": 1401
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 1040.28,
+      "Ano": 2014,
+      "UF": "RO",
+      "Qtd_operacoes": 24
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 403.65,
+      "Ano": 2014,
+      "UF": "RR",
+      "Qtd_operacoes": 8
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 984.1,
+      "Ano": 2014,
+      "UF": "TO",
+      "Qtd_operacoes": 32
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 26778.46,
+      "Ano": 2014,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 502
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 100023.65,
+      "Ano": 2014,
+      "UF": "ES",
+      "Qtd_operacoes": 1205
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 488418.58,
+      "Ano": 2014,
+      "UF": "MG",
+      "Qtd_operacoes": 5652
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 127144.18,
+      "Ano": 2014,
+      "UF": "RJ",
+      "Qtd_operacoes": 2164
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 647305.21,
+      "Ano": 2014,
+      "UF": "SP",
+      "Qtd_operacoes": 11779
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 71233.28,
+      "Ano": 2014,
+      "UF": "PR",
+      "Qtd_operacoes": 1276
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 120150.56,
+      "Ano": 2014,
+      "UF": "RS",
+      "Qtd_operacoes": 2232
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 2012479.21,
+      "Valor_consumido": 42425.2,
+      "Ano": 2014,
+      "UF": "SC",
+      "Qtd_operacoes": 869
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 41496.23,
+      "Ano": 2014,
+      "UF": "DF",
+      "Qtd_operacoes": 762
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 24573.33,
+      "Ano": 2014,
+      "UF": "GO",
+      "Qtd_operacoes": 373
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 130167.68,
+      "Ano": 2014,
+      "UF": "MS",
+      "Qtd_operacoes": 1048
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 11363.71,
+      "Ano": 2014,
+      "UF": "MT",
+      "Qtd_operacoes": 200
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 4931.9,
+      "Ano": 2014,
+      "UF": "AL",
+      "Qtd_operacoes": 148
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 80896.17,
+      "Ano": 2014,
+      "UF": "BA",
+      "Qtd_operacoes": 1382
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 16566.51,
+      "Ano": 2014,
+      "UF": "CE",
+      "Qtd_operacoes": 333
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 169313.45,
+      "Ano": 2014,
+      "UF": "MA",
+      "Qtd_operacoes": 2608
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 12731.89,
+      "Ano": 2014,
+      "UF": "PB",
+      "Qtd_operacoes": 240
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 50607.76,
+      "Ano": 2014,
+      "UF": "PE",
+      "Qtd_operacoes": 925
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 7270.23,
+      "Ano": 2014,
+      "UF": "PI",
+      "Qtd_operacoes": 94
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 20692.81,
+      "Ano": 2014,
+      "UF": "RN",
+      "Qtd_operacoes": 439
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 38187.68,
+      "Ano": 2014,
+      "UF": "SE",
+      "Qtd_operacoes": 429
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 3051.16,
+      "Ano": 2014,
+      "UF": "AC",
+      "Qtd_operacoes": 68
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 13624.71,
+      "Ano": 2014,
+      "UF": "AM",
+      "Qtd_operacoes": 235
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 3411,
+      "Ano": 2014,
+      "UF": "AP",
+      "Qtd_operacoes": 74
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 581657.46,
+      "Ano": 2014,
+      "UF": "PA",
+      "Qtd_operacoes": 7345
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 2501.2,
+      "Ano": 2014,
+      "UF": "RO",
+      "Qtd_operacoes": 38
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 1287.6,
+      "Ano": 2014,
+      "UF": "RR",
+      "Qtd_operacoes": 18
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 3006.9,
+      "Ano": 2014,
+      "UF": "TO",
+      "Qtd_operacoes": 71
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 61457.43,
+      "Ano": 2014,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 922
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 158788.71,
+      "Ano": 2014,
+      "UF": "ES",
+      "Qtd_operacoes": 2576
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 1091115.96,
+      "Ano": 2014,
+      "UF": "MG",
+      "Qtd_operacoes": 13193
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 223762.7,
+      "Ano": 2014,
+      "UF": "RJ",
+      "Qtd_operacoes": 3838
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 1146944.76,
+      "Ano": 2014,
+      "UF": "SP",
+      "Qtd_operacoes": 21246
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 109354.42,
+      "Ano": 2014,
+      "UF": "PR",
+      "Qtd_operacoes": 1876
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 194298.04,
+      "Ano": 2014,
+      "UF": "RS",
+      "Qtd_operacoes": 3575
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 4277555.2,
+      "Valor_consumido": 74493.8,
+      "Ano": 2014,
+      "UF": "SC",
+      "Qtd_operacoes": 1453
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 66780.46,
+      "Ano": 2014,
+      "UF": "DF",
+      "Qtd_operacoes": 1239
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 40719.92,
+      "Ano": 2014,
+      "UF": "GO",
+      "Qtd_operacoes": 625
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 66272.95,
+      "Ano": 2014,
+      "UF": "MS",
+      "Qtd_operacoes": 1024
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 16617.09,
+      "Ano": 2014,
+      "UF": "MT",
+      "Qtd_operacoes": 294
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 7999.05,
+      "Ano": 2014,
+      "UF": "AL",
+      "Qtd_operacoes": 234
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 135147.4,
+      "Ano": 2014,
+      "UF": "BA",
+      "Qtd_operacoes": 2257
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 24881.88,
+      "Ano": 2014,
+      "UF": "CE",
+      "Qtd_operacoes": 494
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 250002.53,
+      "Ano": 2014,
+      "UF": "MA",
+      "Qtd_operacoes": 4018
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 21524.03,
+      "Ano": 2014,
+      "UF": "PB",
+      "Qtd_operacoes": 394
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 71227.55,
+      "Ano": 2014,
+      "UF": "PE",
+      "Qtd_operacoes": 1262
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 9979.95,
+      "Ano": 2014,
+      "UF": "PI",
+      "Qtd_operacoes": 140
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 29540.74,
+      "Ano": 2014,
+      "UF": "RN",
+      "Qtd_operacoes": 675
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 54962.35,
+      "Ano": 2014,
+      "UF": "SE",
+      "Qtd_operacoes": 653
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 4200.08,
+      "Ano": 2014,
+      "UF": "AC",
+      "Qtd_operacoes": 74
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 25973.13,
+      "Ano": 2014,
+      "UF": "AM",
+      "Qtd_operacoes": 488
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 3745,
+      "Ano": 2014,
+      "UF": "AP",
+      "Qtd_operacoes": 92
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 569525.6,
+      "Ano": 2014,
+      "UF": "PA",
+      "Qtd_operacoes": 8568
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 4731.31,
+      "Ano": 2014,
+      "UF": "RO",
+      "Qtd_operacoes": 91
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 2660.1,
+      "Ano": 2014,
+      "UF": "RR",
+      "Qtd_operacoes": 44
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 5834.37,
+      "Ano": 2014,
+      "UF": "TO",
+      "Qtd_operacoes": 107
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 93448.82,
+      "Ano": 2014,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 1411
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 229301.45,
+      "Ano": 2014,
+      "UF": "ES",
+      "Qtd_operacoes": 4131
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 1412680.85,
+      "Ano": 2014,
+      "UF": "MG",
+      "Qtd_operacoes": 18278
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 350579.3,
+      "Ano": 2014,
+      "UF": "RJ",
+      "Qtd_operacoes": 5906
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 1469166.88,
+      "Ano": 2014,
+      "UF": "SP",
+      "Qtd_operacoes": 27100
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 155154.62,
+      "Ano": 2014,
+      "UF": "PR",
+      "Qtd_operacoes": 2600
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 257433.14,
+      "Ano": 2014,
+      "UF": "RS",
+      "Qtd_operacoes": 4681
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 5480833.09,
+      "Valor_consumido": 100742.54,
+      "Ano": 2014,
+      "UF": "SC",
+      "Qtd_operacoes": 1950
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 71440.98,
+      "Ano": 2014,
+      "UF": "DF",
+      "Qtd_operacoes": 1335
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 43481.94,
+      "Ano": 2014,
+      "UF": "GO",
+      "Qtd_operacoes": 736
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 72798.5,
+      "Ano": 2014,
+      "UF": "MS",
+      "Qtd_operacoes": 1169
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 17335.71,
+      "Ano": 2014,
+      "UF": "MT",
+      "Qtd_operacoes": 296
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 10650,
+      "Ano": 2014,
+      "UF": "AL",
+      "Qtd_operacoes": 325
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 116659.06,
+      "Ano": 2014,
+      "UF": "BA",
+      "Qtd_operacoes": 2193
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 31545.63,
+      "Ano": 2014,
+      "UF": "CE",
+      "Qtd_operacoes": 656
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 232825.53,
+      "Ano": 2014,
+      "UF": "MA",
+      "Qtd_operacoes": 4046
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 20778.92,
+      "Ano": 2014,
+      "UF": "PB",
+      "Qtd_operacoes": 387
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 72057.08,
+      "Ano": 2014,
+      "UF": "PE",
+      "Qtd_operacoes": 1321
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 11147.04,
+      "Ano": 2014,
+      "UF": "PI",
+      "Qtd_operacoes": 139
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 26700.74,
+      "Ano": 2014,
+      "UF": "RN",
+      "Qtd_operacoes": 584
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 58480.9,
+      "Ano": 2014,
+      "UF": "SE",
+      "Qtd_operacoes": 863
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 5805.25,
+      "Ano": 2014,
+      "UF": "AC",
+      "Qtd_operacoes": 98
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 29097.06,
+      "Ano": 2014,
+      "UF": "AM",
+      "Qtd_operacoes": 620
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 4948.3,
+      "Ano": 2014,
+      "UF": "AP",
+      "Qtd_operacoes": 102
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 570532.04,
+      "Ano": 2014,
+      "UF": "PA",
+      "Qtd_operacoes": 9520
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 4805.78,
+      "Ano": 2014,
+      "UF": "RO",
+      "Qtd_operacoes": 116
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 1953.05,
+      "Ano": 2014,
+      "UF": "RR",
+      "Qtd_operacoes": 29
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 4932.9,
+      "Ano": 2014,
+      "UF": "TO",
+      "Qtd_operacoes": 101
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 89807.3,
+      "Ano": 2014,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 1577
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 242257.21,
+      "Ano": 2014,
+      "UF": "ES",
+      "Qtd_operacoes": 4760
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 1177329.22,
+      "Ano": 2014,
+      "UF": "MG",
+      "Qtd_operacoes": 17188
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 329734.44,
+      "Ano": 2014,
+      "UF": "RJ",
+      "Qtd_operacoes": 6006
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 1438157.48,
+      "Ano": 2014,
+      "UF": "SP",
+      "Qtd_operacoes": 27674
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 161492.83,
+      "Ano": 2014,
+      "UF": "PR",
+      "Qtd_operacoes": 2760
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 243291.66,
+      "Ano": 2014,
+      "UF": "RS",
+      "Qtd_operacoes": 4651
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 5193335.08,
+      "Valor_consumido": 103288.53,
+      "Ano": 2014,
+      "UF": "SC",
+      "Qtd_operacoes": 2226
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 90865.66,
+      "Ano": 2014,
+      "UF": "DF",
+      "Qtd_operacoes": 1741
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 52096.54,
+      "Ano": 2014,
+      "UF": "GO",
+      "Qtd_operacoes": 819
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 79668.5,
+      "Ano": 2014,
+      "UF": "MS",
+      "Qtd_operacoes": 1262
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 21839.6,
+      "Ano": 2014,
+      "UF": "MT",
+      "Qtd_operacoes": 418
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 11765.85,
+      "Ano": 2014,
+      "UF": "AL",
+      "Qtd_operacoes": 348
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 148019.5,
+      "Ano": 2014,
+      "UF": "BA",
+      "Qtd_operacoes": 2517
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 46064.5,
+      "Ano": 2014,
+      "UF": "CE",
+      "Qtd_operacoes": 834
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 311430.99,
+      "Ano": 2014,
+      "UF": "MA",
+      "Qtd_operacoes": 4993
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 25991.11,
+      "Ano": 2014,
+      "UF": "PB",
+      "Qtd_operacoes": 514
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 85352.36,
+      "Ano": 2014,
+      "UF": "PE",
+      "Qtd_operacoes": 1532
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 14772.19,
+      "Ano": 2014,
+      "UF": "PI",
+      "Qtd_operacoes": 170
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 28936.31,
+      "Ano": 2014,
+      "UF": "RN",
+      "Qtd_operacoes": 623
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 87825.84,
+      "Ano": 2014,
+      "UF": "SE",
+      "Qtd_operacoes": 1476
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 8581.14,
+      "Ano": 2014,
+      "UF": "AC",
+      "Qtd_operacoes": 125
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 28376.26,
+      "Ano": 2014,
+      "UF": "AM",
+      "Qtd_operacoes": 573
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 5302.95,
+      "Ano": 2014,
+      "UF": "AP",
+      "Qtd_operacoes": 104
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 622541.08,
+      "Ano": 2014,
+      "UF": "PA",
+      "Qtd_operacoes": 9133
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 8211.54,
+      "Ano": 2014,
+      "UF": "RO",
+      "Qtd_operacoes": 151
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 3504.3,
+      "Ano": 2014,
+      "UF": "RR",
+      "Qtd_operacoes": 46
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 9698.03,
+      "Ano": 2014,
+      "UF": "TO",
+      "Qtd_operacoes": 189
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 101537.79,
+      "Ano": 2014,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 1655
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 305703.5,
+      "Ano": 2014,
+      "UF": "ES",
+      "Qtd_operacoes": 6036
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 1180167.1,
+      "Ano": 2014,
+      "UF": "MG",
+      "Qtd_operacoes": 18437
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 356924.57,
+      "Ano": 2014,
+      "UF": "RJ",
+      "Qtd_operacoes": 6535
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 1700439.37,
+      "Ano": 2014,
+      "UF": "SP",
+      "Qtd_operacoes": 32301
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 198913.38,
+      "Ano": 2014,
+      "UF": "PR",
+      "Qtd_operacoes": 3305
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 309139.94,
+      "Ano": 2014,
+      "UF": "RS",
+      "Qtd_operacoes": 5592
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 5972109.03,
+      "Valor_consumido": 128439.13,
+      "Ano": 2014,
+      "UF": "SC",
+      "Qtd_operacoes": 2492
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 131102.58,
+      "Ano": 2014,
+      "UF": "DF",
+      "Qtd_operacoes": 2170
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 60443.97,
+      "Ano": 2014,
+      "UF": "GO",
+      "Qtd_operacoes": 977
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 87840.32,
+      "Ano": 2014,
+      "UF": "MS",
+      "Qtd_operacoes": 1561
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 37430.95,
+      "Ano": 2014,
+      "UF": "MT",
+      "Qtd_operacoes": 687
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 15273.42,
+      "Ano": 2014,
+      "UF": "AL",
+      "Qtd_operacoes": 393
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 180328.91,
+      "Ano": 2014,
+      "UF": "BA",
+      "Qtd_operacoes": 3144
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 47891.38,
+      "Ano": 2014,
+      "UF": "CE",
+      "Qtd_operacoes": 950
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 348899.32,
+      "Ano": 2014,
+      "UF": "MA",
+      "Qtd_operacoes": 5630
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 32732.53,
+      "Ano": 2014,
+      "UF": "PB",
+      "Qtd_operacoes": 619
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 104045.92,
+      "Ano": 2014,
+      "UF": "PE",
+      "Qtd_operacoes": 1893
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 24834.76,
+      "Ano": 2014,
+      "UF": "PI",
+      "Qtd_operacoes": 284
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 38808.01,
+      "Ano": 2014,
+      "UF": "RN",
+      "Qtd_operacoes": 751
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 89528.02,
+      "Ano": 2014,
+      "UF": "SE",
+      "Qtd_operacoes": 1666
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 7784.4,
+      "Ano": 2014,
+      "UF": "AC",
+      "Qtd_operacoes": 133
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 38688.82,
+      "Ano": 2014,
+      "UF": "AM",
+      "Qtd_operacoes": 813
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 5618.74,
+      "Ano": 2014,
+      "UF": "AP",
+      "Qtd_operacoes": 129
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 784595.2,
+      "Ano": 2014,
+      "UF": "PA",
+      "Qtd_operacoes": 12466
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 12969.39,
+      "Ano": 2014,
+      "UF": "RO",
+      "Qtd_operacoes": 233
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 3854.31,
+      "Ano": 2014,
+      "UF": "RR",
+      "Qtd_operacoes": 64
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 16899.16,
+      "Ano": 2014,
+      "UF": "TO",
+      "Qtd_operacoes": 330
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 114489.18,
+      "Ano": 2014,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 1888
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 361045.64,
+      "Ano": 2014,
+      "UF": "ES",
+      "Qtd_operacoes": 7067
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 1397506.31,
+      "Ano": 2014,
+      "UF": "MG",
+      "Qtd_operacoes": 22831
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 423374.54,
+      "Ano": 2014,
+      "UF": "RJ",
+      "Qtd_operacoes": 7533
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 2000513.55,
+      "Ano": 2014,
+      "UF": "SP",
+      "Qtd_operacoes": 37842
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 244830.79,
+      "Ano": 2014,
+      "UF": "PR",
+      "Qtd_operacoes": 4015
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 384688.73,
+      "Ano": 2014,
+      "UF": "RS",
+      "Qtd_operacoes": 6599
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 7141226.78,
+      "Valor_consumido": 145207.93,
+      "Ano": 2014,
+      "UF": "SC",
+      "Qtd_operacoes": 2764
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 124345.43,
+      "Ano": 2014,
+      "UF": "DF",
+      "Qtd_operacoes": 2335
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 50915.36,
+      "Ano": 2014,
+      "UF": "GO",
+      "Qtd_operacoes": 849
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 73834.83,
+      "Ano": 2014,
+      "UF": "MS",
+      "Qtd_operacoes": 1393
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 27948.47,
+      "Ano": 2014,
+      "UF": "MT",
+      "Qtd_operacoes": 566
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 19665.64,
+      "Ano": 2014,
+      "UF": "AL",
+      "Qtd_operacoes": 458
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 150186.71,
+      "Ano": 2014,
+      "UF": "BA",
+      "Qtd_operacoes": 2829
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 39924.43,
+      "Ano": 2014,
+      "UF": "CE",
+      "Qtd_operacoes": 838
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 278327.7,
+      "Ano": 2014,
+      "UF": "MA",
+      "Qtd_operacoes": 4879
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 29733.56,
+      "Ano": 2014,
+      "UF": "PB",
+      "Qtd_operacoes": 592
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 96333.02,
+      "Ano": 2014,
+      "UF": "PE",
+      "Qtd_operacoes": 1841
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 17192.25,
+      "Ano": 2014,
+      "UF": "PI",
+      "Qtd_operacoes": 198
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 32305.12,
+      "Ano": 2014,
+      "UF": "RN",
+      "Qtd_operacoes": 692
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 65860.48,
+      "Ano": 2014,
+      "UF": "SE",
+      "Qtd_operacoes": 1432
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 7355.43,
+      "Ano": 2014,
+      "UF": "AC",
+      "Qtd_operacoes": 112
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 34142.4,
+      "Ano": 2014,
+      "UF": "AM",
+      "Qtd_operacoes": 771
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 4806.29,
+      "Ano": 2014,
+      "UF": "AP",
+      "Qtd_operacoes": 100
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 612366.44,
+      "Ano": 2014,
+      "UF": "PA",
+      "Qtd_operacoes": 10909
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 10838.71,
+      "Ano": 2014,
+      "UF": "RO",
+      "Qtd_operacoes": 223
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 2967.65,
+      "Ano": 2014,
+      "UF": "RR",
+      "Qtd_operacoes": 47
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 11194.49,
+      "Ano": 2014,
+      "UF": "TO",
+      "Qtd_operacoes": 255
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 92739.5,
+      "Ano": 2014,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 1674
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 281359.68,
+      "Ano": 2014,
+      "UF": "ES",
+      "Qtd_operacoes": 5980
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 1085803.94,
+      "Ano": 2014,
+      "UF": "MG",
+      "Qtd_operacoes": 19707
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 419271.71,
+      "Ano": 2014,
+      "UF": "RJ",
+      "Qtd_operacoes": 7983
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 1783730.74,
+      "Ano": 2014,
+      "UF": "SP",
+      "Qtd_operacoes": 34779
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 218280.7,
+      "Ano": 2014,
+      "UF": "PR",
+      "Qtd_operacoes": 3748
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 327362.57,
+      "Ano": 2014,
+      "UF": "RS",
+      "Qtd_operacoes": 5975
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 6025814.71,
+      "Valor_consumido": 127021.46,
+      "Ano": 2014,
+      "UF": "SC",
+      "Qtd_operacoes": 2510
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 143407.24,
+      "Ano": 2014,
+      "UF": "DF",
+      "Qtd_operacoes": 2710
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 61686.87,
+      "Ano": 2014,
+      "UF": "GO",
+      "Qtd_operacoes": 1068
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 79302.4,
+      "Ano": 2014,
+      "UF": "MS",
+      "Qtd_operacoes": 1488
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 37088.33,
+      "Ano": 2014,
+      "UF": "MT",
+      "Qtd_operacoes": 723
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 19024.43,
+      "Ano": 2014,
+      "UF": "AL",
+      "Qtd_operacoes": 429
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 197403.26,
+      "Ano": 2014,
+      "UF": "BA",
+      "Qtd_operacoes": 3402
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 43453.08,
+      "Ano": 2014,
+      "UF": "CE",
+      "Qtd_operacoes": 882
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 302352.64,
+      "Ano": 2014,
+      "UF": "MA",
+      "Qtd_operacoes": 5421
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 31908.59,
+      "Ano": 2014,
+      "UF": "PB",
+      "Qtd_operacoes": 639
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 107036.24,
+      "Ano": 2014,
+      "UF": "PE",
+      "Qtd_operacoes": 1994
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 18243.09,
+      "Ano": 2014,
+      "UF": "PI",
+      "Qtd_operacoes": 220
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 36822.38,
+      "Ano": 2014,
+      "UF": "RN",
+      "Qtd_operacoes": 794
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 78177.41,
+      "Ano": 2014,
+      "UF": "SE",
+      "Qtd_operacoes": 1644
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 11065.11,
+      "Ano": 2014,
+      "UF": "AC",
+      "Qtd_operacoes": 149
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 40224.75,
+      "Ano": 2014,
+      "UF": "AM",
+      "Qtd_operacoes": 876
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 7528.12,
+      "Ano": 2014,
+      "UF": "AP",
+      "Qtd_operacoes": 152
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 694088.2,
+      "Ano": 2014,
+      "UF": "PA",
+      "Qtd_operacoes": 11783
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 12421.82,
+      "Ano": 2014,
+      "UF": "RO",
+      "Qtd_operacoes": 213
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 4744.79,
+      "Ano": 2014,
+      "UF": "RR",
+      "Qtd_operacoes": 64
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 15999.43,
+      "Ano": 2014,
+      "UF": "TO",
+      "Qtd_operacoes": 366
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 111535.99,
+      "Ano": 2014,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 2011
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 287948.89,
+      "Ano": 2014,
+      "UF": "ES",
+      "Qtd_operacoes": 5968
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 1363431.28,
+      "Ano": 2014,
+      "UF": "MG",
+      "Qtd_operacoes": 22467
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 452814.65,
+      "Ano": 2014,
+      "UF": "RJ",
+      "Qtd_operacoes": 8049
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 2038223.56,
+      "Ano": 2014,
+      "UF": "SP",
+      "Qtd_operacoes": 37887
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 255026.29,
+      "Ano": 2014,
+      "UF": "PR",
+      "Qtd_operacoes": 4117
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 402324.51,
+      "Ano": 2014,
+      "UF": "RS",
+      "Qtd_operacoes": 7053
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 6998026.33,
+      "Valor_consumido": 144742.98,
+      "Ano": 2014,
+      "UF": "SC",
+      "Qtd_operacoes": 2604
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 145221.7,
+      "Ano": 2014,
+      "UF": "DF",
+      "Qtd_operacoes": 2600
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 90686.99,
+      "Ano": 2014,
+      "UF": "GO",
+      "Qtd_operacoes": 1300
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 92647.72,
+      "Ano": 2014,
+      "UF": "MS",
+      "Qtd_operacoes": 1579
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 42217.63,
+      "Ano": 2014,
+      "UF": "MT",
+      "Qtd_operacoes": 798
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 26094.13,
+      "Ano": 2014,
+      "UF": "AL",
+      "Qtd_operacoes": 491
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 193699.95,
+      "Ano": 2014,
+      "UF": "BA",
+      "Qtd_operacoes": 3148
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 60597.86,
+      "Ano": 2014,
+      "UF": "CE",
+      "Qtd_operacoes": 991
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 269027.89,
+      "Ano": 2014,
+      "UF": "MA",
+      "Qtd_operacoes": 4876
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 37788.18,
+      "Ano": 2014,
+      "UF": "PB",
+      "Qtd_operacoes": 680
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 116485.45,
+      "Ano": 2014,
+      "UF": "PE",
+      "Qtd_operacoes": 2106
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 25517.48,
+      "Ano": 2014,
+      "UF": "PI",
+      "Qtd_operacoes": 256
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 43903.99,
+      "Ano": 2014,
+      "UF": "RN",
+      "Qtd_operacoes": 839
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 82456.57,
+      "Ano": 2014,
+      "UF": "SE",
+      "Qtd_operacoes": 1543
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 6217.08,
+      "Ano": 2014,
+      "UF": "AC",
+      "Qtd_operacoes": 122
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 44053.14,
+      "Ano": 2014,
+      "UF": "AM",
+      "Qtd_operacoes": 848
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 5736.7,
+      "Ano": 2014,
+      "UF": "AP",
+      "Qtd_operacoes": 126
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 564919.79,
+      "Ano": 2014,
+      "UF": "PA",
+      "Qtd_operacoes": 11104
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 13931.11,
+      "Ano": 2014,
+      "UF": "RO",
+      "Qtd_operacoes": 239
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 3615,
+      "Ano": 2014,
+      "UF": "RR",
+      "Qtd_operacoes": 61
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 17041.08,
+      "Ano": 2014,
+      "UF": "TO",
+      "Qtd_operacoes": 371
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 121653.29,
+      "Ano": 2014,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 2026
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 295077.94,
+      "Ano": 2014,
+      "UF": "ES",
+      "Qtd_operacoes": 6038
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 1217746.75,
+      "Ano": 2014,
+      "UF": "MG",
+      "Qtd_operacoes": 20664
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 496317.67,
+      "Ano": 2014,
+      "UF": "RJ",
+      "Qtd_operacoes": 8394
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 2451921.09,
+      "Ano": 2014,
+      "UF": "SP",
+      "Qtd_operacoes": 41104
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 361437.95,
+      "Ano": 2014,
+      "UF": "PR",
+      "Qtd_operacoes": 5053
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 409483.2,
+      "Ano": 2014,
+      "UF": "RS",
+      "Qtd_operacoes": 7280
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 7419028.85,
+      "Valor_consumido": 183531.52,
+      "Ano": 2014,
+      "UF": "SC",
+      "Qtd_operacoes": 2935
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 327101.94,
+      "Ano": 2014,
+      "UF": "DF",
+      "Qtd_operacoes": 4195
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 275205.84,
+      "Ano": 2014,
+      "UF": "GO",
+      "Qtd_operacoes": 2854
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 207920.17,
+      "Ano": 2014,
+      "UF": "MS",
+      "Qtd_operacoes": 2525
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 125782.31,
+      "Ano": 2014,
+      "UF": "MT",
+      "Qtd_operacoes": 1520
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 111534.83,
+      "Ano": 2014,
+      "UF": "AL",
+      "Qtd_operacoes": 1183
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 593000.35,
+      "Ano": 2014,
+      "UF": "BA",
+      "Qtd_operacoes": 6323
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 198989.46,
+      "Ano": 2014,
+      "UF": "CE",
+      "Qtd_operacoes": 2251
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 526699.75,
+      "Ano": 2014,
+      "UF": "MA",
+      "Qtd_operacoes": 6488
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 113820.28,
+      "Ano": 2014,
+      "UF": "PB",
+      "Qtd_operacoes": 1311
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 201147.21,
+      "Ano": 2014,
+      "UF": "PE",
+      "Qtd_operacoes": 3048
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 106479.92,
+      "Ano": 2014,
+      "UF": "PI",
+      "Qtd_operacoes": 777
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 151202.7,
+      "Ano": 2014,
+      "UF": "RN",
+      "Qtd_operacoes": 1891
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 183437.63,
+      "Ano": 2014,
+      "UF": "SE",
+      "Qtd_operacoes": 2449
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 15267.76,
+      "Ano": 2014,
+      "UF": "AC",
+      "Qtd_operacoes": 195
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 110911.26,
+      "Ano": 2014,
+      "UF": "AM",
+      "Qtd_operacoes": 1439
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 69033.15,
+      "Ano": 2014,
+      "UF": "AP",
+      "Qtd_operacoes": 563
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 880991.79,
+      "Ano": 2014,
+      "UF": "PA",
+      "Qtd_operacoes": 13590
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 48995.03,
+      "Ano": 2014,
+      "UF": "RO",
+      "Qtd_operacoes": 453
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 5759.39,
+      "Ano": 2014,
+      "UF": "RR",
+      "Qtd_operacoes": 67
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 59152.58,
+      "Ano": 2014,
+      "UF": "TO",
+      "Qtd_operacoes": 811
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 365090.73,
+      "Ano": 2014,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 3861
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 447986.44,
+      "Ano": 2014,
+      "UF": "ES",
+      "Qtd_operacoes": 7206
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 2909467.69,
+      "Ano": 2014,
+      "UF": "MG",
+      "Qtd_operacoes": 33716
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 1235908.03,
+      "Ano": 2014,
+      "UF": "RJ",
+      "Qtd_operacoes": 14975
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 6639575.73,
+      "Ano": 2014,
+      "UF": "SP",
+      "Qtd_operacoes": 80435
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 854061.54,
+      "Ano": 2014,
+      "UF": "PR",
+      "Qtd_operacoes": 10248
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 1282539.97,
+      "Ano": 2014,
+      "UF": "RS",
+      "Qtd_operacoes": 15120
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 18586259.29,
+      "Valor_consumido": 539195.81,
+      "Ano": 2014,
+      "UF": "SC",
+      "Qtd_operacoes": 6146
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 343722.89,
+      "Ano": 2015,
+      "UF": "DF",
+      "Qtd_operacoes": 4843
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 401270.38,
+      "Ano": 2015,
+      "UF": "GO",
+      "Qtd_operacoes": 4364
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 233399.88,
+      "Ano": 2015,
+      "UF": "MS",
+      "Qtd_operacoes": 2810
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 180563.66,
+      "Ano": 2015,
+      "UF": "MT",
+      "Qtd_operacoes": 1936
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 169305.02,
+      "Ano": 2015,
+      "UF": "AL",
+      "Qtd_operacoes": 1895
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 621051.22,
+      "Ano": 2015,
+      "UF": "BA",
+      "Qtd_operacoes": 6740
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 309451.57,
+      "Ano": 2015,
+      "UF": "CE",
+      "Qtd_operacoes": 2998
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 634006.38,
+      "Ano": 2015,
+      "UF": "MA",
+      "Qtd_operacoes": 7215
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 191696.18,
+      "Ano": 2015,
+      "UF": "PB",
+      "Qtd_operacoes": 1782
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 365107.37,
+      "Ano": 2015,
+      "UF": "PE",
+      "Qtd_operacoes": 4866
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 212539.47,
+      "Ano": 2015,
+      "UF": "PI",
+      "Qtd_operacoes": 1364
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 198723.43,
+      "Ano": 2015,
+      "UF": "RN",
+      "Qtd_operacoes": 2238
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 263569.62,
+      "Ano": 2015,
+      "UF": "SE",
+      "Qtd_operacoes": 2922
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 45623.98,
+      "Ano": 2015,
+      "UF": "AC",
+      "Qtd_operacoes": 338
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 130057.59,
+      "Ano": 2015,
+      "UF": "AM",
+      "Qtd_operacoes": 1662
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 32827.52,
+      "Ano": 2015,
+      "UF": "AP",
+      "Qtd_operacoes": 510
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 917625.45,
+      "Ano": 2015,
+      "UF": "PA",
+      "Qtd_operacoes": 13963
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 74178.15,
+      "Ano": 2015,
+      "UF": "RO",
+      "Qtd_operacoes": 584
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 11015.98,
+      "Ano": 2015,
+      "UF": "RR",
+      "Qtd_operacoes": 115
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 126113.59,
+      "Ano": 2015,
+      "UF": "TO",
+      "Qtd_operacoes": 1336
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 412069.26,
+      "Ano": 2015,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 4679
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 712891.72,
+      "Ano": 2015,
+      "UF": "ES",
+      "Qtd_operacoes": 9298
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 2550755.72,
+      "Ano": 2015,
+      "UF": "MG",
+      "Qtd_operacoes": 30695
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 1769304.15,
+      "Ano": 2015,
+      "UF": "RJ",
+      "Qtd_operacoes": 21520
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 5324370.02,
+      "Ano": 2015,
+      "UF": "SP",
+      "Qtd_operacoes": 79952
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 1044309.84,
+      "Ano": 2015,
+      "UF": "PR",
+      "Qtd_operacoes": 13668
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 874640.77,
+      "Ano": 2015,
+      "UF": "RS",
+      "Qtd_operacoes": 12186
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 18622366.78,
+      "Valor_consumido": 472175.97,
+      "Ano": 2015,
+      "UF": "SC",
+      "Qtd_operacoes": 6409
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 289474.9,
+      "Ano": 2015,
+      "UF": "DF",
+      "Qtd_operacoes": 4988
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 222555.71,
+      "Ano": 2015,
+      "UF": "GO",
+      "Qtd_operacoes": 3478
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 190428.35,
+      "Ano": 2015,
+      "UF": "MS",
+      "Qtd_operacoes": 2988
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 135508.23,
+      "Ano": 2015,
+      "UF": "MT",
+      "Qtd_operacoes": 1952
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 90628.47,
+      "Ano": 2015,
+      "UF": "AL",
+      "Qtd_operacoes": 1528
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 444839.71,
+      "Ano": 2015,
+      "UF": "BA",
+      "Qtd_operacoes": 6036
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 133938.5,
+      "Ano": 2015,
+      "UF": "CE",
+      "Qtd_operacoes": 2158
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 370360.88,
+      "Ano": 2015,
+      "UF": "MA",
+      "Qtd_operacoes": 5995
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 85386.97,
+      "Ano": 2015,
+      "UF": "PB",
+      "Qtd_operacoes": 1349
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 239446.44,
+      "Ano": 2015,
+      "UF": "PE",
+      "Qtd_operacoes": 4047
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 69193.5,
+      "Ano": 2015,
+      "UF": "PI",
+      "Qtd_operacoes": 774
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 97726.29,
+      "Ano": 2015,
+      "UF": "RN",
+      "Qtd_operacoes": 1674
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 125512.75,
+      "Ano": 2015,
+      "UF": "SE",
+      "Qtd_operacoes": 2337
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 34115.84,
+      "Ano": 2015,
+      "UF": "AC",
+      "Qtd_operacoes": 358
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 91188.8,
+      "Ano": 2015,
+      "UF": "AM",
+      "Qtd_operacoes": 1491
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 24144.52,
+      "Ano": 2015,
+      "UF": "AP",
+      "Qtd_operacoes": 482
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 616767.48,
+      "Ano": 2015,
+      "UF": "PA",
+      "Qtd_operacoes": 11549
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 46406.15,
+      "Ano": 2015,
+      "UF": "RO",
+      "Qtd_operacoes": 612
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 11379.9,
+      "Ano": 2015,
+      "UF": "RR",
+      "Qtd_operacoes": 149
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 49203.57,
+      "Ano": 2015,
+      "UF": "TO",
+      "Qtd_operacoes": 890
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 239363.01,
+      "Ano": 2015,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 3766
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 512762.53,
+      "Ano": 2015,
+      "UF": "ES",
+      "Qtd_operacoes": 8957
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 1698535.45,
+      "Ano": 2015,
+      "UF": "MG",
+      "Qtd_operacoes": 28224
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 1279837,
+      "Ano": 2015,
+      "UF": "RJ",
+      "Qtd_operacoes": 18389
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 3885095.29,
+      "Ano": 2015,
+      "UF": "SP",
+      "Qtd_operacoes": 71031
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 756256.37,
+      "Ano": 2015,
+      "UF": "PR",
+      "Qtd_operacoes": 12885
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 691523.78,
+      "Ano": 2015,
+      "UF": "RS",
+      "Qtd_operacoes": 9684
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 12816667.32,
+      "Valor_consumido": 385086.93,
+      "Ano": 2015,
+      "UF": "SC",
+      "Qtd_operacoes": 6516
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 293397.38,
+      "Ano": 2015,
+      "UF": "DF",
+      "Qtd_operacoes": 5310
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 209133.53,
+      "Ano": 2015,
+      "UF": "GO",
+      "Qtd_operacoes": 3342
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 158637.41,
+      "Ano": 2015,
+      "UF": "MS",
+      "Qtd_operacoes": 2764
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 104671.18,
+      "Ano": 2015,
+      "UF": "MT",
+      "Qtd_operacoes": 1876
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 80462.73,
+      "Ano": 2015,
+      "UF": "AL",
+      "Qtd_operacoes": 1522
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 422321.01,
+      "Ano": 2015,
+      "UF": "BA",
+      "Qtd_operacoes": 6669
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 120752.04,
+      "Ano": 2015,
+      "UF": "CE",
+      "Qtd_operacoes": 2073
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 335917.82,
+      "Ano": 2015,
+      "UF": "MA",
+      "Qtd_operacoes": 5991
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 75690.71,
+      "Ano": 2015,
+      "UF": "PB",
+      "Qtd_operacoes": 1310
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 394220.36,
+      "Ano": 2015,
+      "UF": "PE",
+      "Qtd_operacoes": 5218
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 60346.49,
+      "Ano": 2015,
+      "UF": "PI",
+      "Qtd_operacoes": 790
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 80624.68,
+      "Ano": 2015,
+      "UF": "RN",
+      "Qtd_operacoes": 1617
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 107470.66,
+      "Ano": 2015,
+      "UF": "SE",
+      "Qtd_operacoes": 2293
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 23783.68,
+      "Ano": 2015,
+      "UF": "AC",
+      "Qtd_operacoes": 299
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 74723.11,
+      "Ano": 2015,
+      "UF": "AM",
+      "Qtd_operacoes": 1381
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 24462.34,
+      "Ano": 2015,
+      "UF": "AP",
+      "Qtd_operacoes": 518
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 631306.72,
+      "Ano": 2015,
+      "UF": "PA",
+      "Qtd_operacoes": 11929
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 41295.81,
+      "Ano": 2015,
+      "UF": "RO",
+      "Qtd_operacoes": 570
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 73921.24,
+      "Ano": 2015,
+      "UF": "RR",
+      "Qtd_operacoes": 382
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 46713.21,
+      "Ano": 2015,
+      "UF": "TO",
+      "Qtd_operacoes": 928
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 196075.13,
+      "Ano": 2015,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 3625
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 356120.3,
+      "Ano": 2015,
+      "UF": "ES",
+      "Qtd_operacoes": 7681
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 1485284.49,
+      "Ano": 2015,
+      "UF": "MG",
+      "Qtd_operacoes": 28097
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 1121745.27,
+      "Ano": 2015,
+      "UF": "RJ",
+      "Qtd_operacoes": 20352
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 3838495.25,
+      "Ano": 2015,
+      "UF": "SP",
+      "Qtd_operacoes": 73006
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 634290.77,
+      "Ano": 2015,
+      "UF": "PR",
+      "Qtd_operacoes": 12331
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 513121.44,
+      "Ano": 2015,
+      "UF": "RS",
+      "Qtd_operacoes": 8982
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "MARÇO",
+      "Consumo_total_mes": 11826813.36,
+      "Valor_consumido": 321828.6,
+      "Ano": 2015,
+      "UF": "SC",
+      "Qtd_operacoes": 6228
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 195509.57,
+      "Ano": 2015,
+      "UF": "DF",
+      "Qtd_operacoes": 3498
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 183202.26,
+      "Ano": 2015,
+      "UF": "GO",
+      "Qtd_operacoes": 3032
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 78782.04,
+      "Ano": 2015,
+      "UF": "MS",
+      "Qtd_operacoes": 1447
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 66848.94,
+      "Ano": 2015,
+      "UF": "MT",
+      "Qtd_operacoes": 1164
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 56272.12,
+      "Ano": 2015,
+      "UF": "AL",
+      "Qtd_operacoes": 1159
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 223665.87,
+      "Ano": 2015,
+      "UF": "BA",
+      "Qtd_operacoes": 3969
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 90696.36,
+      "Ano": 2015,
+      "UF": "CE",
+      "Qtd_operacoes": 1549
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 82800.74,
+      "Ano": 2015,
+      "UF": "MA",
+      "Qtd_operacoes": 1506
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 43244.5,
+      "Ano": 2015,
+      "UF": "PB",
+      "Qtd_operacoes": 715
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 262421.95,
+      "Ano": 2015,
+      "UF": "PE",
+      "Qtd_operacoes": 3890
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 29947.21,
+      "Ano": 2015,
+      "UF": "PI",
+      "Qtd_operacoes": 488
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 49233.69,
+      "Ano": 2015,
+      "UF": "RN",
+      "Qtd_operacoes": 998
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 57705.38,
+      "Ano": 2015,
+      "UF": "SE",
+      "Qtd_operacoes": 1279
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 16363.29,
+      "Ano": 2015,
+      "UF": "AC",
+      "Qtd_operacoes": 205
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 66336.79,
+      "Ano": 2015,
+      "UF": "AM",
+      "Qtd_operacoes": 1087
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 18397.7,
+      "Ano": 2015,
+      "UF": "AP",
+      "Qtd_operacoes": 327
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 117859.97,
+      "Ano": 2015,
+      "UF": "PA",
+      "Qtd_operacoes": 2042
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 31832.84,
+      "Ano": 2015,
+      "UF": "RO",
+      "Qtd_operacoes": 407
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 18518.84,
+      "Ano": 2015,
+      "UF": "RR",
+      "Qtd_operacoes": 237
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 36319.35,
+      "Ano": 2015,
+      "UF": "TO",
+      "Qtd_operacoes": 691
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 116921.75,
+      "Ano": 2015,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 2397
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 133861.72,
+      "Ano": 2015,
+      "UF": "ES",
+      "Qtd_operacoes": 2578
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 610259.2,
+      "Ano": 2015,
+      "UF": "MG",
+      "Qtd_operacoes": 10993
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 756662.37,
+      "Ano": 2015,
+      "UF": "RJ",
+      "Qtd_operacoes": 14373
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 2954999.06,
+      "Ano": 2015,
+      "UF": "SP",
+      "Qtd_operacoes": 55423
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 484216.65,
+      "Ano": 2015,
+      "UF": "PR",
+      "Qtd_operacoes": 10225
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 395766,
+      "Ano": 2015,
+      "UF": "RS",
+      "Qtd_operacoes": 7271
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "ABRIL",
+      "Consumo_total_mes": 7412012.25,
+      "Valor_consumido": 233366.09,
+      "Ano": 2015,
+      "UF": "SC",
+      "Qtd_operacoes": 4791
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 241458.15,
+      "Ano": 2015,
+      "UF": "DF",
+      "Qtd_operacoes": 4114
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 204247.29,
+      "Ano": 2015,
+      "UF": "GO",
+      "Qtd_operacoes": 3039
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 155207.99,
+      "Ano": 2015,
+      "UF": "MS",
+      "Qtd_operacoes": 2818
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 124297.29,
+      "Ano": 2015,
+      "UF": "MT",
+      "Qtd_operacoes": 2005
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 75013.1,
+      "Ano": 2015,
+      "UF": "AL",
+      "Qtd_operacoes": 1332
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 395508.31,
+      "Ano": 2015,
+      "UF": "BA",
+      "Qtd_operacoes": 5781
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 146777.06,
+      "Ano": 2015,
+      "UF": "CE",
+      "Qtd_operacoes": 2136
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 322441.11,
+      "Ano": 2015,
+      "UF": "MA",
+      "Qtd_operacoes": 5625
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 95068.13,
+      "Ano": 2015,
+      "UF": "PB",
+      "Qtd_operacoes": 1440
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 350011.72,
+      "Ano": 2015,
+      "UF": "PE",
+      "Qtd_operacoes": 4891
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 65754.25,
+      "Ano": 2015,
+      "UF": "PI",
+      "Qtd_operacoes": 863
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 73775.1,
+      "Ano": 2015,
+      "UF": "RN",
+      "Qtd_operacoes": 1375
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 104462.03,
+      "Ano": 2015,
+      "UF": "SE",
+      "Qtd_operacoes": 2086
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 37865.56,
+      "Ano": 2015,
+      "UF": "AC",
+      "Qtd_operacoes": 425
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 88934.82,
+      "Ano": 2015,
+      "UF": "AM",
+      "Qtd_operacoes": 1207
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 30158.1,
+      "Ano": 2015,
+      "UF": "AP",
+      "Qtd_operacoes": 483
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 665681.95,
+      "Ano": 2015,
+      "UF": "PA",
+      "Qtd_operacoes": 11893
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 45453.45,
+      "Ano": 2015,
+      "UF": "RO",
+      "Qtd_operacoes": 616
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 27140.05,
+      "Ano": 2015,
+      "UF": "RR",
+      "Qtd_operacoes": 260
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 50890.46,
+      "Ano": 2015,
+      "UF": "TO",
+      "Qtd_operacoes": 931
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 197356.06,
+      "Ano": 2015,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 3462
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 329267.26,
+      "Ano": 2015,
+      "UF": "ES",
+      "Qtd_operacoes": 7609
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 1548194.88,
+      "Ano": 2015,
+      "UF": "MG",
+      "Qtd_operacoes": 27354
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 969363.5,
+      "Ano": 2015,
+      "UF": "RJ",
+      "Qtd_operacoes": 16428
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 3329636.94,
+      "Ano": 2015,
+      "UF": "SP",
+      "Qtd_operacoes": 56755
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 462681.41,
+      "Ano": 2015,
+      "UF": "PR",
+      "Qtd_operacoes": 8203
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 455186.73,
+      "Ano": 2015,
+      "UF": "RS",
+      "Qtd_operacoes": 7893
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "MAIO",
+      "Consumo_total_mes": 10895293.73,
+      "Valor_consumido": 303461.03,
+      "Ano": 2015,
+      "UF": "SC",
+      "Qtd_operacoes": 5178
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 367911.79,
+      "Ano": 2015,
+      "UF": "DF",
+      "Qtd_operacoes": 7094
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 230280.56,
+      "Ano": 2015,
+      "UF": "GO",
+      "Qtd_operacoes": 3841
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 163086.19,
+      "Ano": 2015,
+      "UF": "MS",
+      "Qtd_operacoes": 3239
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 125769.14,
+      "Ano": 2015,
+      "UF": "MT",
+      "Qtd_operacoes": 2219
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 81050.12,
+      "Ano": 2015,
+      "UF": "AL",
+      "Qtd_operacoes": 1665
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 393369.46,
+      "Ano": 2015,
+      "UF": "BA",
+      "Qtd_operacoes": 6526
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 156392.06,
+      "Ano": 2015,
+      "UF": "CE",
+      "Qtd_operacoes": 2682
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 289668.04,
+      "Ano": 2015,
+      "UF": "MA",
+      "Qtd_operacoes": 5494
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 91780.18,
+      "Ano": 2015,
+      "UF": "PB",
+      "Qtd_operacoes": 1566
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 301815.33,
+      "Ano": 2015,
+      "UF": "PE",
+      "Qtd_operacoes": 5398
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 63859.55,
+      "Ano": 2015,
+      "UF": "PI",
+      "Qtd_operacoes": 951
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 81040.74,
+      "Ano": 2015,
+      "UF": "RN",
+      "Qtd_operacoes": 1781
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 118038.7,
+      "Ano": 2015,
+      "UF": "SE",
+      "Qtd_operacoes": 2480
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 23110.43,
+      "Ano": 2015,
+      "UF": "AC",
+      "Qtd_operacoes": 356
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 99607.12,
+      "Ano": 2015,
+      "UF": "AM",
+      "Qtd_operacoes": 1820
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 31543.41,
+      "Ano": 2015,
+      "UF": "AP",
+      "Qtd_operacoes": 558
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 652688.55,
+      "Ano": 2015,
+      "UF": "PA",
+      "Qtd_operacoes": 12018
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 35343.41,
+      "Ano": 2015,
+      "UF": "RO",
+      "Qtd_operacoes": 570
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 13712.87,
+      "Ano": 2015,
+      "UF": "RR",
+      "Qtd_operacoes": 223
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 45413.53,
+      "Ano": 2015,
+      "UF": "TO",
+      "Qtd_operacoes": 1088
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 228150.19,
+      "Ano": 2015,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 4469
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 412394.18,
+      "Ano": 2015,
+      "UF": "ES",
+      "Qtd_operacoes": 9701
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 1606811.11,
+      "Ano": 2015,
+      "UF": "MG",
+      "Qtd_operacoes": 30936
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 1193553.14,
+      "Ano": 2015,
+      "UF": "RJ",
+      "Qtd_operacoes": 22699
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 4395953.79,
+      "Ano": 2015,
+      "UF": "SP",
+      "Qtd_operacoes": 82668
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 710804.33,
+      "Ano": 2015,
+      "UF": "PR",
+      "Qtd_operacoes": 14015
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 547155.16,
+      "Ano": 2015,
+      "UF": "RS",
+      "Qtd_operacoes": 10060
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "JUNHO",
+      "Consumo_total_mes": 12863357.68,
+      "Valor_consumido": 403054.6,
+      "Ano": 2015,
+      "UF": "SC",
+      "Qtd_operacoes": 7730
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 421082.95,
+      "Ano": 2015,
+      "UF": "DF",
+      "Qtd_operacoes": 8405
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 278559.28,
+      "Ano": 2015,
+      "UF": "GO",
+      "Qtd_operacoes": 4694
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 163492.24,
+      "Ano": 2015,
+      "UF": "MS",
+      "Qtd_operacoes": 3311
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 143437.17,
+      "Ano": 2015,
+      "UF": "MT",
+      "Qtd_operacoes": 2480
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 97978.78,
+      "Ano": 2015,
+      "UF": "AL",
+      "Qtd_operacoes": 2004
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 445424.46,
+      "Ano": 2015,
+      "UF": "BA",
+      "Qtd_operacoes": 7701
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 177531.04,
+      "Ano": 2015,
+      "UF": "CE",
+      "Qtd_operacoes": 3299
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 346500.06,
+      "Ano": 2015,
+      "UF": "MA",
+      "Qtd_operacoes": 6650
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 110186.54,
+      "Ano": 2015,
+      "UF": "PB",
+      "Qtd_operacoes": 1852
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 365940.67,
+      "Ano": 2015,
+      "UF": "PE",
+      "Qtd_operacoes": 6542
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 68425.76,
+      "Ano": 2015,
+      "UF": "PI",
+      "Qtd_operacoes": 965
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 100654.12,
+      "Ano": 2015,
+      "UF": "RN",
+      "Qtd_operacoes": 2006
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 155584.19,
+      "Ano": 2015,
+      "UF": "SE",
+      "Qtd_operacoes": 3085
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 27068.26,
+      "Ano": 2015,
+      "UF": "AC",
+      "Qtd_operacoes": 369
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 113391.9,
+      "Ano": 2015,
+      "UF": "AM",
+      "Qtd_operacoes": 1960
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 29515.41,
+      "Ano": 2015,
+      "UF": "AP",
+      "Qtd_operacoes": 592
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 669191.79,
+      "Ano": 2015,
+      "UF": "PA",
+      "Qtd_operacoes": 12104
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 49185.23,
+      "Ano": 2015,
+      "UF": "RO",
+      "Qtd_operacoes": 723
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 19898.34,
+      "Ano": 2015,
+      "UF": "RR",
+      "Qtd_operacoes": 286
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 57547.1,
+      "Ano": 2015,
+      "UF": "TO",
+      "Qtd_operacoes": 1167
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 268906.45,
+      "Ano": 2015,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 5459
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 435782.42,
+      "Ano": 2015,
+      "UF": "ES",
+      "Qtd_operacoes": 10508
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 1733869.63,
+      "Ano": 2015,
+      "UF": "MG",
+      "Qtd_operacoes": 33430
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 1370538.88,
+      "Ano": 2015,
+      "UF": "RJ",
+      "Qtd_operacoes": 26906
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 4949626.89,
+      "Ano": 2015,
+      "UF": "SP",
+      "Qtd_operacoes": 94780
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 775690.3,
+      "Ano": 2015,
+      "UF": "PR",
+      "Qtd_operacoes": 15468
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 603098.28,
+      "Ano": 2015,
+      "UF": "RS",
+      "Qtd_operacoes": 11273
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "JULHO",
+      "Consumo_total_mes": 14430084.41,
+      "Valor_consumido": 451976.27,
+      "Ano": 2015,
+      "UF": "SC",
+      "Qtd_operacoes": 9001
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 382139.29,
+      "Ano": 2015,
+      "UF": "DF",
+      "Qtd_operacoes": 7521
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 259022.75,
+      "Ano": 2015,
+      "UF": "GO",
+      "Qtd_operacoes": 4129
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 151756.31,
+      "Ano": 2015,
+      "UF": "MS",
+      "Qtd_operacoes": 3094
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 123243.05,
+      "Ano": 2015,
+      "UF": "MT",
+      "Qtd_operacoes": 2251
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 93513.17,
+      "Ano": 2015,
+      "UF": "AL",
+      "Qtd_operacoes": 1884
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 454518.65,
+      "Ano": 2015,
+      "UF": "BA",
+      "Qtd_operacoes": 7820
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 160077.14,
+      "Ano": 2015,
+      "UF": "CE",
+      "Qtd_operacoes": 2756
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 327734.62,
+      "Ano": 2015,
+      "UF": "MA",
+      "Qtd_operacoes": 6490
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 85186.46,
+      "Ano": 2015,
+      "UF": "PB",
+      "Qtd_operacoes": 1322
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 322541,
+      "Ano": 2015,
+      "UF": "PE",
+      "Qtd_operacoes": 5606
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 74438.43,
+      "Ano": 2015,
+      "UF": "PI",
+      "Qtd_operacoes": 1155
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 90379.79,
+      "Ano": 2015,
+      "UF": "RN",
+      "Qtd_operacoes": 1770
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 143383.62,
+      "Ano": 2015,
+      "UF": "SE",
+      "Qtd_operacoes": 2778
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 28720.76,
+      "Ano": 2015,
+      "UF": "AC",
+      "Qtd_operacoes": 407
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 84582.25,
+      "Ano": 2015,
+      "UF": "AM",
+      "Qtd_operacoes": 1586
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 25081.18,
+      "Ano": 2015,
+      "UF": "AP",
+      "Qtd_operacoes": 486
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 690577.57,
+      "Ano": 2015,
+      "UF": "PA",
+      "Qtd_operacoes": 12839
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 36176.63,
+      "Ano": 2015,
+      "UF": "RO",
+      "Qtd_operacoes": 616
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 20820.1,
+      "Ano": 2015,
+      "UF": "RR",
+      "Qtd_operacoes": 255
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 63377.6,
+      "Ano": 2015,
+      "UF": "TO",
+      "Qtd_operacoes": 1245
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 261967.9,
+      "Ano": 2015,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 5127
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 382172.73,
+      "Ano": 2015,
+      "UF": "ES",
+      "Qtd_operacoes": 8823
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 1648846.77,
+      "Ano": 2015,
+      "UF": "MG",
+      "Qtd_operacoes": 32158
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 1134798.61,
+      "Ano": 2015,
+      "UF": "RJ",
+      "Qtd_operacoes": 21805
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 4110086.46,
+      "Ano": 2015,
+      "UF": "SP",
+      "Qtd_operacoes": 78603
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 710117.16,
+      "Ano": 2015,
+      "UF": "PR",
+      "Qtd_operacoes": 13690
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 811381.41,
+      "Ano": 2015,
+      "UF": "RS",
+      "Qtd_operacoes": 14672
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "AGOSTO",
+      "Consumo_total_mes": 13086147.73,
+      "Valor_consumido": 409506.32,
+      "Ano": 2015,
+      "UF": "SC",
+      "Qtd_operacoes": 7629
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 329056.31,
+      "Ano": 2015,
+      "UF": "DF",
+      "Qtd_operacoes": 7001
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 209920.57,
+      "Ano": 2015,
+      "UF": "GO",
+      "Qtd_operacoes": 3676
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 141918.69,
+      "Ano": 2015,
+      "UF": "MS",
+      "Qtd_operacoes": 2851
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 105104.92,
+      "Ano": 2015,
+      "UF": "MT",
+      "Qtd_operacoes": 2019
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 81229.74,
+      "Ano": 2015,
+      "UF": "AL",
+      "Qtd_operacoes": 1688
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 402798.95,
+      "Ano": 2015,
+      "UF": "BA",
+      "Qtd_operacoes": 7050
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 146825.33,
+      "Ano": 2015,
+      "UF": "CE",
+      "Qtd_operacoes": 2404
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 280579.11,
+      "Ano": 2015,
+      "UF": "MA",
+      "Qtd_operacoes": 5867
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 66966.44,
+      "Ano": 2015,
+      "UF": "PB",
+      "Qtd_operacoes": 1120
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 273200.97,
+      "Ano": 2015,
+      "UF": "PE",
+      "Qtd_operacoes": 5050
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 57294.19,
+      "Ano": 2015,
+      "UF": "PI",
+      "Qtd_operacoes": 935
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 82568.12,
+      "Ano": 2015,
+      "UF": "RN",
+      "Qtd_operacoes": 1606
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 115879.52,
+      "Ano": 2015,
+      "UF": "SE",
+      "Qtd_operacoes": 2301
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 26415.77,
+      "Ano": 2015,
+      "UF": "AC",
+      "Qtd_operacoes": 363
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 91766.82,
+      "Ano": 2015,
+      "UF": "AM",
+      "Qtd_operacoes": 1546
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 18793.06,
+      "Ano": 2015,
+      "UF": "AP",
+      "Qtd_operacoes": 434
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 591552.74,
+      "Ano": 2015,
+      "UF": "PA",
+      "Qtd_operacoes": 11328
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 39466.02,
+      "Ano": 2015,
+      "UF": "RO",
+      "Qtd_operacoes": 665
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 14460.79,
+      "Ano": 2015,
+      "UF": "RR",
+      "Qtd_operacoes": 210
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 45201.2,
+      "Ano": 2015,
+      "UF": "TO",
+      "Qtd_operacoes": 909
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 211400.84,
+      "Ano": 2015,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 4260
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 324458.14,
+      "Ano": 2015,
+      "UF": "ES",
+      "Qtd_operacoes": 7453
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 1387787.43,
+      "Ano": 2015,
+      "UF": "MG",
+      "Qtd_operacoes": 27557
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 1264402.65,
+      "Ano": 2015,
+      "UF": "RJ",
+      "Qtd_operacoes": 21914
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 3772837.51,
+      "Ano": 2015,
+      "UF": "SP",
+      "Qtd_operacoes": 72496
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 664781.31,
+      "Ano": 2015,
+      "UF": "PR",
+      "Qtd_operacoes": 12595
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 707289.08,
+      "Ano": 2015,
+      "UF": "RS",
+      "Qtd_operacoes": 13119
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "SETEMBRO",
+      "Consumo_total_mes": 11840826.96,
+      "Valor_consumido": 386870.74,
+      "Ano": 2015,
+      "UF": "SC",
+      "Qtd_operacoes": 7226
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 436822.42,
+      "Ano": 2015,
+      "UF": "DF",
+      "Qtd_operacoes": 8446
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 378451.57,
+      "Ano": 2015,
+      "UF": "GO",
+      "Qtd_operacoes": 4899
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 260613.96,
+      "Ano": 2015,
+      "UF": "MS",
+      "Qtd_operacoes": 3845
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 136770.05,
+      "Ano": 2015,
+      "UF": "MT",
+      "Qtd_operacoes": 2526
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 96038.33,
+      "Ano": 2015,
+      "UF": "AL",
+      "Qtd_operacoes": 1958
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 538003.19,
+      "Ano": 2015,
+      "UF": "BA",
+      "Qtd_operacoes": 8946
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 160903.54,
+      "Ano": 2015,
+      "UF": "CE",
+      "Qtd_operacoes": 2828
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 357461.81,
+      "Ano": 2015,
+      "UF": "MA",
+      "Qtd_operacoes": 6803
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 94127.41,
+      "Ano": 2015,
+      "UF": "PB",
+      "Qtd_operacoes": 1367
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 376479.61,
+      "Ano": 2015,
+      "UF": "PE",
+      "Qtd_operacoes": 6307
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 114497.31,
+      "Ano": 2015,
+      "UF": "PI",
+      "Qtd_operacoes": 1375
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 153915.99,
+      "Ano": 2015,
+      "UF": "RN",
+      "Qtd_operacoes": 2429
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 136925.52,
+      "Ano": 2015,
+      "UF": "SE",
+      "Qtd_operacoes": 2817
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 48341.29,
+      "Ano": 2015,
+      "UF": "AC",
+      "Qtd_operacoes": 581
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 108854.73,
+      "Ano": 2015,
+      "UF": "AM",
+      "Qtd_operacoes": 1905
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 28772.41,
+      "Ano": 2015,
+      "UF": "AP",
+      "Qtd_operacoes": 514
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 721001.54,
+      "Ano": 2015,
+      "UF": "PA",
+      "Qtd_operacoes": 13526
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 42077.08,
+      "Ano": 2015,
+      "UF": "RO",
+      "Qtd_operacoes": 676
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 14731.44,
+      "Ano": 2015,
+      "UF": "RR",
+      "Qtd_operacoes": 253
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 51799.84,
+      "Ano": 2015,
+      "UF": "TO",
+      "Qtd_operacoes": 1114
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 290500.66,
+      "Ano": 2015,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 5375
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 393447.4,
+      "Ano": 2015,
+      "UF": "ES",
+      "Qtd_operacoes": 9211
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 1839754.88,
+      "Ano": 2015,
+      "UF": "MG",
+      "Qtd_operacoes": 32320
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 1492757.67,
+      "Ano": 2015,
+      "UF": "RJ",
+      "Qtd_operacoes": 26417
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 5102140.37,
+      "Ano": 2015,
+      "UF": "SP",
+      "Qtd_operacoes": 86906
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 852289.24,
+      "Ano": 2015,
+      "UF": "PR",
+      "Qtd_operacoes": 14885
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 957280.86,
+      "Ano": 2015,
+      "UF": "RS",
+      "Qtd_operacoes": 16491
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "OUTUBRO",
+      "Consumo_total_mes": 15683928.49,
+      "Valor_consumido": 499168.37,
+      "Ano": 2015,
+      "UF": "SC",
+      "Qtd_operacoes": 8389
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 364207.86,
+      "Ano": 2015,
+      "UF": "DF",
+      "Qtd_operacoes": 7430
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 229114.03,
+      "Ano": 2015,
+      "UF": "GO",
+      "Qtd_operacoes": 3752
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 158396.45,
+      "Ano": 2015,
+      "UF": "MS",
+      "Qtd_operacoes": 2963
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 96093.44,
+      "Ano": 2015,
+      "UF": "MT",
+      "Qtd_operacoes": 1911
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 84825.24,
+      "Ano": 2015,
+      "UF": "AL",
+      "Qtd_operacoes": 1702
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 441739.85,
+      "Ano": 2015,
+      "UF": "BA",
+      "Qtd_operacoes": 7915
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 130031.42,
+      "Ano": 2015,
+      "UF": "CE",
+      "Qtd_operacoes": 2406
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 286072.62,
+      "Ano": 2015,
+      "UF": "MA",
+      "Qtd_operacoes": 5890
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 78300.52,
+      "Ano": 2015,
+      "UF": "PB",
+      "Qtd_operacoes": 1176
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 325205.43,
+      "Ano": 2015,
+      "UF": "PE",
+      "Qtd_operacoes": 5531
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 78987.51,
+      "Ano": 2015,
+      "UF": "PI",
+      "Qtd_operacoes": 1112
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 102395.17,
+      "Ano": 2015,
+      "UF": "RN",
+      "Qtd_operacoes": 1837
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 127419.65,
+      "Ano": 2015,
+      "UF": "SE",
+      "Qtd_operacoes": 2491
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 26618.92,
+      "Ano": 2015,
+      "UF": "AC",
+      "Qtd_operacoes": 374
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 94308.65,
+      "Ano": 2015,
+      "UF": "AM",
+      "Qtd_operacoes": 1659
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 16125.24,
+      "Ano": 2015,
+      "UF": "AP",
+      "Qtd_operacoes": 356
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 573519.86,
+      "Ano": 2015,
+      "UF": "PA",
+      "Qtd_operacoes": 11207
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 39669.3,
+      "Ano": 2015,
+      "UF": "RO",
+      "Qtd_operacoes": 632
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 10139.45,
+      "Ano": 2015,
+      "UF": "RR",
+      "Qtd_operacoes": 183
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 53428.78,
+      "Ano": 2015,
+      "UF": "TO",
+      "Qtd_operacoes": 1047
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 233736.37,
+      "Ano": 2015,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 4623
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 321830.76,
+      "Ano": 2015,
+      "UF": "ES",
+      "Qtd_operacoes": 7550
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 1450934.91,
+      "Ano": 2015,
+      "UF": "MG",
+      "Qtd_operacoes": 27142
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 1146666.91,
+      "Ano": 2015,
+      "UF": "RJ",
+      "Qtd_operacoes": 20742
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 4339347.69,
+      "Ano": 2015,
+      "UF": "SP",
+      "Qtd_operacoes": 76227
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 648817.32,
+      "Ano": 2015,
+      "UF": "PR",
+      "Qtd_operacoes": 12519
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 844528.32,
+      "Ano": 2015,
+      "UF": "RS",
+      "Qtd_operacoes": 14619
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "NOVEMBRO",
+      "Consumo_total_mes": 12666002.91,
+      "Valor_consumido": 363541.24,
+      "Ano": 2015,
+      "UF": "SC",
+      "Qtd_operacoes": 6777
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 469883.8,
+      "Ano": 2015,
+      "UF": "DF",
+      "Qtd_operacoes": 8161
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 308378.24,
+      "Ano": 2015,
+      "UF": "GO",
+      "Qtd_operacoes": 4093
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 171510.25,
+      "Ano": 2015,
+      "UF": "MS",
+      "Qtd_operacoes": 2896
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 124202.31,
+      "Ano": 2015,
+      "UF": "MT",
+      "Qtd_operacoes": 2180
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 88116.8,
+      "Ano": 2015,
+      "UF": "AL",
+      "Qtd_operacoes": 1635
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 554152.29,
+      "Ano": 2015,
+      "UF": "BA",
+      "Qtd_operacoes": 8792
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 189539.14,
+      "Ano": 2015,
+      "UF": "CE",
+      "Qtd_operacoes": 2787
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 341997.99,
+      "Ano": 2015,
+      "UF": "MA",
+      "Qtd_operacoes": 5890
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 105620.63,
+      "Ano": 2015,
+      "UF": "PB",
+      "Qtd_operacoes": 1519
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 370488.74,
+      "Ano": 2015,
+      "UF": "PE",
+      "Qtd_operacoes": 5809
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 110467.67,
+      "Ano": 2015,
+      "UF": "PI",
+      "Qtd_operacoes": 1179
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 114595.09,
+      "Ano": 2015,
+      "UF": "RN",
+      "Qtd_operacoes": 1895
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 195737.1,
+      "Ano": 2015,
+      "UF": "SE",
+      "Qtd_operacoes": 2773
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 29011.44,
+      "Ano": 2015,
+      "UF": "AC",
+      "Qtd_operacoes": 428
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 99224.77,
+      "Ano": 2015,
+      "UF": "AM",
+      "Qtd_operacoes": 1690
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 18784.52,
+      "Ano": 2015,
+      "UF": "AP",
+      "Qtd_operacoes": 340
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 866196.23,
+      "Ano": 2015,
+      "UF": "PA",
+      "Qtd_operacoes": 13687
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 37759.48,
+      "Ano": 2015,
+      "UF": "RO",
+      "Qtd_operacoes": 657
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 11462.89,
+      "Ano": 2015,
+      "UF": "RR",
+      "Qtd_operacoes": 202
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 52681.11,
+      "Ano": 2015,
+      "UF": "TO",
+      "Qtd_operacoes": 1008
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 346523.13,
+      "Ano": 2015,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 5504
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 406817.3,
+      "Ano": 2015,
+      "UF": "ES",
+      "Qtd_operacoes": 7631
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 2158706.49,
+      "Ano": 2015,
+      "UF": "MG",
+      "Qtd_operacoes": 34888
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 1508049.58,
+      "Ano": 2015,
+      "UF": "RJ",
+      "Qtd_operacoes": 22832
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 4929550.66,
+      "Ano": 2015,
+      "UF": "SP",
+      "Qtd_operacoes": 81478
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 805791.9,
+      "Ano": 2015,
+      "UF": "PR",
+      "Qtd_operacoes": 13590
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 1134297.73,
+      "Ano": 2015,
+      "UF": "RS",
+      "Qtd_operacoes": 17718
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "DEZEMBRO",
+      "Consumo_total_mes": 16070176.68,
+      "Valor_consumido": 520629.4,
+      "Ano": 2015,
+      "UF": "SC",
+      "Qtd_operacoes": 8298
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 363670.67,
+      "Ano": 2016,
+      "UF": "DF",
+      "Qtd_operacoes": 5719
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 254937.5,
+      "Ano": 2016,
+      "UF": "GO",
+      "Qtd_operacoes": 3212
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 68436.99,
+      "Ano": 2016,
+      "UF": "MS",
+      "Qtd_operacoes": 988
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 97605.37,
+      "Ano": 2016,
+      "UF": "MT",
+      "Qtd_operacoes": 1116
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 93598.47,
+      "Ano": 2016,
+      "UF": "AL",
+      "Qtd_operacoes": 1565
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 436014.67,
+      "Ano": 2016,
+      "UF": "BA",
+      "Qtd_operacoes": 6229
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 202616.68,
+      "Ano": 2016,
+      "UF": "CE",
+      "Qtd_operacoes": 2816
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 110355.8,
+      "Ano": 2016,
+      "UF": "MA",
+      "Qtd_operacoes": 1901
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 133327.16,
+      "Ano": 2016,
+      "UF": "PB",
+      "Qtd_operacoes": 1401
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 323355.29,
+      "Ano": 2016,
+      "UF": "PE",
+      "Qtd_operacoes": 4726
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 123456.08,
+      "Ano": 2016,
+      "UF": "PI",
+      "Qtd_operacoes": 1258
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 121478.32,
+      "Ano": 2016,
+      "UF": "RN",
+      "Qtd_operacoes": 1787
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 136745.79,
+      "Ano": 2016,
+      "UF": "SE",
+      "Qtd_operacoes": 1982
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 13110.83,
+      "Ano": 2016,
+      "UF": "AC",
+      "Qtd_operacoes": 121
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 51552.24,
+      "Ano": 2016,
+      "UF": "AM",
+      "Qtd_operacoes": 813
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 8002.24,
+      "Ano": 2016,
+      "UF": "AP",
+      "Qtd_operacoes": 121
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 154315.31,
+      "Ano": 2016,
+      "UF": "PA",
+      "Qtd_operacoes": 2052
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 31853.71,
+      "Ano": 2016,
+      "UF": "RO",
+      "Qtd_operacoes": 302
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 4660.5,
+      "Ano": 2016,
+      "UF": "RR",
+      "Qtd_operacoes": 62
+    },
+    {
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 37059.46,
+      "Ano": 2016,
+      "UF": "TO",
+      "Qtd_operacoes": 444
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 236549.56,
+      "Ano": 2016,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 3215
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 196744.79,
+      "Ano": 2016,
+      "UF": "ES",
+      "Qtd_operacoes": 2442
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 652370.73,
+      "Ano": 2016,
+      "UF": "MG",
+      "Qtd_operacoes": 8838
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 1026358.15,
+      "Ano": 2016,
+      "UF": "RJ",
+      "Qtd_operacoes": 14107
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 2846511.21,
+      "Ano": 2016,
+      "UF": "SP",
+      "Qtd_operacoes": 46297
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 697362.18,
+      "Ano": 2016,
+      "UF": "PR",
+      "Qtd_operacoes": 11096
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 712399.75,
+      "Ano": 2016,
+      "UF": "RS",
+      "Qtd_operacoes": 11316
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "JANEIRO",
+      "Consumo_total_mes": 9503659.88,
+      "Valor_consumido": 369210.43,
+      "Ano": 2016,
+      "UF": "SC",
+      "Qtd_operacoes": 5937
+    },
+    {
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 135912.48,
+      "Valor_consumido": 71.8,
+      "Ano": 2016,
+      "UF": "DF",
+      "Qtd_operacoes": 2
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 135912.48,
+      "Valor_consumido": 679.77,
+      "Ano": 2016,
+      "UF": "BA",
+      "Qtd_operacoes": 10
+    },
+    {
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 135912.48,
+      "Valor_consumido": 1178.6,
+      "Ano": 2016,
+      "UF": "PE",
+      "Qtd_operacoes": 5
+    },
+    {
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 135912.48,
+      "Valor_consumido": 3442.09,
+      "Ano": 2016,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Qtd_operacoes": 42
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 135912.48,
+      "Valor_consumido": 33.82,
+      "Ano": 2016,
+      "UF": "RJ",
+      "Qtd_operacoes": 1
+    },
+    {
+      "Regiao": "SUDESTE",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 135912.48,
+      "Valor_consumido": 1707.1,
+      "Ano": 2016,
+      "UF": "SP",
+      "Qtd_operacoes": 27
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 135912.48,
+      "Valor_consumido": 825.57,
+      "Ano": 2016,
+      "UF": "PR",
+      "Qtd_operacoes": 9
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 135912.48,
+      "Valor_consumido": 121198.02,
+      "Ano": 2016,
+      "UF": "RS",
+      "Qtd_operacoes": 1561
+    },
+    {
+      "Regiao": "SUL",
+      "Mes": "FEVEREIRO",
+      "Consumo_total_mes": 135912.48,
+      "Valor_consumido": 6775.71,
+      "Ano": 2016,
+      "UF": "SC",
+      "Qtd_operacoes": 71
+    }
+  ]
+}

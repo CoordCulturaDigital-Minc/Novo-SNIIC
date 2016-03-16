@@ -260,6 +260,9 @@ function argent_neue_dependencies () {
 	wp_enqueue_style( 'twitter_bootstrap_theme', $bower_directory . '/bootstrap/dist/css/bootstrap-theme.min.css' );
 	wp_enqueue_script( 'twitter_bootstrap', $bower_directory . '/bootstrap/dist/js/bootstrap.min.js', array( 'jquery' ), false, true );
 
+	// D3
+	wp_enqueue_script( 'd3', $bower_directory . '/d3/d3.min.js', array(), false, false );
+
 }
 add_action( 'wp_enqueue_scripts', 'argent_neue_dependencies' );
 
