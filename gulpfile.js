@@ -2,6 +2,17 @@ var gulp = require('gulp');
 
 gulp.task('default', ['stylesheets', 'bower']);
 
+gulp.task('javascript', function () {
+  var sourcemaps = require('gulp-sourcemaps');
+      coffee = require('gulp-coffee');
+
+  return gulp.src('./javascript/*.coffee')
+    .pipe(sourcemaps.init())
+    .pipe(coffee({bare: true}))
+    .pipe(sourcemaps.write('.'))
+    .pipe(gulp.dest('./javascript/'))
+});
+
 gulp.task('stylesheets', function () {
   var postcss = require('gulp-postcss');
       nano = require('gulp-cssnano');
@@ -13,7 +24,7 @@ gulp.task('stylesheets', function () {
       cssnext = require('cssnext');
 
   return gulp.src('./*.pcss')
-    .pipe( sourcemaps.init() )
+    .pipe(sourcemaps.init())
     .pipe(postcss([
       precss({
         import: ({
@@ -28,7 +39,7 @@ gulp.task('stylesheets', function () {
       extname: ".css"
     }))
     .pipe(nano())
-    .pipe( sourcemaps.write('.') )
+    .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('./'));
 });
 
@@ -39,5 +50,6 @@ gulp.task('bower', function() {
 });
 
 gulp.task('watch', function() {
+  gulp.watch(['javascript/*.coffee'], ['javascript']);
   gulp.watch(['*.pcss', 'stylesheets/*.pcss'], ['stylesheets']);
 });

@@ -1,0 +1,6485 @@
+{
+  "title" : "Trabalhadores beneficiados",
+  "data": [
+    {
+      "Total_BR": 60104,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "DF",
+      "Percentagem": 2.16,
+      "Quantidade": 1300
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "GO",
+      "Percentagem": 1.85,
+      "Quantidade": 1112
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "MS",
+      "Percentagem": 0.79,
+      "Quantidade": 475
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "MT",
+      "Percentagem": 1.06,
+      "Quantidade": 639
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "AL",
+      "Percentagem": 0.6,
+      "Quantidade": 360
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "BA",
+      "Percentagem": 3.3,
+      "Quantidade": 1982
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "CE",
+      "Percentagem": 1.86,
+      "Quantidade": 1120
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "MA",
+      "Percentagem": 1.06,
+      "Quantidade": 638
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "PB",
+      "Percentagem": 1,
+      "Quantidade": 604
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "PE",
+      "Percentagem": 2.25,
+      "Quantidade": 1350
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "PI",
+      "Percentagem": 0.76,
+      "Quantidade": 456
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "RN",
+      "Percentagem": 0.86,
+      "Quantidade": 514
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "SE",
+      "Percentagem": 0.39,
+      "Quantidade": 233
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "AC",
+      "Percentagem": 0.15,
+      "Quantidade": 93
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "AM",
+      "Percentagem": 0.44,
+      "Quantidade": 264
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "AP",
+      "Percentagem": 0.11,
+      "Quantidade": 68
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "PA",
+      "Percentagem": 1.04,
+      "Quantidade": 625
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "RO",
+      "Percentagem": 0.44,
+      "Quantidade": 267
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "RR",
+      "Percentagem": 0.13,
+      "Quantidade": 79
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "TO",
+      "Percentagem": 0.43,
+      "Quantidade": 257
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 2.65,
+      "Quantidade": 1595
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "SUDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "ES",
+      "Percentagem": 0.96,
+      "Quantidade": 576
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "SUDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "MG",
+      "Percentagem": 7.87,
+      "Quantidade": 4728
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "SUDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "RJ",
+      "Percentagem": 7.18,
+      "Quantidade": 4316
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "SUDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "SP",
+      "Percentagem": 46.52,
+      "Quantidade": 27963
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "SUL",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "PR",
+      "Percentagem": 6.38,
+      "Quantidade": 3837
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "SUL",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "RS",
+      "Percentagem": 3.99,
+      "Quantidade": 2398
+    },
+    {
+      "Total_BR": 60104,
+      "Regiao": "SUL",
+      "Mes": "JANEIRO",
+      "Ano": 2014,
+      "UF": "SC",
+      "Percentagem": 3.75,
+      "Quantidade": 2255
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "DF",
+      "Percentagem": 0.8,
+      "Quantidade": 565
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "GO",
+      "Percentagem": 0.85,
+      "Quantidade": 600
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "MS",
+      "Percentagem": 0.37,
+      "Quantidade": 260
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "MT",
+      "Percentagem": 0.33,
+      "Quantidade": 236
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "AL",
+      "Percentagem": 0.2,
+      "Quantidade": 140
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "BA",
+      "Percentagem": 2.68,
+      "Quantidade": 1901
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "CE",
+      "Percentagem": 0.87,
+      "Quantidade": 617
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "MA",
+      "Percentagem": 4.9,
+      "Quantidade": 3478
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "PB",
+      "Percentagem": 0.4,
+      "Quantidade": 286
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "PE",
+      "Percentagem": 1.3,
+      "Quantidade": 925
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "PI",
+      "Percentagem": 0.16,
+      "Quantidade": 114
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "RN",
+      "Percentagem": 0.36,
+      "Quantidade": 259
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "SE",
+      "Percentagem": 0.29,
+      "Quantidade": 203
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "AC",
+      "Percentagem": 0.06,
+      "Quantidade": 44
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "AM",
+      "Percentagem": 0.21,
+      "Quantidade": 150
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "AP",
+      "Percentagem": 0.1,
+      "Quantidade": 69
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "PA",
+      "Percentagem": 10.21,
+      "Quantidade": 7246
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "RO",
+      "Percentagem": 0.23,
+      "Quantidade": 162
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "RR",
+      "Percentagem": 0.05,
+      "Quantidade": 39
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "TO",
+      "Percentagem": 0.1,
+      "Quantidade": 70
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 3.88,
+      "Quantidade": 2753
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "SUDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "ES",
+      "Percentagem": 8.09,
+      "Quantidade": 5744
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "SUDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "MG",
+      "Percentagem": 30.01,
+      "Quantidade": 21292
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "SUDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "RJ",
+      "Percentagem": 6.23,
+      "Quantidade": 4421
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "SUDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "SP",
+      "Percentagem": 15.2,
+      "Quantidade": 10783
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "SUL",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "PR",
+      "Percentagem": 1.77,
+      "Quantidade": 1254
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "SUL",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "RS",
+      "Percentagem": 8.87,
+      "Quantidade": 6297
+    },
+    {
+      "Total_BR": 70960,
+      "Regiao": "SUL",
+      "Mes": "FEVEREIRO",
+      "Ano": 2014,
+      "UF": "SC",
+      "Percentagem": 1.48,
+      "Quantidade": 1052
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "DF",
+      "Percentagem": 2.02,
+      "Quantidade": 519
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "GO",
+      "Percentagem": 1.73,
+      "Quantidade": 445
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "MS",
+      "Percentagem": 3.84,
+      "Quantidade": 988
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "MT",
+      "Percentagem": 0.65,
+      "Quantidade": 166
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "AL",
+      "Percentagem": 0.3,
+      "Quantidade": 77
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "BA",
+      "Percentagem": 3.16,
+      "Quantidade": 814
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "CE",
+      "Percentagem": 1.19,
+      "Quantidade": 307
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "MA",
+      "Percentagem": 2.55,
+      "Quantidade": 655
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "PB",
+      "Percentagem": 0.55,
+      "Quantidade": 141
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "PE",
+      "Percentagem": 1.73,
+      "Quantidade": 444
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "PI",
+      "Percentagem": 0.4,
+      "Quantidade": 102
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "RN",
+      "Percentagem": 0.45,
+      "Quantidade": 115
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "SE",
+      "Percentagem": 3.51,
+      "Quantidade": 902
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "AC",
+      "Percentagem": 0.15,
+      "Quantidade": 39
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "AM",
+      "Percentagem": 0.53,
+      "Quantidade": 137
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "AP",
+      "Percentagem": 0.09,
+      "Quantidade": 22
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "PA",
+      "Percentagem": 8.41,
+      "Quantidade": 2165
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "RO",
+      "Percentagem": 0.27,
+      "Quantidade": 69
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "RR",
+      "Percentagem": 0.09,
+      "Quantidade": 23
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "TO",
+      "Percentagem": 0.21,
+      "Quantidade": 54
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 3.5,
+      "Quantidade": 900
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "SUDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "ES",
+      "Percentagem": 1.14,
+      "Quantidade": 294
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "SUDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "MG",
+      "Percentagem": 9.21,
+      "Quantidade": 2369
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "SUDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "RJ",
+      "Percentagem": 10.17,
+      "Quantidade": 2617
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "SUDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "SP",
+      "Percentagem": 30.37,
+      "Quantidade": 7815
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "SUL",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "PR",
+      "Percentagem": 4.5,
+      "Quantidade": 1159
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "SUL",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "RS",
+      "Percentagem": 7.05,
+      "Quantidade": 1815
+    },
+    {
+      "Total_BR": 25734,
+      "Regiao": "SUL",
+      "Mes": "MARÇO",
+      "Ano": 2014,
+      "UF": "SC",
+      "Percentagem": 2.26,
+      "Quantidade": 581
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "DF",
+      "Percentagem": 1.83,
+      "Quantidade": 279
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "GO",
+      "Percentagem": 2.08,
+      "Quantidade": 318
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "MS",
+      "Percentagem": 1.13,
+      "Quantidade": 172
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "MT",
+      "Percentagem": 0.94,
+      "Quantidade": 143
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "AL",
+      "Percentagem": 0.62,
+      "Quantidade": 95
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "BA",
+      "Percentagem": 4.17,
+      "Quantidade": 637
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "CE",
+      "Percentagem": 1.66,
+      "Quantidade": 253
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "MA",
+      "Percentagem": 2.35,
+      "Quantidade": 359
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "PB",
+      "Percentagem": 0.88,
+      "Quantidade": 135
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "PE",
+      "Percentagem": 2.25,
+      "Quantidade": 344
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "PI",
+      "Percentagem": 0.39,
+      "Quantidade": 60
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "RN",
+      "Percentagem": 0.52,
+      "Quantidade": 80
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "SE",
+      "Percentagem": 0.72,
+      "Quantidade": 110
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "AC",
+      "Percentagem": 0.09,
+      "Quantidade": 14
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "AM",
+      "Percentagem": 1.97,
+      "Quantidade": 301
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "AP",
+      "Percentagem": 0.16,
+      "Quantidade": 25
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "PA",
+      "Percentagem": 2.62,
+      "Quantidade": 400
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "RO",
+      "Percentagem": 0.29,
+      "Quantidade": 45
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "RR",
+      "Percentagem": 0.14,
+      "Quantidade": 22
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "TO",
+      "Percentagem": 0.49,
+      "Quantidade": 75
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 3.76,
+      "Quantidade": 574
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "SUDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "ES",
+      "Percentagem": 0.99,
+      "Quantidade": 151
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "SUDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "MG",
+      "Percentagem": 9.47,
+      "Quantidade": 1446
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "SUDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "RJ",
+      "Percentagem": 10.27,
+      "Quantidade": 1568
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "SUDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "SP",
+      "Percentagem": 34.05,
+      "Quantidade": 5198
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "SUL",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "PR",
+      "Percentagem": 5.04,
+      "Quantidade": 770
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "SUL",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "RS",
+      "Percentagem": 6.87,
+      "Quantidade": 1049
+    },
+    {
+      "Total_BR": 15265,
+      "Regiao": "SUL",
+      "Mes": "ABRIL",
+      "Ano": 2014,
+      "UF": "SC",
+      "Percentagem": 4.21,
+      "Quantidade": 642
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "DF",
+      "Percentagem": 4.4,
+      "Quantidade": 540
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "GO",
+      "Percentagem": 2.56,
+      "Quantidade": 315
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "MS",
+      "Percentagem": 0.79,
+      "Quantidade": 97
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "MT",
+      "Percentagem": 0.98,
+      "Quantidade": 121
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "AL",
+      "Percentagem": 0.37,
+      "Quantidade": 46
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "BA",
+      "Percentagem": 2.97,
+      "Quantidade": 365
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "CE",
+      "Percentagem": 1.32,
+      "Quantidade": 162
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "MA",
+      "Percentagem": 0.67,
+      "Quantidade": 82
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "PB",
+      "Percentagem": 0.62,
+      "Quantidade": 76
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "PE",
+      "Percentagem": 1.96,
+      "Quantidade": 241
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "PI",
+      "Percentagem": 0.42,
+      "Quantidade": 52
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "RN",
+      "Percentagem": 0.65,
+      "Quantidade": 80
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "SE",
+      "Percentagem": 0.37,
+      "Quantidade": 46
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "AC",
+      "Percentagem": 0.14,
+      "Quantidade": 17
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "AM",
+      "Percentagem": 0.75,
+      "Quantidade": 92
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "AP",
+      "Percentagem": 0.08,
+      "Quantidade": 10
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "PA",
+      "Percentagem": 1.89,
+      "Quantidade": 232
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "RO",
+      "Percentagem": 0.29,
+      "Quantidade": 36
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "RR",
+      "Percentagem": 0.08,
+      "Quantidade": 10
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "TO",
+      "Percentagem": 0.32,
+      "Quantidade": 39
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 3.45,
+      "Quantidade": 424
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "SUDESTE",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "ES",
+      "Percentagem": 1.17,
+      "Quantidade": 144
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "SUDESTE",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "MG",
+      "Percentagem": 8.42,
+      "Quantidade": 1035
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "SUDESTE",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "RJ",
+      "Percentagem": 11.53,
+      "Quantidade": 1417
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "SUDESTE",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "SP",
+      "Percentagem": 41.58,
+      "Quantidade": 5109
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "SUL",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "PR",
+      "Percentagem": 4.58,
+      "Quantidade": 563
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "SUL",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "RS",
+      "Percentagem": 5.4,
+      "Quantidade": 664
+    },
+    {
+      "Total_BR": 12286,
+      "Regiao": "SUL",
+      "Mes": "MAIO",
+      "Ano": 2014,
+      "UF": "SC",
+      "Percentagem": 2.21,
+      "Quantidade": 271
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "DF",
+      "Percentagem": 1.89,
+      "Quantidade": 306
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "GO",
+      "Percentagem": 2.16,
+      "Quantidade": 349
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "MS",
+      "Percentagem": 0.61,
+      "Quantidade": 98
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "MT",
+      "Percentagem": 0.6,
+      "Quantidade": 97
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "AL",
+      "Percentagem": 0.42,
+      "Quantidade": 68
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "BA",
+      "Percentagem": 2.56,
+      "Quantidade": 415
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "CE",
+      "Percentagem": 1.09,
+      "Quantidade": 176
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "MA",
+      "Percentagem": 1.08,
+      "Quantidade": 174
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "PB",
+      "Percentagem": 0.57,
+      "Quantidade": 92
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "PE",
+      "Percentagem": 1.9,
+      "Quantidade": 307
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "PI",
+      "Percentagem": 0.24,
+      "Quantidade": 39
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "RN",
+      "Percentagem": 0.55,
+      "Quantidade": 89
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "SE",
+      "Percentagem": 0.36,
+      "Quantidade": 58
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "AC",
+      "Percentagem": 0.25,
+      "Quantidade": 41
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "AM",
+      "Percentagem": 0.74,
+      "Quantidade": 119
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "AP",
+      "Percentagem": 0.21,
+      "Quantidade": 34
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "PA",
+      "Percentagem": 3.3,
+      "Quantidade": 534
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "RO",
+      "Percentagem": 0.47,
+      "Quantidade": 76
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "RR",
+      "Percentagem": 0.09,
+      "Quantidade": 14
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "TO",
+      "Percentagem": 0.36,
+      "Quantidade": 58
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 3.65,
+      "Quantidade": 591
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "SUDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "ES",
+      "Percentagem": 0.83,
+      "Quantidade": 134
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "SUDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "MG",
+      "Percentagem": 11.6,
+      "Quantidade": 1877
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "SUDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "RJ",
+      "Percentagem": 9.44,
+      "Quantidade": 1527
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "SUDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "SP",
+      "Percentagem": 43.9,
+      "Quantidade": 7105
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "SUL",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "PR",
+      "Percentagem": 4.64,
+      "Quantidade": 751
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "SUL",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "RS",
+      "Percentagem": 4.22,
+      "Quantidade": 683
+    },
+    {
+      "Total_BR": 16183,
+      "Regiao": "SUL",
+      "Mes": "JUNHO",
+      "Ano": 2014,
+      "UF": "SC",
+      "Percentagem": 2.29,
+      "Quantidade": 371
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "DF",
+      "Percentagem": 1.6,
+      "Quantidade": 274
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "GO",
+      "Percentagem": 1.81,
+      "Quantidade": 309
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "MS",
+      "Percentagem": 0.74,
+      "Quantidade": 126
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "MT",
+      "Percentagem": 0.75,
+      "Quantidade": 128
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "AL",
+      "Percentagem": 0.24,
+      "Quantidade": 41
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "BA",
+      "Percentagem": 3.01,
+      "Quantidade": 514
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "CE",
+      "Percentagem": 1.67,
+      "Quantidade": 285
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "MA",
+      "Percentagem": 0.75,
+      "Quantidade": 128
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "PB",
+      "Percentagem": 0.42,
+      "Quantidade": 72
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "PE",
+      "Percentagem": 1.75,
+      "Quantidade": 299
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "PI",
+      "Percentagem": 0.21,
+      "Quantidade": 36
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "RN",
+      "Percentagem": 0.47,
+      "Quantidade": 81
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "SE",
+      "Percentagem": 0.28,
+      "Quantidade": 48
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "AC",
+      "Percentagem": 0.09,
+      "Quantidade": 15
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "AM",
+      "Percentagem": 0.84,
+      "Quantidade": 143
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "AP",
+      "Percentagem": 0.15,
+      "Quantidade": 26
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "PA",
+      "Percentagem": 2.51,
+      "Quantidade": 429
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "RO",
+      "Percentagem": 0.16,
+      "Quantidade": 28
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "RR",
+      "Percentagem": 0.05,
+      "Quantidade": 9
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "TO",
+      "Percentagem": 0.23,
+      "Quantidade": 40
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 3.37,
+      "Quantidade": 575
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "SUDESTE",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "ES",
+      "Percentagem": 1.08,
+      "Quantidade": 184
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "SUDESTE",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "MG",
+      "Percentagem": 7.53,
+      "Quantidade": 1286
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "SUDESTE",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "RJ",
+      "Percentagem": 11.86,
+      "Quantidade": 2025
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "SUDESTE",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "SP",
+      "Percentagem": 46.16,
+      "Quantidade": 7883
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "SUL",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "PR",
+      "Percentagem": 5.37,
+      "Quantidade": 917
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "SUL",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "RS",
+      "Percentagem": 4.76,
+      "Quantidade": 812
+    },
+    {
+      "Total_BR": 17076,
+      "Regiao": "SUL",
+      "Mes": "JULHO",
+      "Ano": 2014,
+      "UF": "SC",
+      "Percentagem": 2.13,
+      "Quantidade": 363
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "DF",
+      "Percentagem": 4.57,
+      "Quantidade": 691
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "GO",
+      "Percentagem": 2.31,
+      "Quantidade": 349
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "MS",
+      "Percentagem": 0.92,
+      "Quantidade": 139
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "MT",
+      "Percentagem": 0.58,
+      "Quantidade": 87
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "AL",
+      "Percentagem": 0.38,
+      "Quantidade": 58
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "BA",
+      "Percentagem": 2.13,
+      "Quantidade": 322
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "CE",
+      "Percentagem": 1.04,
+      "Quantidade": 157
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "MA",
+      "Percentagem": 1.31,
+      "Quantidade": 198
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "PB",
+      "Percentagem": 0.23,
+      "Quantidade": 35
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "PE",
+      "Percentagem": 1.65,
+      "Quantidade": 249
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "PI",
+      "Percentagem": 0.24,
+      "Quantidade": 37
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "RN",
+      "Percentagem": 0.42,
+      "Quantidade": 64
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "SE",
+      "Percentagem": 0.44,
+      "Quantidade": 66
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "AC",
+      "Percentagem": 0.05,
+      "Quantidade": 7
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "AM",
+      "Percentagem": 0.65,
+      "Quantidade": 98
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "AP",
+      "Percentagem": 0.14,
+      "Quantidade": 21
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "PA",
+      "Percentagem": 2.03,
+      "Quantidade": 307
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "RO",
+      "Percentagem": 0.23,
+      "Quantidade": 35
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "RR",
+      "Percentagem": 0.11,
+      "Quantidade": 16
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "TO",
+      "Percentagem": 0.24,
+      "Quantidade": 36
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 3.4,
+      "Quantidade": 515
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "SUDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "ES",
+      "Percentagem": 1.3,
+      "Quantidade": 196
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "SUDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "MG",
+      "Percentagem": 10.68,
+      "Quantidade": 1616
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "SUDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "RJ",
+      "Percentagem": 9.58,
+      "Quantidade": 1449
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "SUDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "SP",
+      "Percentagem": 44.96,
+      "Quantidade": 6802
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "SUL",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "PR",
+      "Percentagem": 5.32,
+      "Quantidade": 805
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "SUL",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "RS",
+      "Percentagem": 3.3,
+      "Quantidade": 499
+    },
+    {
+      "Total_BR": 15130,
+      "Regiao": "SUL",
+      "Mes": "AGOSTO",
+      "Ano": 2014,
+      "UF": "SC",
+      "Percentagem": 1.82,
+      "Quantidade": 276
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "DF",
+      "Percentagem": 2.53,
+      "Quantidade": 333
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "GO",
+      "Percentagem": 1.84,
+      "Quantidade": 242
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "MS",
+      "Percentagem": 1.02,
+      "Quantidade": 134
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "MT",
+      "Percentagem": 0.75,
+      "Quantidade": 98
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "AL",
+      "Percentagem": 0.52,
+      "Quantidade": 68
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "BA",
+      "Percentagem": 3.41,
+      "Quantidade": 448
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "CE",
+      "Percentagem": 1.18,
+      "Quantidade": 155
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "MA",
+      "Percentagem": 2.66,
+      "Quantidade": 349
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "PB",
+      "Percentagem": 0.55,
+      "Quantidade": 72
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "PE",
+      "Percentagem": 2.39,
+      "Quantidade": 314
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "PI",
+      "Percentagem": 0.37,
+      "Quantidade": 48
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "RN",
+      "Percentagem": 0.64,
+      "Quantidade": 84
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "SE",
+      "Percentagem": 0.81,
+      "Quantidade": 107
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "AC",
+      "Percentagem": 0.17,
+      "Quantidade": 22
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "AM",
+      "Percentagem": 0.8,
+      "Quantidade": 105
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "AP",
+      "Percentagem": 0.1,
+      "Quantidade": 13
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "PA",
+      "Percentagem": 15.03,
+      "Quantidade": 1974
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "RO",
+      "Percentagem": 0.3,
+      "Quantidade": 40
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "RR",
+      "Percentagem": 0.09,
+      "Quantidade": 12
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "TO",
+      "Percentagem": 0.27,
+      "Quantidade": 36
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 3.78,
+      "Quantidade": 496
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "SUDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "ES",
+      "Percentagem": 2.41,
+      "Quantidade": 316
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "SUDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "MG",
+      "Percentagem": 9.08,
+      "Quantidade": 1193
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "SUDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "RJ",
+      "Percentagem": 6.74,
+      "Quantidade": 885
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "SUDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "SP",
+      "Percentagem": 24.78,
+      "Quantidade": 3255
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "SUL",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "PR",
+      "Percentagem": 6.52,
+      "Quantidade": 856
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "SUL",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "RS",
+      "Percentagem": 8.17,
+      "Quantidade": 1073
+    },
+    {
+      "Total_BR": 13138,
+      "Regiao": "SUL",
+      "Mes": "SETEMBRO",
+      "Ano": 2014,
+      "UF": "SC",
+      "Percentagem": 3.12,
+      "Quantidade": 410
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "DF",
+      "Percentagem": 0.94,
+      "Quantidade": 81
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "GO",
+      "Percentagem": 1.12,
+      "Quantidade": 96
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "MS",
+      "Percentagem": 0.79,
+      "Quantidade": 68
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "MT",
+      "Percentagem": 0.52,
+      "Quantidade": 45
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "AL",
+      "Percentagem": 0.17,
+      "Quantidade": 15
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "BA",
+      "Percentagem": 1.83,
+      "Quantidade": 157
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "CE",
+      "Percentagem": 0.57,
+      "Quantidade": 49
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "MA",
+      "Percentagem": 1.49,
+      "Quantidade": 128
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "PB",
+      "Percentagem": 0.35,
+      "Quantidade": 30
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "PE",
+      "Percentagem": 1.63,
+      "Quantidade": 140
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "PI",
+      "Percentagem": 0.3,
+      "Quantidade": 26
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "RN",
+      "Percentagem": 0.26,
+      "Quantidade": 22
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "SE",
+      "Percentagem": 0.48,
+      "Quantidade": 41
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "AC",
+      "Percentagem": 0.07,
+      "Quantidade": 6
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "AM",
+      "Percentagem": 0.43,
+      "Quantidade": 37
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "AP",
+      "Percentagem": 0.08,
+      "Quantidade": 7
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "PA",
+      "Percentagem": 6.29,
+      "Quantidade": 540
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "RO",
+      "Percentagem": 0.1,
+      "Quantidade": 9
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "RR",
+      "Percentagem": 0.08,
+      "Quantidade": 7
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "TO",
+      "Percentagem": 0.19,
+      "Quantidade": 16
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 5.48,
+      "Quantidade": 470
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "SUDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "ES",
+      "Percentagem": 10.17,
+      "Quantidade": 873
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "SUDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "MG",
+      "Percentagem": 7.4,
+      "Quantidade": 635
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "SUDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "RJ",
+      "Percentagem": 7.2,
+      "Quantidade": 618
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "SUDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "SP",
+      "Percentagem": 38.37,
+      "Quantidade": 3293
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "SUL",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "PR",
+      "Percentagem": 4.75,
+      "Quantidade": 408
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "SUL",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "RS",
+      "Percentagem": 5.69,
+      "Quantidade": 488
+    },
+    {
+      "Total_BR": 8582,
+      "Regiao": "SUL",
+      "Mes": "OUTUBRO",
+      "Ano": 2014,
+      "UF": "SC",
+      "Percentagem": 3.23,
+      "Quantidade": 277
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "DF",
+      "Percentagem": 3,
+      "Quantidade": 1302
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "GO",
+      "Percentagem": 3.34,
+      "Quantidade": 1449
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "MS",
+      "Percentagem": 0.61,
+      "Quantidade": 263
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "MT",
+      "Percentagem": 0.47,
+      "Quantidade": 204
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "AL",
+      "Percentagem": 0.4,
+      "Quantidade": 173
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "BA",
+      "Percentagem": 2.09,
+      "Quantidade": 905
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "CE",
+      "Percentagem": 4.08,
+      "Quantidade": 1770
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "MA",
+      "Percentagem": 1.03,
+      "Quantidade": 448
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "PB",
+      "Percentagem": 0.45,
+      "Quantidade": 196
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "PE",
+      "Percentagem": 2.64,
+      "Quantidade": 1144
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "PI",
+      "Percentagem": 1.99,
+      "Quantidade": 865
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "RN",
+      "Percentagem": 2.29,
+      "Quantidade": 992
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "SE",
+      "Percentagem": 0.68,
+      "Quantidade": 295
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "AC",
+      "Percentagem": 0.06,
+      "Quantidade": 25
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "AM",
+      "Percentagem": 1.84,
+      "Quantidade": 800
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "AP",
+      "Percentagem": 0.44,
+      "Quantidade": 189
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "PA",
+      "Percentagem": 1.75,
+      "Quantidade": 760
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "RO",
+      "Percentagem": 0.84,
+      "Quantidade": 364
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "RR",
+      "Percentagem": 0.07,
+      "Quantidade": 29
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "TO",
+      "Percentagem": 1.33,
+      "Quantidade": 576
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 5.4,
+      "Quantidade": 2345
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "SUDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "ES",
+      "Percentagem": 1.48,
+      "Quantidade": 641
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "SUDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "MG",
+      "Percentagem": 11.04,
+      "Quantidade": 4789
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "SUDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "RJ",
+      "Percentagem": 3.63,
+      "Quantidade": 1574
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "SUDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "SP",
+      "Percentagem": 41.31,
+      "Quantidade": 17925
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "SUL",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "PR",
+      "Percentagem": 3.32,
+      "Quantidade": 1442
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "SUL",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "RS",
+      "Percentagem": 2.92,
+      "Quantidade": 1265
+    },
+    {
+      "Total_BR": 43391,
+      "Regiao": "SUL",
+      "Mes": "NOVEMBRO",
+      "Ano": 2014,
+      "UF": "SC",
+      "Percentagem": 1.52,
+      "Quantidade": 661
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "DF",
+      "Percentagem": 1.21,
+      "Quantidade": 835
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "GO",
+      "Percentagem": 2.25,
+      "Quantidade": 1555
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "MS",
+      "Percentagem": 1.86,
+      "Quantidade": 1284
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "MT",
+      "Percentagem": 1.4,
+      "Quantidade": 967
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "AL",
+      "Percentagem": 0.98,
+      "Quantidade": 674
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "BA",
+      "Percentagem": 4.3,
+      "Quantidade": 2971
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "CE",
+      "Percentagem": 0.38,
+      "Quantidade": 263
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "MA",
+      "Percentagem": 1.37,
+      "Quantidade": 950
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "PB",
+      "Percentagem": 1.17,
+      "Quantidade": 809
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "PE",
+      "Percentagem": 1.8,
+      "Quantidade": 1247
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "PI",
+      "Percentagem": 0.21,
+      "Quantidade": 147
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "RN",
+      "Percentagem": 0.23,
+      "Quantidade": 159
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "SE",
+      "Percentagem": 1.19,
+      "Quantidade": 823
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "NORTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "AC",
+      "Percentagem": 0.24,
+      "Quantidade": 163
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "NORTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "AM",
+      "Percentagem": 0.32,
+      "Quantidade": 221
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "NORTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "AP",
+      "Percentagem": 0.04,
+      "Quantidade": 25
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "NORTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "PA",
+      "Percentagem": 3.28,
+      "Quantidade": 2270
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "NORTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "RO",
+      "Percentagem": 0.16,
+      "Quantidade": 114
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "NORTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "RR",
+      "Percentagem": 0.21,
+      "Quantidade": 144
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "NORTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "TO",
+      "Percentagem": 0.1,
+      "Quantidade": 68
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 5.34,
+      "Quantidade": 3688
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "SUDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "ES",
+      "Percentagem": 1.89,
+      "Quantidade": 1306
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "SUDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "MG",
+      "Percentagem": 8.79,
+      "Quantidade": 6076
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "SUDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "RJ",
+      "Percentagem": 12.35,
+      "Quantidade": 8535
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "SUDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "SP",
+      "Percentagem": 26.19,
+      "Quantidade": 18103
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "SUL",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "PR",
+      "Percentagem": 9.97,
+      "Quantidade": 6894
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "SUL",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "RS",
+      "Percentagem": 8.46,
+      "Quantidade": 5847
+    },
+    {
+      "Total_BR": 69116,
+      "Regiao": "SUL",
+      "Mes": "DEZEMBRO",
+      "Ano": 2014,
+      "UF": "SC",
+      "Percentagem": 4.31,
+      "Quantidade": 2978
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "DF",
+      "Percentagem": 5.89,
+      "Quantidade": 777
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "GO",
+      "Percentagem": 2.9,
+      "Quantidade": 383
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "MS",
+      "Percentagem": 1.17,
+      "Quantidade": 155
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "MT",
+      "Percentagem": 1.12,
+      "Quantidade": 148
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "AL",
+      "Percentagem": 0.96,
+      "Quantidade": 126
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "BA",
+      "Percentagem": 4.42,
+      "Quantidade": 583
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "CE",
+      "Percentagem": 2.06,
+      "Quantidade": 272
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "MA",
+      "Percentagem": 0.97,
+      "Quantidade": 128
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "PB",
+      "Percentagem": 0.76,
+      "Quantidade": 100
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "PE",
+      "Percentagem": 3.67,
+      "Quantidade": 484
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "PI",
+      "Percentagem": 1.11,
+      "Quantidade": 146
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "RN",
+      "Percentagem": 1.2,
+      "Quantidade": 158
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "SE",
+      "Percentagem": 1.1,
+      "Quantidade": 145
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "AC",
+      "Percentagem": 0.22,
+      "Quantidade": 29
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "AM",
+      "Percentagem": 1.08,
+      "Quantidade": 142
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "AP",
+      "Percentagem": 0.21,
+      "Quantidade": 28
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "PA",
+      "Percentagem": 2.13,
+      "Quantidade": 281
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "RO",
+      "Percentagem": 0.39,
+      "Quantidade": 51
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "RR",
+      "Percentagem": 0.15,
+      "Quantidade": 20
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "TO",
+      "Percentagem": 0.46,
+      "Quantidade": 61
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 3.52,
+      "Quantidade": 464
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "SUDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "ES",
+      "Percentagem": 1.93,
+      "Quantidade": 254
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "SUDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "MG",
+      "Percentagem": 9.26,
+      "Quantidade": 1222
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "SUDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "RJ",
+      "Percentagem": 11.57,
+      "Quantidade": 1527
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "SUDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "SP",
+      "Percentagem": 25.73,
+      "Quantidade": 3395
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "SUL",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "PR",
+      "Percentagem": 5.51,
+      "Quantidade": 727
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "SUL",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "RS",
+      "Percentagem": 6.5,
+      "Quantidade": 857
+    },
+    {
+      "Total_BR": 13193,
+      "Regiao": "SUL",
+      "Mes": "JANEIRO",
+      "Ano": 2015,
+      "UF": "SC",
+      "Percentagem": 4.02,
+      "Quantidade": 530
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "DF",
+      "Percentagem": 3.18,
+      "Quantidade": 351
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "GO",
+      "Percentagem": 2.85,
+      "Quantidade": 314
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "MS",
+      "Percentagem": 1.08,
+      "Quantidade": 119
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "MT",
+      "Percentagem": 1.17,
+      "Quantidade": 129
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "AL",
+      "Percentagem": 0.64,
+      "Quantidade": 71
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "BA",
+      "Percentagem": 3.88,
+      "Quantidade": 428
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "CE",
+      "Percentagem": 1.08,
+      "Quantidade": 119
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "MA",
+      "Percentagem": 1.27,
+      "Quantidade": 140
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "PB",
+      "Percentagem": 1.33,
+      "Quantidade": 147
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "PE",
+      "Percentagem": 3.47,
+      "Quantidade": 383
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "PI",
+      "Percentagem": 0.83,
+      "Quantidade": 92
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "RN",
+      "Percentagem": 0.98,
+      "Quantidade": 108
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "SE",
+      "Percentagem": 1.29,
+      "Quantidade": 142
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "AC",
+      "Percentagem": 0.12,
+      "Quantidade": 13
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "AM",
+      "Percentagem": 0.73,
+      "Quantidade": 81
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "AP",
+      "Percentagem": 0.12,
+      "Quantidade": 13
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "PA",
+      "Percentagem": 3.2,
+      "Quantidade": 353
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "RO",
+      "Percentagem": 0.58,
+      "Quantidade": 64
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "RR",
+      "Percentagem": 0.17,
+      "Quantidade": 19
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "TO",
+      "Percentagem": 0.41,
+      "Quantidade": 45
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 4.33,
+      "Quantidade": 478
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "SUDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "ES",
+      "Percentagem": 2.84,
+      "Quantidade": 313
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "SUDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "MG",
+      "Percentagem": 12.33,
+      "Quantidade": 1360
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "SUDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "RJ",
+      "Percentagem": 10.24,
+      "Quantidade": 1130
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "SUDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "SP",
+      "Percentagem": 29.63,
+      "Quantidade": 3269
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "SUL",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "PR",
+      "Percentagem": 5.3,
+      "Quantidade": 585
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "SUL",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "RS",
+      "Percentagem": 4.34,
+      "Quantidade": 479
+    },
+    {
+      "Total_BR": 11034,
+      "Regiao": "SUL",
+      "Mes": "FEVEREIRO",
+      "Ano": 2015,
+      "UF": "SC",
+      "Percentagem": 2.62,
+      "Quantidade": 289
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "DF",
+      "Percentagem": 4.66,
+      "Quantidade": 722
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "GO",
+      "Percentagem": 3.52,
+      "Quantidade": 545
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "MS",
+      "Percentagem": 1.16,
+      "Quantidade": 179
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "MT",
+      "Percentagem": 1.96,
+      "Quantidade": 303
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "AL",
+      "Percentagem": 0.69,
+      "Quantidade": 107
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "BA",
+      "Percentagem": 7.56,
+      "Quantidade": 1171
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "CE",
+      "Percentagem": 2.38,
+      "Quantidade": 369
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "MA",
+      "Percentagem": 1.74,
+      "Quantidade": 270
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "PB",
+      "Percentagem": 0.7,
+      "Quantidade": 109
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "PE",
+      "Percentagem": 3.83,
+      "Quantidade": 593
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "PI",
+      "Percentagem": 0.78,
+      "Quantidade": 121
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "RN",
+      "Percentagem": 0.36,
+      "Quantidade": 55
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "NORDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "SE",
+      "Percentagem": 0.72,
+      "Quantidade": 112
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "AC",
+      "Percentagem": 0.44,
+      "Quantidade": 68
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "AM",
+      "Percentagem": 0.62,
+      "Quantidade": 96
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "AP",
+      "Percentagem": 0.12,
+      "Quantidade": 18
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "PA",
+      "Percentagem": 2.15,
+      "Quantidade": 333
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "RO",
+      "Percentagem": 0.74,
+      "Quantidade": 114
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "RR",
+      "Percentagem": 0.19,
+      "Quantidade": 30
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "NORTE",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "TO",
+      "Percentagem": 0.81,
+      "Quantidade": 126
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 5.68,
+      "Quantidade": 879
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "SUDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "ES",
+      "Percentagem": 1.23,
+      "Quantidade": 191
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "SUDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "MG",
+      "Percentagem": 7.88,
+      "Quantidade": 1220
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "SUDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "RJ",
+      "Percentagem": 12.46,
+      "Quantidade": 1929
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "SUDESTE",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "SP",
+      "Percentagem": 26.1,
+      "Quantidade": 4042
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "SUL",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "PR",
+      "Percentagem": 3.66,
+      "Quantidade": 567
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "SUL",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "RS",
+      "Percentagem": 4.11,
+      "Quantidade": 636
+    },
+    {
+      "Total_BR": 15487,
+      "Regiao": "SUL",
+      "Mes": "MARÇO",
+      "Ano": 2015,
+      "UF": "SC",
+      "Percentagem": 3.76,
+      "Quantidade": 582
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "DF",
+      "Percentagem": 2.03,
+      "Quantidade": 51
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "GO",
+      "Percentagem": 4.31,
+      "Quantidade": 108
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "MS",
+      "Percentagem": 0.36,
+      "Quantidade": 9
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "MT",
+      "Percentagem": 0.56,
+      "Quantidade": 14
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "AL",
+      "Percentagem": 0.56,
+      "Quantidade": 14
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "BA",
+      "Percentagem": 1.76,
+      "Quantidade": 44
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "CE",
+      "Percentagem": 1.52,
+      "Quantidade": 38
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "MA",
+      "Percentagem": 0.92,
+      "Quantidade": 23
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "PB",
+      "Percentagem": 1.24,
+      "Quantidade": 31
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "PE",
+      "Percentagem": 5.42,
+      "Quantidade": 136
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "PI",
+      "Percentagem": 1.24,
+      "Quantidade": 31
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "RN",
+      "Percentagem": 0.8,
+      "Quantidade": 20
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "NORDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "SE",
+      "Percentagem": 1.76,
+      "Quantidade": 44
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "AC",
+      "Percentagem": 0.32,
+      "Quantidade": 8
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "AM",
+      "Percentagem": 4.59,
+      "Quantidade": 115
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "AP",
+      "Percentagem": 0.72,
+      "Quantidade": 18
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "PA",
+      "Percentagem": 2.27,
+      "Quantidade": 57
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "RO",
+      "Percentagem": 0.08,
+      "Quantidade": 2
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "RR",
+      "Percentagem": 0.16,
+      "Quantidade": 4
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "NORTE",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "TO",
+      "Percentagem": 0.36,
+      "Quantidade": 9
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 5.98,
+      "Quantidade": 150
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "SUDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "ES",
+      "Percentagem": 1,
+      "Quantidade": 25
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "SUDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "MG",
+      "Percentagem": 9.13,
+      "Quantidade": 229
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "SUDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "RJ",
+      "Percentagem": 11.77,
+      "Quantidade": 295
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "SUDESTE",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "SP",
+      "Percentagem": 25.45,
+      "Quantidade": 638
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "SUL",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "PR",
+      "Percentagem": 4.03,
+      "Quantidade": 101
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "SUL",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "RS",
+      "Percentagem": 8.06,
+      "Quantidade": 202
+    },
+    {
+      "Total_BR": 2507,
+      "Regiao": "SUL",
+      "Mes": "ABRIL",
+      "Ano": 2015,
+      "UF": "SC",
+      "Percentagem": 3.63,
+      "Quantidade": 91
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "DF",
+      "Percentagem": 2.65,
+      "Quantidade": 151
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "GO",
+      "Percentagem": 1.96,
+      "Quantidade": 112
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "MS",
+      "Percentagem": 1.35,
+      "Quantidade": 77
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "MT",
+      "Percentagem": 2.09,
+      "Quantidade": 119
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "AL",
+      "Percentagem": 0.35,
+      "Quantidade": 20
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "BA",
+      "Percentagem": 4.15,
+      "Quantidade": 237
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "CE",
+      "Percentagem": 1.33,
+      "Quantidade": 76
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "MA",
+      "Percentagem": 1.93,
+      "Quantidade": 110
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "PB",
+      "Percentagem": 0.47,
+      "Quantidade": 27
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "PE",
+      "Percentagem": 2.4,
+      "Quantidade": 137
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "PI",
+      "Percentagem": 0.39,
+      "Quantidade": 22
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "RN",
+      "Percentagem": 0.7,
+      "Quantidade": 40
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "NORDESTE",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "SE",
+      "Percentagem": 0.65,
+      "Quantidade": 37
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "AC",
+      "Percentagem": 0.05,
+      "Quantidade": 3
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "AM",
+      "Percentagem": 0.96,
+      "Quantidade": 55
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "AP",
+      "Percentagem": 0.28,
+      "Quantidade": 16
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "PA",
+      "Percentagem": 9.68,
+      "Quantidade": 552
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "RO",
+      "Percentagem": 0.23,
+      "Quantidade": 13
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "RR",
+      "Percentagem": 0.09,
+      "Quantidade": 5
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "NORTE",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "TO",
+      "Percentagem": 0.46,
+      "Quantidade": 26
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 4.65,
+      "Quantidade": 265
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "SUDESTE",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "ES",
+      "Percentagem": 3.89,
+      "Quantidade": 222
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "SUDESTE",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "MG",
+      "Percentagem": 6.07,
+      "Quantidade": 346
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "SUDESTE",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "RJ",
+      "Percentagem": 8.33,
+      "Quantidade": 475
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "SUDESTE",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "SP",
+      "Percentagem": 31.05,
+      "Quantidade": 1771
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "SUL",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "PR",
+      "Percentagem": 6.31,
+      "Quantidade": 360
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "SUL",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "RS",
+      "Percentagem": 4.35,
+      "Quantidade": 248
+    },
+    {
+      "Total_BR": 5704,
+      "Regiao": "SUL",
+      "Mes": "MAIO",
+      "Ano": 2015,
+      "UF": "SC",
+      "Percentagem": 3.19,
+      "Quantidade": 182
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "DF",
+      "Percentagem": 6.23,
+      "Quantidade": 396
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "GO",
+      "Percentagem": 2.14,
+      "Quantidade": 136
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "MS",
+      "Percentagem": 1.07,
+      "Quantidade": 68
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "MT",
+      "Percentagem": 0.72,
+      "Quantidade": 46
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "AL",
+      "Percentagem": 0.77,
+      "Quantidade": 49
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "BA",
+      "Percentagem": 2.31,
+      "Quantidade": 147
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "CE",
+      "Percentagem": 1.5,
+      "Quantidade": 95
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "MA",
+      "Percentagem": 1.98,
+      "Quantidade": 126
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "PB",
+      "Percentagem": 0.54,
+      "Quantidade": 34
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "PE",
+      "Percentagem": 2.09,
+      "Quantidade": 133
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "PI",
+      "Percentagem": 0.72,
+      "Quantidade": 46
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "RN",
+      "Percentagem": 1.01,
+      "Quantidade": 64
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "NORDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "SE",
+      "Percentagem": 0.54,
+      "Quantidade": 34
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "AC",
+      "Percentagem": 0.06,
+      "Quantidade": 4
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "AM",
+      "Percentagem": 0.46,
+      "Quantidade": 29
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "AP",
+      "Percentagem": 0.41,
+      "Quantidade": 26
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "PA",
+      "Percentagem": 5.48,
+      "Quantidade": 348
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "RO",
+      "Percentagem": 0.16,
+      "Quantidade": 10
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "RR",
+      "Percentagem": 0.13,
+      "Quantidade": 8
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "NORTE",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "TO",
+      "Percentagem": 0.58,
+      "Quantidade": 37
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 4.82,
+      "Quantidade": 306
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "SUDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "ES",
+      "Percentagem": 3.87,
+      "Quantidade": 246
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "SUDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "MG",
+      "Percentagem": 5.41,
+      "Quantidade": 344
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "SUDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "RJ",
+      "Percentagem": 10.59,
+      "Quantidade": 673
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "SUDESTE",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "SP",
+      "Percentagem": 27.61,
+      "Quantidade": 1754
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "SUL",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "PR",
+      "Percentagem": 3.81,
+      "Quantidade": 242
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "SUL",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "RS",
+      "Percentagem": 3.05,
+      "Quantidade": 194
+    },
+    {
+      "Total_BR": 6353,
+      "Regiao": "SUL",
+      "Mes": "JUNHO",
+      "Ano": 2015,
+      "UF": "SC",
+      "Percentagem": 11.93,
+      "Quantidade": 758
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "DF",
+      "Percentagem": 7.53,
+      "Quantidade": 561
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "GO",
+      "Percentagem": 4.7,
+      "Quantidade": 350
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "MS",
+      "Percentagem": 0.54,
+      "Quantidade": 40
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "MT",
+      "Percentagem": 0.63,
+      "Quantidade": 47
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "AL",
+      "Percentagem": 1.18,
+      "Quantidade": 88
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "BA",
+      "Percentagem": 5.84,
+      "Quantidade": 435
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "CE",
+      "Percentagem": 3.99,
+      "Quantidade": 297
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "MA",
+      "Percentagem": 2.17,
+      "Quantidade": 162
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "PB",
+      "Percentagem": 1.38,
+      "Quantidade": 103
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "PE",
+      "Percentagem": 4.23,
+      "Quantidade": 315
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "PI",
+      "Percentagem": 1.8,
+      "Quantidade": 134
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "RN",
+      "Percentagem": 1.38,
+      "Quantidade": 103
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "NORDESTE",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "SE",
+      "Percentagem": 1.56,
+      "Quantidade": 116
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "AC",
+      "Percentagem": 0.08,
+      "Quantidade": 6
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "AM",
+      "Percentagem": 0.5,
+      "Quantidade": 37
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "AP",
+      "Percentagem": 0.03,
+      "Quantidade": 2
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "PA",
+      "Percentagem": 2.01,
+      "Quantidade": 150
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "RO",
+      "Percentagem": 0.21,
+      "Quantidade": 16
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "RR",
+      "Percentagem": 0.09,
+      "Quantidade": 7
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "NORTE",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "TO",
+      "Percentagem": 0.35,
+      "Quantidade": 26
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 7.02,
+      "Quantidade": 523
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "SUDESTE",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "ES",
+      "Percentagem": 1.54,
+      "Quantidade": 115
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "SUDESTE",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "MG",
+      "Percentagem": 6.44,
+      "Quantidade": 480
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "SUDESTE",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "RJ",
+      "Percentagem": 7.9,
+      "Quantidade": 589
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "SUDESTE",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "SP",
+      "Percentagem": 19.57,
+      "Quantidade": 1458
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "SUL",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "PR",
+      "Percentagem": 10.06,
+      "Quantidade": 750
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "SUL",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "RS",
+      "Percentagem": 4.12,
+      "Quantidade": 307
+    },
+    {
+      "Total_BR": 7452,
+      "Regiao": "SUL",
+      "Mes": "JULHO",
+      "Ano": 2015,
+      "UF": "SC",
+      "Percentagem": 3.15,
+      "Quantidade": 235
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "DF",
+      "Percentagem": 5.77,
+      "Quantidade": 457
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "GO",
+      "Percentagem": 3.76,
+      "Quantidade": 298
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "MS",
+      "Percentagem": 0.86,
+      "Quantidade": 68
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "MT",
+      "Percentagem": 0.72,
+      "Quantidade": 57
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "AL",
+      "Percentagem": 0.51,
+      "Quantidade": 40
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "BA",
+      "Percentagem": 2.85,
+      "Quantidade": 226
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "CE",
+      "Percentagem": 0.9,
+      "Quantidade": 71
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "MA",
+      "Percentagem": 1.48,
+      "Quantidade": 117
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "PB",
+      "Percentagem": 0.54,
+      "Quantidade": 43
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "PE",
+      "Percentagem": 2.82,
+      "Quantidade": 223
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "PI",
+      "Percentagem": 0.39,
+      "Quantidade": 31
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "RN",
+      "Percentagem": 0.39,
+      "Quantidade": 31
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "NORDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "SE",
+      "Percentagem": 0.47,
+      "Quantidade": 37
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "AC",
+      "Percentagem": 0.14,
+      "Quantidade": 11
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "AM",
+      "Percentagem": 0.83,
+      "Quantidade": 66
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "AP",
+      "Percentagem": 0.09,
+      "Quantidade": 7
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "PA",
+      "Percentagem": 4.14,
+      "Quantidade": 328
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "RO",
+      "Percentagem": 0.43,
+      "Quantidade": 34
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "RR",
+      "Percentagem": 0.08,
+      "Quantidade": 6
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "NORTE",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "TO",
+      "Percentagem": 0.35,
+      "Quantidade": 28
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 5.06,
+      "Quantidade": 401
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "SUDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "ES",
+      "Percentagem": 1.81,
+      "Quantidade": 143
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "SUDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "MG",
+      "Percentagem": 9.23,
+      "Quantidade": 731
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "SUDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "RJ",
+      "Percentagem": 8.42,
+      "Quantidade": 667
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "SUDESTE",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "SP",
+      "Percentagem": 31.35,
+      "Quantidade": 2482
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "SUL",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "PR",
+      "Percentagem": 7.5,
+      "Quantidade": 594
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "SUL",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "RS",
+      "Percentagem": 5.54,
+      "Quantidade": 439
+    },
+    {
+      "Total_BR": 7918,
+      "Regiao": "SUL",
+      "Mes": "AGOSTO",
+      "Ano": 2015,
+      "UF": "SC",
+      "Percentagem": 3.56,
+      "Quantidade": 282
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "DF",
+      "Percentagem": 5.53,
+      "Quantidade": 771
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "GO",
+      "Percentagem": 3.52,
+      "Quantidade": 490
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "MS",
+      "Percentagem": 0.75,
+      "Quantidade": 104
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "MT",
+      "Percentagem": 0.89,
+      "Quantidade": 124
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "AL",
+      "Percentagem": 0.78,
+      "Quantidade": 108
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "BA",
+      "Percentagem": 3.22,
+      "Quantidade": 449
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "CE",
+      "Percentagem": 1.59,
+      "Quantidade": 222
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "MA",
+      "Percentagem": 0.73,
+      "Quantidade": 102
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "PB",
+      "Percentagem": 0.57,
+      "Quantidade": 79
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "PE",
+      "Percentagem": 3.07,
+      "Quantidade": 428
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "PI",
+      "Percentagem": 0.45,
+      "Quantidade": 63
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "RN",
+      "Percentagem": 0.78,
+      "Quantidade": 108
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "NORDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "SE",
+      "Percentagem": 0.52,
+      "Quantidade": 72
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "AC",
+      "Percentagem": 0.18,
+      "Quantidade": 25
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "AM",
+      "Percentagem": 0.78,
+      "Quantidade": 109
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "AP",
+      "Percentagem": 0.13,
+      "Quantidade": 18
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "PA",
+      "Percentagem": 1.7,
+      "Quantidade": 237
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "RO",
+      "Percentagem": 0.41,
+      "Quantidade": 57
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "RR",
+      "Percentagem": 0.17,
+      "Quantidade": 23
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "NORTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "TO",
+      "Percentagem": 0.2,
+      "Quantidade": 28
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 3.76,
+      "Quantidade": 524
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "SUDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "ES",
+      "Percentagem": 1.03,
+      "Quantidade": 143
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "SUDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "MG",
+      "Percentagem": 7.67,
+      "Quantidade": 1069
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "SUDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "RJ",
+      "Percentagem": 14.12,
+      "Quantidade": 1967
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "SUDESTE",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "SP",
+      "Percentagem": 27.39,
+      "Quantidade": 3816
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "SUL",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "PR",
+      "Percentagem": 6.22,
+      "Quantidade": 867
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "SUL",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "RS",
+      "Percentagem": 5.62,
+      "Quantidade": 783
+    },
+    {
+      "Total_BR": 13930,
+      "Regiao": "SUL",
+      "Mes": "SETEMBRO",
+      "Ano": 2015,
+      "UF": "SC",
+      "Percentagem": 8.21,
+      "Quantidade": 1144
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "DF",
+      "Percentagem": 19.51,
+      "Quantidade": 366
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "GO",
+      "Percentagem": 2.4,
+      "Quantidade": 45
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "MS",
+      "Percentagem": 0.32,
+      "Quantidade": 6
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "MT",
+      "Percentagem": 0.21,
+      "Quantidade": 4
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "AL",
+      "Percentagem": 0.32,
+      "Quantidade": 6
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "BA",
+      "Percentagem": 2.77,
+      "Quantidade": 52
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "CE",
+      "Percentagem": 4,
+      "Quantidade": 75
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "MA",
+      "Percentagem": 0.75,
+      "Quantidade": 14
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "PB",
+      "Percentagem": 0.8,
+      "Quantidade": 15
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "PE",
+      "Percentagem": 2.24,
+      "Quantidade": 42
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "PI",
+      "Percentagem": 1.28,
+      "Quantidade": 24
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "RN",
+      "Percentagem": 2.24,
+      "Quantidade": 42
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "NORDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "SE",
+      "Percentagem": 0.91,
+      "Quantidade": 17
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "AC",
+      "Percentagem": 0.05,
+      "Quantidade": 1
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "AM",
+      "Percentagem": 0.43,
+      "Quantidade": 8
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "PA",
+      "Percentagem": 1.97,
+      "Quantidade": 37
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "NORTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "TO",
+      "Percentagem": 0.37,
+      "Quantidade": 7
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 5.44,
+      "Quantidade": 102
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "SUDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "ES",
+      "Percentagem": 0.69,
+      "Quantidade": 13
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "SUDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "MG",
+      "Percentagem": 4.9,
+      "Quantidade": 92
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "SUDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "RJ",
+      "Percentagem": 6.08,
+      "Quantidade": 114
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "SUDESTE",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "SP",
+      "Percentagem": 29.58,
+      "Quantidade": 555
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "SUL",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "PR",
+      "Percentagem": 3.52,
+      "Quantidade": 66
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "SUL",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "RS",
+      "Percentagem": 5.76,
+      "Quantidade": 108
+    },
+    {
+      "Total_BR": 1876,
+      "Regiao": "SUL",
+      "Mes": "OUTUBRO",
+      "Ano": 2015,
+      "UF": "SC",
+      "Percentagem": 3.46,
+      "Quantidade": 65
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "DF",
+      "Percentagem": 3.26,
+      "Quantidade": 72
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "GO",
+      "Percentagem": 4.48,
+      "Quantidade": 99
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "MS",
+      "Percentagem": 0.36,
+      "Quantidade": 8
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "MT",
+      "Percentagem": 0.82,
+      "Quantidade": 18
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "AL",
+      "Percentagem": 0.32,
+      "Quantidade": 7
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "BA",
+      "Percentagem": 5.75,
+      "Quantidade": 127
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "CE",
+      "Percentagem": 1.54,
+      "Quantidade": 34
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "MA",
+      "Percentagem": 0.82,
+      "Quantidade": 18
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "PB",
+      "Percentagem": 1.18,
+      "Quantidade": 26
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "PE",
+      "Percentagem": 1.81,
+      "Quantidade": 40
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "PI",
+      "Percentagem": 1.18,
+      "Quantidade": 26
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "RN",
+      "Percentagem": 0.86,
+      "Quantidade": 19
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "NORDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "SE",
+      "Percentagem": 0.32,
+      "Quantidade": 7
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "AM",
+      "Percentagem": 0.82,
+      "Quantidade": 18
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "AP",
+      "Percentagem": 0.09,
+      "Quantidade": 2
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "PA",
+      "Percentagem": 1.86,
+      "Quantidade": 41
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "RO",
+      "Percentagem": 0.09,
+      "Quantidade": 2
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "RR",
+      "Percentagem": 0.27,
+      "Quantidade": 6
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "NORTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "TO",
+      "Percentagem": 0.36,
+      "Quantidade": 8
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 5.07,
+      "Quantidade": 112
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "SUDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "ES",
+      "Percentagem": 1.49,
+      "Quantidade": 33
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "SUDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "MG",
+      "Percentagem": 7.93,
+      "Quantidade": 175
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "SUDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "RJ",
+      "Percentagem": 7.88,
+      "Quantidade": 174
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "SUDESTE",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "SP",
+      "Percentagem": 36.46,
+      "Quantidade": 805
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "SUL",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "PR",
+      "Percentagem": 4.98,
+      "Quantidade": 110
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "SUL",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "RS",
+      "Percentagem": 6.25,
+      "Quantidade": 138
+    },
+    {
+      "Total_BR": 2208,
+      "Regiao": "SUL",
+      "Mes": "NOVEMBRO",
+      "Ano": 2015,
+      "UF": "SC",
+      "Percentagem": 3.76,
+      "Quantidade": 83
+    },
+    {
+      "Total_BR": 1830,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2015,
+      "UF": "DF",
+      "Percentagem": 49.95,
+      "Quantidade": 914
+    },
+    {
+      "Total_BR": 1830,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2015,
+      "UF": "GO",
+      "Percentagem": 2.79,
+      "Quantidade": 51
+    },
+    {
+      "Total_BR": 1830,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2015,
+      "UF": "MS",
+      "Percentagem": 0.16,
+      "Quantidade": 3
+    },
+    {
+      "Total_BR": 1830,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2015,
+      "UF": "MT",
+      "Percentagem": 0.22,
+      "Quantidade": 4
+    },
+    {
+      "Total_BR": 1830,
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2015,
+      "UF": "AL",
+      "Percentagem": 0.11,
+      "Quantidade": 2
+    },
+    {
+      "Total_BR": 1830,
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2015,
+      "UF": "BA",
+      "Percentagem": 0.93,
+      "Quantidade": 17
+    },
+    {
+      "Total_BR": 1830,
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2015,
+      "UF": "CE",
+      "Percentagem": 0.33,
+      "Quantidade": 6
+    },
+    {
+      "Total_BR": 1830,
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2015,
+      "UF": "MA",
+      "Percentagem": 1.42,
+      "Quantidade": 26
+    },
+    {
+      "Total_BR": 1830,
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2015,
+      "UF": "PB",
+      "Percentagem": 0.05,
+      "Quantidade": 1
+    },
+    {
+      "Total_BR": 1830,
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2015,
+      "UF": "PE",
+      "Percentagem": 0.38,
+      "Quantidade": 7
+    },
+    {
+      "Total_BR": 1830,
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2015,
+      "UF": "PI",
+      "Percentagem": 0.55,
+      "Quantidade": 10
+    },
+    {
+      "Total_BR": 1830,
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2015,
+      "UF": "RN",
+      "Percentagem": 0.22,
+      "Quantidade": 4
+    },
+    {
+      "Total_BR": 1830,
+      "Regiao": "NORDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2015,
+      "UF": "SE",
+      "Percentagem": 0.11,
+      "Quantidade": 2
+    },
+    {
+      "Total_BR": 1830,
+      "Regiao": "NORTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2015,
+      "UF": "AP",
+      "Percentagem": 0.05,
+      "Quantidade": 1
+    },
+    {
+      "Total_BR": 1830,
+      "Regiao": "NORTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2015,
+      "UF": "PA",
+      "Percentagem": 0.16,
+      "Quantidade": 3
+    },
+    {
+      "Total_BR": 1830,
+      "Regiao": "NORTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2015,
+      "UF": "RR",
+      "Percentagem": 0.05,
+      "Quantidade": 1
+    },
+    {
+      "Total_BR": 1830,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "DEZEMBRO",
+      "Ano": 2015,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 5.85,
+      "Quantidade": 107
+    },
+    {
+      "Total_BR": 1830,
+      "Regiao": "SUDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2015,
+      "UF": "ES",
+      "Percentagem": 0.16,
+      "Quantidade": 3
+    },
+    {
+      "Total_BR": 1830,
+      "Regiao": "SUDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2015,
+      "UF": "MG",
+      "Percentagem": 2.19,
+      "Quantidade": 40
+    },
+    {
+      "Total_BR": 1830,
+      "Regiao": "SUDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2015,
+      "UF": "RJ",
+      "Percentagem": 16.39,
+      "Quantidade": 300
+    },
+    {
+      "Total_BR": 1830,
+      "Regiao": "SUDESTE",
+      "Mes": "DEZEMBRO",
+      "Ano": 2015,
+      "UF": "SP",
+      "Percentagem": 12.02,
+      "Quantidade": 220
+    },
+    {
+      "Total_BR": 1830,
+      "Regiao": "SUL",
+      "Mes": "DEZEMBRO",
+      "Ano": 2015,
+      "UF": "PR",
+      "Percentagem": 0.55,
+      "Quantidade": 10
+    },
+    {
+      "Total_BR": 1830,
+      "Regiao": "SUL",
+      "Mes": "DEZEMBRO",
+      "Ano": 2015,
+      "UF": "RS",
+      "Percentagem": 1.69,
+      "Quantidade": 31
+    },
+    {
+      "Total_BR": 1830,
+      "Regiao": "SUL",
+      "Mes": "DEZEMBRO",
+      "Ano": 2015,
+      "UF": "SC",
+      "Percentagem": 3.66,
+      "Quantidade": 67
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "DF",
+      "Percentagem": 4.1,
+      "Quantidade": 357
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "GO",
+      "Percentagem": 1.85,
+      "Quantidade": 161
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "MS",
+      "Percentagem": 0.84,
+      "Quantidade": 73
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "MT",
+      "Percentagem": 1.32,
+      "Quantidade": 115
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "AL",
+      "Percentagem": 0.64,
+      "Quantidade": 56
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "BA",
+      "Percentagem": 1.86,
+      "Quantidade": 162
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "CE",
+      "Percentagem": 5.17,
+      "Quantidade": 450
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "MA",
+      "Percentagem": 1.85,
+      "Quantidade": 161
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "PB",
+      "Percentagem": 0.61,
+      "Quantidade": 53
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "PE",
+      "Percentagem": 1.33,
+      "Quantidade": 116
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "PI",
+      "Percentagem": 0.62,
+      "Quantidade": 54
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "RN",
+      "Percentagem": 1.01,
+      "Quantidade": 88
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "NORDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "SE",
+      "Percentagem": 0.29,
+      "Quantidade": 25
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "AC",
+      "Percentagem": 0.1,
+      "Quantidade": 9
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "AM",
+      "Percentagem": 0.78,
+      "Quantidade": 68
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "AP",
+      "Percentagem": 0.2,
+      "Quantidade": 17
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "PA",
+      "Percentagem": 7.49,
+      "Quantidade": 652
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "RO",
+      "Percentagem": 0.22,
+      "Quantidade": 19
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "RR",
+      "Percentagem": 0.15,
+      "Quantidade": 13
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "NORTE",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "TO",
+      "Percentagem": 0.32,
+      "Quantidade": 28
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 4.62,
+      "Quantidade": 402
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "SUDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "ES",
+      "Percentagem": 1.8,
+      "Quantidade": 157
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "SUDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "MG",
+      "Percentagem": 9.42,
+      "Quantidade": 820
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "SUDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "RJ",
+      "Percentagem": 18.05,
+      "Quantidade": 1571
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "SUDESTE",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "SP",
+      "Percentagem": 25.21,
+      "Quantidade": 2194
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "SUL",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "PR",
+      "Percentagem": 4.15,
+      "Quantidade": 361
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "SUL",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "RS",
+      "Percentagem": 3.82,
+      "Quantidade": 332
+    },
+    {
+      "Total_BR": 8702,
+      "Regiao": "SUL",
+      "Mes": "JANEIRO",
+      "Ano": 2016,
+      "UF": "SC",
+      "Percentagem": 2.16,
+      "Quantidade": 188
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "DF",
+      "Percentagem": 3.13,
+      "Quantidade": 188
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "GO",
+      "Percentagem": 2.09,
+      "Quantidade": 126
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "MS",
+      "Percentagem": 0.71,
+      "Quantidade": 43
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "CENTRO-OESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "MT",
+      "Percentagem": 0.73,
+      "Quantidade": 44
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "AL",
+      "Percentagem": 0.38,
+      "Quantidade": 23
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "BA",
+      "Percentagem": 2.96,
+      "Quantidade": 178
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "CE",
+      "Percentagem": 1.9,
+      "Quantidade": 114
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "MA",
+      "Percentagem": 2.08,
+      "Quantidade": 125
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "PB",
+      "Percentagem": 0.27,
+      "Quantidade": 16
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "PE",
+      "Percentagem": 2.04,
+      "Quantidade": 123
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "PI",
+      "Percentagem": 0.7,
+      "Quantidade": 42
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "RN",
+      "Percentagem": 0.6,
+      "Quantidade": 36
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "NORDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "SE",
+      "Percentagem": 0.48,
+      "Quantidade": 29
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "AC",
+      "Percentagem": 0.13,
+      "Quantidade": 8
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "AM",
+      "Percentagem": 0.8,
+      "Quantidade": 48
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "AP",
+      "Percentagem": 0.07,
+      "Quantidade": 4
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "PA",
+      "Percentagem": 6.57,
+      "Quantidade": 395
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "RO",
+      "Percentagem": 0.33,
+      "Quantidade": 20
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "RR",
+      "Percentagem": 0.07,
+      "Quantidade": 4
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "NORTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "TO",
+      "Percentagem": 0.45,
+      "Quantidade": 27
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "REGIÃO NÃO INFORMADA",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "ESTADO NÃO INFORMADO",
+      "Percentagem": 4.36,
+      "Quantidade": 262
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "SUDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "ES",
+      "Percentagem": 1.36,
+      "Quantidade": 82
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "SUDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "MG",
+      "Percentagem": 9.39,
+      "Quantidade": 565
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "SUDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "RJ",
+      "Percentagem": 7.7,
+      "Quantidade": 463
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "SUDESTE",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "SP",
+      "Percentagem": 40.07,
+      "Quantidade": 2410
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "SUL",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "PR",
+      "Percentagem": 4.82,
+      "Quantidade": 290
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "SUL",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "RS",
+      "Percentagem": 2.53,
+      "Quantidade": 152
+    },
+    {
+      "Total_BR": 6015,
+      "Regiao": "SUL",
+      "Mes": "FEVEREIRO",
+      "Ano": 2016,
+      "UF": "SC",
+      "Percentagem": 3.29,
+      "Quantidade": 198
+    }
+  ]
+}

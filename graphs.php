@@ -156,5 +156,8 @@ var prototype_brasil = function() {
 <script type="text/javascript" src="<?php echo get_template_directory_uri() . '/vale-cultura/graf01_consumo_regiao_uf.js' ?>"></script>
 <script> d3.json("<?php echo get_template_directory_uri() . '/vale-cultura/graf01_consumo_regiao_uf.json' ?>", graf01_consumo_regiao_uf); </script>
 
+<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/javascript/graf03_trab_beneficiados_regiao_uf.js' ?>"></script>
+<script> d3.json("<?php echo get_template_directory_uri() . '/vale-cultura/graf03_trab_beneficiados_regiao_uf.json' ?>", graf03_trab_beneficiados_regiao_uf); </script>
+
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
