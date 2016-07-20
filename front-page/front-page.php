@@ -23,7 +23,7 @@
 	</div>
 
 </div></header>
-
+<!--
 <section class="container-fluid velho-sniic"><div class="wrapper center-block clearfix row">
 
 	<div class="col-xs-12 col-sm-2 col-sm-offset-0">
@@ -41,6 +41,7 @@
 	</div>
 
 </div></section>
+-->
 
 <main class="container-fluid page frameless" role="main">
 

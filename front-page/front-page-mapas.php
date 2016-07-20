@@ -7,6 +7,9 @@
 	<div class="col-xs-12 col-sm-6 col-md-4">
 	<p>
 		O Mapas Culturais substituirá o antigo cadastro do Sistema Nacional de Informações e Indicadores Culturais (SNIIC), porém com maior facilidade de uso, mais possibilidades de filtros de busca e integrado a outras bases de dados do MinC, como a Rede Cultura Viva, o Sistema Nacional de Bibliotecas Públicas e o Cadastro Nacional de Museus.</p>
+		<p>
+		<a href="<?php echo site_url('novo-cadastro-sniic'); ?>">É aqui que você encontra o seu número SNIIC.</a>
+		</p>
 	</div>
 
   <div class="col-xs-12 col-sm-6 col-md-4">
