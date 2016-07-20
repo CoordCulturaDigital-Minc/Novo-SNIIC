@@ -75,7 +75,7 @@
 	
 		
 		<a href="http://vocabularios.cultura.gov.br"><h3>
-			<?php include get_template_directory() . '/assets/sub.glyph.vocabularios.svg'; ?>
+			<?php include get_template_directory() . '/assets/sub.glyph.vocabulario.svg'; ?>
 			Vocabulários<span class="hidden-xs">.cultura.gov.br</span></h3></a>
 			
 			<p>Nesta seção estamos documentando o processo de construção da Ontologia para gestão cultural, que irá orientar todos os sistemas de informação do Ministério da Cultura e se apresentará como um padrão, construído e gerido colaborativamente, para todos que trabalham com informações e indicadores culturais.</p>
