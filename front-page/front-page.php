@@ -49,6 +49,7 @@
 </main>
 
 <?php get_template_part( 'front-page/front-page', 'mapas' ); ?>
+<?php get_template_part( 'front-page/front-page', 'indicadores' ); ?>
 
 <section class="container-fluid"><div class="wrapper center-block clearfix row">
 
