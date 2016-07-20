@@ -49,7 +49,6 @@
 </main>
 
 <?php get_template_part( 'front-page/front-page', 'mapas' ); ?>
-<?php get_template_part( 'front-page/front-page', 'indicadores' ); ?>
 
 <section class="container-fluid"><div class="wrapper center-block clearfix row">
 
@@ -60,35 +59,38 @@
 <div class="col-xs-12 col-sm-5">
 
 
-		<a href="<?php echo site_url('publicacoes'); ?>"><h3>
-			<?php include get_template_directory() . '/assets/sub.glyph.publicacoes.svg'; ?>
-			Publicações<span class="hidden-xs">.cultura.gov.br</span></h3></a>
+		<a href="<?php echo site_url('indicadores'); ?>"><h3>
+			<?php include get_template_directory() . '/assets/sub.glyph.indicadores.svg'; ?>
+			Indicadores<span class="hidden-xs">.cultura.gov.br</span></h3></a>
 			
-			<p>nnonon ononno nonono noononon nnonon ononno nonono noononon nnonon ononno nonono noononon nnonon ononno nonono noononon nnonon ononno nonono noononon nnonon ononno nonono noononon nnonon ononno nonono noononon nnonon ononno nonono noononon </p>
+			<p>O portal de Indicadores pretende apresentar informações públicas do setor cultural de maneira simples e intelegível. A proposta é criar painéis de acompanhamento de políticas do Ministério, apresentando por meio de gráficos e infográficos informações publicadas de maneira integral no portal de <a href="http://dados.cultura.gov.br">dados abertos da cultura</a>. Além disso procuraremos reunir outras informações relevantes sobre o setor cultural, como números sobre comércio exterior de bens e serviços culturais.</p>
 			
-		<a href="<?php echo site_url('dados'); ?>"><h3>
+		<a href="http://dados.cultura.gov.br"><h3>
 			<?php include get_template_directory() . '/assets/sub.glyph.dados.svg'; ?>
 			Dados<span class="hidden-xs">.cultura.gov.br</span></h3></a>
 			
-			<p>nnonon ononno nonono noononon nnonon ononno nonono noononon nnonon ononno nonono noononon nnonon ononno nonono noononon nnonon ononno nonono noononon nnonon ononno nonono noononon nnonon ononno nonono noononon nnonon ononno nonono noononon </p>
+			<p>O portal de dados abertos, ainda em fase de implantação, reunirá dados brutos sobre a gestão do Ministério da Cultura, seus programas e projetos.</p>
 
 
 </div>
 
 <div class="col-xs-12 col-sm-6 col-sm-offset-1 plataformas">
 	
+		
+		<a href="<?php echo site_url('vocabularios'); ?>"><h3>
+			<?php include get_template_directory() . '/assets/sub.glyph.vocabularios.svg'; ?>
+			Vocabulários<span class="hidden-xs">.cultura.gov.br</span></h3></a>
+			
+			<p>Nesta seção estamos documentando o processo de construção da Ontologia para gestão cultural, que irá orientar todos os sistemas de informação do Ministério da Cultura e se apresentará como um padrão, construído e gerido colaborativamente, para todos que trabalham com informações e indicadores culturais.</p>
+	
+		
 		<a href="<?php echo site_url('publicacoes'); ?>"><h3>
 			<?php include get_template_directory() . '/assets/sub.glyph.publicacoes.svg'; ?>
 			Publicações<span class="hidden-xs">.cultura.gov.br</span></h3></a>
 			
-			<p>nnonon ononno nonono noononon nnonon ononno nonono noononon nnonon ononno nonono noononon nnonon ononno nonono noononon nnonon ononno nonono noononon nnonon ononno nonono noononon nnonon ononno nonono noononon nnonon ononno nonono noononon </p>
+			<p>A área de Publicações se propõe a reunir pesquisas, artigos, estudos, produtos de consultorias e outras publicações que tragam informações e indicadores culturais. Entre em contato caso queira que sua publicação seja incluída neste repositório.</p>
 			
-		<a href="<?php echo site_url('dados'); ?>"><h3>
-			<?php include get_template_directory() . '/assets/sub.glyph.dados.svg'; ?>
-			Dados<span class="hidden-xs">.cultura.gov.br</span></h3></a>
-			
-			<p>nnonon ononno nonono noononon nnonon ononno nonono noononon nnonon ononno nonono noononon nnonon ononno nonono noononon nnonon ononno nonono noononon nnonon ononno nonono noononon nnonon ononno nonono noononon nnonon ononno nonono noononon </p>
-	
+		
 </div>
 
 </div></section>
