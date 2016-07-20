@@ -52,10 +52,6 @@
 
 <section class="container-fluid"><div class="wrapper center-block clearfix row">
 
-<div class="col-xs-12">
-	<h1>Em construção</h1>
-</div>
-
 <div class="col-xs-12 col-sm-5">
 
 
@@ -77,7 +73,7 @@
 <div class="col-xs-12 col-sm-6 col-sm-offset-1 plataformas">
 	
 		
-		<a href="<?php echo site_url('vocabularios'); ?>"><h3>
+		<a href="http://vocabularios.cultura.gov.br"><h3>
 			<?php include get_template_directory() . '/assets/sub.glyph.vocabularios.svg'; ?>
 			Vocabulários<span class="hidden-xs">.cultura.gov.br</span></h3></a>
 			
