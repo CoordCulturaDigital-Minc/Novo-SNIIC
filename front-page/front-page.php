@@ -68,9 +68,6 @@
 		<li><a href="<?php echo site_url('publicacoes'); ?>"><h3>
 			<?php include get_template_directory() . '/assets/sub.glyph.publicacoes.svg'; ?>
 			Publicações<span class="hidden-xs">.cultura.gov.br</span></h3></a></li>
-		<li><a href="<?php echo site_url('indicadores'); ?>"><h3>
-			<?php include get_template_directory() . '/assets/sub.glyph.indicadores.svg'; ?>
-			Indicadores<span class="hidden-xs">.cultura.gov.br</span></h3></a></li>
 		<li><a href="<?php echo site_url('dados'); ?>"><h3>
 			<?php include get_template_directory() . '/assets/sub.glyph.dados.svg'; ?>
 			Dados<span class="hidden-xs">.cultura.gov.br</span></h3></a></li>

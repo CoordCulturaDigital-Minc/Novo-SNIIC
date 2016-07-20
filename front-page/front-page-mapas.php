@@ -1,7 +1,7 @@
 <section class="container-fluid mapas"><div class="wrapper center-block clearfix row">
 
 	<div class="col-xs-12">
-		<h1><?php include get_template_directory() . '/assets/sub.glyph.mapas.svg'; ?>Mapas<span class="hidden-xs">.cultura.gov.br</span></h1>
+		<h1><a href="http://mapas.cultura.gov.br"><?php include get_template_directory() . '/assets/sub.glyph.mapas.svg'; ?>Mapas<span class="hidden-xs">.cultura.gov.br</span></a></h1>
 	</div>
 
 	<div class="col-xs-12 col-sm-6 col-md-4">
