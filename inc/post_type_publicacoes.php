@@ -75,7 +75,8 @@ class Publicacoes
             'supports' => array(
                 'title',
                 'editor',
-                'page-attributes'
+                'page-attributes',
+                'custom-fields'
             ),
             'taxonomies' => array('taxonomia')
             )
