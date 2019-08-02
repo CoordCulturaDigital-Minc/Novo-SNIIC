@@ -65,6 +65,7 @@ class Publicacoes
                 'parent_item_colon' => ''
             ),
             'public' => true,
+            'show_in_rest' => true,
             'rewrite' => array('slug' => 'publicacoes'),
             'capability_type' => 'post',
             'hierarchical' => true,
@@ -104,6 +105,7 @@ class Publicacoes
             'show_ui' => true,
             'query_var' => true,
             'rewrite' => true,
+            'show_in_rest' => true
             )
         );
 
@@ -126,6 +128,7 @@ class Publicacoes
             'show_ui' => true,
             'query_var' => true,
             'rewrite' => true,
+            'show_in_rest' => true
             )
         );
     }
