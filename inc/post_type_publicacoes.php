@@ -80,6 +80,17 @@ class Publicacoes
             'taxonomies' => array('taxonomia')
             )
         );
+	    
+        $args = array(
+        'show_in_rest' => true,
+        );
+        register_meta( 'post', 'pdf-link', $args );
+        register_meta( 'post', 'fonte-link', $args );
+        register_meta( 'post', 'fonte-nome', $args );
+        register_meta( 'post', 'fonte-ano', $args );
+
+	    
+	    
     }
 
     static function register_taxonomies()
